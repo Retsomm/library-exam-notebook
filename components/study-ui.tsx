@@ -1,5 +1,6 @@
 import type {ReactNode} from 'react';
 import Icon from './icons';
+import BrandLogo from './brand-logo';
 
 export function PageHeading({title,sub,eyebrow='DAILY LIBRARY STUDY'}:{title:string;sub:string;eyebrow?:string}){
  return <div className="heading"><div><p className="eyebrow">{eyebrow}</p><h1>{title}</h1><p className="subtext">{sub}</p></div></div>;
@@ -8,7 +9,7 @@ export function EmptyState({title,description,icon,children}:{title:string;descr
  return <section className="empty">{icon&&<Icon name={icon}/>}<h3>{title}</h3><p>{description}</p>{children}</section>;
 }
 export function LoadingState({message}:{message:string}){
- return <main className="loading" role="status"><span className="brandmark">閱</span><p>{message}</p></main>;
+ return <main className="loading" role="status"><BrandLogo variant="mark"/><p>{message}</p></main>;
 }
 export function QuestionBookmarkButton({bookmarked,onToggle}:{bookmarked:boolean;onToggle:()=>void}){
  return <button type="button" className={`icon-btn ${bookmarked?'selected':''}`} onClick={onToggle} aria-label={bookmarked?'取消收藏':'收藏題目'} aria-pressed={bookmarked}><Icon name="star"/></button>;

@@ -10,7 +10,8 @@
     "test": "node --test tests/*.test.mjs",
     "test:browser": "playwright test",
     "prebuild": "node scripts/prepare-static.mjs",
-    "deploy": "npm run build && npx firebase-tools deploy --only firestore:rules,hosting --project library-exam-notebook"
+    "deploy": "npm run build && npx firebase-tools deploy --only firestore:rules,hosting --project library-exam-notebook",
+    "brand:icons": "node scripts/prepare-brand-icons.mjs"
   },
   "dependencies": {
     "firebase": "^13.0.0",
@@ -23,6 +24,7 @@
     "@types/node": "^24.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "sharp": "^0.35.5",
     "typescript": "^5.9.0"
   }
 }

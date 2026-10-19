@@ -63,3 +63,16 @@ html{scroll-padding-top:80px}body{overflow-x:hidden}button,a,input,select,textar
 .app-update-notice{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 20px;margin-bottom:24px;border:1px solid var(--green);border-radius:9px;background:var(--paper);color:var(--ink)}
 .app-update-notice p{color:var(--muted);font-size:14px;margin-top:4px}
 @media(max-width:600px){.app-update-notice{align-items:stretch;flex-direction:column}.app-update-notice .btn{white-space:normal}}
+
+/* One brand component supplies the sidebar, sign-in and loading identities. */
+.site-logo{display:inline-flex;align-items:center;gap:10px;vertical-align:middle;flex-shrink:0;text-align:left}
+.site-logo-mark{display:block;width:48px;height:48px;object-fit:contain;flex-shrink:0}
+.site-logo-wordmark{display:flex;flex-direction:column;min-width:0}
+.site-logo .site-logo-wordmark strong{font-family:'Noto Serif TC',serif;color:#f4f0df;font-size:26px;line-height:1.4;font-weight:600;letter-spacing:4px}
+.site-logo .site-logo-wordmark small{font-size:8px;line-height:1.5;letter-spacing:.7px;color:#a6b79e;white-space:nowrap}
+.login-card>.site-logo{margin-bottom:24px;gap:15px}
+.login-card>.site-logo .site-logo-mark{width:80px;height:80px}
+.login-card>.site-logo .site-logo-wordmark strong{font-size:38px;letter-spacing:7px}
+.login-card>.site-logo .site-logo-wordmark small{font-size:10px;letter-spacing:1.3px}
+.loading>.site-logo .site-logo-mark{width:76px;height:76px}
+@media(max-width:620px){.sidebar .site-logo{gap:8px}.sidebar .site-logo-mark{width:42px;height:42px}.sidebar .site-logo .site-logo-wordmark strong{font-size:22px}.sidebar .site-logo .site-logo-wordmark small{font-size:7px;letter-spacing:.5px}.login-card>.site-logo .site-logo-mark{width:68px;height:68px}.login-card>.site-logo .site-logo-wordmark strong{font-size:32px}}

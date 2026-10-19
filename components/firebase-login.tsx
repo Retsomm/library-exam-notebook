@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { onAuthStateChanged, type Auth } from 'firebase/auth';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import BrandLogo from './brand-logo';
 import { authErrorMessage, firebaseAuth, googleLogin } from '@/lib/firebase-client';
 
 const FirebaseLogin = () => {
@@ -34,7 +35,7 @@ const FirebaseLogin = () => {
     finally { setBusy(false); }
   };
   return <main className="login-shell"><section className="login-card">
-    <span className="brandmark">閱</span><p className="eyebrow">DAILY LIBRARY STUDY</p>
+    <BrandLogo/>
     <h1>你的圖書館練習書桌</h1><p className="subtext">九個年度、1,755 道官方試題。<br/>每天一點，離理想再近一點。</p>
     {error && <p role="alert" className="notice">{error}</p>}
     <button className="btn primary google-button" onClick={login} disabled={checking || !auth || busy}>{checking ? '正在確認登入設定…' : busy ? '正在登入…' : '以 Google 帳戶登入'}</button>

@@ -195,3 +195,10 @@ npx firebase-tools@15.34.0 init hosting:github --project library-exam-notebook
 截圖出現舊側欄與直接展開解析時，應先核對分頁是否仍載入先前部署。建置由 `scripts/build-version.mjs` 對實際程式與資料產生內容版本，`prepare-static.mjs` 輸出 `public/version.json`，Next.js 將同一版本嵌入應用程式。開啟頁面、回到分頁及每分鐘會以 no-store 檢查新版；發現更新只提示，按鈕會先保存當前作答與筆記，保存失敗便不重整。舊分頁第一次仍須重新整理，之後才具備版本偵測程式。登入與訪客共用這個流程，沒有清除任何既有學習資料。
 
 新增回歸檢查涵蓋單一元件掛載、明確開啟、正誤答案、過期開啟請求、收藏下一題、更新偵測、焦點回檢與保存失敗保護；靜態HTTP檢查亦核對版本與原始碼內容雜湊一致。
+
+### 品牌與手機主畫面圖示
+
+01「書頁日出」圖形來源為 `public/brand/sunrise-mark.svg`，頁面透過共用 `BrandLogo` 顯示。
+執行 `npm run brand:icons` 可從該 SVG 重新產生 ICO、16/32/48px PNG、180px Apple touch icon 與 192/512px Web App 圖示。PNG 使用不透明背景及安全留白，由系統裁切圓角；不要另行修改各尺寸造成設計不同步。
+
+所有頁面由根 layout 提供 favicon、`apple-touch-icon` 與 manifest。iPhone 使用 Safari 開啟網站，選擇「分享」→「加入主畫面」，名稱為「閱日」。已加入的舊捷徑可能保留原圖示；移除舊捷徑後重新加入即可更新。這些設定提供主畫面圖示與獨立視窗，不代表離線題庫功能。

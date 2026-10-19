@@ -19,3 +19,4 @@
 
 - 重複 UI 由共用元件負責：`ModalDialog` 管理原生 dialog、焦點、Escape、捲動及外框；`QuestionList` 管理搜尋／錯題／收藏題目／收藏解析清單；`study-ui.tsx` 管理標題、空畫面、載入、題目收藏、回報按鈕與進度條。入口只傳資料與操作，不複製上述 JSX。
 - 題目相關官方連結統一使用 `OfficialSourceLink`，由元件處理 PDF 頁碼、標準答案備援及可選更正檔。解析收藏與題目收藏仍是獨立資料；回報表單不因點擊背景而關閉，以免遺失未儲存內容。
+- 品牌使用 01「書頁日出」：所有頁面使用 `BrandLogo`，圖形唯一來源為 `public/brand/sunrise-mark.svg`。修改圖形後執行 `npm run brand:icons` 產生 favicon、180px Apple touch icon 及 192/512px 主畫面圖示；保持不透明背景與安全留白，更新版本雜湊並驗證所有頁面的圖示 metadata。品牌圖片可提交，試題 PDF／掃描圖片仍不可提交。
