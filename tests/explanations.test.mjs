@@ -87,3 +87,38 @@ test('106 original-paper combination options retain the correct digits',()=>{
   assert.deepEqual(byId.get(id).options.map(o=>o.text),options,id);
  }
 });
+
+
+test('all 450 librarianship questions have individual teaching, 1800 reasons and explicit judgments',()=>{
+ const questions=bank.questions.filter(q=>q.subjectIndex===2),summaries=new Set();let reasons=0;
+ assert.equal(questions.length,450);
+ for(const q of questions){
+  const e=entries[q.id];assert.ok(e,q.id);summaries.add(e.summary);
+  assert.ok(e.summary.length>=60,q.id+' summary');assert.ok(e.summary.includes('\n\n'),q.id+' paragraphs');
+  assert.deepEqual(Object.keys(e.options).sort(),q.options.map(o=>o.letter).sort(),q.id);
+  assert.deepEqual(Object.keys(e.optionVerdicts).sort(),q.options.map(o=>o.letter).sort(),q.id+' verdicts');
+  for(const reason of Object.values(e.options)){assert.ok(reason.length>=25,q.id+' reason');reasons++;}
+  assert.ok(e.sources.length,q.id+' source');
+  for(const ref of e.sources){assert.ok(ref.title.length>5,q.id);assert.equal(new URL(ref.url).protocol,'https:',q.id);}
+ }
+ assert.equal(summaries.size,450);assert.equal(reasons,1800);
+});
+
+test('librarianship preserves official grading and explains ambiguity and historical scope',()=>{
+ for(const [id,answer] of Object.entries({'115-2-5':'A','114-2-48':'B','107-2-38':'D','106-2-43':'B','106-2-46':'D'}))assert.deepEqual(byId.get(id).accepted,[answer],id);
+ assert.match(entries['114-2-48'].optionVerdicts.B,/疑|成立/);
+ assert.match(entries['107-2-38'].optionVerdicts.A,/隱私/);
+ assert.match(entries['106-2-43'].summary,/不是|不等於|不能只比/);
+ assert.match(entries['106-2-46'].options.D,/映射|設定/);
+ assert.match(entries['107-2-8'].summary,/更新|版本/);
+ assert.match(entries['106-2-38'].options.B,/五十五/);
+ assert.match(entries['106-2-6'].optionVerdicts.B,/錯誤.*應選/);
+});
+
+test('106 librarianship combination digits match the original paper in both banks',()=>{
+ const raw=JSON.parse(readFileSync(new URL('../data/raw-bank.json',import.meta.url)));
+ for(const [id,options] of Object.entries({'106-2-2':['123','124','134','234'],'106-2-4':['12346','12467','12456','12357'],'106-2-21':['123','124','134','234']})){
+  const q=byId.get(id);assert.deepEqual(q.options.map(o=>o.text),options,id);
+  for(const item of [q,raw.questions.find(x=>x.id===id)])for(const [i,option] of options.entries())assert.ok(item.text.includes('('+String.fromCharCode(65+i)+')'+option),id+' raw text');
+ }
+});

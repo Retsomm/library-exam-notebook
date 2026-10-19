@@ -11,7 +11,7 @@ try{
  for(const q of bank.questions)assert.deepEqual(q.images,[]);
  let explained=0;
  for(const exam of bank.exams){
-  const expected=[0,3].includes(exam.subjectIndex)?exam.count:0;
+  const expected=[0,2,3].includes(exam.subjectIndex)?exam.count:0;
   assert.equal(exam.explanationCount,expected,exam.id+' coverage label');
   if(expected){
    const response=await fetch(base+'/explanations/'+exam.id+'.json');assert.equal(response.status,200,exam.id);
@@ -20,7 +20,7 @@ try{
    explained+=expected;
   }
  }
- assert.equal(explained,855);
+ assert.equal(explained,1305);
  assert.equal((await fetch(base+'/official-papers.zip')).status,404);
  assert.equal((await fetch(base+'/pdf/115-0-questions.pdf')).status,404);
  const html=await(await fetch(base+'/sign-in/')).text();assert.ok(html.includes('以 Google 帳戶登入')||html.includes('正在確認登入設定'));assert.ok(!html.includes('/api/auth/'));
