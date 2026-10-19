@@ -1,0 +1,64 @@
+{
+ "36":[
+  {"word":"fear","partOfSpeech":"n. / v.","meaning":"恐懼；害怕","usage":"本句作名詞；fear of facing failures 是害怕面對失敗。of 是介系詞，後面接 facing 這個動名詞。"},
+  {"word":"cost someone something","partOfSpeech":"動詞句型","meaning":"使某人失去某事物；讓某人付出代價","usage":"本題 cost Tom opportunities 表示使 Tom 錯失機會，不是向他收取機會的價格。cost 的過去式也拼作 cost。"},
+  {"word":"opportunity","partOfSpeech":"n.","meaning":"機會","usage":"an opportunity to succeed 是成功的機會。opportunities 是複數；succeed 為動詞，名詞則是 success。"}
+ ],
+ "37":[
+  {"word":"obvious","partOfSpeech":"adj.","meaning":"明顯的；顯而易見的","usage":"本句指興奮從動作就看得出來。可說 It is obvious that he is excited，表示他的興奮很明顯。"},
+  {"word":"eagerly","partOfSpeech":"adv.","meaning":"熱切地；迫不及待地","usage":"副詞修飾孩子跳動與要求擁抱的動作；形容詞 eager 常用 be eager to do something。"},
+  {"word":"hug","partOfSpeech":"v. / n.","meaning":"擁抱","usage":"ask his aunt to hug him 是請阿姨或姑姑抱他；aunt 未單獨指明母系或父系，不能硬限定為其中一種親屬。"}
+ ],
+ "38":[
+  {"word":"recycle","partOfSpeech":"v.","meaning":"回收再利用","usage":"recycle paper 是回收紙張；名詞 recycling 指回收活動。此字著重回收處理利用，不只是把垃圾搬到另一處。"},
+  {"word":"environment","partOfSpeech":"n.","meaning":"環境","usage":"protect the environment 是保護環境；題目中的 environment 指人類生活所依存的自然與周遭環境。"},
+  {"word":"can","partOfSpeech":"n.","meaning":"罐子","usage":"cans 在 bottles, cans, and paper 的名詞清單中指罐子；這裡的 can 不是表示能夠的助動詞。"}
+ ],
+ "39":[
+  {"word":"decide","partOfSpeech":"v.","meaning":"決定","usage":"decide to live here 是決定住在這裡；decided 為過去式，decision 才是名詞。"},
+  {"word":"fall in love with","partOfSpeech":"動詞片語","meaning":"愛上","usage":"fell in love with this city 表示愛上這座城市；fall 的過去式是 fell，不必限定只能愛上某個人。"},
+  {"word":"forever","partOfSpeech":"adv.","meaning":"永遠；長久地","usage":"live here forever 是打算一直住在這裡，修飾居住的時間；不是在形容城市本身有什麼物理特徵。"}
+ ],
+ "40":[
+  {"word":"gain weight","partOfSpeech":"動詞片語","meaning":"體重增加","usage":"gain 在此表示增加；相對說法是 lose weight。weight 是名詞，動詞 weigh 則指稱重或重達。"},
+  {"word":"be likely to","partOfSpeech":"形容詞句型","meaning":"很可能會","usage":"be likely to gain weight 表示很可能增加體重；to 後用原形動詞，不改成 gains。"},
+  {"word":"too much","partOfSpeech":"數量片語","meaning":"過多；太多","usage":"eats too much 表示吃得過多。too much 可修飾不可數量，too many 則用於複數可數名詞。"}
+ ],
+ "41":[
+  {"word":"previous","partOfSpeech":"adj.","meaning":"先前的；上一個的","usage":"her previous job 指她上一份工作，與現在的新工作形成對照；previously 則是表示先前地的副詞。"},
+  {"word":"a lot happier","partOfSpeech":"比較級片語","meaning":"快樂得多","usage":"a lot 可以加強比較級，例如 a lot better；本句不是說很多個 happier，也不是修飾工作數量。"},
+  {"word":"abstract","partOfSpeech":"adj.","meaning":"抽象的","usage":"an abstract idea 是抽象概念，與 concrete（具體的）對照；不能表達工作的先後關係。"}
+ ],
+ "42":[
+  {"word":"knit","partOfSpeech":"v.","meaning":"編織；針織","usage":"knit a scarf 是織一條圍巾。常見形式 knitted、knitting，不能因為 knit 短就把字義猜成攀爬。"},
+  {"word":"scarf / scarves","partOfSpeech":"n.","meaning":"圍巾；圍巾的複數","usage":"本句 scarves 是 scarf 的複數形式，注意字尾由 f 改為 ves；語意是祖母製作多條圍巾。"},
+  {"word":"colorful","partOfSpeech":"adj.","meaning":"色彩繽紛的","usage":"colorful scarves 表示多彩的圍巾；本句形容詞修飾衣物，而非表示祖母正感到興奮。"}
+ ],
+ "43":[
+  {"word":"obey","partOfSpeech":"v.","meaning":"遵守；服從","usage":"obey rules 直接接受詞，不用說 obey to rules；第三人稱單數 obeys 與句中 person 呼應。"},
+  {"word":"ordinary / unique","partOfSpeech":"adj.","meaning":"普通的／獨特的","usage":"題目用 not an ordinary person but a unique one 作對比；one 代替 person，避免重複同一名詞。"},
+  {"word":"think outside the box","partOfSpeech":"慣用語","meaning":"跳脫框架思考","usage":"表示用不同於既有慣例的方法想問題，不是身體站在箱子外，也不等於必須違反法律規則。"}
+ ],
+ "44":[
+  {"word":"overpass","partOfSpeech":"n.","meaning":"跨線橋；高架通道；天橋","usage":"over 提示上方，overpass 跨越另一道路上方；underpass 則在道路下方，兩者可成對記憶。"},
+  {"word":"connect","partOfSpeech":"v.","meaning":"連接","usage":"connect A and B 表示把兩端連起來；本句 A、B 分別是公車站與火車站。connection 是名詞。"},
+  {"word":"will be built","partOfSpeech":"未來式被動句型","meaning":"將被興建","usage":"設施是被人興建，所以用 will＋be＋過去分詞 built；build 的過去式、過去分詞都為 built。"}
+ ],
+ "45":[
+  {"word":"funds","partOfSpeech":"n.（複數）","meaning":"資金；款項","usage":"複數 funds 常指可動用的錢；本題 lack of funds 便是缺乏資金。fund 作動詞時可表示提供經費。"},
+  {"word":"due to","partOfSpeech":"介系詞片語","meaning":"由於；因為","usage":"本句後接 lack of funds 這個名詞片語；若直接接完整子句，通常改用 because 等連接詞。"},
+  {"word":"limit","partOfSpeech":"v. / n.","meaning":"限制；限度","usage":"limit our shopping 是縮減或限制購物規模；本句作動詞，並不是說限定某種假期禮物的品名。"}
+ ],
+ "reading-46-50":[
+  {"word":"lifespan","partOfSpeech":"n.","meaning":"壽命；生命持續的時間","usage":"文中 people's lifespans 是人們的壽命；lifetime 也談一生，life expectancy 則常指統計上的預期壽命。"},
+  {"word":"pandemic / epidemic","partOfSpeech":"n. / adj.","meaning":"全球或跨國大流行／流行病、疫情的","usage":"本文用 pandemics，第 48 題選項用 epidemic diseases。兩者同屬疾病流行，但 pandemic 通常強調更廣的跨國範圍。"},
+  {"word":"climate disaster","partOfSpeech":"名詞片語","meaning":"氣候災害","usage":"與 world wars、pandemics 同列，都是文章設想可能阻礙延壽的重大問題；本文沒有保證它們不會發生。"},
+  {"word":"brain-computer interface","partOfSpeech":"名詞片語","meaning":"腦機介面","usage":"文中解釋為把大腦與電腦連接的技術，是第 49 題原詞定位的線索；作者的數位永生描述仍屬未來設想。"},
+  {"word":"memory chip","partOfSpeech":"名詞片語","meaning":"記憶晶片；記憶體晶片","usage":"出現在第二段的未來技術清單，不是開頭過去壽命增加的既定原因；閱讀題要保留它所在的時間位置。"},
+  {"word":"digital form","partOfSpeech":"名詞片語","meaning":"數位形式","usage":"in a digital form 表示以數位形式；form 在這裡是形式，不是填寫資料的表格。"},
+  {"word":"initiate","partOfSpeech":"v.","meaning":"開啟；發起；引發","usage":"initiate a huge shift 是引發重大轉變；後面的 start a new era 提供同義線索，故第 50 題對應 begin。"},
+  {"word":"shift","partOfSpeech":"n. / v.","meaning":"轉變；改變方向或位置","usage":"a huge shift 中作可數名詞，指生活方式的重大轉變，不是上班輪班的那個語意。"},
+  {"word":"era / humanity","partOfSpeech":"n.","meaning":"時代／人類（集體）","usage":"a new era for humanity 是人類的新時代；humanity 在此不是人性或仁慈，而是把全體人類當作一個整體。"},
+  {"word":"likely / possible / might","partOfSpeech":"adv.、adj.、助動詞","meaning":"很可能／可能的／可能會","usage":"三者在本文都提示預測或可能性；不能改寫為 for sure（確定無疑），這是第 46、47 題排除過度肯定選項的重要線索。"}
+ ]
+}
