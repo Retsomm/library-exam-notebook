@@ -184,3 +184,14 @@ npx firebase-tools@15.34.0 init hosting:github --project library-exam-notebook
 編輯稿與來源表在 `scripts/editorial/librarianship/`，執行 `python scripts/editorial/librarianship/build.py` 可重建該科9份JSON。另對照106年考選部原卷第1、2頁，修復第2、4、21題的組合數字辨識錯誤，官方答案B、B、A不變。專案只保存文字與原卷連結。
 
 維持作答後預設隱藏解析、按「查看解析」開啟彈窗、收藏解析與下一題操作；本次無資料同步格式或Firestore規則變更。
+
+
+## 統一答題與解析介面
+
+所有練習入口（總覽、隨機、年度／科目、搜尋、錯題、收藏、紀錄、回報、續答及結果重練）由 `StudyApp` 建立相同 session，僅用 `QuestionPractice` 顯示作答。它不擁有另一套解析內容或彈窗狀態。`StudyApp` 只有一個 `ExplanationDialog` 掛載點，作答與收藏解析共用此彈窗；`AnswerExplanation` 只在彈窗內讀取相同年度JSON。題目、答案與逐選項內容均以原題ID查詢，不在入口另外複製。
+
+`resolveExplanation` 以目前題庫及 session 確認可開啟的題目：未提交、不在目前題號、已進結果頁、已離開對應畫面時不顯示。任何換題、開新回合、離開或結束都清除開啟請求；答對與答錯都必須點「查看解析」。
+
+截圖出現舊側欄與直接展開解析時，應先核對分頁是否仍載入先前部署。建置由 `scripts/build-version.mjs` 對實際程式與資料產生內容版本，`prepare-static.mjs` 輸出 `public/version.json`，Next.js 將同一版本嵌入應用程式。開啟頁面、回到分頁及每分鐘會以 no-store 檢查新版；發現更新只提示，按鈕會先保存當前作答與筆記，保存失敗便不重整。舊分頁第一次仍須重新整理，之後才具備版本偵測程式。登入與訪客共用這個流程，沒有清除任何既有學習資料。
+
+新增回歸檢查涵蓋單一元件掛載、明確開啟、正誤答案、過期開啟請求、收藏下一題、更新偵測、焦點回檢與保存失敗保護；靜態HTTP檢查亦核對版本與原始碼內容雜湊一致。

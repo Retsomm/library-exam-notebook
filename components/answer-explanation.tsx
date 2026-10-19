@@ -1,9 +1,8 @@
 'use client';
 import {useEffect,useState} from 'react';
-import type {Question} from '@/lib/types';
-type Explanation={summary:string;options:Record<string,string>;optionVerdicts?:Record<string,string>;vocabulary?:{word:string;partOfSpeech:string;meaning:string;usage:string}[];sources?:{title:string;url:string}[]};
+import type {Question,QuestionExplanation} from '@/lib/types';
 const AnswerExplanation=({question:q,onAvailabilityChange}:{question:Question;onAvailabilityChange?:(ready:boolean)=>void})=>{
- const [entry,setEntry]=useState<Explanation|null>(null),[status,setStatus]=useState<'loading'|'ready'|'missing'|'error'>('loading'),[retry,setRetry]=useState(0);
+ const [entry,setEntry]=useState<QuestionExplanation|null>(null),[status,setStatus]=useState<'loading'|'ready'|'missing'|'error'>('loading'),[retry,setRetry]=useState(0);
  useEffect(()=>{
   const controller=new AbortController();setStatus('loading');onAvailabilityChange?.(false);
   void fetch(`/explanations/${q.examId}.json`,{signal:controller.signal}).then(async response=>{

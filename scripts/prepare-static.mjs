@@ -1,3 +1,4 @@
+import {buildVersion} from './build-version.mjs';
 import { copyFileSync,readFileSync,writeFileSync } from 'node:fs';
 const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url),'utf8'));
 
@@ -13,3 +14,5 @@ for(const exam of bank.exams){
 }
 for(const name of readdirSync(source))if(name.endsWith('.json'))copyFileSync(new URL(name,source),new URL(name,target));
 writeFileSync(new URL('../public/bank.json',import.meta.url),JSON.stringify(bank));
+
+writeFileSync(new URL('../public/version.json',import.meta.url),JSON.stringify({version:buildVersion()})+'\n');

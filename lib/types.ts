@@ -7,3 +7,5 @@ export type History = {id:string;answer:string;correct:boolean;time:string};
 export type StudySession = {ids:string[];index:number;title:string;choices:Record<string,string[]>;checked:Record<string,boolean>};
 export type StudyState = {version:1;bookmarks:string[];explanationBookmarks:string[];notes:Record<string,string>;records:Record<string,StudyRecord>;wrong:Record<string,Wrong>;history:History[];session:StudySession|null};
 export type Screen = 'overview'|'bank'|'wrong'|'bookmarks'|'history'|'settings'|'practice'|'explanations'|'reports';
+
+export type QuestionExplanation = {summary:string;options:Record<string,string>;optionVerdicts?:Record<string,string>;vocabulary?:{word:string;partOfSpeech:string;meaning:string;usage:string}[];sources?:{title:string;url:string}[]};

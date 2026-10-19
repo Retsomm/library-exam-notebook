@@ -5,7 +5,9 @@ let log='';server.stdout.on('data',c=>{log+=c.toString()});server.stderr.on('dat
 try{
  await new Promise((resolve,reject)=>{const timeout=setTimeout(()=>reject(Error('Server did not start: '+log)),20000);server.stdout.on('data',()=>{if(log.includes('Static server ready')){clearTimeout(timeout);resolve();}});server.on('exit',code=>{clearTimeout(timeout);reject(Error('Server exited '+code+': '+log));});});
  const base='http://127.0.0.1:3011',results=[];
- for(const [path,expected]of [['/',200],['/demo/',200],['/sign-in/',200],['/practice/',200],['/api/bank',404],['/api/auth/session',404]]){const r=await fetch(base+path,{redirect:'manual'});assert.equal(r.status,expected,path);results.push({path,status:r.status});}
+ const version=await(await fetch(base+'/version.json')).json();assert.match(version.version,/^[a-f0-9]{16}$/);
+ const {buildVersion}=await import('../scripts/build-version.mjs');assert.equal(version.version,buildVersion(),'manifest matches current source');
+ for(const [path,expected]of [['/',200],['/demo/',200],['/sign-in/',200],['/practice/',200],['/api/bank',404],['/api/auth/session',404]]){const r=await fetch(base+path,{redirect:'manual'});assert.equal(r.status,expected,path);if(expected===200){const html=await r.text();assert.ok(html.includes('data-app-version="'+version.version+'"'),path+' app release');}results.push({path,status:r.status});}
  const r=await fetch(base+'/bank.json'),bank=await r.json();assert.equal(bank.questions.length,1755);assert.equal(bank.exams.length,36);assert.ok(bank.questions.find(q=>q.id==='115-1-46').passage.includes('Elon Musk'));
  for(const exam of bank.exams){assert.deepEqual(exam.pages,[]);assert.equal(new URL(exam.source).hostname,'wwwq.moex.gov.tw');}
  for(const q of bank.questions)assert.deepEqual(q.images,[]);

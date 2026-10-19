@@ -7,6 +7,6 @@ export const metadata: Metadata = {
 };
 export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#101617' };
 const RootLayout = ({ children }: Readonly<{children: React.ReactNode}>) => (
-  <html lang="zh-Hant"><body>{children}</body></html>
+  <html lang="zh-Hant" data-app-version={process.env.NEXT_PUBLIC_APP_VERSION}><body>{children}</body></html>
 );
 export default RootLayout;
