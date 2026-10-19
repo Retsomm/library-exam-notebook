@@ -6,6 +6,22 @@ service cloud.firestore {
         && request.auth.token.email_verified == true
         && request.auth.token.firebase.sign_in_provider == 'google.com';
     }
+    match /users/{uid}/questionReports/{rid} {
+      allow read: if owner(uid);
+      allow create: if owner(uid)
+        && rid.matches('^[a-f0-9-]{36}$')
+        && request.resource.data.keys().hasAll(['questionId','kind','detail','createdAt','snapshotJSON','submittedAt'])
+        && request.resource.data.keys().hasOnly(['questionId','kind','detail','createdAt','snapshotJSON','submittedAt'])
+        && request.resource.data.questionId is string
+        && request.resource.data.questionId.matches('^[0-9]{3}-[0-3]-[0-9]{1,2}$')
+        && request.resource.data.kind in ['scan','answer','explanation','source','other']
+        && request.resource.data.detail is string
+        && request.resource.data.detail.size() > 0 && request.resource.data.detail.size() <= 2000
+        && request.resource.data.createdAt is string && request.resource.data.createdAt.size() <= 40
+        && request.resource.data.snapshotJSON is string && request.resource.data.snapshotJSON.size() <= 30000
+        && request.resource.data.submittedAt == request.time;
+      // Reports are immutable for clients. Only an authorized project operator may record a verified resolution.
+    }
     match /users/{uid}/questions/{qid} {
       allow read: if owner(uid);
       allow create, update: if owner(uid)

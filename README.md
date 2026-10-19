@@ -145,7 +145,7 @@ npm run test:browser
 
 2026-10-19 已設定 GitHub Actions 的加密部署 Secret。專用服務帳戶 `github-action-1424419298` 僅獲授 Hosting 部署、Service Usage Consumer 與 API Keys Viewer 角色。
 
-`.github/workflows/firebase-hosting-merge.yml` 在每次推送 `main` 時，自動安裝依賴、執行 18 項測試、建置 Next.js 靜態網站、檢查 HTTP 路徑，再將 `out/` 發佈至 https://library-exam-notebook.web.app/ 。任何檢查失敗都會停止發佈。也可在 GitHub Actions 手動執行或重新執行此流程。
+`.github/workflows/firebase-hosting-merge.yml` 在每次推送 `main` 時，自動安裝依賴、執行 21 項測試、建置 Next.js 靜態網站、檢查 HTTP 路徑，再將 `out/` 發佈至 https://library-exam-notebook.web.app/ 。任何檢查失敗都會停止發佈。也可在 GitHub Actions 手動執行或重新執行此流程。
 
 首次設定需要專案擁有者完成 Firebase 與 GitHub 授權：
 
@@ -165,3 +165,13 @@ npx firebase-tools@15.34.0 init hosting:github --project library-exam-notebook
 已補齊106、107、108、109、110、111、113、114、115年共450題、1800個選項。每題有白話讀題、答案依據、逐選項辨析及延伸來源；歷史版本、官方一律給分與可疑措辭有個別說明。維持作答後點「查看解析」才開啟彈窗，支援獨立收藏與下一題。
 
 編輯原稿在 `scripts/editorial/cataloging/*.txt`，經 `build.py` 轉成 `data/explanations/*-3.json`；它只整理人工撰寫內容，不根據正解自動生成理由。另記錄106年第15、18、35題圈碼選項的原卷對照修正。建置時依實際解析檔計算各卷完成題數，不再只以科目代號判定完成。
+
+## 題目問題回報
+
+每題練習、題目清單與解析彈窗提供「回報題目問題」。可回報文字辨識、答案／計分、解析或官方來源連結。回報保存當時題幹、四個選項、網站計分答案、使用者作答、原卷 PDF 頁碼、官方標準答案與更正來源，供後續比對；不會只憑回報自動修改答案。
+
+登入者先保存本機，再同步至 `users/{uid}/questionReports/{reportId}`，離線時等待恢復連線或點擊重試。Firestore 僅允許已驗證 Google 帳號讀取本人的回報、建立格式受限的新回報；客戶端不能覆寫、刪除或自行標記已查核。正式查核結果可由具 IAM 權限的管理者填入 `status: resolved`、`resolution`，供使用者查看。訪客只保存在該瀏覽器，需複製或匯出；不會自動送給管理者。回報紀錄獨立匯出，不包含於原本的學習備份。
+
+「題目回報」頁可查看保存／送達狀態、複製給 ChatGPT、匯出紀錄與返回題目。這是查核佇列，並非背景 AI 工作器：回報不會喚醒 ChatGPT。使用者需在對話中要求查核；管理者可使用已授權 Firebase CLI 的憑證執行 `scripts/read-question-reports.cjs --details` 讀取待查核清單。若 CLI 不在專案依賴中，設定 `FIREBASE_TOOLS_LIB` 指向其 `lib` 目錄；不得提交 CLI 憑證。
+
+原卷與標準答案改為直接連到考選部 PDF，不在 Hosting 或 Git 內保存副本。答案按鈕於作答後顯示；回報視窗亦提供原卷、標準答案與已知更正答案來源。官方站可能以瀏覽器開啟或下載 PDF，視瀏覽器設定而定。
