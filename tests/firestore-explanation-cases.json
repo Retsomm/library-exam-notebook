@@ -1,0 +1,124 @@
+{
+  "testCases": [
+    {
+      "expectation": "ALLOW",
+      "request": {
+        "auth": {
+          "uid": "sync-test-a",
+          "token": {
+            "email_verified": true,
+            "firebase": {
+              "sign_in_provider": "google.com"
+            }
+          }
+        },
+        "method": "create",
+        "path": "/databases/(default)/documents/users/sync-test-a/questions/115-2-1",
+        "time": "2026-10-18T12:12:00Z",
+        "resource": {
+          "data": {
+            "bookmark": true,
+            "note": "sync verification",
+            "history": [],
+            "applied": [
+              "m1"
+            ],
+            "revision": 1,
+            "updatedAt": "2026-10-18T12:12:00Z",
+            "explanationBookmark": true
+          }
+        }
+      }
+    },
+    {
+      "expectation": "ALLOW",
+      "request": {
+        "auth": {
+          "uid": "sync-test-a",
+          "token": {
+            "email_verified": true,
+            "firebase": {
+              "sign_in_provider": "google.com"
+            }
+          }
+        },
+        "method": "create",
+        "path": "/databases/(default)/documents/users/sync-test-a/questions/115-2-1",
+        "time": "2026-10-18T12:12:00Z",
+        "resource": {
+          "data": {
+            "bookmark": true,
+            "note": "sync verification",
+            "history": [],
+            "applied": [
+              "m1"
+            ],
+            "revision": 1,
+            "updatedAt": "2026-10-18T12:12:00Z",
+            "explanationBookmark": false
+          }
+        }
+      }
+    },
+    {
+      "expectation": "DENY",
+      "request": {
+        "auth": {
+          "uid": "sync-test-a",
+          "token": {
+            "email_verified": true,
+            "firebase": {
+              "sign_in_provider": "google.com"
+            }
+          }
+        },
+        "method": "create",
+        "path": "/databases/(default)/documents/users/sync-test-a/questions/115-2-1",
+        "time": "2026-10-18T12:12:00Z",
+        "resource": {
+          "data": {
+            "bookmark": true,
+            "note": "sync verification",
+            "history": [],
+            "applied": [
+              "m1"
+            ],
+            "revision": 1,
+            "updatedAt": "2026-10-18T12:12:00Z",
+            "explanationBookmark": "true"
+          }
+        }
+      }
+    },
+    {
+      "expectation": "DENY",
+      "request": {
+        "auth": {
+          "uid": "sync-test-a",
+          "token": {
+            "email_verified": true,
+            "firebase": {
+              "sign_in_provider": "google.com"
+            }
+          }
+        },
+        "method": "create",
+        "path": "/databases/(default)/documents/users/sync-test-b/questions/115-2-1",
+        "time": "2026-10-18T12:12:00Z",
+        "resource": {
+          "data": {
+            "bookmark": true,
+            "note": "sync verification",
+            "history": [],
+            "applied": [
+              "m1"
+            ],
+            "revision": 1,
+            "updatedAt": "2026-10-18T12:12:00Z",
+            "explanationBookmark": true
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "platform": "Firebase Hosting",
+  "projectId": "library-exam-notebook",
+  "hostingSite": "library-exam-notebook",
+  "url": "https://library-exam-notebook.web.app/",
+  "deployedOn": "2026-10-18",
+  "auth": "Firebase Authentication / Google",
+  "googleProviderEnabled": true,
+  "storage": "Firestore per Firebase UID with local pending queue",
+  "verification": {
+    "staticBuild": true,
+    "bankQuestions": 1755,
+    "exams": 36,
+    "desktopGuestPractice": true,
+    "bookmarksAndWrongAnswersPersistAfterReload": true,
+    "realGoogleUserLogin": false,
+    "mobileDevice": false,
+    "remoteSecurityRuleCases": 12,
+    "automatedModelAndBankTests": 9,
+    "realTwoDeviceSync": false,
+    "googleLoginReportedByUser": true
+  },
+  "cloudSync": true,
+  "databaseLocation": "asia-east1"
+}

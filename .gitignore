@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.vercel/
+.env*
+!.env.example
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+out/
+.firebase/
+firebase-debug*.log

@@ -1,0 +1,120 @@
+{
+  "testCases": [
+    {
+      "expectation": "ALLOW",
+      "request": {
+        "auth": {
+          "uid": "sync-test-a",
+          "token": {
+            "email_verified": true,
+            "firebase": {
+              "sign_in_provider": "google.com"
+            }
+          }
+        },
+        "path": "/databases/(default)/documents/users/sync-test-a/questions/115-2-1",
+        "method": "get"
+      }
+    },
+    {
+      "expectation": "DENY",
+      "request": {
+        "auth": {
+          "uid": "sync-test-a",
+          "token": {
+            "email_verified": true,
+            "firebase": {
+              "sign_in_provider": "google.com"
+            }
+          }
+        },
+        "path": "/databases/(default)/documents/users/sync-test-b/questions/115-2-1",
+        "method": "get"
+      }
+    },
+    {
+      "expectation": "DENY",
+      "request": {
+        "path": "/databases/(default)/documents/users/sync-test-a/questions/115-2-1",
+        "method": "get"
+      }
+    },
+    {
+      "expectation": "DENY",
+      "request": {
+        "auth": {
+          "uid": "sync-test-a",
+          "token": {
+            "email_verified": true,
+            "firebase": {
+              "sign_in_provider": "google.com"
+            }
+          }
+        },
+        "path": "/databases/(default)/documents/users/sync-test-b/questions/115-2-1",
+        "method": "create",
+        "resource": {
+          "data": {}
+        }
+      }
+    },
+    {
+      "expectation": "ALLOW",
+      "request": {
+        "auth": {
+          "uid": "sync-test-a",
+          "token": {
+            "email_verified": true,
+            "firebase": {
+              "sign_in_provider": "google.com"
+            }
+          }
+        },
+        "path": "/databases/(default)/documents/users/sync-test-a/study/session",
+        "method": "get"
+      }
+    },
+    {
+      "expectation": "DENY",
+      "request": {
+        "auth": {
+          "uid": "sync-test-a",
+          "token": {
+            "email_verified": true,
+            "firebase": {
+              "sign_in_provider": "google.com"
+            }
+          }
+        },
+        "path": "/databases/(default)/documents/users/sync-test-b/study/session",
+        "method": "get"
+      }
+    },
+    {
+      "expectation": "DENY",
+      "request": {
+        "path": "/databases/(default)/documents/users/sync-test-a/study/session",
+        "method": "get"
+      }
+    },
+    {
+      "expectation": "DENY",
+      "request": {
+        "auth": {
+          "uid": "sync-test-a",
+          "token": {
+            "email_verified": true,
+            "firebase": {
+              "sign_in_provider": "google.com"
+            }
+          }
+        },
+        "path": "/databases/(default)/documents/users/sync-test-b/study/session",
+        "method": "create",
+        "resource": {
+          "data": {}
+        }
+      }
+    }
+  ]
+}
