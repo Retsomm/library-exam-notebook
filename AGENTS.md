@@ -10,3 +10,5 @@
 - 一般檢查使用 `npm test`；修改應用程式程式碼或設定時另執行 `npm run build`。依變更範圍驗證互動及同步流程。
 
 - 題庫只提交文字、解析與考選部來源連結；不要加入 PDF、試題 ZIP 或整頁掃描圖片。圖表題提供官方原題連結。
+- 每次推送 `main` 後，確認 GitHub Actions「Deploy Firebase Hosting」執行結果。它會先測試、建置、驗證靜態網站，再發佈到 Firebase Hosting 正式站。失敗時修正並再次提交；授權缺失時明確回報，不要聲稱已部署。
+- GitHub 自動部署使用 repository secret `FIREBASE_SERVICE_ACCOUNT_LIBRARY_EXAM_NOTEBOOK`，由 Firebase 官方 GitHub 整合設定。不要將憑證寫入程式、日誌或 commit。此工作流程只發佈 Hosting；修改 Firestore 規則時仍須另外驗證並部署規則。

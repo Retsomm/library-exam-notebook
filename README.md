@@ -140,3 +140,20 @@ npm run test:browser
 ## GitHub 提交規範
 
 儲存庫：https://github.com/Retsomm/library-exam-notebook.git 。每次修改並通過適當檢查後，建立 commit 並推送。詳見 `AGENTS.md`。自 2026-10-19 起不再保存試題附件，只保留考選部來源連結；圖表題需開啟官方原題對照。
+
+## 推送後自動部署 Firebase Hosting
+
+`.github/workflows/firebase-hosting-merge.yml` 在每次推送 `main` 時，自動安裝依賴、執行 15 項測試、建置 Next.js 靜態網站、檢查 HTTP 路徑，再將 `out/` 發佈至 https://library-exam-notebook.web.app/ 。任何檢查失敗都會停止發佈。也可在 GitHub Actions 手動執行或重新執行此流程。
+
+首次設定需要專案擁有者完成 Firebase 與 GitHub 授權：
+
+```bash
+npx firebase-tools@15.34.0 login --no-localhost
+npx firebase-tools@15.34.0 init hosting:github --project library-exam-notebook
+```
+
+選擇 `Retsomm/library-exam-notebook`。官方初始化會建立部署服務帳戶，並將其金鑰加密儲存為 GitHub Actions secret `FIREBASE_SERVICE_ACCOUNT_LIBRARY_EXAM_NOTEBOOK`。若詢問是否覆寫現有 live workflow，選擇否，以保留目前的測試與建置檢查。不需建立 PR preview workflow；若 CLI 產生預覽流程，使用前先評估是否需要，不要未經確認提交。
+
+本機 Firebase CLI 登入與 GitHub 持續部署的授權彼此獨立。設定完成後，GitHub Actions 不依賴 ChatGPT 工作環境的 CLI 登入狀態。未設定上述 Secret 時流程會明確失敗，不會假裝部署成功。可至 https://github.com/Retsomm/library-exam-notebook/actions 查看每次結果。
+
+這個工作流程只發佈 Hosting 網站，不修改 Authentication、Firestore 資料或權限規則。若變更 `firestore.rules`，仍需測試後另行執行 `firebase deploy --only firestore:rules --project library-exam-notebook`。
