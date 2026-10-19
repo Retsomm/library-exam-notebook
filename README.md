@@ -143,6 +143,8 @@ npm run test:browser
 
 ## 推送後自動部署 Firebase Hosting
 
+2026-10-19 已設定 GitHub Actions 的加密部署 Secret。專用服務帳戶 `github-action-1424419298` 僅獲授 Hosting 部署、Service Usage Consumer 與 API Keys Viewer 角色。
+
 `.github/workflows/firebase-hosting-merge.yml` 在每次推送 `main` 時，自動安裝依賴、執行 15 項測試、建置 Next.js 靜態網站、檢查 HTTP 路徑，再將 `out/` 發佈至 https://library-exam-notebook.web.app/ 。任何檢查失敗都會停止發佈。也可在 GitHub Actions 手動執行或重新執行此流程。
 
 首次設定需要專案擁有者完成 Firebase 與 GitHub 授權：
