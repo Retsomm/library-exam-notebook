@@ -6,6 +6,18 @@ bank=json.loads((root/'data/bank.json').read_text())
 questions={q['id']:q for q in bank['questions']}
 exams={e['id']:e for e in bank['exams']}
 refs={
+ 'cptpp':('紐西蘭外交貿易部：CPTPP 第 5 條加入資格','https://www.mfat.govt.nz/en/about-us/who-we-are/treaties/comprehensive-and-progressive-agreement-for-tpp'),
+ 'criminal':('全國法規資料庫：中華民國刑法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001'),
+ '721':('憲法法庭：釋字第 721 號','https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310902'),
+ '331':('憲法法庭：釋字第 331 號','https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310512'),
+ 'election':('全國法規資料庫：公職人員選舉罷免法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020010'),
+ 'covenants':('全國法規資料庫：兩公約施行法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0020028'),
+ 'university':('全國法規資料庫：大學法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0030001'),
+ '784':('憲法法庭：釋字第 784 號','https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310965'),
+ 'indigenous':('全國法規資料庫：原住民族基本法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0130003'),
+ 'state':('全國法規資料庫：國家賠償法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0020004'),
+ 'amendments':('全國法規資料庫：中華民國憲法增修條文','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002'),
+ 'correction114':('考選部：114 年初等考試標準答案更正清冊（第 34 題 A 或 B 均給分）','https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&t=A'),
  'constitution':('全國法規資料庫：中華民國憲法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001'),
  'dv':('全國法規資料庫：家庭暴力防治法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071'),
  'referendum':('全國法規資料庫：公民投票法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020050'),
@@ -44,6 +56,10 @@ for path in sorted(Path(__file__).parent.glob('*.txt')):
   entries['115-1-9']['optionVerdicts']['D']='官方計分答案，應選；「無助於」有表述限制，詳見下方說明。'
   entries['115-1-27']['optionVerdicts']['D']='官方未採此項；二讀仍有議決實務，不能一概說完全錯誤。'
   entries['115-1-27']['optionVerdicts']['B']='官方計分答案，指一般付委原則，須留意例外。'
+ if year=='114':
+  for letter in ['A','B']:
+   entries['114-1-34']['optionVerdicts'][letter]='官方更正接受此項；選 A 或 B 任一項皆給分，詳見要件分析。'
+  entries['114-1-49']['optionVerdicts']={o['letter']:('本文未提及，因此本題應選；不表示現實不可能。' if o['letter']=='D' else '本文有提及，因此本題不選。') for o in questions['114-1-49']['options']}
  assert len(entries)==50,(year,len(entries))
  (root/f'data/explanations/{year}-1.json').write_text(json.dumps(entries,ensure_ascii=False,indent=2)+'\n')
  print(year,len(entries),'questions;',sum(len(x.get('vocabulary',[])) for x in entries.values()),'vocabulary displays')
