@@ -55,3 +55,35 @@ test('second edition covers every question with individual teaching and explicit
  assert.match(entries['111-0-1'].optionVerdicts.C,/錯誤.*應選/);
  assert.match(entries['114-0-14'].optionVerdicts.A,/符合文意.*不選/);
 });
+
+test('all 450 classification and cataloging questions have substantive explanations for every option',()=>{
+ const questions=bank.questions.filter(q=>q.subjectIndex===3);
+ assert.equal(questions.length,450);
+ const summaries=new Set();let options=0;
+ for(const q of questions){
+  const e=entries[q.id];assert.ok(e,q.id);summaries.add(e.summary);
+  assert.ok(e.summary.length>=60,q.id+' teaching');
+  assert.ok(e.summary.includes('\n\n'),q.id+' reading and reasoning');
+  assert.deepEqual(Object.keys(e.options).sort(),q.options.map(o=>o.letter).sort(),q.id);
+  assert.deepEqual(Object.keys(e.optionVerdicts).sort(),q.options.map(o=>o.letter).sort(),q.id+' verdicts');
+  for(const reason of Object.values(e.options)){assert.ok(reason.length>=25,q.id+' reason');options++;}
+  assert.ok(e.sources.length,q.id+' sources');
+ }
+ assert.equal(summaries.size,450);assert.equal(options,1800);
+});
+
+test('official credit and ambiguous or historical standards are explained without changing grading',()=>{
+ assert.deepEqual(byId.get('108-3-36').accepted,['A','B','C','D']);
+ for(const verdict of Object.values(entries['108-3-36'].optionVerdicts))assert.match(verdict,/一律給分/);
+ assert.match(entries['115-3-22'].summary,/八層面.*九層面/);
+ assert.match(entries['113-3-48'].options.B,/亦可建立/);
+ assert.match(entries['114-3-44'].options.C,/新作品/);
+ assert.match(entries['115-3-15'].options.D,/雙主題通常分受影響者/);
+ assert.deepEqual(byId.get('107-3-37').accepted,['C']);
+});
+
+test('106 original-paper combination options retain the correct digits',()=>{
+ for(const [id,options]of Object.entries({'106-3-15':['23','24','134','234'],'106-3-18':['4231','3421','2341','1432'],'106-3-35':['12','23','24','34']})){
+  assert.deepEqual(byId.get(id).options.map(o=>o.text),options,id);
+ }
+});

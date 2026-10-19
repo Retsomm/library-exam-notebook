@@ -145,7 +145,7 @@ npm run test:browser
 
 2026-10-19 已設定 GitHub Actions 的加密部署 Secret。專用服務帳戶 `github-action-1424419298` 僅獲授 Hosting 部署、Service Usage Consumer 與 API Keys Viewer 角色。
 
-`.github/workflows/firebase-hosting-merge.yml` 在每次推送 `main` 時，自動安裝依賴、執行 15 項測試、建置 Next.js 靜態網站、檢查 HTTP 路徑，再將 `out/` 發佈至 https://library-exam-notebook.web.app/ 。任何檢查失敗都會停止發佈。也可在 GitHub Actions 手動執行或重新執行此流程。
+`.github/workflows/firebase-hosting-merge.yml` 在每次推送 `main` 時，自動安裝依賴、執行 18 項測試、建置 Next.js 靜態網站、檢查 HTTP 路徑，再將 `out/` 發佈至 https://library-exam-notebook.web.app/ 。任何檢查失敗都會停止發佈。也可在 GitHub Actions 手動執行或重新執行此流程。
 
 首次設定需要專案擁有者完成 Firebase 與 GitHub 授權：
 
@@ -159,3 +159,9 @@ npx firebase-tools@15.34.0 init hosting:github --project library-exam-notebook
 本機 Firebase CLI 登入與 GitHub 持續部署的授權彼此獨立。設定完成後，GitHub Actions 不依賴 ChatGPT 工作環境的 CLI 登入狀態。未設定上述 Secret 時流程會明確失敗，不會假裝部署成功。可至 https://github.com/Retsomm/library-exam-notebook/actions 查看每次結果。
 
 這個工作流程只發佈 Hosting 網站，不修改 Authentication、Firestore 資料或權限規則。若變更 `firestore.rules`，仍需測試後另行執行 `firebase deploy --only firestore:rules --project library-exam-notebook`。
+
+## 中文圖書分類編目大意解析
+
+已補齊106、107、108、109、110、111、113、114、115年共450題、1800個選項。每題有白話讀題、答案依據、逐選項辨析及延伸來源；歷史版本、官方一律給分與可疑措辭有個別說明。維持作答後點「查看解析」才開啟彈窗，支援獨立收藏與下一題。
+
+編輯原稿在 `scripts/editorial/cataloging/*.txt`，經 `build.py` 轉成 `data/explanations/*-3.json`；它只整理人工撰寫內容，不根據正解自動生成理由。另記錄106年第15、18、35題圈碼選項的原卷對照修正。建置時依實際解析檔計算各卷完成題數，不再只以科目代號判定完成。
