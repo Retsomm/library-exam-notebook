@@ -1,4 +1,4 @@
-# 閱日：Next.js＋Firebase 題庫練習網站
+# 書庫研習所：Next.js＋Firebase 題庫練習網站
 
 本版本使用 Next.js App Router、React、TypeScript、Firebase Authentication Google 登入，並以 `output: 'export'` 輸出靜態網站，部署到 Firebase Hosting。指定專案 ID 為 `library-exam-notebook`。不使用 Vercel、App Hosting、Cloud Functions 或 NextAuth。
 
@@ -196,9 +196,10 @@ npx firebase-tools@15.34.0 init hosting:github --project library-exam-notebook
 
 新增回歸檢查涵蓋單一元件掛載、明確開啟、正誤答案、過期開啟請求、收藏下一題、更新偵測、焦點回檢與保存失敗保護；靜態HTTP檢查亦核對版本與原始碼內容雜湊一致。
 
-### 品牌與手機主畫面圖示
+### 品牌、主畫面圖示與考試倒數
 
-01「書頁日出」圖形來源為 `public/brand/sunrise-mark.svg`，頁面透過共用 `BrandLogo` 顯示。
-執行 `npm run brand:icons` 可從該 SVG 重新產生 ICO、16/32/48px PNG、180px Apple touch icon 與 192/512px Web App 圖示。PNG 使用不透明背景及安全留白，由系統裁切圓角；不要另行修改各尺寸造成設計不同步。
+網站採「書庫研習所」主題，以深靛藍、古金、羊皮紙、書卷與羽毛筆呈現見習司書的研習氛圍。品牌資料由 `lib/brand.mjs` 集中提供，頁面共用 `BrandLogo`，圖形唯一來源為 `public/brand/library-mark.svg`。執行 `npm run brand:icons` 產生所有 favicon、180px Apple touch icon、192/512px 圖示及 manifest。
 
-所有頁面由根 layout 提供 favicon、`apple-touch-icon` 與 manifest。iPhone 使用 Safari 開啟網站，選擇「分享」→「加入主畫面」，名稱為「閱日」。已加入的舊捷徑可能保留原圖示；移除舊捷徑後重新加入即可更新。這些設定提供主畫面圖示與獨立視窗，不代表離線題庫功能。
+倒數資料由 `lib/exam-countdown.mjs` 集中管理。116 年公務人員初等考試日期為 2027/01/09，報名期間為 2026/10/27–11/05，來源為考選部公告（模組內附連結）。以臺灣日曆日期計算天數，並非距離某一節次的時分秒；考試當天與日期過後顯示相應訊息，下一次考期須依官方新公告更新。
+
+iPhone 使用 Safari 開啟網站，選擇「分享」→「加入主畫面」。舊捷徑可能需要移除後重新加入以更新名稱及圖示。圖示設定不代表離線題庫功能。改名沿用既有本機儲存鍵及雲端路徑，學習資料不需遷移。

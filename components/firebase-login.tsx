@@ -36,7 +36,7 @@ const FirebaseLogin = () => {
   };
   return <main className="login-shell"><section className="login-card">
     <BrandLogo/>
-    <h1>你的圖書館練習書桌</h1><p className="subtext">九個年度、1,755 道官方試題。<br/>每天一點，離理想再近一點。</p>
+    <h1>成為圖書館員的旅程，由此翻頁。</h1><p className="subtext">以書為伴，以學為途。<br/>1,755 道歷屆試題，收藏你的每一份成長。</p>
     {error && <p role="alert" className="notice">{error}</p>}
     <button className="btn primary google-button" onClick={login} disabled={checking || !auth || busy}>{checking ? '正在確認登入設定…' : busy ? '正在登入…' : '以 Google 帳戶登入'}</button>
     <Link className="btn ghost" href="/demo/">先以訪客模式練習 →</Link>

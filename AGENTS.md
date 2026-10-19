@@ -19,4 +19,6 @@
 
 - 重複 UI 由共用元件負責：`ModalDialog` 管理原生 dialog、焦點、Escape、捲動及外框；`QuestionList` 管理搜尋／錯題／收藏題目／收藏解析清單；`study-ui.tsx` 管理標題、空畫面、載入、題目收藏、回報按鈕與進度條。入口只傳資料與操作，不複製上述 JSX。
 - 題目相關官方連結統一使用 `OfficialSourceLink`，由元件處理 PDF 頁碼、標準答案備援及可選更正檔。解析收藏與題目收藏仍是獨立資料；回報表單不因點擊背景而關閉，以免遺失未儲存內容。
-- 品牌使用 01「書頁日出」：所有頁面使用 `BrandLogo`，圖形唯一來源為 `public/brand/sunrise-mark.svg`。修改圖形後執行 `npm run brand:icons` 產生 favicon、180px Apple touch icon 及 192/512px 主畫面圖示；保持不透明背景與安全留白，更新版本雜湊並驗證所有頁面的圖示 metadata。品牌圖片可提交，試題 PDF／掃描圖片仍不可提交。
+- 網站名稱為「書庫研習所」，靈感取自《小書痴的下剋上》的書庫與見習成長氛圍，使用原創書卷／羽毛筆圖形與深靛藍、古金、羊皮紙色；不再使用閱日或朱紅印章。品牌名稱與 metadata 依 `lib/brand.mjs`，所有頁面共用 `BrandLogo`，唯一圖形來源 `public/brand/library-mark.svg`。改圖後執行 `npm run brand:icons` 產生 favicon、Apple touch icon、manifest；品牌圖片可提交，試題掃描仍不可提交。
+- 考試倒數由 `lib/exam-countdown.mjs` 保存官方日期與來源，依臺灣日曆計算，不能假設考試開始時刻、顯示負值或自動推算未公告考期。考試日顯示應試提醒，日期過後顯示已過期提示。
+- 改名時維持既有 `yueri:*` 本機儲存鍵、同步佇列及 Firestore 路徑相容，不得為視覺改版清除或重置學習資料。

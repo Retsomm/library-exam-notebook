@@ -1,17 +1,26 @@
 {
   "id": "/",
-  "name": "閱日｜初等圖書資訊管理練習",
-  "short_name": "閱日",
+  "name": "書庫研習所｜初等圖書資訊管理練習",
+  "short_name": "書庫研習所",
   "lang": "zh-Hant",
-  "description": "每天一點，練習圖書資訊管理歷屆題庫。",
+  "description": "為成為圖書館員而讀的每一頁。初等圖書資訊管理歷屆題庫、錯題本、收藏與學習筆記。",
   "start_url": "/practice/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#101617",
-  "theme_color": "#101617",
+  "background_color": "#11182a",
+  "theme_color": "#11182a",
   "icons": [
-    {"src":"/brand/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
-    {"src":"/brand/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
-    {"src":"/brand/icon-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+    {
+      "src": "/brand/library-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/brand/library-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
   ]
 }

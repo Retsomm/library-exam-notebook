@@ -1,8 +1,9 @@
 import type {ReactNode} from 'react';
 import Icon from './icons';
 import BrandLogo from './brand-logo';
+import {brand} from '../lib/brand.mjs';
 
-export function PageHeading({title,sub,eyebrow='DAILY LIBRARY STUDY'}:{title:string;sub:string;eyebrow?:string}){
+export function PageHeading({title,sub,eyebrow=brand.english}:{title:string;sub:string;eyebrow?:string}){
  return <div className="heading"><div><p className="eyebrow">{eyebrow}</p><h1>{title}</h1><p className="subtext">{sub}</p></div></div>;
 }
 export function EmptyState({title,description,icon,children}:{title:string;description:string;icon?:string;children?:ReactNode}){

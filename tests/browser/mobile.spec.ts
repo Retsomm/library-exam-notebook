@@ -20,7 +20,7 @@ test('Firebase setup failure is explicit and guest practice remains available',a
   await expect(page.getByRole('alert')).toContainText('Firebase 設定');
   await expect(page.getByRole('button',{name:'以 Google 帳戶登入'})).toBeDisabled();
   await page.getByRole('link',{name:'先以訪客模式練習'}).click();
-  await expect(page.getByRole('heading',{name:'今天，也讀懂一點點。'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'歡迎回到你的書庫。'})).toBeVisible();
 });
 test('explanation popup is opt-in, saves independently, and next question closes it',async({page})=>{
  await page.goto('/demo/');
