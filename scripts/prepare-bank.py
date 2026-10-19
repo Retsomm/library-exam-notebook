@@ -25,6 +25,6 @@ for q in bank['questions']:
  q['hasVisual']=bool(re.search('下表|下圖|圖示|表格|圖中|圖形|附圖|如圖|figure|diagram',text,re.I))
 emap={e['id']:e for e in bank['exams']}
 for q in bank['questions']:
- if not q['hasVisual']:q['images']=[emap[q['examId']]['pages'][q['page']]]
+ q['images']=[]
 p.write_text(json.dumps(bank,ensure_ascii=False,separators=(',',':')))
 print('questions',len(bank['questions']),'passage groups',len(groups),'fallback',sum(q['textFallback'] for q in bank['questions']))

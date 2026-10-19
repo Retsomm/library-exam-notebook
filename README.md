@@ -4,9 +4,9 @@
 
 ## 功能
 
-- 九年度、36 份試卷、1,755 題，含五筆官方更正，官方 PDF 與答案分開存放。
+- 九年度、36 份試卷、1,755 題，含五筆官方更正，只保留文字題庫、解析與官方來源連結。
 - 深色 RWD：手機單欄、觸控按鈕、底部導覽；題幹／選項預設 20px，可調 18–28px。
-- 閱讀題組、圖表、原卷翻頁與放大、依科目／年度／關鍵字練習。
+- 閱讀題組、圖表題官方來源連結、依科目／年度／關鍵字練習。
 - 批改、錯題本／已掌握、收藏、筆記、進度接續、JSON 備份匯出／合併匯入。
 - Google 登入由 Firebase Authentication 處理；新版以 Firebase UID 隔離 Firestore 資料，同步錯題、收藏、筆記、作答紀錄與練習進度。
 - 同一 Google 帳號可在電腦／手機同步；首次使用會合併該帳號現有的本機紀錄。訪客資料須自行匯出、登入後匯入。
@@ -78,7 +78,7 @@ npx playwright install chromium
 npm run test:browser
 ```
 
-正式上線後仍需使用者完成一次真實 Google 登入，再確認登出、重新登入、本機紀錄、手機彈出視窗及原卷下載。登入與 `/practice/` 導覽檢查在瀏覽器執行，**不是伺服器端存取控制**。考選部題庫與靜態資源公開提供；雲端學習資料則由 Firestore Security Rules 保護，只允許已驗證的 Google 使用者存取自己 UID 路徑。規則不允許跨帳號讀寫或任意刪除。
+正式上線後仍需使用者完成一次真實 Google 登入，再確認登出、重新登入、本機紀錄、手機彈出視窗及官方來源連結。登入與 `/practice/` 導覽檢查在瀏覽器執行，**不是伺服器端存取控制**。考選部題庫與靜態資源公開提供；雲端學習資料則由 Firestore Security Rules 保護，只允許已驗證的 Google 使用者存取自己 UID 路徑。規則不允許跨帳號讀寫或任意刪除。
 
 ## 資料搬移
 
@@ -92,7 +92,7 @@ npm run test:browser
 - `components/`、`lib/study.mjs`：練習、批改、錯題與備份。
 - `data/`：原始題庫與手機文字版；`scripts/prepare-bank.py`：轉換選項／題組。
 - `scripts/prepare-static.mjs`：將題庫複製到公開靜態檔。
-- `public/`：官方 PDF、圖像與完整題庫 ZIP。
+- `public/`：建置時產生的文字題庫與解析 JSON；不包含 PDF、ZIP 或掃描圖像。
 - `firebase.json`、`.firebaserc`：Hosting 設定與指定專案。
 
 考選部考畢試題查詢平臺：https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx
@@ -136,3 +136,7 @@ npm run test:browser
 - Firestore每題新增布林欄位`explanationBookmark`，沿用原本Google帳號UID隔離、離線佇列與逐欄位同步；取消收藏以false保留，不會被舊資料復活。
 
 收藏、取消收藏等明確操作會在事件中即時寫入本機，避免點擊後立刻重新整理時遺失；雲端快照仍依既有機制保存。
+
+## GitHub 提交規範
+
+儲存庫：https://github.com/Retsomm/library-exam-notebook.git 。每次修改並通過適當檢查後，建立 commit 並推送。詳見 `AGENTS.md`。自 2026-10-19 起不再保存試題附件，只保留考選部來源連結；圖表題需開啟官方原題對照。

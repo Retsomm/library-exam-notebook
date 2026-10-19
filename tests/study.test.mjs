@@ -1,16 +1,20 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFileSync,existsSync} from 'node:fs';
+import {readFileSync} from 'node:fs';
 import {grade,emptyState,recordAnswer,validateBackup,mergeStates} from '../lib/study.mjs';
 const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url)));
 const map=new Map(bank.questions.map(q=>[q.id,q]));
-test('all 1755 official questions have usable mobile text, options and original assets',()=>{
+test('all 1755 official questions have usable mobile text, options and official source links',()=>{
  assert.equal(map.size,1755);assert.equal(bank.exams.length,36);
  for(const q of bank.questions){
   assert.ok(q.stem.trim().length||q.passage.length,q.id);
   assert.equal(q.options.map(o=>o.letter).join(''),q.multi?'ABCDE':'ABCD',q.id);
   assert.ok(q.options.every(o=>o.text.trim()),q.id);
-  for(const src of q.images)assert.ok(existsSync(new URL('../public/'+src,import.meta.url)),src);
+  assert.deepEqual(q.images,[]);
+  const exam=bank.exams.find(e=>e.id===q.examId);
+  assert.equal(new URL(exam.source).hostname,'wwwq.moex.gov.tw');
+  assert.equal(new URL(exam.listing).hostname,'wwwq.moex.gov.tw');
+  assert.deepEqual(exam.pages,[]);
   for(const answer of q.accepted)assert.equal(grade(q,answer.split('')),true,q.id);
  }
 });

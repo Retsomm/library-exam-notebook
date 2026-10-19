@@ -10,3 +10,8 @@ test-results/
 out/
 .firebase/
 firebase-debug*.log
+
+# 題庫只保存文字與官方來源連結
+public/pdf/
+public/assets/
+public/official-papers.zip

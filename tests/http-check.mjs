@@ -7,11 +7,10 @@ try{
  const base='http://127.0.0.1:3011',results=[];
  for(const [path,expected]of [['/',200],['/demo/',200],['/sign-in/',200],['/practice/',200],['/api/bank',404],['/api/auth/session',404]]){const r=await fetch(base+path,{redirect:'manual'});assert.equal(r.status,expected,path);results.push({path,status:r.status});}
  const r=await fetch(base+'/bank.json'),bank=await r.json();assert.equal(bank.questions.length,1755);assert.equal(bank.exams.length,36);assert.ok(bank.questions.find(q=>q.id==='115-1-46').passage.includes('Elon Musk'));
- const assets=new Set();
- for(const exam of bank.exams){assets.add(`/pdf/${exam.id}-questions.pdf`);assets.add(`/pdf/${exam.id}-answers.pdf`);if(exam.correctionPdf)assets.add('/'+exam.correctionPdf);for(const page of exam.pages)assets.add('/'+page);}
- for(const q of bank.questions)for(const image of q.images)assets.add('/'+image);
- assets.add('/official-papers.zip');
- for(const path of assets)assert.equal((await fetch(base+path)).status,200,path);
+ for(const exam of bank.exams){assert.deepEqual(exam.pages,[]);assert.equal(new URL(exam.source).hostname,'wwwq.moex.gov.tw');}
+ for(const q of bank.questions)assert.deepEqual(q.images,[]);
+ assert.equal((await fetch(base+'/official-papers.zip')).status,404);
+ assert.equal((await fetch(base+'/pdf/115-0-questions.pdf')).status,404);
  const html=await(await fetch(base+'/sign-in/')).text();assert.ok(html.includes('以 Google 帳戶登入')||html.includes('正在確認登入設定'));assert.ok(!html.includes('/api/auth/'));
- console.log('STATIC HTTP CHECK PASS',JSON.stringify({routes:results,questions:bank.questions.length,downloadAndImageLinks:assets.size}));
+ console.log('STATIC HTTP CHECK PASS',JSON.stringify({routes:results,questions:bank.questions.length,officialSourceLinks:bank.exams.length}));
 }finally{server.kill('SIGTERM');}
