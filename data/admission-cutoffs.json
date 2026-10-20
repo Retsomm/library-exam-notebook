@@ -1,0 +1,98 @@
+{
+  "exam": "公務人員初等考試",
+  "category": "圖書資訊管理",
+  "verifiedAt": "2026-10-20",
+  "note": "錄取標準為當年度總成績（四科平均），不是單科及格線；歷史標準不保證未來錄取。112年未開設本類科。",
+  "years": [
+    {
+      "year": 115,
+      "cutoff": 70.8,
+      "applicants": 478,
+      "attended": 366,
+      "admitted": 20,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=3503",
+      "dataset": "https://data.gov.tw/dataset/177524",
+      "sourceSha256": "f3cd5eed241b16a176754ac040f1078ccf15fd8ffa8fa7752d70c4fb0e6767d6"
+    },
+    {
+      "year": 114,
+      "cutoff": 70.4,
+      "applicants": 472,
+      "attended": 360,
+      "admitted": 19,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=3404",
+      "dataset": "https://data.gov.tw/dataset/173187",
+      "sourceSha256": "a1cfd74bb48c0e68e7febaa68d54e88d03779716a35b0e065caca9a1508f6984"
+    },
+    {
+      "year": 113,
+      "cutoff": 76.3,
+      "applicants": 473,
+      "attended": 344,
+      "admitted": 15,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=2301",
+      "dataset": "https://data.gov.tw/dataset/167917",
+      "sourceSha256": "e3de8dc8492dbd2accd39a0477aaef3380014a437a6c6c08b1c8d88f21ddc0cb"
+    },
+    {
+      "year": 111,
+      "cutoff": 82.3,
+      "applicants": 836,
+      "attended": 619,
+      "admitted": 12,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=2090",
+      "dataset": "https://data.gov.tw/dataset/165116",
+      "sourceSha256": "3a543acefab25c80e4178c01192cfdbb4515c2ad63e4fb024aed0df3c64a39c0"
+    },
+    {
+      "year": 110,
+      "cutoff": 80.3,
+      "applicants": 903,
+      "attended": 659,
+      "admitted": 14,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=1992",
+      "dataset": "https://data.gov.tw/dataset/165170",
+      "sourceSha256": "155dc25e3d8166d7c41d6f63376fa15654ca4ef0f1447ed255d7c9fe4fc7c597"
+    },
+    {
+      "year": 109,
+      "cutoff": 80.3,
+      "applicants": 790,
+      "attended": 598,
+      "admitted": 14,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=1893",
+      "dataset": "https://data.gov.tw/dataset/165347",
+      "sourceSha256": "bf4672fb272dccf7e71bae4fca79fcea6755a2d2123aba4df27b7af045d394ac"
+    },
+    {
+      "year": 108,
+      "cutoff": 84.5,
+      "applicants": 720,
+      "attended": 549,
+      "admitted": 7,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=1799",
+      "dataset": "https://data.gov.tw/dataset/165837",
+      "sourceSha256": "ffc958e11b030b66d02a487c89e0c7b4c138cc6e77d4138deed79e2751b86327"
+    },
+    {
+      "year": 107,
+      "cutoff": 83.45,
+      "applicants": 942,
+      "attended": 701,
+      "admitted": 14,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=85",
+      "dataset": "https://data.gov.tw/dataset/165875",
+      "sourceSha256": "660501b907d36c7ebb0581912d8edb2c8aef1c7d37ae7801a41496afe0ded5fc"
+    },
+    {
+      "year": 106,
+      "cutoff": 81.6,
+      "applicants": 855,
+      "attended": 631,
+      "admitted": 14,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=171",
+      "dataset": "https://data.gov.tw/dataset/165906",
+      "sourceSha256": "449844c98bf1aa7a0e02cab938df74c1b417d71385b201b88e48e879c0954ff7"
+    }
+  ]
+}

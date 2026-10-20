@@ -1,0 +1,9 @@
+import type {Question,StudySession,Exam,Bank,StudyRecord} from './types';
+export type Score={score:number;max:number;answered:number;total:number;fullCredit:number;partialCredit:number;unanswered:number};
+export const scoringSources:{multiple:string;allocation:string;average:string};
+export function questionPoints(question:Question):number;
+export function questionScore(question:Question,selected?:string[]):number;
+export function scoreQuestions(questions:Question[],answers:Record<string,string[]>):Score;
+export function sessionScore(session:StudySession,questions:Map<string,Question>,exams:Exam[]):Score&{fullPaper:boolean;exam:Exam|null};
+export function yearScores(bank:Bank,records:Record<string,StudyRecord>,year:number):{papers:(Score&{exam:Exam;complete:boolean})[];complete:boolean;average:number|null};
+export function formatScore(value:number):string;
