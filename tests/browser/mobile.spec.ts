@@ -9,7 +9,8 @@ test('mobile practice, wrong answers, bookmarks and readable text',async({page})
   await page.locator('.answer-list .option').first().click();
   await page.getByRole('button',{name:'確認答案',exact:true}).click();
   await expect(page.getByRole('status')).toContainText('錯題本');
-  await page.getByRole('button',{name:'錯題本',exact:false}).first().click();
+  await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:/^收藏與錯題/}).click();
+  await page.getByRole('tab',{name:/錯題本/}).click();
   await expect(page.locator('.question-row')).toHaveCount(1);
   await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:/^收藏/}).click();
   await page.getByRole('tab',{name:/收藏題目/}).click();

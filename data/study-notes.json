@@ -1,0 +1,1900 @@
+{
+  "updatedAt": "2026-10-20",
+  "scope": "106–115 年已收錄試題（112 年未開缺）",
+  "notes": [
+    {
+      "id": "zh-address",
+      "subjectIndex": 0,
+      "group": "應用文",
+      "title": "提稱語：先看對象，再選敬語",
+      "lead": "把信想成面對面說話：老師、長官、父母與朋友，稱呼不能互換。",
+      "points": [
+        {
+          "term": "師長",
+          "detail": "函丈、道鑒、講席，都是尊師的用語。函丈不要配在「賢弟」後面。"
+        },
+        {
+          "term": "長官",
+          "detail": "鈞鑒、勛鑒，適用於對長官的敬稱。看到科長、局長等職銜，先判斷是否為上司。"
+        },
+        {
+          "term": "父母尊親",
+          "detail": "膝下、膝前是對父母常見的提稱語；不要把平輩朋友的語氣搬過來。"
+        },
+        {
+          "term": "平輩",
+          "detail": "大鑒、台鑒可用於平輩；如晤帶有如同見面的親切意味。"
+        }
+      ],
+      "example": "「智賢科長鈞鑒」：科長是長官，鈞鑒與身分相配。「進公吾師大鑒」則沒有配合師長身分。",
+      "trap": "別只看哪個詞感覺最尊敬；考的是「稱謂＋提稱語」整組是否合適。",
+      "recall": "「吾師函丈」與「賢弟函丈」，哪一個合適？",
+      "answer": "吾師函丈。函丈尊師，不能因為字面典雅就拿來稱弟弟。",
+      "questionIds": [
+        "106-0-7",
+        "110-0-7",
+        "106-0-38"
+      ],
+      "sources": []
+    },
+    {
+      "id": "zh-family",
+      "subjectIndex": 0,
+      "group": "應用文",
+      "title": "家、舍、令、先：親屬稱謂四格記",
+      "lead": "先問「誰的家人」，再問「長幼、是否已故」，就不容易混淆。",
+      "points": [
+        {
+          "term": "家",
+          "detail": "對外謙稱自己在世的長輩或年長同輩，例如家父、家母、家兄、家姊。"
+        },
+        {
+          "term": "舍",
+          "detail": "謙稱自己的年幼同輩，例如舍弟、舍妹。"
+        },
+        {
+          "term": "令",
+          "detail": "尊稱對方的親屬，例如令尊、令堂、令兄；不是稱自己的父親。"
+        },
+        {
+          "term": "先",
+          "detail": "稱自己已故的尊親，例如先父、先母；「家父」本身不表示已故。"
+        }
+      ],
+      "example": "向朋友介紹自己的弟弟說「舍弟」；問候朋友的父親說「令尊」。",
+      "trap": "信封上的「啟」是請收信者開啟；不要把自己寫信時的「敬啟」直接當成對方開信的敬語。",
+      "recall": "「令尊」是我的父親還是你的父親？",
+      "answer": "是對方的父親。先固定說話者視角，再判斷稱呼。",
+      "questionIds": [
+        "110-0-5",
+        "106-0-38",
+        "110-0-7"
+      ],
+      "sources": []
+    },
+    {
+      "id": "zh-official-address",
+      "subjectIndex": 0,
+      "group": "應用文",
+      "title": "公文稱謂：鈞、貴、本、臺端",
+      "lead": "公文先辨認發文者與受文者的關係，不是官位高就一律用同一個字。",
+      "points": [
+        {
+          "term": "鈞",
+          "detail": "有隸屬關係，下級對上級使用，例如學校行文所屬主管機關。"
+        },
+        {
+          "term": "貴",
+          "detail": "上級對下級，或平行機關間的尊稱；不能據此推論對方一定是上司。"
+        },
+        {
+          "term": "本",
+          "detail": "機關自稱，例如本校、本局。自己不能自稱鈞部。"
+        },
+        {
+          "term": "臺端",
+          "detail": "機關對人民或首長對屬員等情境的稱呼，不能把機關首長一律稱臺端。"
+        }
+      ],
+      "example": "大學發函校友，可以自稱本校、稱對方臺端；「鈞部」不是發文機關自己的自稱。",
+      "trap": "還要核對單位全銜：教育局是「局」，不能因為屬於市政府就直接把它稱「府」。無隸屬的上級稱謂另依手冊，不要套用鈞。",
+      "recall": "「貴校」能證明發文者是學校的下級嗎？",
+      "answer": "不能。貴可出現在上對下或平行行文，須結合機關關係判斷。",
+      "questionIds": [
+        "111-0-34",
+        "110-0-33",
+        "110-0-34",
+        "107-0-34"
+      ],
+      "sources": []
+    },
+    {
+      "id": "zh-official-types",
+      "subjectIndex": 0,
+      "group": "應用文",
+      "title": "簽、函、公告：看事情往哪裡送",
+      "lead": "先區分內部陳核、對外往來、對外周知，再選公文種類。",
+      "points": [
+        {
+          "term": "簽",
+          "detail": "內部向上級陳述意見、請示或建議，例如職員陳請首長核准。"
+        },
+        {
+          "term": "函",
+          "detail": "機關間往復、與人民間的申請答復等常見正式行文。"
+        },
+        {
+          "term": "公告",
+          "detail": "就主管業務，向公眾或特定對象宣布周知。"
+        },
+        {
+          "term": "主旨與說明",
+          "detail": "主旨抓目的與期望，應簡明扼要；說明交代依據、經過與理由，不是重複主旨。"
+        }
+      ],
+      "example": "基金會請各單位推薦人選，重點是正式往來，選函；宣布應徵兵對象周知，則判斷公告。",
+      "trap": "「公開」不等於所有文件都用公告；內部請示也不是寄給自己的函。",
+      "recall": "職員要陳請首長同意留職停薪，首先想到哪一種？",
+      "answer": "簽，屬於內部陳核；仍應依題目具體情境辨別。",
+      "questionIds": [
+        "111-0-33",
+        "110-0-35",
+        "109-0-33",
+        "109-0-34",
+        "109-0-35"
+      ],
+      "sources": []
+    },
+    {
+      "id": "zh-congratulations",
+      "subjectIndex": 0,
+      "group": "應用文",
+      "title": "題辭：先分喜慶、喪輓，再看場合",
+      "lead": "題辭不必全部硬背。先建立幾個情境抽屜，把常見詞放回正確抽屜。",
+      "points": [
+        {
+          "term": "婚嫁與新居",
+          "detail": "鸞鳳和鳴、花開並蒂常賀婚；美輪美奐、華堂集瑞常賀新居。宜室宜家偏婚嫁。"
+        },
+        {
+          "term": "醫療與教育",
+          "detail": "功同良相、杏林春暖指醫療；杏壇指教育，差一字就換了對象。"
+        },
+        {
+          "term": "歌唱與演說",
+          "detail": "繞樑、遏雲等意象指歌聲美妙；妙語如珠著重言語精彩。"
+        },
+        {
+          "term": "榮升與喪輓",
+          "detail": "肩鴻任鉅可賀榮任；道範長存、福壽全歸帶喪輓意味，不能拿來賀生日。"
+        }
+      ],
+      "example": "看到「醫師開業」先找杏林或良相；看到杏壇，應想到老師與教育。",
+      "trap": "不要看到「壽」就判為賀壽，也不要看到「家室」就判為喬遷，先讀整個詞的慣用場合。",
+      "recall": "「功同良相」最適合送給新開業的哪一類專業人士？",
+      "answer": "醫師。借良相造福眾人的意象稱讚醫療濟世。",
+      "questionIds": [
+        "113-0-2",
+        "113-0-36",
+        "114-0-37",
+        "108-0-5",
+        "109-0-6",
+        "110-0-36"
+      ],
+      "sources": []
+    },
+    {
+      "id": "zh-idioms",
+      "subjectIndex": 0,
+      "group": "語意辨析",
+      "title": "成語不要只看字面：用三個問題篩選",
+      "lead": "先把句子換成白話，再問：意思相符嗎？對象適合嗎？褒貶語氣一致嗎？",
+      "points": [
+        {
+          "term": "意思",
+          "detail": "「不刊之論」不是不能刊登，而是不可更改、精當的言論；遇到古義先別照現代字面猜。"
+        },
+        {
+          "term": "對象",
+          "detail": "「相敬如賓」通常用於夫妻；「美輪美奐」傳統上稱建築高大華美，不能遇到漂亮就隨意套用。"
+        },
+        {
+          "term": "褒貶",
+          "detail": "「處心積慮」通常帶貶義；稱讚用心籌畫時，須留意語氣是否衝突。"
+        },
+        {
+          "term": "近義辨別",
+          "detail": "墨守成規、故步自封都可能指不求改變；仍須讓整句語意與前後因果接得起來。"
+        }
+      ],
+      "example": "題幹說領導者應學新知，否則遭淘汰，空格就應找「停滯、不求改變」的成語。",
+      "trap": "多選題不能只找「最貼切的一個」。每個選項分別檢查，符合的都要選。",
+      "recall": "判斷成語時，除了意思之外還要看哪兩件事？",
+      "answer": "使用對象與褒貶語氣。字典意思相近不代表放進這個句子就合適。",
+      "questionIds": [
+        "115-0-1",
+        "115-0-3",
+        "115-0-36",
+        "115-0-37",
+        "114-0-1"
+      ],
+      "sources": []
+    },
+    {
+      "id": "zh-reading",
+      "subjectIndex": 0,
+      "group": "閱讀方法",
+      "title": "文言與白話：用「誰、做什麼、為什麼」抓主旨",
+      "lead": "文言文不必每字翻完才答題。先抓人物、動作、轉折與結果，再回原文找證據。",
+      "points": [
+        {
+          "term": "省略的主語",
+          "detail": "同段可能省略人名，先確認動作由誰做，別把敵方行動算到主角身上。"
+        },
+        {
+          "term": "轉折與因果",
+          "detail": "但、然、而、故、因此等詞能提示方向；「而」不一定都表示轉折，須看上下文。"
+        },
+        {
+          "term": "引例與主旨",
+          "detail": "故事、數字是證據；問主旨時，要找到它們共同支持的觀點，不只重述一個例子。"
+        },
+        {
+          "term": "限定語",
+          "detail": "可能、有時、部分不等於一定、永遠、全部。選項若把範圍放大，通常需要額外證據。"
+        }
+      ],
+      "example": "114 年攻城故事：西南鳴鼓吸引敵人，主力趁虛攻東北。先重建兩個方向的行動，就能辨認戰術。",
+      "trap": "不要因為選項符合生活常識就選；閱讀題首先問文章有沒有支持它。",
+      "recall": "文章只說「可能有影響」，可推成「必然造成」嗎？",
+      "answer": "不可以。可能性被換成必然性，是常見的過度推論。",
+      "questionIds": [
+        "114-0-13",
+        "114-0-18",
+        "115-0-16",
+        "115-0-45"
+      ],
+      "sources": []
+    },
+    {
+      "id": "zh-redundancy",
+      "subjectIndex": 0,
+      "group": "語意辨析",
+      "title": "語句精簡：同一意思不要說兩次",
+      "lead": "刪掉重複意思後，若訊息完整而且更清楚，就值得檢查原句是否冗贅。",
+      "points": [
+        {
+          "term": "語意重複",
+          "detail": "例如「親眼目睹」的目睹已含親眼看見；題目考精簡時須注意這種疊加。"
+        },
+        {
+          "term": "時間重複",
+          "detail": "例如「目前的現況」把現在的意思說了兩次，可簡化為目前情況或現況。"
+        },
+        {
+          "term": "否定方向",
+          "detail": "先圈出避免、防止、不要等詞，再看後面是否又加否定，導致意思反轉。"
+        }
+      ],
+      "example": "自行比較「請避免再次重複犯錯」與「請避免再犯同樣的錯」，後者目的更清楚。",
+      "trap": "強調語氣不必然是病句；仍依題目要求與整句判斷，不要機械地看到相近字就刪。",
+      "recall": "判斷冗贅最實用的檢查方法是什麼？",
+      "answer": "試著刪一部分，看看重要意思是否仍完整。",
+      "questionIds": [
+        "114-0-6"
+      ],
+      "sources": []
+    },
+    {
+      "id": "civ-opportunity",
+      "subjectIndex": 1,
+      "group": "公民・經濟",
+      "title": "機會成本與比較利益：看放棄多少",
+      "lead": "選一件事，就失去做另一件事的機會。比較利益比的是機會成本，不是誰做得最多。",
+      "points": [
+        {
+          "term": "機會成本",
+          "detail": "選擇後放棄的最佳替代方案價值，不是所有沒選的方案加總。"
+        },
+        {
+          "term": "比較利益",
+          "detail": "某產品的機會成本較低，才在該產品上有比較利益。"
+        },
+        {
+          "term": "絕對利益",
+          "detail": "同樣資源能做出更多產品，或同量產品用更少資源。與比較利益是不同問題。"
+        }
+      ],
+      "example": "甲每小時可做 6 件衣服或 3 條褲子，做 1 條褲子放棄 2 件衣服；乙可做 4 件或 4 條，做 1 條放棄 1 件，乙在褲子上有比較利益。",
+      "trap": "單位別反過來：求一條褲子的成本，分母放褲子產量。",
+      "recall": "甲比乙兩種產品都做得快，是否代表甲兩種都有比較利益？",
+      "answer": "不代表。絕對產量較高仍須換算相對的機會成本。",
+      "questionIds": [
+        "115-1-3",
+        "114-1-2",
+        "114-1-4"
+      ],
+      "sources": [
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115010&c=507&s=0102&q=1#page=1"
+        },
+        {
+          "title": "考選部：本卷標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115010&c=507&s=0102&q=1"
+        },
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114010&c=508&s=0102&q=1#page=1"
+        }
+      ]
+    },
+    {
+      "id": "civ-demand",
+      "subjectIndex": 1,
+      "group": "公民・經濟",
+      "title": "供需圖：先分曲線移動與點的移動",
+      "lead": "先問變的是這項商品本身的價格，還是價格以外的條件。",
+      "points": [
+        {
+          "term": "價格本身改變",
+          "detail": "其他條件不變時，是同一條曲線上的點移動，稱需求量或供給量變動。"
+        },
+        {
+          "term": "技術進步",
+          "detail": "生產成本下降，通常使供給增加，供給曲線向右移。"
+        },
+        {
+          "term": "收入與替代品",
+          "detail": "需求是否增加要看正常財、劣等財及替代互補關係，不是收入增加就所有需求都增。"
+        }
+      ],
+      "example": "工廠技術改良讓成本下降，在需求不變下，通常均衡價格下降、均衡數量增加。",
+      "trap": "題目改了兩個條件時，不能只看其中一條曲線就武斷判斷價格與數量。",
+      "recall": "商品自身漲價，需求曲線一定向左移嗎？",
+      "answer": "不是。其他條件不變，通常是需求量沿原曲線下降。",
+      "questionIds": [
+        "115-1-4",
+        "113-1-4",
+        "111-1-22"
+      ],
+      "sources": [
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115010&c=507&s=0102&q=1#page=1"
+        },
+        {
+          "title": "考選部：本卷標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115010&c=507&s=0102&q=1"
+        },
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113010&c=505&s=0102&q=1#page=1"
+        }
+      ]
+    },
+    {
+      "id": "civ-market",
+      "subjectIndex": 1,
+      "group": "公民・經濟",
+      "title": "外部性與公共財：成本是否由當事人負擔",
+      "lead": "市場交易的影響若落到交易以外的人身上，就是理解外部性的起點。",
+      "points": [
+        {
+          "term": "負外部性",
+          "detail": "例如工廠污染，旁人承擔未計入價格的損害；私人決策可能造成過度生產。"
+        },
+        {
+          "term": "正外部性",
+          "detail": "例如某活動讓旁人也受益，私人誘因可能不足，市場供給偏少。"
+        },
+        {
+          "term": "公共財",
+          "detail": "純公共財同時具非排他性與非敵對性，容易出現搭便車。政府提供不代表必然是純公共財。"
+        }
+      ],
+      "example": "污染稅試圖讓生產者把外部成本納入決策；但是否合宜仍須看政策條件與執行效果。",
+      "trap": "「公園免費」不等於永遠不擁擠；擁擠後可能有敵對性，須依題目條件判斷。",
+      "recall": "工廠污染讓下游居民受損，是哪一種外部性？",
+      "answer": "負外部性，損害由交易外的第三人承擔。",
+      "questionIds": [
+        "115-1-1",
+        "114-1-14",
+        "108-1-28",
+        "107-1-32"
+      ],
+      "sources": [
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115010&c=507&s=0102&q=1#page=1"
+        },
+        {
+          "title": "考選部：本卷標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115010&c=507&s=0102&q=1"
+        },
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114010&c=508&s=0102&q=1#page=2"
+        }
+      ]
+    },
+    {
+      "id": "civ-society",
+      "subjectIndex": 1,
+      "group": "公民・社會",
+      "title": "社會化與自我：從他人反應看自己",
+      "lead": "先辨認題目是在談規範如何學會、身分如何改變，還是自我如何形成。",
+      "points": [
+        {
+          "term": "社會化",
+          "detail": "學習社會規範、價值與角色的過程，家庭、學校、同儕與媒體都可能參與。"
+        },
+        {
+          "term": "鏡中自我",
+          "detail": "顧里強調我們想像別人如何看自己、如何評價，再形成自我感受。"
+        },
+        {
+          "term": "角色衝突",
+          "detail": "同時扮演不同角色的期待互相衝突；不是只要生活忙就一定屬於角色衝突。"
+        },
+        {
+          "term": "社會流動",
+          "detail": "社會位置改變；代間看父母與子女比較，代內看同一人生命歷程。"
+        }
+      ],
+      "example": "講師收到好評後覺得自己很擅長教學，可從他人反應如何形塑自我來理解。",
+      "trap": "社會化並非只有兒童會發生；換工作、移居或進入新團體都可能繼續學習。",
+      "recall": "比較你與父母的社會位置，屬於代內還是代間？",
+      "answer": "代間；同一人從青年到中年的改變才是代內。",
+      "questionIds": [
+        "115-1-6",
+        "115-1-10",
+        "111-1-23",
+        "109-1-9"
+      ],
+      "sources": [
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115010&c=507&s=0102&q=1#page=1"
+        },
+        {
+          "title": "考選部：本卷標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115010&c=507&s=0102&q=1"
+        },
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115010&c=507&s=0102&q=1#page=2"
+        }
+      ]
+    },
+    {
+      "id": "civ-culture",
+      "subjectIndex": 1,
+      "group": "公民・社會",
+      "title": "文化與公民參與：尊重差異，也要看權力",
+      "lead": "遇到文化差異時，先分清楚「理解」與「用自己的標準評價」。",
+      "points": [
+        {
+          "term": "文化相對觀點",
+          "detail": "先放回當地脈絡理解習俗，不急著用自己的文化作唯一標準。"
+        },
+        {
+          "term": "我族中心",
+          "detail": "把自己群體的習慣視為理所當然的優越標準。"
+        },
+        {
+          "term": "公民參與",
+          "detail": "不只投票，也包括公共討論、倡議、陳情及監督；需有資訊取得與表意空間。"
+        },
+        {
+          "term": "環境正義",
+          "detail": "注意污染風險與利益是否公平分配，以及受影響群體能否參與決策。"
+        }
+      ],
+      "example": "一地承擔污染、另一地享受利益時，不只問總產值增加多少，也要問誰承受代價。",
+      "trap": "尊重文化不是免除所有人權討論；多數決也不代表可以無限犧牲少數。",
+      "recall": "參與公共事務只有投票一種方式嗎？",
+      "answer": "不是。資訊公開、審議、倡議與監督都是重要途徑。",
+      "questionIds": [
+        "115-1-5",
+        "115-1-9",
+        "114-1-7",
+        "114-1-8"
+      ],
+      "sources": [
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115010&c=507&s=0102&q=1#page=1"
+        },
+        {
+          "title": "考選部：本卷標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115010&c=507&s=0102&q=1"
+        },
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114010&c=508&s=0102&q=1#page=1"
+        }
+      ]
+    },
+    {
+      "id": "civ-government",
+      "subjectIndex": 1,
+      "group": "公民・政治",
+      "title": "政府體制：抓行政與國會的關係",
+      "lead": "不要只用元首是否民選判斷政體。更關鍵的是行政首長如何產生、對誰負責。",
+      "points": [
+        {
+          "term": "內閣制",
+          "detail": "內閣依國會支持而存在，政治責任與信任關係是辨識重點。"
+        },
+        {
+          "term": "總統制",
+          "detail": "總統與國會有各自的民主正當性，行政不以維持國會信任作為存續條件。"
+        },
+        {
+          "term": "雙首長制",
+          "detail": "同時有總統與總理，行政權分配及對國會的責任須依制度具體判斷。"
+        },
+        {
+          "term": "聯合內閣",
+          "detail": "多黨合作組成內閣，可擴大代表與支持基礎，但協商成本也可能提高。"
+        }
+      ],
+      "example": "題目同時出現民選元首、閣揆、倒閣時，先逐條整理權力，不能只看到民選就選總統制。",
+      "trap": "我國考題與假想甲國的制度可能不同，別把臺灣所有規則直接套上去。",
+      "recall": "辨認內閣制最值得先看的關係是什麼？",
+      "answer": "內閣與國會的信任及政治責任關係。",
+      "questionIds": [
+        "115-1-15",
+        "115-1-16",
+        "114-1-17",
+        "113-1-23"
+      ],
+      "sources": [
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115010&c=507&s=0102&q=1#page=2"
+        },
+        {
+          "title": "考選部：本卷標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115010&c=507&s=0102&q=1"
+        },
+        {
+          "title": "韓國法制處：韓國憲法第 63 條",
+          "url": "https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=61603"
+        }
+      ]
+    },
+    {
+      "id": "civ-election",
+      "subjectIndex": 1,
+      "group": "公民・政治",
+      "title": "選舉制度：票、席次、門檻分開算",
+      "lead": "同樣叫兩票制，席次換算方式可能不同。先辨認每張票在選什麼。",
+      "points": [
+        {
+          "term": "單一選區",
+          "detail": "在一個選區選出一席，通常較容易讓大黨取得席次，但要看具體規則。"
+        },
+        {
+          "term": "比例代表",
+          "detail": "依政黨票換算席次，常須先排除未達門檻者，再依有效分配基礎計算。"
+        },
+        {
+          "term": "並立制",
+          "detail": "區域席次與比例代表席次分開計算；不能當成補償型聯立制。"
+        }
+      ],
+      "example": "如果表中比例代表席次已知，要找區域選區數，可先用總席次減比例代表及其他類別席次。",
+      "trap": "得票率不是議席率；法律門檻、選區與分配公式都可能讓兩者不同。",
+      "recall": "並立制的比例代表席次一定拿來補足政黨總席次比例嗎？",
+      "answer": "不一定；並立制是分開計算，不能直接套用聯立制的補償概念。",
+      "questionIds": [
+        "115-1-11",
+        "115-1-12"
+      ],
+      "sources": [
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115010&c=507&s=0102&q=1#page=2"
+        },
+        {
+          "title": "考選部：本卷標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115010&c=507&s=0102&q=1"
+        },
+        {
+          "title": "全國法規資料庫：中華民國憲法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+        }
+      ]
+    },
+    {
+      "id": "civ-rights",
+      "subjectIndex": 1,
+      "group": "公民・法律",
+      "title": "基本權與比例原則：權利受限制時怎麼看",
+      "lead": "先辨認保護哪一種自由，再檢查國家限制的目的、手段與負擔。",
+      "points": [
+        {
+          "term": "適當性",
+          "detail": "採取的手段是否有助於達成目的。"
+        },
+        {
+          "term": "必要性",
+          "detail": "同樣有效的手段中，是否有侵害較小的選擇。"
+        },
+        {
+          "term": "狹義比例",
+          "detail": "造成的權利損害，與追求的公共利益是否失衡。"
+        },
+        {
+          "term": "平等權",
+          "detail": "不是所有情況一律相同處理；差別待遇須有可被檢驗的正當理由。"
+        }
+      ],
+      "example": "海關用 AI 辨識身分，除了效率，也須檢視資訊隱私與是否造成不合理差別待遇。",
+      "trap": "「有公益目的」只是起點，不能直接跳到所有限制都合法。",
+      "recall": "手段有效，就一定符合比例原則嗎？",
+      "answer": "不一定。還要檢查較小侵害的替代手段，以及利益與損害是否失衡。",
+      "questionIds": [
+        "110-1-1",
+        "106-1-15",
+        "115-1-13",
+        "115-1-29",
+        "115-1-35"
+      ],
+      "sources": [
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110010&c=505&s=0102&q=1#page=1"
+        },
+        {
+          "title": "考選部：本卷標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110010&c=505&s=0102&q=1"
+        },
+        {
+          "title": "全國法規資料庫：中華民國憲法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+        }
+      ]
+    },
+    {
+      "id": "civ-liability",
+      "subjectIndex": 1,
+      "group": "公民・法律",
+      "title": "民事、刑事、行政：先分責任種類",
+      "lead": "同一事件可能同時有不同責任。名稱相似的金錢給付，也可能完全不同。",
+      "points": [
+        {
+          "term": "民事",
+          "detail": "重點常是私人間的權利義務與損害賠償。"
+        },
+        {
+          "term": "刑事",
+          "detail": "國家對犯罪追訴處罰；罰金是刑罰的一種。"
+        },
+        {
+          "term": "行政",
+          "detail": "行政機關依法作成處分或裁罰；罰鍰與刑事罰金不同。"
+        },
+        {
+          "term": "補償與賠償",
+          "detail": "合法公權力造成特別犧牲常涉及補償；違法侵害與損害賠償要件則另行判斷。"
+        }
+      ],
+      "example": "政府依法徵收土地給予補償，不能只因地主有損失就一律稱國家賠償。",
+      "trap": "行政救濟是否先經訴願，要看訴訟類型與法定例外，不可背成所有案件都先訴願。",
+      "recall": "交通違規被行政機關處罰鍰，就等於有刑事罰金嗎？",
+      "answer": "不是。兩者性質、程序不同，須依法律與裁罰機關辨認。",
+      "questionIds": [
+        "115-1-24",
+        "115-1-30",
+        "115-1-34"
+      ],
+      "sources": [
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115010&c=507&s=0102&q=1#page=3"
+        },
+        {
+          "title": "考選部：本卷標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115010&c=507&s=0102&q=1"
+        },
+        {
+          "title": "全國法規資料庫：中華民國憲法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+        }
+      ]
+    },
+    {
+      "id": "en-sentence",
+      "subjectIndex": 1,
+      "group": "英文・解題",
+      "title": "英文填空：先辨詞性，再讀搭配",
+      "lead": "空格前後通常已經提供線索。先看句型需要什麼，再從選項挑意思。",
+      "points": [
+        {
+          "term": "冠詞與名詞",
+          "detail": "the、a、an 後常接名詞片語，形容詞可放在名詞前，不要看到 the 就假定下一字必為名詞。"
+        },
+        {
+          "term": "介系詞後",
+          "detail": "後面可接名詞、代名詞或動名詞；例如 fear of facing failures。"
+        },
+        {
+          "term": "主詞與動詞",
+          "detail": "先找主詞與主要動詞，留意時態、單複數及被動語態。"
+        },
+        {
+          "term": "固定搭配",
+          "detail": "gain weight 是增加體重；due to 後接名詞片語表示原因。"
+        }
+      ],
+      "example": "The fear of facing failures costs Tom opportunities. 核心是 fear costs；of facing failures 修飾 fear。",
+      "trap": "選項每個都認識也可能選錯，因為搭配與句法比逐字翻譯更重要。",
+      "recall": "of 後面要用 face 還是 facing？",
+      "answer": "在 fear of facing failures 這個結構中用 facing，作動名詞。",
+      "questionIds": [
+        "115-1-36",
+        "115-1-40",
+        "115-1-45"
+      ],
+      "sources": [
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115010&c=507&s=0102&q=1#page=4"
+        },
+        {
+          "title": "考選部：本卷標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115010&c=507&s=0102&q=1"
+        }
+      ]
+    },
+    {
+      "id": "en-reading",
+      "subjectIndex": 1,
+      "group": "英文・解題",
+      "title": "閱讀題：主旨、細節、字義各有找法",
+      "lead": "先看題目問哪一種，再決定讀整段還是回到特定句子。",
+      "points": [
+        {
+          "term": "主旨 main idea",
+          "detail": "找各段共同圍繞的主題，排除只講單一細節或範圍過大的選項。"
+        },
+        {
+          "term": "細節 according to",
+          "detail": "回原文定位，核對人物、時間、否定與程度詞；不能靠生活常識補答案。"
+        },
+        {
+          "term": "推論 infer",
+          "detail": "從已知資訊作最少必要推論，不替作者增加未說的結論。"
+        },
+        {
+          "term": "字義 in context",
+          "detail": "把候選意思放回原句，看前後邏輯與詞性；熟字可能有不同意思。"
+        }
+      ],
+      "example": "文章討論延長壽命的研究時，問主旨不能只挑某一種技術；問 initiate 的字義則回到該詞所在句。",
+      "trap": "may、can 不等於 must；some 不等於 all。選項常利用這些小字偷換強度。",
+      "recall": "字義題一定選自己最熟悉的第一個字典義嗎？",
+      "answer": "不一定。應選放回該句最合理的語境義。",
+      "questionIds": [
+        "115-1-46",
+        "115-1-47",
+        "115-1-48",
+        "115-1-50"
+      ],
+      "sources": [
+        {
+          "title": "考選部：本卷官方試題",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115010&c=507&s=0102&q=1#page=4"
+        },
+        {
+          "title": "考選部：本卷標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115010&c=507&s=0102&q=1"
+        }
+      ]
+    },
+    {
+      "id": "lib-mission",
+      "subjectIndex": 2,
+      "group": "基礎與倫理",
+      "title": "圖書館五律：用讀者的旅程記",
+      "lead": "從書被使用、讀者找到書，到節省時間與持續成長，五律是一套服務思考。",
+      "points": [
+        {
+          "term": "前兩律",
+          "detail": "圖書供使用；每位讀者有其書。從典藏走向讓不同讀者獲得所需資源。"
+        },
+        {
+          "term": "第三、四律",
+          "detail": "每本書有其讀者；節省讀者時間。揭示與檢索、動線與服務都相關。"
+        },
+        {
+          "term": "第五律",
+          "detail": "圖書館是成長的有機體。館藏、讀者、服務與空間都會變動。"
+        }
+      ],
+      "example": "改善目錄讓讀者更快找到書，很適合用第四律理解；無障礙服務也呼應每位讀者有其書。",
+      "trap": "服務措施可能呼應不只一律；考題問最直接對應時，抓它強調的核心。",
+      "recall": "「節省讀者時間」是第幾律？",
+      "answer": "第四律。不要與最小努力原則這個資訊行為概念混為同一個名稱。",
+      "questionIds": [
+        "106-2-4",
+        "114-2-40",
+        "107-2-22"
+      ],
+      "sources": [
+        {
+          "title": "Crawford 與 Gorman：Future Libraries 作者原文節選",
+          "url": "https://www.ala.org/aboutala/offices/publishing/editions/samplers/futurelibraries"
+        },
+        {
+          "title": "教育部教育百科：最小努力原則（陳啟亮）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%9C%80%E5%B0%8F%E5%8A%AA%E5%8A%9B%E5%8E%9F%E5%89%87"
+        },
+        {
+          "title": "John V. Richardson：Samuel S. Green 圖書館史研究",
+          "url": "https://pages.gseis.ucla.edu/faculty/richardson/dis245/SSGREEN.htm"
+        }
+      ]
+    },
+    {
+      "id": "lib-ethics",
+      "subjectIndex": 2,
+      "group": "基礎與倫理",
+      "title": "思想自由與 PAPA：服務不只提供資料",
+      "lead": "館員除了幫人找到資訊，也要思考資訊如何被選擇、使用與保護。",
+      "points": [
+        {
+          "term": "思想自由",
+          "detail": "館藏不應只因作者背景或觀點而排除；選擇仍須有服務需求與專業政策。"
+        },
+        {
+          "term": "Privacy／Accuracy",
+          "detail": "隱私：個資與借閱資訊如何保護；正確性：資訊是否可靠、錯誤由誰負責。"
+        },
+        {
+          "term": "Property／Accessibility",
+          "detail": "財產權：資訊權利與授權；可近用性：誰能取得資訊、有哪些障礙。"
+        }
+      ],
+      "example": "有人要求公開讀者借閱清單，先想到隱私；電子書授權範圍則涉及財產權與取得條件。",
+      "trap": "PAPA 的兩個 A 不相同：Accuracy 是正確性，Accessibility 是可近用性。",
+      "recall": "PAPA 中談資訊品質的是哪一個 A？",
+      "answer": "Accuracy；不是談取得障礙的 Accessibility。",
+      "questionIds": [
+        "115-2-1",
+        "115-2-21",
+        "114-2-15"
+      ],
+      "sources": [
+        {
+          "title": "ALA：Library Bill of Rights",
+          "url": "https://www.ala.org/advocacy/intfreedom/librarybill"
+        },
+        {
+          "title": "Richard O. Mason：Four Ethical Issues of the Information Age（原文重刊）",
+          "url": "https://www.gdrc.org/info-design/4-ethics.html"
+        }
+      ]
+    },
+    {
+      "id": "lib-collection",
+      "subjectIndex": 2,
+      "group": "館藏與保存",
+      "title": "館藏發展：從社區需求到持續評估",
+      "lead": "選書不是看到好書就買。先知道服務誰，再以政策讓選擇、採購與淘汰有一致依據。",
+      "points": [
+        {
+          "term": "需求與政策",
+          "detail": "了解社區或學校的使用者，訂館藏範圍、深度、語言、選擇與淘汰原則。"
+        },
+        {
+          "term": "選擇與採訪",
+          "detail": "選擇決定適合收什麼，採訪處理購買、交換、贈送等取得方式。"
+        },
+        {
+          "term": "評鑑與淘汰",
+          "detail": "看內容品質、使用情況、時效與保存價值，不把借閱量當唯一標準。"
+        },
+        {
+          "term": "捐贈",
+          "detail": "仍按政策評估，不能承諾來者全收或永不淘汰。"
+        }
+      ],
+      "example": "老舊醫療資訊可能有風險；地方史料即使使用較少，仍可能具有長期保存價值。",
+      "trap": "館藏發展是循環，不是一次採購完就結束；免費捐書也有處理與空間成本。",
+      "recall": "低借閱率是否足以直接判定一本書必須淘汰？",
+      "answer": "不夠。還要看內容價值、地方性、研究需求與保存使命。",
+      "questionIds": [
+        "114-2-30",
+        "114-2-31",
+        "115-2-30",
+        "115-2-31"
+      ],
+      "sources": [
+        {
+          "title": "IFLA／UNESCO：公共圖書館宣言",
+          "url": "https://www.ifla.org/public-library-manifesto/"
+        },
+        {
+          "title": "IFLA：Gifts for the Collections 2019",
+          "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/acquisition-collection-development/publications/gift_guide_2019_edition.pdf"
+        },
+        {
+          "title": "教育部：圖書館設立及營運標準",
+          "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001556&media=print"
+        }
+      ]
+    },
+    {
+      "id": "lib-reference",
+      "subjectIndex": 2,
+      "group": "讀者與服務",
+      "title": "參考服務：先釐清問題，才找工具",
+      "lead": "讀者第一句話未必是完整需求。訪談的目的是理解真正需要解決的事情。",
+      "points": [
+        {
+          "term": "問題類型",
+          "detail": "指引型問位置；事實型要簡短事實；研究型需較深入搜尋與綜合。"
+        },
+        {
+          "term": "開放與中立提問",
+          "detail": "讓讀者描述情境、需求與使用目的，避免把館員猜測塞進問題。"
+        },
+        {
+          "term": "直接與間接服務",
+          "detail": "直接面對讀者回答、指導；選擇參考資源、建立工具等支持工作屬間接面向。"
+        }
+      ],
+      "example": "讀者問「有沒有某國資料」，先問要旅遊、投資還是課堂報告，才能選對深度與工具。",
+      "trap": "不要一聽到關鍵字就丟一份搜尋結果；資訊太多也可能沒有回答問題。",
+      "recall": "「GATT 是什麼機構？」較接近哪一類參考問題？",
+      "answer": "事實型問題，可用可靠參考來源提供明確事實。",
+      "questionIds": [
+        "114-2-33",
+        "114-2-34",
+        "114-2-37",
+        "115-2-36"
+      ],
+      "sources": [
+        {
+          "title": "教育部教育百科：參考書（王錫章）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%8F%83%E8%80%83%E6%9B%B8"
+        },
+        {
+          "title": "Dervin 與 Dewdney：Neutral Questioning 原始論文",
+          "url": "https://www.jstor.org/stable/25827718"
+        }
+      ]
+    },
+    {
+      "id": "lib-needs",
+      "subjectIndex": 2,
+      "group": "讀者與服務",
+      "title": "資訊需求理論：先記學者在解釋什麼",
+      "lead": "把名字與一個畫面連在一起，比只背縮寫更容易辨認題目。",
+      "points": [
+        {
+          "term": "Belkin：ASK",
+          "detail": "覺得知識有缺口，甚至還說不清楚問題；檢索要理解這種不確定需求。"
+        },
+        {
+          "term": "Taylor：四層次",
+          "detail": "感受性 → 意識性 → 形式化 → 妥協性。從模糊感覺到整理成問題，再調整成向系統提出的查詢。"
+        },
+        {
+          "term": "Kuhlthau：搜尋歷程",
+          "detail": "關心搜尋過程的感受、想法與行動，不確定感可能隨階段改變。"
+        }
+      ],
+      "example": "「只可意會不可言傳」先想到 Taylor 的感受性需求；「知識非常態」則想到 Belkin。",
+      "trap": "最後交給檢索系統的字詞，不一定等於讀者心裡最原始、最完整的需求。",
+      "recall": "ASK 的提出者是 Taylor 嗎？",
+      "answer": "不是，是 Belkin；Taylor 的四層次是另一套需求分析。",
+      "questionIds": [
+        "115-2-3",
+        "115-2-32",
+        "106-2-30"
+      ],
+      "sources": [
+        {
+          "title": "Belkin、Oddy、Brooks：ASK for information retrieval 原始論文",
+          "url": "https://surface.syr.edu/istpub/150/"
+        },
+        {
+          "title": "Robert S. Taylor：Question-Negotiation and Information Seeking in Libraries",
+          "url": "https://crl.acrl.org/index.php/crl/article/view/16421/0"
+        }
+      ]
+    },
+    {
+      "id": "lib-retrieval",
+      "subjectIndex": 2,
+      "group": "檢索與科技",
+      "title": "布林檢索：同概念 OR，不同概念 AND",
+      "lead": "把研究題目拆成概念組，再放進各組的同義詞，搜尋式就有結構。",
+      "points": [
+        {
+          "term": "OR",
+          "detail": "合併同義或近義詞的集合，通常擴大結果。"
+        },
+        {
+          "term": "AND",
+          "detail": "取不同條件交集，通常縮小結果。"
+        },
+        {
+          "term": "NOT",
+          "detail": "排除含某條件的結果，但可能誤刪同時談兩者的相關文獻。"
+        },
+        {
+          "term": "區塊組合",
+          "detail": "每個概念組內用 OR，概念組之間用 AND；括號用來保護組合順序。"
+        }
+      ],
+      "example": "(父母 OR 家長) AND (學童 OR 小學生) AND (成績 OR 學習表現)。先拆人群與關係，再補同義詞。",
+      "trap": "擴大與縮小是以相同資料庫、相同檢索規則比較；不同系統的預設處理可能不同。",
+      "recall": "找更多同義詞結果，應優先加 AND 還是 OR？",
+      "answer": "OR；AND 要同時滿足，反而可能減少結果。",
+      "questionIds": [
+        "115-2-45",
+        "114-2-46"
+      ],
+      "sources": [
+        {
+          "title": "Manning、Raghavan、Schütze：Introduction to Information Retrieval",
+          "url": "https://nlp.stanford.edu/IR-book/"
+        },
+        {
+          "title": "Google Search：進階檢索說明",
+          "url": "https://support.google.com/websearch/answer/2466433"
+        }
+      ]
+    },
+    {
+      "id": "lib-evaluation",
+      "subjectIndex": 2,
+      "group": "管理與評鑑",
+      "title": "輸入、輸出、成果：不要把忙碌當成成效",
+      "lead": "評鑑先問量到哪一層：投入多少、做了多少、使用者改變多少。",
+      "points": [
+        {
+          "term": "輸入 input",
+          "detail": "經費、人力、設備與可用資源。"
+        },
+        {
+          "term": "輸出 output",
+          "detail": "服務次數、借閱量、活動場次等直接產出。"
+        },
+        {
+          "term": "成果 outcome",
+          "detail": "讀者知識、能力或行為的改變，例如學會可靠資訊查證。"
+        },
+        {
+          "term": "PDCA",
+          "detail": "Plan 計畫 → Do 執行 → Check 查核 → Act 改善，持續循環。"
+        }
+      ],
+      "example": "辦十場資訊素養課是輸出；學生真的能辨識不可靠來源，才是在看成果。",
+      "trap": "滿意度可以提供線索，但不能單靠高滿意就證明學習能力已提升。",
+      "recall": "新增兩位館員，是輸入、輸出還是成果？",
+      "answer": "輸入，是投入服務的人力資源。",
+      "questionIds": [
+        "115-2-14",
+        "115-2-15",
+        "108-2-10",
+        "106-2-20"
+      ],
+      "sources": [
+        {
+          "title": "教育部教育百科：圖書館評鑑（蔡明月）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%9C%96%E6%9B%B8%E9%A4%A8%E8%A9%95%E9%91%91"
+        },
+        {
+          "title": "ASQ：Plan-Do-Check-Act Cycle",
+          "url": "https://asq.org/quality-resources/pdca-cycle"
+        }
+      ]
+    },
+    {
+      "id": "lib-fte",
+      "subjectIndex": 2,
+      "group": "管理與評鑑",
+      "title": "FTE 全時當量：把工時換成同一單位",
+      "lead": "FTE 計算的是相當於多少名全職工作量，不是現場有幾個人。",
+      "points": [
+        {
+          "term": "基本公式",
+          "detail": "總計入工時 ÷ 一名全職標準工時；也可先分別換算每人當量再加總。"
+        },
+        {
+          "term": "兼職",
+          "detail": "若標準每週 40 小時，某人每週 20 小時就是 0.5 FTE。"
+        },
+        {
+          "term": "範圍",
+          "detail": "館員、工讀生、志工是否計入，以題幹指定與統計口徑為準。"
+        }
+      ],
+      "example": "4 名全職加 1 名半職，為 4.5 FTE；再有 2 名各每週 10 小時的人員，若全職40小時且題目要求計入，增加0.5 FTE。",
+      "trap": "先把每週、每月工時統一再相除，不可把不同期間直接相加。",
+      "recall": "兩位半職人員合計幾個 FTE？",
+      "answer": "1 FTE，前提是兩人都以相同的全職工時為基準。",
+      "questionIds": [
+        "115-2-19",
+        "106-2-18"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：圖書館統計 CNS 定義",
+          "url": "https://libstat.ncl.edu.tw/cnsDefinition/search"
+        },
+        {
+          "title": "CONCERT：全國學術電子資訊資源共享聯盟",
+          "url": "https://concert.stpi.niar.org.tw/"
+        }
+      ]
+    },
+    {
+      "id": "lib-openaccess",
+      "subjectIndex": 2,
+      "group": "館藏與保存",
+      "title": "開放取用與掠奪期刊：免費不等於沒品質",
+      "lead": "先分讀者能否取得、作者如何付費，以及期刊是否真正把關。",
+      "points": [
+        {
+          "term": "金色途徑",
+          "detail": "透過期刊出版開放取得文章；不代表所有金色期刊都向作者收費。"
+        },
+        {
+          "term": "綠色途徑",
+          "detail": "作者將允許的版本存入典藏庫，須注意版本、授權與可能的禁運期。"
+        },
+        {
+          "term": "混合型",
+          "detail": "訂閱型期刊讓部分文章選擇付費開放。"
+        },
+        {
+          "term": "掠奪型",
+          "detail": "以不實承諾或缺乏實質審查等方式牟利；不能只憑是否收費判斷。"
+        }
+      ],
+      "example": "某期刊平常需訂閱，作者付費後特定文章可免費讀，這個情境指向混合型。",
+      "trap": "開放閱讀不等於可以任意修改、重製或商用，仍要看授權。",
+      "recall": "收取文章處理費的期刊，一定是掠奪期刊嗎？",
+      "answer": "不是。要檢查審查、透明度、編輯資訊與出版實務。",
+      "questionIds": [
+        "115-2-5",
+        "115-2-26",
+        "115-2-41"
+      ],
+      "sources": [
+        {
+          "title": "Think. Check. Submit.：期刊投稿查核清單",
+          "url": "https://thinkchecksubmit.org/journals/"
+        },
+        {
+          "title": "Budapest Open Access Initiative：開放取用宣言",
+          "url": "https://www.budapestopenaccessinitiative.org/read/"
+        }
+      ]
+    },
+    {
+      "id": "lib-preservation",
+      "subjectIndex": 2,
+      "group": "館藏與保存",
+      "title": "保存與數位典藏：原件、檔案都要照顧",
+      "lead": "數位化能降低原件使用壓力，但不是拍完照就完成永久保存。",
+      "points": [
+        {
+          "term": "原件保存",
+          "detail": "控制溫濕度、光線與污染，使用合適材料與搬運方式，依媒材特性處理。"
+        },
+        {
+          "term": "數位保存",
+          "detail": "備份、完整性檢查、格式與載體管理，確保未來仍可讀取。"
+        },
+        {
+          "term": "後設資料",
+          "detail": "記錄來源、權利、技術資訊與處理歷程，幫助理解及管理檔案。"
+        }
+      ],
+      "example": "一份掃描檔如果沒有來源、版本與備份，即使當下能開啟，也不代表未來可靠。",
+      "trap": "備份與長期保存不完全相同；單純多存一份仍可能一起遭遇格式淘汰或錯誤。",
+      "recall": "掃描完成後，可以立即認定原件已無保存價值嗎？",
+      "answer": "不能。原件可能有物質、歷史或研究價值，須按典藏政策評估。",
+      "questionIds": [
+        "115-2-24",
+        "115-2-27",
+        "115-2-28"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：圖書館統計 CNS 定義",
+          "url": "https://libstat.ncl.edu.tw/cnsDefinition/search"
+        },
+        {
+          "title": "美國國會圖書館：Care, Handling and Storage",
+          "url": "https://www.loc.gov/preservation/care/"
+        },
+        {
+          "title": "國立臺灣大學圖書館：伊能嘉矩文庫",
+          "url": "https://dl.lib.ntu.edu.tw/s/ino"
+        }
+      ]
+    },
+    {
+      "id": "lib-literacy",
+      "subjectIndex": 2,
+      "group": "讀者與服務",
+      "title": "資訊素養與無障礙：讓人有能力使用資訊",
+      "lead": "服務完成不是「把資料交出去」，而是讓不同讀者能找到、判斷並使用它。",
+      "points": [
+        {
+          "term": "資訊素養",
+          "detail": "辨認需求、找資料、評估品質、合宜使用與表達，包含倫理責任。"
+        },
+        {
+          "term": "無障礙",
+          "detail": "替不同需求提供可近用的形式與操作方式，不把所有讀者當成同一種使用者。"
+        },
+        {
+          "term": "學習共享空間",
+          "detail": "整合空間、科技與學習支持，常見於大學圖書館，不只是擺更多桌椅。"
+        }
+      ],
+      "example": "提供螢幕閱讀器可讀的電子文字，與只提供掃描圖片，對視障讀者的可用性差很多。",
+      "trap": "高齡不等於不會使用科技，身心障礙也不代表需求相同，應以個別需要調整。",
+      "recall": "資訊素養只等於會操作搜尋引擎嗎？",
+      "answer": "不是。還要能評估來源、理解內容並合乎倫理地使用。",
+      "questionIds": [
+        "114-2-35",
+        "115-2-33",
+        "115-2-34",
+        "114-2-29"
+      ],
+      "sources": [
+        {
+          "title": "ACRL：Framework for Information Literacy for Higher Education",
+          "url": "https://www.ala.org/acrl/standards/ilframework"
+        },
+        {
+          "title": "全國法規資料庫：圖書館法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=H0010008"
+        },
+        {
+          "title": "W3C：Web Content Accessibility Guidelines 2.2",
+          "url": "https://www.w3.org/TR/WCAG22/"
+        }
+      ]
+    },
+    {
+      "id": "lib-metrics",
+      "subjectIndex": 2,
+      "group": "基礎與倫理",
+      "title": "文獻計量三定律：人、刊、詞分開記",
+      "lead": "看到定律名字先問它在數什麼，就比較不會混在一起。",
+      "points": [
+        {
+          "term": "Lotka 洛特卡",
+          "detail": "研究作者的生產力分布；發表很多篇的作者相對少。"
+        },
+        {
+          "term": "Bradford 布萊德福",
+          "detail": "研究某主題文獻在期刊間的分散，少數核心期刊集中較多相關文章。"
+        },
+        {
+          "term": "Zipf 齊夫",
+          "detail": "研究詞頻與排名的關係，也常連結最小努力的思考。"
+        }
+      ],
+      "example": "題目問哪些期刊最集中某主題文章，先想到 Bradford；問作者產出則找 Lotka。",
+      "trap": "定律描述的是模式，不是每一套資料都精確符合固定數值。",
+      "recall": "作者、期刊、詞頻，分別聯想到誰？",
+      "answer": "Lotka、Bradford、Zipf。先用研究對象定位，再看題目細節。",
+      "questionIds": [
+        "110-2-46",
+        "109-2-6",
+        "114-2-40"
+      ],
+      "sources": [
+        {
+          "title": "國立臺灣圖書館：期刊評鑑及期刊影響係數研究",
+          "url": "https://www.ntl.edu.tw/public/Attachment/08161501967.pdf"
+        },
+        {
+          "title": "教育部教育百科：洛特卡定律",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%B4%9B%E7%89%B9%E5%8D%A1%E5%AE%9A%E5%BE%8B"
+        },
+        {
+          "title": "教育部教育百科：最小努力原則（陳啟亮）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%9C%80%E5%B0%8F%E5%8A%AA%E5%8A%9B%E5%8E%9F%E5%89%87"
+        }
+      ]
+    },
+    {
+      "id": "cat-tools",
+      "subjectIndex": 3,
+      "group": "編目基礎",
+      "title": "分類、編目規則、MARC：各做哪件事",
+      "lead": "把一本書放進系統，通常同時需要內容判斷、描述規則與儲存格式。",
+      "points": [
+        {
+          "term": "分類法",
+          "detail": "將知識依學科或主題組織，提供分類號。"
+        },
+        {
+          "term": "編目規則",
+          "detail": "決定資源如何描述、選擇與記錄檢索點，例如中國編目規則、RDA。"
+        },
+        {
+          "term": "MARC",
+          "detail": "讓書目資料以欄位、指標、分欄等結構儲存交換，不是分類法。"
+        },
+        {
+          "term": "主題詞表",
+          "detail": "以受控詞彙表達主題，改善同義詞分散與檢索一致性。"
+        }
+      ],
+      "example": "RDA 告訴你要記錄哪些資訊；MARC 的欄位把資訊放進可交換的結構。",
+      "trap": "概念模型 FRBR／LRM、編目規則 RDA、編碼格式 MARC，層次不同，不能互當同義詞。",
+      "recall": "MARC 21 是替圖書決定分類號的分類法嗎？",
+      "answer": "不是，它是機讀格式；分類號可以記入其中對應欄位。",
+      "questionIds": [
+        "115-3-1",
+        "115-3-2",
+        "114-3-3",
+        "115-3-6"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        }
+      ]
+    },
+    {
+      "id": "cat-classes",
+      "subjectIndex": 3,
+      "group": "分類與主題",
+      "title": "中文分類與 DDC：數字相同不代表主題相同",
+      "lead": "先辨認分類法名稱，再看類號；別把兩套十大類硬套在一起。",
+      "points": [
+        {
+          "term": "中文分類 0–4",
+          "detail": "000 總類、100 哲學、200 宗教、300 科學、400 應用科學。"
+        },
+        {
+          "term": "中文分類 5–9",
+          "detail": "500 社會科學、600 史地、700 世界史地、800 語文、900 藝術。"
+        },
+        {
+          "term": "DDC 差異",
+          "detail": "300 社會科學、400 語言、500 科學、600 技術、700 藝術、800 文學、900 歷史與地理。"
+        },
+        {
+          "term": "使用類表",
+          "detail": "簡目只是入口，細分、複分與例外要查題目指定版本的類表及註釋。"
+        }
+      ],
+      "example": "「藝術」在中文分類的大類是900，在DDC是700；看到數字先別直接回答學科。",
+      "trap": "600 史地與700世界史地的範圍要依中文類表細目理解，不可將所有世界地理一律塞進600。",
+      "recall": "DDC 的500與中文分類的500，是同一學科嗎？",
+      "answer": "不是。DDC 500是科學，中文分類500是社會科學。",
+      "questionIds": [
+        "115-3-17",
+        "114-3-17",
+        "115-3-24"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中文圖書分類法》2007年版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25549"
+        }
+      ]
+    },
+    {
+      "id": "cat-analysis",
+      "subjectIndex": 3,
+      "group": "分類與主題",
+      "title": "主題分析與分類：先讀內容，再找號碼",
+      "lead": "書名是線索，不是全部。要判斷它實際在談什麼、從哪個角度談。",
+      "points": [
+        {
+          "term": "分析",
+          "detail": "看題名、目次、序言、摘要及內文，抓主要主題與研究觀點。"
+        },
+        {
+          "term": "概念表達",
+          "detail": "先用精準語句整理內容，再轉換為受控詞或分類號。"
+        },
+        {
+          "term": "多主題",
+          "detail": "依相互關係、篇幅與類表規則選擇；三個以上論題不等於一律歸總類。"
+        },
+        {
+          "term": "較上位類",
+          "detail": "兩個並列細目共同討論時，可檢查是否有適切的共同上位類。"
+        }
+      ],
+      "example": "同談中日與中韓外交史，須檢視中國與亞洲外交的上位類，而不是任意只挑其中一國。",
+      "trap": "不要只因題名出現「電腦」就分電腦科學，可能是在談電腦犯罪的法律問題。",
+      "recall": "主題分析可以只看書名而不看內容嗎？",
+      "answer": "不宜。題名可能比喻、含糊，或不能完整呈現研究角度。",
+      "questionIds": [
+        "115-3-15",
+        "114-3-16",
+        "114-3-18"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：多主題分類原則說明",
+          "url": "https://catweb.ncl.edu.tw/QandA/page/24397"
+        },
+        {
+          "title": "國家圖書館：《中文圖書分類法》2007年版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25549"
+        },
+        {
+          "title": "Getty：藝術與建築索引典 AAT",
+          "url": "https://www.getty.edu/research/tools/vocabularies/aat/"
+        }
+      ]
+    },
+    {
+      "id": "cat-description",
+      "subjectIndex": 3,
+      "group": "編目基礎",
+      "title": "著錄八大項：沿著認識一本書的順序",
+      "lead": "先知道叫什麼、哪一版，再看出版、外觀與其他補充資訊。",
+      "points": [
+        {
+          "term": "前四項",
+          "detail": "題名及著者敘述 → 版本 → 資料特殊細節 → 出版。"
+        },
+        {
+          "term": "後四項",
+          "detail": "稽核 → 集叢 → 附註 → 標準號碼及其他必要記載。"
+        },
+        {
+          "term": "不同規範",
+          "detail": "這是中國編目規則題型的框架；不要直接當成所有現代規範完全相同的章節架構。"
+        },
+        {
+          "term": "特殊細節",
+          "detail": "依資料類型可能記比例尺等資訊，並非每種資料都同樣適用。"
+        }
+      ],
+      "example": "看到地圖比例尺，先想到地圖的特殊細節，而不是把它當出版者資訊。",
+      "trap": "集叢不是期刊的同義詞；一本書可能屬於某套集叢但仍是單行本。",
+      "recall": "八大項中，版本項之後是哪一項？",
+      "answer": "資料特殊細節項，再來才是出版項。",
+      "questionIds": [
+        "115-3-7",
+        "115-3-12",
+        "115-3-14",
+        "114-3-5"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        }
+      ]
+    },
+    {
+      "id": "cat-subject",
+      "subjectIndex": 3,
+      "group": "分類與主題",
+      "title": "索引典：同義、上下位、相關三條線",
+      "lead": "把概念之間的關係想清楚，符號就不難背。",
+      "points": [
+        {
+          "term": "USE／UF",
+          "detail": "等同或優先使用關係。非採用詞用 USE 指向採用詞；UF 從採用詞指出非採用詞。"
+        },
+        {
+          "term": "BT／NT",
+          "detail": "上下位關係。BT較廣，NT較狹；例如交通工具與機車。"
+        },
+        {
+          "term": "RT",
+          "detail": "相關但非上下位，也非同義；只是存在有意義的概念關聯。"
+        },
+        {
+          "term": "專指度與詳盡度",
+          "detail": "專指度看詞是否精確到主題層次；詳盡度看涵蓋多少主題面向。"
+        }
+      ],
+      "example": "「摩托車 用 機車」表示以機車作採用詞，不表示機車是摩托車的上位概念。",
+      "trap": "收很多詞不一定就很專指；涵蓋範圍與選詞精確程度是兩個維度。",
+      "recall": "BT 是較廣詞還是較狹詞？",
+      "answer": "較廣詞。NT才是較狹詞。",
+      "questionIds": [
+        "115-3-19",
+        "115-3-21",
+        "115-3-23",
+        "114-3-20"
+      ],
+      "sources": [
+        {
+          "title": "Getty：藝術與建築索引典 AAT",
+          "url": "https://www.getty.edu/research/tools/vocabularies/aat/"
+        }
+      ]
+    },
+    {
+      "id": "cat-authority",
+      "subjectIndex": 3,
+      "group": "權威與合作",
+      "title": "權威控制：同一人聚在一起，不同人分開",
+      "lead": "搜尋名字時有兩種麻煩：一個人有多種名字，或很多人用同一個名字。",
+      "points": [
+        {
+          "term": "一致性",
+          "detail": "同一實體的不同名稱透過權威資料連結，避免作品四散。"
+        },
+        {
+          "term": "唯一識別",
+          "detail": "同名不同人可用生卒年、職業等限定資訊區別，避免混在一起。"
+        },
+        {
+          "term": "參照",
+          "detail": "引導異名、相關名稱與檢索點，不是把所有原始名稱從書目刪掉。"
+        },
+        {
+          "term": "跨機構連結",
+          "detail": "VIAF連結各機構權威資料，不能簡化成全球只能採一種語文名稱。"
+        }
+      ],
+      "example": "兩位「王明」各有不同生年，可加限定詞區別；一位作者用本名與筆名，則要建立適當連結。",
+      "trap": "權威不是判斷作者學術地位高不高，而是在管理名稱與識別。",
+      "recall": "權威控制只需要把所有同名者合併嗎？",
+      "answer": "不對。同一實體要聚合，不同實體反而要區分。",
+      "questionIds": [
+        "115-3-26",
+        "115-3-27",
+        "115-3-28",
+        "114-3-25"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 權威格式",
+          "url": "https://www.loc.gov/marc/authority/"
+        },
+        {
+          "title": "國家圖書館：全國圖書書目資訊網",
+          "url": "https://nbinet.ncl.edu.tw/"
+        }
+      ]
+    },
+    {
+      "id": "cat-wemi",
+      "subjectIndex": 3,
+      "group": "概念模型",
+      "title": "WEMI：作品、表現形式、具體呈現、單件",
+      "lead": "想像同一部小說一路變成你手上的那一本，就能理解四個層次。",
+      "points": [
+        {
+          "term": "Work 作品",
+          "detail": "抽象的知識或藝術創作，例如某部小說本身。"
+        },
+        {
+          "term": "Expression 表現形式",
+          "detail": "以文字、語言、演出等實現作品；不同語文翻譯可屬不同表現形式。"
+        },
+        {
+          "term": "Manifestation 具體呈現",
+          "detail": "出版或製作形成的載體與版本組合，例如某出版社某年的印本。"
+        },
+        {
+          "term": "Item 單件",
+          "detail": "那個版本的一份個別複本，例如你手上有館藏條碼的那一本。"
+        }
+      ],
+      "example": "同一中文譯文印成兩本，各是不同單件；換成新的英文翻譯，則涉及表現形式不同。",
+      "trap": "不是所有改作都只是新表現形式。改編幅度可能形成新作品，要依創作內容判斷。",
+      "recall": "館藏某本書上有讀者手寫筆記，首先屬哪一層的個別特徵？",
+      "answer": "單件 Item；不是整個作品的所有複本都有那份筆記。",
+      "questionIds": [
+        "115-3-44",
+        "114-3-44",
+        "115-3-11"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：BIBFRAME",
+          "url": "https://www.loc.gov/bibframe/"
+        },
+        {
+          "title": "IFLA：FRBR、FRAD、FRSAD 與 LRM 概念模式",
+          "url": "https://www.ifla.org/g/bcm-rg/ifla-s-bibliographic-conceptual-models/"
+        },
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        }
+      ]
+    },
+    {
+      "id": "cat-lrm",
+      "subjectIndex": 3,
+      "group": "概念模型",
+      "title": "FRBR、FRAD、FRSAD 與 LRM",
+      "lead": "先用研究範圍分，再記整合後的模型。",
+      "points": [
+        {
+          "term": "FRBR",
+          "detail": "書目紀錄功能需求，常以WEMI與使用者任務理解。"
+        },
+        {
+          "term": "FRAD／FRSAD",
+          "detail": "分別聚焦權威資料、主題權威資料的功能需求。"
+        },
+        {
+          "term": "LRM",
+          "detail": "整合三套模型，建立較一致的書目資訊概念架構。"
+        },
+        {
+          "term": "LRM任務",
+          "detail": "Find 找尋、Identify 識別、Select 選擇、Obtain 取得、Explore 探索。"
+        }
+      ],
+      "example": "看到「整合FRBR、FRAD、FRSAD」優先想到IFLA LRM；不是MARC格式新增了三個欄位。",
+      "trap": "舊模型的任務與新模型不宜混背，題目指定FRBR或LRM時要分開回答。",
+      "recall": "LRM使用者任務中，哪個提醒你還能沿關係繼續發現資料？",
+      "answer": "Explore，探索。",
+      "questionIds": [
+        "115-3-42",
+        "115-3-43",
+        "114-3-40"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 權威格式",
+          "url": "https://www.loc.gov/marc/authority/"
+        },
+        {
+          "title": "IFLA：FRBR、FRAD、FRSAD 與 LRM 概念模式",
+          "url": "https://www.ifla.org/g/bcm-rg/ifla-s-bibliographic-conceptual-models/"
+        },
+        {
+          "title": "美國國會圖書館：BIBFRAME",
+          "url": "https://www.loc.gov/bibframe/"
+        }
+      ]
+    },
+    {
+      "id": "cat-marc",
+      "subjectIndex": 3,
+      "group": "機讀格式",
+      "title": "MARC 21 書目欄位：先記常見骨架",
+      "lead": "先建立號碼與功能的對照，再回個別欄位查指標與分欄。",
+      "points": [
+        {
+          "term": "020／022／082",
+          "detail": "ISBN／ISSN／杜威十進分類號。不同識別碼別放錯。"
+        },
+        {
+          "term": "100／245／246",
+          "detail": "主要個人名稱款目／題名敘述／其他題名形式。"
+        },
+        {
+          "term": "250／264／300",
+          "detail": "版本／製作出版發行等敘述／稽核或實體描述。264具體功能還看第二指標。"
+        },
+        {
+          "term": "500／502／650／700／856",
+          "detail": "一般附註／學位論文註／主題款目一般主題／附加個人名稱／電子位置與取用。"
+        }
+      ],
+      "example": "想讓並列題名也可被找到，須理解246等題名檢索欄位，不能只背245的名稱。",
+      "trap": "這裡整理的是MARC 21書目格式。權威、分類、館藏等格式的同號欄位不可直接照搬。",
+      "recall": "記錄杜威分類號常用哪個欄位？",
+      "answer": "082。不是ISBN的020，也不是題名的245。",
+      "questionIds": [
+        "115-3-31",
+        "115-3-33",
+        "115-3-34",
+        "114-3-29",
+        "114-3-31"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 書目格式",
+          "url": "https://www.loc.gov/marc/bibliographic/"
+        }
+      ]
+    },
+    {
+      "id": "cat-rda",
+      "subjectIndex": 3,
+      "group": "機讀格式",
+      "title": "RDA 的內容、媒體、載體：讀什麼、怎麼讀、裝在哪",
+      "lead": "把三種描述分開後，就不會都用「電子書」一個詞含糊帶過。",
+      "points": [
+        {
+          "term": "336 內容類型",
+          "detail": "內容如何表達，例如文字、演奏音樂等。"
+        },
+        {
+          "term": "337 媒體類型",
+          "detail": "讀取內容通常需要哪類中介設備，例如電腦；無須設備可屬無媒介。"
+        },
+        {
+          "term": "338 載體類型",
+          "detail": "承載資源的形式，例如冊、線上資源。"
+        },
+        {
+          "term": "關係用語",
+          "detail": "文字作者、編輯者等說明人與資源的關係，不只是列出一串姓名。"
+        }
+      ],
+      "example": "一般線上文字電子書，可以分別描述文字、電腦、線上資源，而不是把三欄都寫電子資源。",
+      "trap": "核心元素與條件性要求要依題目指定規範；不能把每一個可記欄位都說成必備。",
+      "recall": "線上資源屬於內容類型還是載體類型？",
+      "answer": "載體類型；內容仍可能是文字、音樂或其他表達形式。",
+      "questionIds": [
+        "114-3-11",
+        "114-3-12",
+        "115-3-6",
+        "115-3-11"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 書目格式",
+          "url": "https://www.loc.gov/marc/bibliographic/"
+        },
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        },
+        {
+          "title": "IFLA：FRBR、FRAD、FRSAD 與 LRM 概念模式",
+          "url": "https://www.ifla.org/g/bcm-rg/ifla-s-bibliographic-conceptual-models/"
+        }
+      ]
+    },
+    {
+      "id": "cat-cooperation",
+      "subjectIndex": 3,
+      "group": "權威與合作",
+      "title": "合作編目：共用紀錄，仍要核對手上資源",
+      "lead": "合作的目的在於減少重複工作、提升一致性，而不是把責任交出去。",
+      "points": [
+        {
+          "term": "WorldCat／OCLC",
+          "detail": "跨館共享書目與館藏資訊，支持查找與合作。"
+        },
+        {
+          "term": "NBINet",
+          "detail": "國內合作編目與聯合目錄的重要系統，促進書目共享及標準化。"
+        },
+        {
+          "term": "抄錄編目",
+          "detail": "取用既有紀錄後，仍核對版次、出版資訊、載體與館藏，不能看到相似題名就全照抄。"
+        },
+        {
+          "term": "CIP",
+          "detail": "預行編目在出版前提供書目資訊，出版後仍可能需要依實物修正。"
+        }
+      ],
+      "example": "同名書有不同出版社或版次，下載紀錄前先比對識別資訊，才不會將兩種資源混為一談。",
+      "trap": "合作編目節省重複勞力，不代表從此不需要專業館員或品質控制。",
+      "recall": "取得別館的紀錄後，還要對照實際館藏嗎？",
+      "answer": "要。須確認描述的是同一資源，並補上本館資料。",
+      "questionIds": [
+        "115-3-37",
+        "115-3-38",
+        "115-3-39",
+        "114-3-37",
+        "114-3-38"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：合作編目計畫 PCC",
+          "url": "https://www.loc.gov/aba/pcc/"
+        },
+        {
+          "title": "國家圖書館：全國圖書書目資訊網",
+          "url": "https://nbinet.ncl.edu.tw/"
+        }
+      ]
+    },
+    {
+      "id": "cat-metadata",
+      "subjectIndex": 3,
+      "group": "語意網與詮釋資料",
+      "title": "Dublin Core、TEI、對映：先看用途",
+      "lead": "詮釋資料是描述資料的資料；不同領域會挑不同的描述工具。",
+      "points": [
+        {
+          "term": "Dublin Core",
+          "detail": "傳統核心集有15個元素，如題名、創作者、主題、日期等；與更廣的DCMI Terms區分。"
+        },
+        {
+          "term": "TEI",
+          "detail": "偏向人文文本的編碼與結構標記，不能直接等同一般圖書館機讀格式。"
+        },
+        {
+          "term": "Crosswalk",
+          "detail": "把兩套詮釋資料的元素建立對應；粒度與語意不同時可能損失資訊。"
+        },
+        {
+          "term": "互通性",
+          "detail": "除了欄位名稱，值域、語言、編碼與語意也要一致理解。"
+        }
+      ],
+      "example": "甲格式把作者、編者分開，乙只有單一貢獻者欄位，對映後可能失去角色細節。",
+      "trap": "對映不是保證百分之百無損轉換，欄位名稱相近也未必定義相同。",
+      "recall": "Crosswalk 可以保證兩個格式所有細節完全保留嗎？",
+      "answer": "不保證。需檢查元素語意、粒度與一對多關係。",
+      "questionIds": [
+        "115-3-40",
+        "115-3-41",
+        "114-3-46"
+      ],
+      "sources": [
+        {
+          "title": "TEI：文件標記指引",
+          "url": "https://tei-c.org/guidelines/"
+        },
+        {
+          "title": "DCMI：Dublin Core 詮釋資料用語",
+          "url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/"
+        }
+      ]
+    },
+    {
+      "id": "cat-linked",
+      "subjectIndex": 3,
+      "group": "語意網與詮釋資料",
+      "title": "RDF 與鏈結資料：用關係把資源連起來",
+      "lead": "RDF先想成「誰—有什麼關係—指向誰或什麼值」的三元組。",
+      "points": [
+        {
+          "term": "三元組",
+          "detail": "主詞 subject、述詞 predicate、受詞 object。述詞表達關係，不是自然語言整段敘述。"
+        },
+        {
+          "term": "URI／IRI",
+          "detail": "用識別碼指認資源，避免只靠字串名稱猜是不是同一個東西。"
+        },
+        {
+          "term": "鏈結資料",
+          "detail": "用HTTP URI讓資源可查找，提供有用的標準化資訊，再連向其他資源。"
+        },
+        {
+          "term": "SKOS",
+          "detail": "適合表達受控詞彙、分類與索引典的概念關係，建立在RDF之上。"
+        }
+      ],
+      "example": "「某本書—作者—某個人」可成一個三元組；再把人連到權威識別碼，就能串起跨庫資訊。",
+      "trap": "RDF是資料模型，不是只能寫成XML。公開放上網也不自動等於具開放授權的鏈結開放資料。",
+      "recall": "RDF的述詞扮演什麼角色？",
+      "answer": "表達主詞與受詞之間的關係，例如作者、出版者。",
+      "questionIds": [
+        "115-3-47",
+        "115-3-49",
+        "114-3-42",
+        "114-3-47",
+        "114-3-50"
+      ],
+      "sources": [
+        {
+          "title": "W3C：RDF 1.1 概念與資料模型",
+          "url": "https://www.w3.org/TR/rdf11-concepts/"
+        },
+        {
+          "title": "W3C：鏈結資料設計原則",
+          "url": "https://www.w3.org/DesignIssues/LinkedData.html"
+        },
+        {
+          "title": "W3C：SKOS 參考規範",
+          "url": "https://www.w3.org/TR/skos-reference/"
+        }
+      ]
+    }
+  ]
+}

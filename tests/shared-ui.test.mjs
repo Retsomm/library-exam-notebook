@@ -74,6 +74,6 @@ test('shared vocabulary cards expose save state and hide review definitions unti
  const review=render(h(Card,{item,saved:true,onToggle:noop,review:true,source:'113 年 · 第 41 題',onSource:noop}));
  assert.match(review,/取消收藏單字 reliable/);assert.match(review,/aria-expanded="false"/);assert.match(review,/hidden=""/);assert.match(review,/113 年 · 第 41 題/);
  const Tabs=component('favorites-tabs').default;
- const tabs=render(h(Tabs,{value:'words',counts:{questions:1,explanations:2,words:3},onChange:noop}));
- assert.equal((tabs.match(/role="tab"/g)||[]).length,3);assert.equal((tabs.match(/aria-selected="true"/g)||[]).length,1);assert.match(tabs,/id="favorites-tab-words"[^>]*tabIndex="0"/i);
+ const tabs=render(h(Tabs,{value:'words',counts:{wrong:4,questions:1,explanations:2,words:3},onChange:noop}));
+ assert.equal((tabs.match(/role="tab"/g)||[]).length,4);assert.equal((tabs.match(/aria-selected="true"/g)||[]).length,1);assert.match(tabs,/id="favorites-tab-words"[^>]*tabIndex="0"/i);
 });

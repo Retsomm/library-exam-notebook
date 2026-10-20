@@ -1,0 +1,43 @@
+import {test,expect} from '@playwright/test';
+for(const width of [390,1440])test(`study notes, shared practice and word favorites at ${width}px`,async({page})=>{
+ await page.setViewportSize({width,height:900});
+ await page.goto('/demo/');
+ const nav=page.getByRole('navigation',{name:'主要導覽'});
+ await nav.getByRole('button',{name:'重點整理',exact:true}).click();
+ await expect(page.getByRole('heading',{name:'重點整理',exact:true})).toBeVisible();
+ await expect(nav.getByRole('button')).toHaveCount(5);
+ await page.getByRole('searchbox',{name:'搜尋重點'}).fill('函丈');
+ await expect(page.locator('.note-card')).toHaveCount(1);
+ await page.getByText('查看重點答案',{exact:true}).click();
+ await expect(page.getByText('吾師函丈。函丈尊師，不能因為字面典雅就拿來稱弟弟。',{exact:true})).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ await page.getByRole('button',{name:/練習關聯考題/}).click();
+ await page.locator('.answer-list .option').first().click();
+ await page.getByRole('button',{name:'確認答案',exact:true}).click();
+ await expect(page.getByRole('dialog')).toHaveCount(0);
+ await page.getByRole('button',{name:'查看解析',exact:true}).click();
+ await expect(page.getByRole('dialog')).toBeVisible();
+ await page.getByRole('button',{name:'關閉解析',exact:true}).click();
+ await nav.getByRole('button',{name:'重點整理',exact:true}).click();
+ await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/公民與英文/}).click();
+ await page.getByRole('button',{name:'英文單字與片語',exact:true}).click();
+ await expect(page.locator('.vocabulary-card')).toHaveCount(20);
+ await page.getByRole('searchbox',{name:'搜尋單字'}).fill('fear');
+ const save=page.getByRole('button',{name:/^收藏單字 /}).first();
+ const word=(await save.getAttribute('aria-label'))!.replace('收藏單字 ','');await save.click();
+ await nav.getByRole('button',{name:/^收藏與錯題/}).click();
+ await expect(page.getByRole('tab')).toHaveCount(4);
+ await page.getByRole('tab',{name:/錯題本/}).click();
+ await expect(page.locator('.question-row')).toHaveCount(1);
+ await page.getByRole('tab',{name:/收藏單字/}).click();
+ await expect(page.getByRole('button',{name:`取消收藏單字 ${word}`,exact:true})).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ await nav.getByRole('button',{name:'重點整理',exact:true}).click();
+ for(const subject of ['圖書館學大意','中文圖書分類編目大意']){
+  await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:new RegExp(`^${subject}`)}).click();
+  await expect(page.locator('.note-card')).toHaveCount(8);
+  await page.getByRole('button',{name:'下一頁',exact:true}).click();
+  await expect(page.locator('.note-card').first()).toBeVisible();
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ }
+});
