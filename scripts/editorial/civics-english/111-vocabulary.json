@@ -1,0 +1,264 @@
+{
+  "36": [
+    {
+      "word": "put off",
+      "partOfSpeech": "片語動詞",
+      "meaning": "延後；拖延",
+      "usage": "put off going to see the doctor 表示拖延就醫，off 後接動名詞。"
+    },
+    {
+      "word": "illness",
+      "partOfSpeech": "n.",
+      "meaning": "疾病",
+      "usage": "your illness will get worse 說明拖延可能導致情況惡化的警告。"
+    },
+    {
+      "word": "get worse",
+      "partOfSpeech": "動詞片語",
+      "meaning": "變得更糟",
+      "usage": "worse 是 bad 的比較級，與前面不要拖延的建議形成因果。"
+    }
+  ],
+  "37": [
+    {
+      "word": "clue",
+      "partOfSpeech": "n.",
+      "meaning": "線索",
+      "usage": "clues or information 並列警方尋人所需的資料，不是波浪或節拍。"
+    },
+    {
+      "word": "missing",
+      "partOfSpeech": "adj.",
+      "meaning": "失蹤的",
+      "usage": "the missing girl 是警方正在尋找的人，不是故事中想念別人的女孩。"
+    },
+    {
+      "word": "look for",
+      "partOfSpeech": "動詞片語",
+      "meaning": "尋找",
+      "usage": "Police are looking for 表正在尋找，和 look at 注視的動作不同。"
+    }
+  ],
+  "38": [
+    {
+      "word": "according to",
+      "partOfSpeech": "介系詞片語",
+      "meaning": "根據；依……所說",
+      "usage": "According to my mother 標示後面手洗較好的評價來源。"
+    },
+    {
+      "word": "by hand",
+      "partOfSpeech": "介系詞片語",
+      "meaning": "用手；手工地",
+      "usage": "washing clothes by hand 與 using a washing machine 形成洗衣方式對比。"
+    },
+    {
+      "word": "washing machine",
+      "partOfSpeech": "n. phr.",
+      "meaning": "洗衣機",
+      "usage": "machine 是機器，本文用來和母親認為較好的手洗方式比較。"
+    }
+  ],
+  "39": [
+    {
+      "word": "take action",
+      "partOfSpeech": "動詞片語",
+      "meaning": "採取行動",
+      "usage": "if we don't take action 表示若不採措施，動物可能很快消失。"
+    },
+    {
+      "word": "die off",
+      "partOfSpeech": "片語動詞",
+      "meaning": "相繼死去；消失",
+      "usage": "用於某類動物逐漸消亡，和 government 公布的名單相連。"
+    },
+    {
+      "word": "post",
+      "partOfSpeech": "v.",
+      "meaning": "張貼；公布",
+      "usage": "has posted a list 指政府公布清單，不是在說郵寄包裹。"
+    }
+  ],
+  "40": [
+    {
+      "word": "forward",
+      "partOfSpeech": "v.",
+      "meaning": "轉寄",
+      "usage": "forward an email to coworkers 是把收到的郵件再轉給同事。"
+    },
+    {
+      "word": "coworker",
+      "partOfSpeech": "n.",
+      "meaning": "同事",
+      "usage": "his coworkers 是 Jeff 同工作場所的人，也是轉寄郵件的對象。"
+    },
+    {
+      "word": "foster",
+      "partOfSpeech": "v.",
+      "meaning": "培養；促進",
+      "usage": "foster 常接合作或成長，不能和 forward 電郵轉寄混用。"
+    }
+  ],
+  "41": [
+    {
+      "word": "technology",
+      "partOfSpeech": "n.",
+      "meaning": "科技；技術",
+      "usage": "modern technologies 指展館中的現代科技，與古老外觀對比。"
+    },
+    {
+      "word": "seemingly",
+      "partOfSpeech": "adv.",
+      "meaning": "表面看來；似乎",
+      "usage": "seemingly ancient 說明外觀像古老，不代表內部也沒有現代技術。"
+    },
+    {
+      "word": "marvelous",
+      "partOfSpeech": "adj.",
+      "meaning": "令人驚嘆的",
+      "usage": "marvelous modern technologies 是對科技的正面評價，不是反對意見。"
+    }
+  ],
+  "42": [
+    {
+      "word": "precious",
+      "partOfSpeech": "adj.",
+      "meaning": "珍貴的",
+      "usage": "water is precious 說明水應審慎公平分享，非形容文字清楚。"
+    },
+    {
+      "word": "share fairly",
+      "partOfSpeech": "動詞片語",
+      "meaning": "公平分享",
+      "usage": "shared fairly among individuals 指個人之間公平分配資源。"
+    },
+    {
+      "word": "sufficient",
+      "partOfSpeech": "adj.",
+      "meaning": "足夠的",
+      "usage": "sufficient 和 precious 不同，前者講數量夠不夠，後者強調珍貴價值。"
+    }
+  ],
+  "43": [
+    {
+      "word": "competitor",
+      "partOfSpeech": "n.",
+      "meaning": "競爭者",
+      "usage": "many competitors for the same position 表示多人應徵相同職缺。"
+    },
+    {
+      "word": "anxious",
+      "partOfSpeech": "adj.",
+      "meaning": "焦慮的",
+      "usage": "anxious about applying for the job 說明因競爭激烈而感到擔心。"
+    },
+    {
+      "word": "position",
+      "partOfSpeech": "n.",
+      "meaning": "職位",
+      "usage": "same position 在徵才情境指同一工作職缺，不是物體所在位置。"
+    }
+  ],
+  "44": [
+    {
+      "word": "lure",
+      "partOfSpeech": "v.",
+      "meaning": "引誘",
+      "usage": "lure someone to a place 表把人誘至某地，連結後面的傷害意圖。"
+    },
+    {
+      "word": "deserted",
+      "partOfSpeech": "adj.",
+      "meaning": "荒廢的；無人的",
+      "usage": "deserted apartment 指偏僻無人場所，和沙漠 desert 的名詞義不同。"
+    },
+    {
+      "word": "victim",
+      "partOfSpeech": "n.",
+      "meaning": "被害者",
+      "usage": "his victim 指受到侵害的人，是 lured 的受詞，不是贊助者。"
+    }
+  ],
+  "45": [
+    {
+      "word": "patent",
+      "partOfSpeech": "n.",
+      "meaning": "專利",
+      "usage": "was granted a patent 表獲授專利，與發明權利相關的固定用法。"
+    },
+    {
+      "word": "detect",
+      "partOfSpeech": "v.",
+      "meaning": "偵測",
+      "usage": "device can detect sudden change 表裝置能發現突然變化。"
+    },
+    {
+      "word": "water level",
+      "partOfSpeech": "n. phr.",
+      "meaning": "水位",
+      "usage": "the water level in the river 指河流的水位，為裝置偵測標的。"
+    }
+  ],
+  "reading-46-50": [
+    {
+      "word": "reservation",
+      "partOfSpeech": "n.",
+      "meaning": "預訂；訂位",
+      "usage": "Reservation Completed 表完成訂位，並不表示表格已付款。"
+    },
+    {
+      "word": "payment",
+      "partOfSpeech": "n.",
+      "meaning": "付款",
+      "usage": "complete payment by 12/18 說明付款截止，須與搭乘日期區別。"
+    },
+    {
+      "word": "cancel automatically",
+      "partOfSpeech": "動詞片語",
+      "meaning": "自動取消",
+      "usage": "逾期未付的訂位會被取消，不能推成保留到出發才付款。"
+    },
+    {
+      "word": "departure",
+      "partOfSpeech": "n.",
+      "meaning": "出發",
+      "usage": "Departure 09:46 是離開臺北時間，須與 Arrival 到站時間區分。"
+    },
+    {
+      "word": "arrival",
+      "partOfSpeech": "n.",
+      "meaning": "抵達",
+      "usage": "Arrival 10:46 是預定到臺中的時刻，直接支持第五十題。"
+    },
+    {
+      "word": "fare",
+      "partOfSpeech": "n.",
+      "meaning": "票價",
+      "usage": "Fare TWD 700 指票價，不代表另有特別折扣資訊。"
+    },
+    {
+      "word": "standard car",
+      "partOfSpeech": "n. phr.",
+      "meaning": "標準車廂",
+      "usage": "Class 為 Standard Car，不能改讀為 Business Class 商務車廂。"
+    },
+    {
+      "word": "identification",
+      "partOfSpeech": "n.",
+      "meaning": "身分識別資料",
+      "usage": "表有 Identification 欄，不能自行將其翻成未列的駕照號碼。"
+    },
+    {
+      "word": "deadline",
+      "partOfSpeech": "n.",
+      "meaning": "截止期限",
+      "usage": "付款十二月十八截止，搭乘十二月三十，兩者不可互換。"
+    },
+    {
+      "word": "adult",
+      "partOfSpeech": "n.／adj.",
+      "meaning": "成人；成年的",
+      "usage": "Adult 1 是一位成人，表中沒有另列孩童乘客。"
+    }
+  ]
+}

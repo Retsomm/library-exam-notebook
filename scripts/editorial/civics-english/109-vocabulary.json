@@ -1,0 +1,480 @@
+{
+  "36": [
+    {
+      "word": "version",
+      "partOfSpeech": "n.",
+      "meaning": "版本；說法",
+      "usage": "different versions of the same story 表示同一故事的不同版本。"
+    },
+    {
+      "word": "ending",
+      "partOfSpeech": "n.",
+      "meaning": "結局",
+      "usage": "a sad ending 表示悲傷結局，各版本仍有這個共同特徵。"
+    },
+    {
+      "word": "binding",
+      "partOfSpeech": "n.",
+      "meaning": "裝訂；封面",
+      "usage": "binding 著重書本實體裝訂，不能自然表示故事的不同敘述版本。"
+    }
+  ],
+  "37": [
+    {
+      "word": "attention to detail",
+      "partOfSpeech": "n. phr.",
+      "meaning": "注重細節",
+      "usage": "智慧手機品質設計搭配 attention to detail，說明製作細心。"
+    },
+    {
+      "word": "quality",
+      "partOfSpeech": "n.／adj.",
+      "meaning": "品質；優質的",
+      "usage": "quality design 在此是對設計品質的肯定，和細節講究相呼應。"
+    },
+    {
+      "word": "be known for",
+      "partOfSpeech": "動詞片語",
+      "meaning": "以……聞名",
+      "usage": "產品以設計與細節著稱，for 後面接受到肯定的特點。"
+    }
+  ],
+  "38": [
+    {
+      "word": "set up",
+      "partOfSpeech": "片語動詞",
+      "meaning": "安裝；設定",
+      "usage": "依操作說明設定新印表機，應用 set up the new printer。"
+    },
+    {
+      "word": "instruction",
+      "partOfSpeech": "n.",
+      "meaning": "指示；操作說明",
+      "usage": "follow the instructions 是按照說明操作，通常用複數指步驟。"
+    },
+    {
+      "word": "set off",
+      "partOfSpeech": "片語動詞",
+      "meaning": "出發；引發",
+      "usage": "set off 可指啟程或引發警報，並非完成印表機設定。"
+    }
+  ],
+  "39": [
+    {
+      "word": "review",
+      "partOfSpeech": "v.",
+      "meaning": "評論；評析",
+      "usage": "review an article 不只摘要，也要評估作者的想法。"
+    },
+    {
+      "word": "summarize",
+      "partOfSpeech": "v.",
+      "meaning": "摘要",
+      "usage": "summarize the author's ideas 表示先整理重點，與 evaluate 評估相配。"
+    },
+    {
+      "word": "evaluate",
+      "partOfSpeech": "v.",
+      "meaning": "評估",
+      "usage": "evaluate 強調判斷優缺點或價值，比單純重述內容更進一步。"
+    }
+  ],
+  "40": [
+    {
+      "word": "terrific",
+      "partOfSpeech": "adj.",
+      "meaning": "很棒的",
+      "usage": "looks terrific 表示新髮型看起來很棒，與他人好奇在哪剪髮呼應。"
+    },
+    {
+      "word": "hairstyle",
+      "partOfSpeech": "n.",
+      "meaning": "髮型",
+      "usage": "new hair style 指改變後的髮型，是 look 後形容詞評價的依據。"
+    },
+    {
+      "word": "curious",
+      "partOfSpeech": "adj.",
+      "meaning": "好奇的",
+      "usage": "be curious where... 表示想知道在哪裡剪髮，後接間接問句。"
+    }
+  ],
+  "41": [
+    {
+      "word": "leading",
+      "partOfSpeech": "adj.",
+      "meaning": "傑出的；居領導地位的",
+      "usage": "a leading still life artist 指當時重要的靜物畫家，而非動詞過去式 led。"
+    },
+    {
+      "word": "still life",
+      "partOfSpeech": "n. phr.",
+      "meaning": "靜物畫",
+      "usage": "以水果、花或器物等靜物為題材，本文用來描述畫家的作品。"
+    },
+    {
+      "word": "release",
+      "partOfSpeech": "v.",
+      "meaning": "發布",
+      "usage": "the film released by the organizers 是主辦方發布的影片，分詞修飾 film。"
+    },
+    {
+      "word": "stumble",
+      "partOfSpeech": "v.",
+      "meaning": "絆倒；踉蹌",
+      "usage": "男孩被絆後失去平衡，解釋手意外撞破畫作的過程。"
+    },
+    {
+      "word": "gash",
+      "partOfSpeech": "n.",
+      "meaning": "裂口；深傷口",
+      "usage": "a fist-sized gash 指拳頭大小的破口，並非畫中原有圖像。"
+    },
+    {
+      "word": "freeze",
+      "partOfSpeech": "v.",
+      "meaning": "僵住",
+      "usage": "男孩看到損壞後 freezes，表示驚嚇得僵住，不是溫度降到結冰。"
+    },
+    {
+      "word": "intentionally",
+      "partOfSpeech": "adv.",
+      "meaning": "故意地",
+      "usage": "not intentionally vandalized 說明主辦方認為不是有意破壞。"
+    },
+    {
+      "word": "authentic",
+      "partOfSpeech": "adj.",
+      "meaning": "真實的；真跡的",
+      "usage": "authentic pieces 指真跡，和 rare、precious 的價值描述連貫。"
+    },
+    {
+      "word": "charge someone for",
+      "partOfSpeech": "動詞片語",
+      "meaning": "向某人索取……費用",
+      "usage": "not charge the boy for the damage 表示不向男孩索賠。"
+    },
+    {
+      "word": "restore",
+      "partOfSpeech": "v.",
+      "meaning": "修復",
+      "usage": "painting could be restored 指畫作可修復，不能誤解為重新創作一幅。"
+    }
+  ],
+  "42": [
+    {
+      "word": "leading",
+      "partOfSpeech": "adj.",
+      "meaning": "傑出的；居領導地位的",
+      "usage": "a leading still life artist 指當時重要的靜物畫家，而非動詞過去式 led。"
+    },
+    {
+      "word": "still life",
+      "partOfSpeech": "n. phr.",
+      "meaning": "靜物畫",
+      "usage": "以水果、花或器物等靜物為題材，本文用來描述畫家的作品。"
+    },
+    {
+      "word": "release",
+      "partOfSpeech": "v.",
+      "meaning": "發布",
+      "usage": "the film released by the organizers 是主辦方發布的影片，分詞修飾 film。"
+    },
+    {
+      "word": "stumble",
+      "partOfSpeech": "v.",
+      "meaning": "絆倒；踉蹌",
+      "usage": "男孩被絆後失去平衡，解釋手意外撞破畫作的過程。"
+    },
+    {
+      "word": "gash",
+      "partOfSpeech": "n.",
+      "meaning": "裂口；深傷口",
+      "usage": "a fist-sized gash 指拳頭大小的破口，並非畫中原有圖像。"
+    },
+    {
+      "word": "freeze",
+      "partOfSpeech": "v.",
+      "meaning": "僵住",
+      "usage": "男孩看到損壞後 freezes，表示驚嚇得僵住，不是溫度降到結冰。"
+    },
+    {
+      "word": "intentionally",
+      "partOfSpeech": "adv.",
+      "meaning": "故意地",
+      "usage": "not intentionally vandalized 說明主辦方認為不是有意破壞。"
+    },
+    {
+      "word": "authentic",
+      "partOfSpeech": "adj.",
+      "meaning": "真實的；真跡的",
+      "usage": "authentic pieces 指真跡，和 rare、precious 的價值描述連貫。"
+    },
+    {
+      "word": "charge someone for",
+      "partOfSpeech": "動詞片語",
+      "meaning": "向某人索取……費用",
+      "usage": "not charge the boy for the damage 表示不向男孩索賠。"
+    },
+    {
+      "word": "restore",
+      "partOfSpeech": "v.",
+      "meaning": "修復",
+      "usage": "painting could be restored 指畫作可修復，不能誤解為重新創作一幅。"
+    }
+  ],
+  "43": [
+    {
+      "word": "leading",
+      "partOfSpeech": "adj.",
+      "meaning": "傑出的；居領導地位的",
+      "usage": "a leading still life artist 指當時重要的靜物畫家，而非動詞過去式 led。"
+    },
+    {
+      "word": "still life",
+      "partOfSpeech": "n. phr.",
+      "meaning": "靜物畫",
+      "usage": "以水果、花或器物等靜物為題材，本文用來描述畫家的作品。"
+    },
+    {
+      "word": "release",
+      "partOfSpeech": "v.",
+      "meaning": "發布",
+      "usage": "the film released by the organizers 是主辦方發布的影片，分詞修飾 film。"
+    },
+    {
+      "word": "stumble",
+      "partOfSpeech": "v.",
+      "meaning": "絆倒；踉蹌",
+      "usage": "男孩被絆後失去平衡，解釋手意外撞破畫作的過程。"
+    },
+    {
+      "word": "gash",
+      "partOfSpeech": "n.",
+      "meaning": "裂口；深傷口",
+      "usage": "a fist-sized gash 指拳頭大小的破口，並非畫中原有圖像。"
+    },
+    {
+      "word": "freeze",
+      "partOfSpeech": "v.",
+      "meaning": "僵住",
+      "usage": "男孩看到損壞後 freezes，表示驚嚇得僵住，不是溫度降到結冰。"
+    },
+    {
+      "word": "intentionally",
+      "partOfSpeech": "adv.",
+      "meaning": "故意地",
+      "usage": "not intentionally vandalized 說明主辦方認為不是有意破壞。"
+    },
+    {
+      "word": "authentic",
+      "partOfSpeech": "adj.",
+      "meaning": "真實的；真跡的",
+      "usage": "authentic pieces 指真跡，和 rare、precious 的價值描述連貫。"
+    },
+    {
+      "word": "charge someone for",
+      "partOfSpeech": "動詞片語",
+      "meaning": "向某人索取……費用",
+      "usage": "not charge the boy for the damage 表示不向男孩索賠。"
+    },
+    {
+      "word": "restore",
+      "partOfSpeech": "v.",
+      "meaning": "修復",
+      "usage": "painting could be restored 指畫作可修復，不能誤解為重新創作一幅。"
+    }
+  ],
+  "44": [
+    {
+      "word": "leading",
+      "partOfSpeech": "adj.",
+      "meaning": "傑出的；居領導地位的",
+      "usage": "a leading still life artist 指當時重要的靜物畫家，而非動詞過去式 led。"
+    },
+    {
+      "word": "still life",
+      "partOfSpeech": "n. phr.",
+      "meaning": "靜物畫",
+      "usage": "以水果、花或器物等靜物為題材，本文用來描述畫家的作品。"
+    },
+    {
+      "word": "release",
+      "partOfSpeech": "v.",
+      "meaning": "發布",
+      "usage": "the film released by the organizers 是主辦方發布的影片，分詞修飾 film。"
+    },
+    {
+      "word": "stumble",
+      "partOfSpeech": "v.",
+      "meaning": "絆倒；踉蹌",
+      "usage": "男孩被絆後失去平衡，解釋手意外撞破畫作的過程。"
+    },
+    {
+      "word": "gash",
+      "partOfSpeech": "n.",
+      "meaning": "裂口；深傷口",
+      "usage": "a fist-sized gash 指拳頭大小的破口，並非畫中原有圖像。"
+    },
+    {
+      "word": "freeze",
+      "partOfSpeech": "v.",
+      "meaning": "僵住",
+      "usage": "男孩看到損壞後 freezes，表示驚嚇得僵住，不是溫度降到結冰。"
+    },
+    {
+      "word": "intentionally",
+      "partOfSpeech": "adv.",
+      "meaning": "故意地",
+      "usage": "not intentionally vandalized 說明主辦方認為不是有意破壞。"
+    },
+    {
+      "word": "authentic",
+      "partOfSpeech": "adj.",
+      "meaning": "真實的；真跡的",
+      "usage": "authentic pieces 指真跡，和 rare、precious 的價值描述連貫。"
+    },
+    {
+      "word": "charge someone for",
+      "partOfSpeech": "動詞片語",
+      "meaning": "向某人索取……費用",
+      "usage": "not charge the boy for the damage 表示不向男孩索賠。"
+    },
+    {
+      "word": "restore",
+      "partOfSpeech": "v.",
+      "meaning": "修復",
+      "usage": "painting could be restored 指畫作可修復，不能誤解為重新創作一幅。"
+    }
+  ],
+  "45": [
+    {
+      "word": "leading",
+      "partOfSpeech": "adj.",
+      "meaning": "傑出的；居領導地位的",
+      "usage": "a leading still life artist 指當時重要的靜物畫家，而非動詞過去式 led。"
+    },
+    {
+      "word": "still life",
+      "partOfSpeech": "n. phr.",
+      "meaning": "靜物畫",
+      "usage": "以水果、花或器物等靜物為題材，本文用來描述畫家的作品。"
+    },
+    {
+      "word": "release",
+      "partOfSpeech": "v.",
+      "meaning": "發布",
+      "usage": "the film released by the organizers 是主辦方發布的影片，分詞修飾 film。"
+    },
+    {
+      "word": "stumble",
+      "partOfSpeech": "v.",
+      "meaning": "絆倒；踉蹌",
+      "usage": "男孩被絆後失去平衡，解釋手意外撞破畫作的過程。"
+    },
+    {
+      "word": "gash",
+      "partOfSpeech": "n.",
+      "meaning": "裂口；深傷口",
+      "usage": "a fist-sized gash 指拳頭大小的破口，並非畫中原有圖像。"
+    },
+    {
+      "word": "freeze",
+      "partOfSpeech": "v.",
+      "meaning": "僵住",
+      "usage": "男孩看到損壞後 freezes，表示驚嚇得僵住，不是溫度降到結冰。"
+    },
+    {
+      "word": "intentionally",
+      "partOfSpeech": "adv.",
+      "meaning": "故意地",
+      "usage": "not intentionally vandalized 說明主辦方認為不是有意破壞。"
+    },
+    {
+      "word": "authentic",
+      "partOfSpeech": "adj.",
+      "meaning": "真實的；真跡的",
+      "usage": "authentic pieces 指真跡，和 rare、precious 的價值描述連貫。"
+    },
+    {
+      "word": "charge someone for",
+      "partOfSpeech": "動詞片語",
+      "meaning": "向某人索取……費用",
+      "usage": "not charge the boy for the damage 表示不向男孩索賠。"
+    },
+    {
+      "word": "restore",
+      "partOfSpeech": "v.",
+      "meaning": "修復",
+      "usage": "painting could be restored 指畫作可修復，不能誤解為重新創作一幅。"
+    }
+  ],
+  "reading-46-50": [
+    {
+      "word": "time-exchange platform",
+      "partOfSpeech": "n. phr.",
+      "meaning": "時間交換平台",
+      "usage": "Bliive 用服務時數交換其他服務，並非以現金買賣為核心。"
+    },
+    {
+      "word": "transaction",
+      "partOfSpeech": "n.",
+      "meaning": "交易",
+      "usage": "without cash or credit card transactions 說明服務交換不用一般貨幣付款。"
+    },
+    {
+      "word": "Time Money",
+      "partOfSpeech": "n. phr.",
+      "meaning": "時間貨幣",
+      "usage": "每提供一小時服務取得相應點數，可用來換取他人服務。"
+    },
+    {
+      "word": "branding",
+      "partOfSpeech": "n.",
+      "meaning": "品牌形象設計",
+      "usage": "Maritza 換到的網站服務包含 branding，不是只購買域名。"
+    },
+    {
+      "word": "chunk",
+      "partOfSpeech": "n.",
+      "meaning": "一塊；一段",
+      "usage": "one-hour chunks 表示以一小時為單位提供服務。"
+    },
+    {
+      "word": "rate and review",
+      "partOfSpeech": "動詞片語",
+      "meaning": "評分與評論",
+      "usage": "交換後可以評價服務品質，是平台維持信任的方式。"
+    },
+    {
+      "word": "alternative currency",
+      "partOfSpeech": "n. phr.",
+      "meaning": "替代貨幣",
+      "usage": "創辦人受分享經濟及替代貨幣紀錄片啟發，發想時間交換。"
+    },
+    {
+      "word": "collaborative",
+      "partOfSpeech": "adj.",
+      "meaning": "合作的",
+      "usage": "collaborative network 強調合作，呼應文末較少競爭的價值。"
+    },
+    {
+      "word": "do away with",
+      "partOfSpeech": "片語動詞",
+      "meaning": "廢除；捨棄",
+      "usage": "do away with conventional cash 表示交換不再使用一般現金。"
+    },
+    {
+      "word": "barter",
+      "partOfSpeech": "n.／v.",
+      "meaning": "以物易物；交換",
+      "usage": "barter-based sites 以交換為基礎，本文特別以服務時間作媒介。"
+    },
+    {
+      "word": "retain",
+      "partOfSpeech": "v.",
+      "meaning": "保留",
+      "usage": "retain its core values 表示追求獲利時仍想保留核心價值。"
+    }
+  ]
+}

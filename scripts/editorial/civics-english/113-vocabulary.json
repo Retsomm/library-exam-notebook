@@ -1,0 +1,486 @@
+{
+  "36": [
+    {
+      "word": "frightening",
+      "partOfSpeech": "adj.",
+      "meaning": "令人害怕的",
+      "usage": "frightening mask 與後面的 scared many children 同義呼應。"
+    },
+    {
+      "word": "parade",
+      "partOfSpeech": "n.",
+      "meaning": "遊行；行進表演",
+      "usage": "Halloween parade 是戴面具出現的場合，不表示所有遊行一定可怕。"
+    },
+    {
+      "word": "graceful",
+      "partOfSpeech": "adj.",
+      "meaning": "優雅的",
+      "usage": "graceful 描述姿態優雅，不能解釋面具讓孩子害怕的效果。"
+    }
+  ],
+  "37": [
+    {
+      "word": "occur",
+      "partOfSpeech": "v.",
+      "meaning": "發生",
+      "usage": "one crime occurs every three hours 表示事件固定頻率，單數主詞配 occurs。"
+    },
+    {
+      "word": "violent",
+      "partOfSpeech": "adj.",
+      "meaning": "暴力的",
+      "usage": "violent crime 指暴力犯罪，形容詞不是整個子句需要的動詞。"
+    },
+    {
+      "word": "it is reported that",
+      "partOfSpeech": "句型",
+      "meaning": "據報導",
+      "usage": "that 後仍須完整主詞動詞，one violent crime occurs 才是內容主幹。"
+    }
+  ],
+  "38": [
+    {
+      "word": "wound",
+      "partOfSpeech": "v.／n.",
+      "meaning": "使受傷；傷口",
+      "usage": "were wounded by gunfire 為過去被動，表遭槍火擊傷。"
+    },
+    {
+      "word": "gunfire",
+      "partOfSpeech": "n.",
+      "meaning": "槍火；射擊",
+      "usage": "by gunfire 說明傷害來源，不是清點或提供士兵的施事。"
+    },
+    {
+      "word": "soldier",
+      "partOfSpeech": "n.",
+      "meaning": "士兵",
+      "usage": "a lot of soldiers 是複數主詞，搭 were 構成被動句。"
+    }
+  ],
+  "39": [
+    {
+      "word": "count",
+      "partOfSpeech": "v.",
+      "meaning": "計數",
+      "usage": "count the total number of words 指統計字數，不是把文字重寫一遍。"
+    },
+    {
+      "word": "word processing",
+      "partOfSpeech": "n. phr.",
+      "meaning": "文書處理",
+      "usage": "word processing software 指文書軟體，可提供字數等功能。"
+    },
+    {
+      "word": "document",
+      "partOfSpeech": "n.",
+      "meaning": "文件",
+      "usage": "in a document 表在文件中，可能有多行文字可統計。"
+    }
+  ],
+  "40": [
+    {
+      "word": "give away",
+      "partOfSpeech": "片語動詞",
+      "meaning": "贈送；捐出",
+      "usage": "把舊衣送 people in need，不要求歸還，和 lend 借出不同。"
+    },
+    {
+      "word": "in need",
+      "partOfSpeech": "介系詞片語",
+      "meaning": "有需要的；困頓的",
+      "usage": "people in need 指需要幫助的人，完整片語修飾 people。"
+    },
+    {
+      "word": "clothes",
+      "partOfSpeech": "n.（複數）",
+      "meaning": "衣物",
+      "usage": "some of my old clothes 指部分舊衣，clothes 通常以複數使用。"
+    }
+  ],
+  "41": [
+    {
+      "word": "lucid dream",
+      "partOfSpeech": "n. phr.",
+      "meaning": "清醒夢",
+      "usage": "本文指做夢時察覺正在做夢，後面也提控制夢境的自述。"
+    },
+    {
+      "word": "be aware that",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "察覺到",
+      "usage": "becomes aware that he is dreaming 表示知道自己正在夢中。"
+    },
+    {
+      "word": "have been recorded",
+      "partOfSpeech": "完成被動句型",
+      "meaning": "已被記錄",
+      "usage": "has been recorded for centuries 表幾世紀以來已留下紀錄。"
+    },
+    {
+      "word": "vivid",
+      "partOfSpeech": "adj.",
+      "meaning": "鮮明逼真的",
+      "usage": "dreams feel vivid and real 描述做夢者的感受，不保證夢事真實發生。"
+    },
+    {
+      "word": "others",
+      "partOfSpeech": "pron.",
+      "meaning": "其他一些人",
+      "usage": "Others claim 作複數主詞，接前句 many people 之外另一群人的敘述。"
+    },
+    {
+      "word": "come up with",
+      "partOfSpeech": "片語動詞",
+      "meaning": "想出",
+      "usage": "come up with new insights 是想出新見解，和 solve problems 並列。"
+    },
+    {
+      "word": "insight",
+      "partOfSpeech": "n.",
+      "meaning": "洞見；深刻見解",
+      "usage": "new insights 是新的理解，不是可以組隊合作的對象。"
+    },
+    {
+      "word": "eager for",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "渴望",
+      "usage": "eager for a lucid dream 表想體驗清醒夢，後面接名詞。"
+    },
+    {
+      "word": "remind oneself that",
+      "partOfSpeech": "動詞句型",
+      "meaning": "提醒自己某事",
+      "usage": "remind yourself that they are not real 指提醒夢中細節非現實。"
+    },
+    {
+      "word": "unusual detail",
+      "partOfSpeech": "n. phr.",
+      "meaning": "不尋常細節",
+      "usage": "本文建議注意異常細節作辨夢線索，不是保證人人照做一定成功。"
+    }
+  ],
+  "42": [
+    {
+      "word": "lucid dream",
+      "partOfSpeech": "n. phr.",
+      "meaning": "清醒夢",
+      "usage": "本文指做夢時察覺正在做夢，後面也提控制夢境的自述。"
+    },
+    {
+      "word": "be aware that",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "察覺到",
+      "usage": "becomes aware that he is dreaming 表示知道自己正在夢中。"
+    },
+    {
+      "word": "have been recorded",
+      "partOfSpeech": "完成被動句型",
+      "meaning": "已被記錄",
+      "usage": "has been recorded for centuries 表幾世紀以來已留下紀錄。"
+    },
+    {
+      "word": "vivid",
+      "partOfSpeech": "adj.",
+      "meaning": "鮮明逼真的",
+      "usage": "dreams feel vivid and real 描述做夢者的感受，不保證夢事真實發生。"
+    },
+    {
+      "word": "others",
+      "partOfSpeech": "pron.",
+      "meaning": "其他一些人",
+      "usage": "Others claim 作複數主詞，接前句 many people 之外另一群人的敘述。"
+    },
+    {
+      "word": "come up with",
+      "partOfSpeech": "片語動詞",
+      "meaning": "想出",
+      "usage": "come up with new insights 是想出新見解，和 solve problems 並列。"
+    },
+    {
+      "word": "insight",
+      "partOfSpeech": "n.",
+      "meaning": "洞見；深刻見解",
+      "usage": "new insights 是新的理解，不是可以組隊合作的對象。"
+    },
+    {
+      "word": "eager for",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "渴望",
+      "usage": "eager for a lucid dream 表想體驗清醒夢，後面接名詞。"
+    },
+    {
+      "word": "remind oneself that",
+      "partOfSpeech": "動詞句型",
+      "meaning": "提醒自己某事",
+      "usage": "remind yourself that they are not real 指提醒夢中細節非現實。"
+    },
+    {
+      "word": "unusual detail",
+      "partOfSpeech": "n. phr.",
+      "meaning": "不尋常細節",
+      "usage": "本文建議注意異常細節作辨夢線索，不是保證人人照做一定成功。"
+    }
+  ],
+  "43": [
+    {
+      "word": "lucid dream",
+      "partOfSpeech": "n. phr.",
+      "meaning": "清醒夢",
+      "usage": "本文指做夢時察覺正在做夢，後面也提控制夢境的自述。"
+    },
+    {
+      "word": "be aware that",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "察覺到",
+      "usage": "becomes aware that he is dreaming 表示知道自己正在夢中。"
+    },
+    {
+      "word": "have been recorded",
+      "partOfSpeech": "完成被動句型",
+      "meaning": "已被記錄",
+      "usage": "has been recorded for centuries 表幾世紀以來已留下紀錄。"
+    },
+    {
+      "word": "vivid",
+      "partOfSpeech": "adj.",
+      "meaning": "鮮明逼真的",
+      "usage": "dreams feel vivid and real 描述做夢者的感受，不保證夢事真實發生。"
+    },
+    {
+      "word": "others",
+      "partOfSpeech": "pron.",
+      "meaning": "其他一些人",
+      "usage": "Others claim 作複數主詞，接前句 many people 之外另一群人的敘述。"
+    },
+    {
+      "word": "come up with",
+      "partOfSpeech": "片語動詞",
+      "meaning": "想出",
+      "usage": "come up with new insights 是想出新見解，和 solve problems 並列。"
+    },
+    {
+      "word": "insight",
+      "partOfSpeech": "n.",
+      "meaning": "洞見；深刻見解",
+      "usage": "new insights 是新的理解，不是可以組隊合作的對象。"
+    },
+    {
+      "word": "eager for",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "渴望",
+      "usage": "eager for a lucid dream 表想體驗清醒夢，後面接名詞。"
+    },
+    {
+      "word": "remind oneself that",
+      "partOfSpeech": "動詞句型",
+      "meaning": "提醒自己某事",
+      "usage": "remind yourself that they are not real 指提醒夢中細節非現實。"
+    },
+    {
+      "word": "unusual detail",
+      "partOfSpeech": "n. phr.",
+      "meaning": "不尋常細節",
+      "usage": "本文建議注意異常細節作辨夢線索，不是保證人人照做一定成功。"
+    }
+  ],
+  "44": [
+    {
+      "word": "lucid dream",
+      "partOfSpeech": "n. phr.",
+      "meaning": "清醒夢",
+      "usage": "本文指做夢時察覺正在做夢，後面也提控制夢境的自述。"
+    },
+    {
+      "word": "be aware that",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "察覺到",
+      "usage": "becomes aware that he is dreaming 表示知道自己正在夢中。"
+    },
+    {
+      "word": "have been recorded",
+      "partOfSpeech": "完成被動句型",
+      "meaning": "已被記錄",
+      "usage": "has been recorded for centuries 表幾世紀以來已留下紀錄。"
+    },
+    {
+      "word": "vivid",
+      "partOfSpeech": "adj.",
+      "meaning": "鮮明逼真的",
+      "usage": "dreams feel vivid and real 描述做夢者的感受，不保證夢事真實發生。"
+    },
+    {
+      "word": "others",
+      "partOfSpeech": "pron.",
+      "meaning": "其他一些人",
+      "usage": "Others claim 作複數主詞，接前句 many people 之外另一群人的敘述。"
+    },
+    {
+      "word": "come up with",
+      "partOfSpeech": "片語動詞",
+      "meaning": "想出",
+      "usage": "come up with new insights 是想出新見解，和 solve problems 並列。"
+    },
+    {
+      "word": "insight",
+      "partOfSpeech": "n.",
+      "meaning": "洞見；深刻見解",
+      "usage": "new insights 是新的理解，不是可以組隊合作的對象。"
+    },
+    {
+      "word": "eager for",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "渴望",
+      "usage": "eager for a lucid dream 表想體驗清醒夢，後面接名詞。"
+    },
+    {
+      "word": "remind oneself that",
+      "partOfSpeech": "動詞句型",
+      "meaning": "提醒自己某事",
+      "usage": "remind yourself that they are not real 指提醒夢中細節非現實。"
+    },
+    {
+      "word": "unusual detail",
+      "partOfSpeech": "n. phr.",
+      "meaning": "不尋常細節",
+      "usage": "本文建議注意異常細節作辨夢線索，不是保證人人照做一定成功。"
+    }
+  ],
+  "45": [
+    {
+      "word": "lucid dream",
+      "partOfSpeech": "n. phr.",
+      "meaning": "清醒夢",
+      "usage": "本文指做夢時察覺正在做夢，後面也提控制夢境的自述。"
+    },
+    {
+      "word": "be aware that",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "察覺到",
+      "usage": "becomes aware that he is dreaming 表示知道自己正在夢中。"
+    },
+    {
+      "word": "have been recorded",
+      "partOfSpeech": "完成被動句型",
+      "meaning": "已被記錄",
+      "usage": "has been recorded for centuries 表幾世紀以來已留下紀錄。"
+    },
+    {
+      "word": "vivid",
+      "partOfSpeech": "adj.",
+      "meaning": "鮮明逼真的",
+      "usage": "dreams feel vivid and real 描述做夢者的感受，不保證夢事真實發生。"
+    },
+    {
+      "word": "others",
+      "partOfSpeech": "pron.",
+      "meaning": "其他一些人",
+      "usage": "Others claim 作複數主詞，接前句 many people 之外另一群人的敘述。"
+    },
+    {
+      "word": "come up with",
+      "partOfSpeech": "片語動詞",
+      "meaning": "想出",
+      "usage": "come up with new insights 是想出新見解，和 solve problems 並列。"
+    },
+    {
+      "word": "insight",
+      "partOfSpeech": "n.",
+      "meaning": "洞見；深刻見解",
+      "usage": "new insights 是新的理解，不是可以組隊合作的對象。"
+    },
+    {
+      "word": "eager for",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "渴望",
+      "usage": "eager for a lucid dream 表想體驗清醒夢，後面接名詞。"
+    },
+    {
+      "word": "remind oneself that",
+      "partOfSpeech": "動詞句型",
+      "meaning": "提醒自己某事",
+      "usage": "remind yourself that they are not real 指提醒夢中細節非現實。"
+    },
+    {
+      "word": "unusual detail",
+      "partOfSpeech": "n. phr.",
+      "meaning": "不尋常細節",
+      "usage": "本文建議注意異常細節作辨夢線索，不是保證人人照做一定成功。"
+    }
+  ],
+  "reading-46-50": [
+    {
+      "word": "lingua franca",
+      "partOfSpeech": "n. phr.",
+      "meaning": "通用語",
+      "usage": "ELF 為 English as Lingua Franca，強調不同母語者溝通工具。"
+    },
+    {
+      "word": "identification",
+      "partOfSpeech": "n.",
+      "meaning": "認同",
+      "usage": "languages for identification 指身分文化認同，不是訂票證件編號的意思。"
+    },
+    {
+      "word": "prejudice",
+      "partOfSpeech": "n.",
+      "meaning": "偏見",
+      "usage": "socio-cultural prejudice 描述作者對語言支配可能帶來不平等的擔憂。"
+    },
+    {
+      "word": "superiority",
+      "partOfSpeech": "n.",
+      "meaning": "優越感；優勢",
+      "usage": "本文連接語言地位與文化優越，需依作者批判立場理解。"
+    },
+    {
+      "word": "sway",
+      "partOfSpeech": "n.",
+      "meaning": "支配力；影響力",
+      "usage": "the sway of English over others 指英語相對其他語言的影響地位。"
+    },
+    {
+      "word": "colonialism",
+      "partOfSpeech": "n.",
+      "meaning": "殖民主義",
+      "usage": "作者用英國殖民歷史解釋英語擴散，是本文明列的歷史因素。"
+    },
+    {
+      "word": "proficiency",
+      "partOfSpeech": "n.",
+      "meaning": "熟練程度",
+      "usage": "English language proficiency 是英語能力，作者反對把所有未來全押在此。"
+    },
+    {
+      "word": "dominance",
+      "partOfSpeech": "n.",
+      "meaning": "支配地位",
+      "usage": "作者警惕語言 dominance，不等於否認所有跨國溝通益處。"
+    },
+    {
+      "word": "socio-cultural decline",
+      "partOfSpeech": "n. phr.",
+      "meaning": "社會文化衰退",
+      "usage": "教育材料大量英語化的風險段直接用此詞，支持第四十九題。"
+    },
+    {
+      "word": "folk tale",
+      "partOfSpeech": "n. phr.",
+      "meaning": "民間故事",
+      "usage": "folk tales 與 literature、media 並列為文化傳播來源。"
+    },
+    {
+      "word": "ethics",
+      "partOfSpeech": "n.",
+      "meaning": "倫理",
+      "usage": "social ethics 是被傳遞的內容，不是文中與文學媒體並列的傳播管道。"
+    },
+    {
+      "word": "sole",
+      "partOfSpeech": "adj.",
+      "meaning": "唯一的",
+      "usage": "第48題選項 sole official language 加入排他性，本文未說企業如此決定。"
+    }
+  ]
+}

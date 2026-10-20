@@ -1,0 +1,450 @@
+{
+  "36": [
+    {
+      "word": "indoors",
+      "partOfSpeech": "adv.",
+      "meaning": "在室內",
+      "usage": "stayed indoors all morning 和後句 go out 曬太陽形成對照。"
+    },
+    {
+      "word": "outdoors",
+      "partOfSpeech": "adv.",
+      "meaning": "在戶外",
+      "usage": "若已整早待戶外，後文出門的建議就不符合本題預期脈絡。"
+    },
+    {
+      "word": "sunshine",
+      "partOfSpeech": "n.",
+      "meaning": "陽光",
+      "usage": "enjoy the sunshine 表示出門接觸陽光，是選 indoors 的語意線索。"
+    }
+  ],
+  "37": [
+    {
+      "word": "sense",
+      "partOfSpeech": "n.",
+      "meaning": "感官",
+      "usage": "one of the senses 表示感官之一，漫畫主要靠視覺。"
+    },
+    {
+      "word": "mono-sensory",
+      "partOfSpeech": "adj.",
+      "meaning": "單一感官的",
+      "usage": "mono- 表示單一，sensory 與感官有關，直接提示後面 senses。"
+    },
+    {
+      "word": "sensor",
+      "partOfSpeech": "n.",
+      "meaning": "感測器",
+      "usage": "sensor 指測量元件，不能因字形相近就和人的感官 sense 混用。"
+    }
+  ],
+  "38": [
+    {
+      "word": "complete",
+      "partOfSpeech": "v.",
+      "meaning": "完成",
+      "usage": "complete the training program 表示完成訓練，再取得證書。"
+    },
+    {
+      "word": "certificate",
+      "partOfSpeech": "n.",
+      "meaning": "證書",
+      "usage": "receive a certificate 是結訓後領到證明，不是進行競爭。"
+    },
+    {
+      "word": "staff member",
+      "partOfSpeech": "n. phr.",
+      "meaning": "員工",
+      "usage": "new staff members 是新進員工，為 after 子句的複數主詞。"
+    }
+  ],
+  "39": [
+    {
+      "word": "rule",
+      "partOfSpeech": "v.",
+      "meaning": "統治",
+      "usage": "used to be ruled by 指過去曾由某強權統治，採被動語態。"
+    },
+    {
+      "word": "used to",
+      "partOfSpeech": "助動詞片語",
+      "meaning": "過去曾經",
+      "usage": "描述以往狀態，不能和 be used to doing 習慣於混淆。"
+    },
+    {
+      "word": "power",
+      "partOfSpeech": "n.",
+      "meaning": "強權；強國",
+      "usage": "English-speaking powers 指英語系強權，不是單純電力或能力。"
+    }
+  ],
+  "40": [
+    {
+      "word": "gradually",
+      "partOfSpeech": "adv.",
+      "meaning": "逐漸地",
+      "usage": "over millions of years 提示漫長變化，與 gradually 呼應。"
+    },
+    {
+      "word": "ability",
+      "partOfSpeech": "n.",
+      "meaning": "能力",
+      "usage": "the ability to fly 表示飛行能力，to fly 補充能力的內容。"
+    },
+    {
+      "word": "temporarily",
+      "partOfSpeech": "adv.",
+      "meaning": "暫時地",
+      "usage": "本文是演化結果，沒有失去一陣子後恢復能力的線索。"
+    }
+  ],
+  "41": [
+    {
+      "word": "have an influence on",
+      "partOfSpeech": "動詞片語",
+      "meaning": "對……有影響",
+      "usage": "父母對子女教育及職涯有影響，have 與 influence on 搭配。"
+    },
+    {
+      "word": "career path",
+      "partOfSpeech": "n. phr.",
+      "meaning": "職涯道路",
+      "usage": "與 educational decisions 並列，說明父母影響孩子的兩個領域。"
+    },
+    {
+      "word": "parenting style",
+      "partOfSpeech": "n. phr.",
+      "meaning": "教養方式",
+      "usage": "本文列為影響選擇的重要因素，不是父母的衣著風格。"
+    },
+    {
+      "word": "appear to be",
+      "partOfSpeech": "動詞句型",
+      "meaning": "似乎是",
+      "usage": "appear 後接不定詞 to be，再列出家庭大小等因素。"
+    },
+    {
+      "word": "essential",
+      "partOfSpeech": "adj.",
+      "meaning": "必要的；極重要的",
+      "usage": "It is essential for parents to recognize 用形式主詞說明認知的重要。"
+    },
+    {
+      "word": "ever-changing",
+      "partOfSpeech": "adj.",
+      "meaning": "不斷變化的",
+      "usage": "long, ever-changing process 描述職涯選擇是長期發展過程。"
+    },
+    {
+      "word": "be concerned about",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "對……憂心",
+      "usage": "教育者擔心有些父母沒有察覺自身影響，後接擔心的對象。"
+    },
+    {
+      "word": "be aware of",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "察覺；知道",
+      "usage": "not aware of the importance 指尚未理解其重要性。"
+    },
+    {
+      "word": "enduring",
+      "partOfSpeech": "adj.",
+      "meaning": "持久的",
+      "usage": "父母影響可長期延續，positive or negative 補充影響方向。"
+    }
+  ],
+  "42": [
+    {
+      "word": "have an influence on",
+      "partOfSpeech": "動詞片語",
+      "meaning": "對……有影響",
+      "usage": "父母對子女教育及職涯有影響，have 與 influence on 搭配。"
+    },
+    {
+      "word": "career path",
+      "partOfSpeech": "n. phr.",
+      "meaning": "職涯道路",
+      "usage": "與 educational decisions 並列，說明父母影響孩子的兩個領域。"
+    },
+    {
+      "word": "parenting style",
+      "partOfSpeech": "n. phr.",
+      "meaning": "教養方式",
+      "usage": "本文列為影響選擇的重要因素，不是父母的衣著風格。"
+    },
+    {
+      "word": "appear to be",
+      "partOfSpeech": "動詞句型",
+      "meaning": "似乎是",
+      "usage": "appear 後接不定詞 to be，再列出家庭大小等因素。"
+    },
+    {
+      "word": "essential",
+      "partOfSpeech": "adj.",
+      "meaning": "必要的；極重要的",
+      "usage": "It is essential for parents to recognize 用形式主詞說明認知的重要。"
+    },
+    {
+      "word": "ever-changing",
+      "partOfSpeech": "adj.",
+      "meaning": "不斷變化的",
+      "usage": "long, ever-changing process 描述職涯選擇是長期發展過程。"
+    },
+    {
+      "word": "be concerned about",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "對……憂心",
+      "usage": "教育者擔心有些父母沒有察覺自身影響，後接擔心的對象。"
+    },
+    {
+      "word": "be aware of",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "察覺；知道",
+      "usage": "not aware of the importance 指尚未理解其重要性。"
+    },
+    {
+      "word": "enduring",
+      "partOfSpeech": "adj.",
+      "meaning": "持久的",
+      "usage": "父母影響可長期延續，positive or negative 補充影響方向。"
+    }
+  ],
+  "43": [
+    {
+      "word": "have an influence on",
+      "partOfSpeech": "動詞片語",
+      "meaning": "對……有影響",
+      "usage": "父母對子女教育及職涯有影響，have 與 influence on 搭配。"
+    },
+    {
+      "word": "career path",
+      "partOfSpeech": "n. phr.",
+      "meaning": "職涯道路",
+      "usage": "與 educational decisions 並列，說明父母影響孩子的兩個領域。"
+    },
+    {
+      "word": "parenting style",
+      "partOfSpeech": "n. phr.",
+      "meaning": "教養方式",
+      "usage": "本文列為影響選擇的重要因素，不是父母的衣著風格。"
+    },
+    {
+      "word": "appear to be",
+      "partOfSpeech": "動詞句型",
+      "meaning": "似乎是",
+      "usage": "appear 後接不定詞 to be，再列出家庭大小等因素。"
+    },
+    {
+      "word": "essential",
+      "partOfSpeech": "adj.",
+      "meaning": "必要的；極重要的",
+      "usage": "It is essential for parents to recognize 用形式主詞說明認知的重要。"
+    },
+    {
+      "word": "ever-changing",
+      "partOfSpeech": "adj.",
+      "meaning": "不斷變化的",
+      "usage": "long, ever-changing process 描述職涯選擇是長期發展過程。"
+    },
+    {
+      "word": "be concerned about",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "對……憂心",
+      "usage": "教育者擔心有些父母沒有察覺自身影響，後接擔心的對象。"
+    },
+    {
+      "word": "be aware of",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "察覺；知道",
+      "usage": "not aware of the importance 指尚未理解其重要性。"
+    },
+    {
+      "word": "enduring",
+      "partOfSpeech": "adj.",
+      "meaning": "持久的",
+      "usage": "父母影響可長期延續，positive or negative 補充影響方向。"
+    }
+  ],
+  "44": [
+    {
+      "word": "have an influence on",
+      "partOfSpeech": "動詞片語",
+      "meaning": "對……有影響",
+      "usage": "父母對子女教育及職涯有影響，have 與 influence on 搭配。"
+    },
+    {
+      "word": "career path",
+      "partOfSpeech": "n. phr.",
+      "meaning": "職涯道路",
+      "usage": "與 educational decisions 並列，說明父母影響孩子的兩個領域。"
+    },
+    {
+      "word": "parenting style",
+      "partOfSpeech": "n. phr.",
+      "meaning": "教養方式",
+      "usage": "本文列為影響選擇的重要因素，不是父母的衣著風格。"
+    },
+    {
+      "word": "appear to be",
+      "partOfSpeech": "動詞句型",
+      "meaning": "似乎是",
+      "usage": "appear 後接不定詞 to be，再列出家庭大小等因素。"
+    },
+    {
+      "word": "essential",
+      "partOfSpeech": "adj.",
+      "meaning": "必要的；極重要的",
+      "usage": "It is essential for parents to recognize 用形式主詞說明認知的重要。"
+    },
+    {
+      "word": "ever-changing",
+      "partOfSpeech": "adj.",
+      "meaning": "不斷變化的",
+      "usage": "long, ever-changing process 描述職涯選擇是長期發展過程。"
+    },
+    {
+      "word": "be concerned about",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "對……憂心",
+      "usage": "教育者擔心有些父母沒有察覺自身影響，後接擔心的對象。"
+    },
+    {
+      "word": "be aware of",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "察覺；知道",
+      "usage": "not aware of the importance 指尚未理解其重要性。"
+    },
+    {
+      "word": "enduring",
+      "partOfSpeech": "adj.",
+      "meaning": "持久的",
+      "usage": "父母影響可長期延續，positive or negative 補充影響方向。"
+    }
+  ],
+  "45": [
+    {
+      "word": "have an influence on",
+      "partOfSpeech": "動詞片語",
+      "meaning": "對……有影響",
+      "usage": "父母對子女教育及職涯有影響，have 與 influence on 搭配。"
+    },
+    {
+      "word": "career path",
+      "partOfSpeech": "n. phr.",
+      "meaning": "職涯道路",
+      "usage": "與 educational decisions 並列，說明父母影響孩子的兩個領域。"
+    },
+    {
+      "word": "parenting style",
+      "partOfSpeech": "n. phr.",
+      "meaning": "教養方式",
+      "usage": "本文列為影響選擇的重要因素，不是父母的衣著風格。"
+    },
+    {
+      "word": "appear to be",
+      "partOfSpeech": "動詞句型",
+      "meaning": "似乎是",
+      "usage": "appear 後接不定詞 to be，再列出家庭大小等因素。"
+    },
+    {
+      "word": "essential",
+      "partOfSpeech": "adj.",
+      "meaning": "必要的；極重要的",
+      "usage": "It is essential for parents to recognize 用形式主詞說明認知的重要。"
+    },
+    {
+      "word": "ever-changing",
+      "partOfSpeech": "adj.",
+      "meaning": "不斷變化的",
+      "usage": "long, ever-changing process 描述職涯選擇是長期發展過程。"
+    },
+    {
+      "word": "be concerned about",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "對……憂心",
+      "usage": "教育者擔心有些父母沒有察覺自身影響，後接擔心的對象。"
+    },
+    {
+      "word": "be aware of",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "察覺；知道",
+      "usage": "not aware of the importance 指尚未理解其重要性。"
+    },
+    {
+      "word": "enduring",
+      "partOfSpeech": "adj.",
+      "meaning": "持久的",
+      "usage": "父母影響可長期延續，positive or negative 補充影響方向。"
+    }
+  ],
+  "reading-46-50": [
+    {
+      "word": "inflation",
+      "partOfSpeech": "n.",
+      "meaning": "通貨膨脹",
+      "usage": "本文開頭提通膨，作為轉向討論通縮風險的背景。"
+    },
+    {
+      "word": "deflation",
+      "partOfSpeech": "n.",
+      "meaning": "通貨緊縮",
+      "usage": "文章以 falling prices 解釋物價下跌，再區分良性與惡性成因。"
+    },
+    {
+      "word": "bogeyman",
+      "partOfSpeech": "n.",
+      "meaning": "嚇人怪物；可怕威脅",
+      "usage": "比喻通膨長期讓人害怕，第 46 題以 frightening 對應。"
+    },
+    {
+      "word": "productivity",
+      "partOfSpeech": "n.",
+      "meaning": "生產力",
+      "usage": "較快生產力成長帶來降價，是本文認為可能良性的通縮情況。"
+    },
+    {
+      "word": "excess capacity",
+      "partOfSpeech": "n. phr.",
+      "meaning": "產能過剩",
+      "usage": "和需求衰退並列，描述可能導致惡性通縮的環境。"
+    },
+    {
+      "word": "real burden of debt",
+      "partOfSpeech": "n. phr.",
+      "meaning": "實質債務負擔",
+      "usage": "名目欠款未減但價格與收入下滑，償債負擔可能加重。"
+    },
+    {
+      "word": "downward spiral",
+      "partOfSpeech": "n. phr.",
+      "meaning": "向下惡性循環",
+      "usage": "需求、收入與價格互相拉低，並非單一商品沿需求曲線移動。"
+    },
+    {
+      "word": "nominal interest rate",
+      "partOfSpeech": "n. phr.",
+      "meaning": "名目利率",
+      "usage": "本文採零下限簡化假設，後來已有負利率實例，不能當成絕對規則。"
+    },
+    {
+      "word": "asset",
+      "partOfSpeech": "n.",
+      "meaning": "資產",
+      "usage": "債務人賣出資產償債，可能讓資產價格進一步下跌。"
+    },
+    {
+      "word": "paradoxically",
+      "partOfSpeech": "adv.",
+      "meaning": "看似矛盾地",
+      "usage": "個別企業減支求自保，整體卻使需求更弱，是段末矛盾效果。"
+    },
+    {
+      "word": "thwart",
+      "partOfSpeech": "v.",
+      "meaning": "阻撓；挫敗",
+      "usage": "需求降低會 thwart the desired improvement in profit，使改善獲利的期待落空。"
+    }
+  ]
+}

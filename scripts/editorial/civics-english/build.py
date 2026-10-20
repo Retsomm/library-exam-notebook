@@ -6,6 +6,21 @@ bank=json.loads((root/'data/bank.json').read_text())
 questions={q['id']:q for q in bank['questions']}
 exams={e['id']:e for e in bank['exams']}
 refs={
+ 'correction108':('考選部：108年標準答案更正清冊（第15題一律給分）','https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=108010&t=A#page=1'),
+ 'neutral':('全國法規資料庫：公務人員行政中立法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036'),
+ '718':('憲法法庭：釋字第718號','https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310899'),
+ '490':('憲法法庭：釋字第490號','https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310671'),
+ 'education':('全國法規資料庫：國民教育法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0070001'),
+ 'temporary':('司法院：暫行安置及監護處分修法說明','https://www.judicial.gov.tw/tw/cp-1471-581247-8b5b1-1.html'),
+ 'labor':('全國法規資料庫：勞資爭議處理法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0020007'),
+ 'insurance':('勞保局：家庭幫傭自願加保說明','https://www.bli.gov.tw/0102458.html'),
+ 'asean':('東南亞國協：共同體介紹','https://asean.org/our-communities/'),
+ 'nationality':('全國法規資料庫：國籍法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0030001'),
+ 'presidential':('全國法規資料庫：總統副總統選舉罷免法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020053'),
+ 'criminalprocedure':('全國法規資料庫：刑事訴訟法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001'),
+ 'civilprocedure':('全國法規資料庫：民事訴訟法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0010001'),
+ 'eu':('歐洲聯盟：組織與機構','https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies_en'),
+ 'copyright':('智慧財產局：著作權法','https://www.tipo.gov.tw/tw/copyright/693-8432.html'),
  'cptpp':('紐西蘭外交貿易部：CPTPP 第 5 條加入資格','https://www.mfat.govt.nz/en/about-us/who-we-are/treaties/comprehensive-and-progressive-agreement-for-tpp'),
  'criminal':('全國法規資料庫：中華民國刑法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001'),
  '721':('憲法法庭：釋字第 721 號','https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310902'),
@@ -60,6 +75,24 @@ for path in sorted(Path(__file__).parent.glob('*.txt')):
   for letter in ['A','B']:
    entries['114-1-34']['optionVerdicts'][letter]='官方更正接受此項；選 A 或 B 任一項皆給分，詳見要件分析。'
   entries['114-1-49']['optionVerdicts']={o['letter']:('本文未提及，因此本題應選；不表示現實不可能。' if o['letter']=='D' else '本文有提及，因此本題不選。') for o in questions['114-1-49']['options']}
+ # Preserve official scoring while distinguishing disputed wording and reading scope.
+ if year=='108':
+  for letter in 'ABCD':entries['108-1-15']['optionVerdicts'][letter]='官方更正接受任一選項給分；不是要求四項皆選，概念差異詳見解析。'
+ special={
+ '106':{2:{'A':'相關概念有重疊；官方依本題教材分類採 B，詳見說明。'},21:{'C':'個案分類須看固定方式；官方採典型橋樑 B。','D':'個案分類須看設置型態；官方採典型橋樑 B。'}},
+ '107':{6:{'D':'官方採此簡化比較；不代表所有思想流派皆如此。'},31:{'C':'官方以總經濟成本口徑採此答案；狹義機會成本須區分。'}},
+ '108':{4:{'A':'依題目線索的官方答案；不憑單一新聞診斷依附。'},32:{'B':'官方採有效可用勞動減少的模型；其他模型詳見說明。'}},
+ '109':{30:{'A':'部分歷史分工可如此描述；官方採 C 的結構說明。'},35:{'B':'官方採此錯配；現代軍購資本化口徑有差異，詳見說明。'}},
+ '110':{2:{'D':'本題答案；社團為泛稱，不等於社團法人。'},17:{'B':'官方計分答案；再審方向較合，最高法院管轄表述有疑義。'},21:{'A':'規劃與評估可銜接；官方以既有政策檢討採 D。','D':'官方依政策檢討焦點歸評估，適用界線詳見說明。'},46:{'C':'原文橙子／橙色有疑義，官方未採此項，詳見說明。','D':'官方計分答案；本文未列護眼，不表示現實會傷眼。'}},
+ '111':{34:{'D':'官方計分答案；較不直接改善國人認識，非完全無價值。'},35:{'A':'以個別車輛使用分類有依據；官方分析系統而採 B。','B':'官方依系統付費共享採此項；有限車輛仍有競爭與擁擠。'}},
+ '113':{4:{'D':'長期供給效果可能成立；官方題意著重短期需求。'},12:{'A':'官方教材採擬制領土用語；不等於真正領土，詳見限制。'},18:{'B':'廣義政治參與可如此理解；官方採 D 的明確共同點。'},29:{'B':'原考年度依釋字490號計分；歷史理由不可泛化。'},33:{'A':'官方計分答案；處遇法定名稱及程序有表述疑義。'}}}
+ for n,mapping in special.get(year,{}).items():entries[f'{year}-1-{n}']['optionVerdicts'].update(mapping)
+ for qid,e in entries.items():
+  if int(year)<=113:e['reviewedAt']='2026-10-20'
+  if int(year)<=113 and int(qid.rsplit('-',1)[1])>=46 and qid not in ['110-1-46']:
+   q=questions[qid]
+   if 'NOT' in q['stem'] or 'not ' in q['stem']:
+    e['optionVerdicts']={o['letter']:('不符本文或未按題意提及，因此本題應選；詳見逐項說明。' if o['letter'] in q['accepted'] else '本文有相應支持，因此本題不選。') for o in q['options']}
  assert len(entries)==50,(year,len(entries))
  (root/f'data/explanations/{year}-1.json').write_text(json.dumps(entries,ensure_ascii=False,indent=2)+'\n')
  print(year,len(entries),'questions;',sum(len(x.get('vocabulary',[])) for x in entries.values()),'vocabulary displays')

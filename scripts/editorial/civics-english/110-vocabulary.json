@@ -1,0 +1,444 @@
+{
+  "36": [
+    {
+      "word": "particular",
+      "partOfSpeech": "adj.",
+      "meaning": "特別的",
+      "usage": "a particular interest in music 表示從小對音樂特別有興趣。"
+    },
+    {
+      "word": "composer",
+      "partOfSpeech": "n.",
+      "meaning": "作曲家",
+      "usage": "句中的作曲家三歲就有興趣，前後呼應早期音樂天分。"
+    },
+    {
+      "word": "ordinary",
+      "partOfSpeech": "adj.",
+      "meaning": "普通的",
+      "usage": "ordinary interest 不能像 particular 一樣突顯三歲即有的特殊興趣。"
+    }
+  ],
+  "37": [
+    {
+      "word": "gasoline",
+      "partOfSpeech": "n.",
+      "meaning": "汽油",
+      "usage": "依本句機器與車輛運轉的線索，四項中 gasoline 最符合能源需求。"
+    },
+    {
+      "word": "vital",
+      "partOfSpeech": "adj.",
+      "meaning": "極重要的",
+      "usage": "be vital to our living 表示對生活很重要，不是動詞提供能量。"
+    },
+    {
+      "word": "vehicle",
+      "partOfSpeech": "n.",
+      "meaning": "車輛",
+      "usage": "machines and vehicles 是本文用來提示燃料用途的並列名詞。"
+    }
+  ],
+  "38": [
+    {
+      "word": "defy",
+      "partOfSpeech": "v.",
+      "meaning": "公然違抗",
+      "usage": "defied the command 表示不服從撤退命令，仍在街頭遊行。"
+    },
+    {
+      "word": "retreat",
+      "partOfSpeech": "v.",
+      "meaning": "撤退",
+      "usage": "retreat back to their factories 指退回工廠，與 continued marching 形成對照。"
+    },
+    {
+      "word": "endorse",
+      "partOfSpeech": "v.",
+      "meaning": "支持；認可",
+      "usage": "endorsed the command 會變成認可命令，與工人繼續抗議的方向不同。"
+    }
+  ],
+  "39": [
+    {
+      "word": "alike",
+      "partOfSpeech": "adv.",
+      "meaning": "同樣地",
+      "usage": "big and small firms alike 表示大公司和小公司都一樣採用技術。"
+    },
+    {
+      "word": "apply",
+      "partOfSpeech": "v.",
+      "meaning": "應用",
+      "usage": "are being applied 是現在進行被動，表示技術正被廣泛使用。"
+    },
+    {
+      "word": "technique",
+      "partOfSpeech": "n.",
+      "meaning": "技術；方法",
+      "usage": "techniques 為複數主詞，句子描述企業對這些方法的採用。"
+    }
+  ],
+  "40": [
+    {
+      "word": "insist",
+      "partOfSpeech": "v.",
+      "meaning": "堅稱",
+      "usage": "insist that they have nothing to do with the crime 表示堅稱與犯罪無關。"
+    },
+    {
+      "word": "have nothing to do with",
+      "partOfSpeech": "片語",
+      "meaning": "與……無關",
+      "usage": "兩人否認和犯罪有關，這個片語不是說沒有工作可做。"
+    },
+    {
+      "word": "crime",
+      "partOfSpeech": "n.",
+      "meaning": "犯罪",
+      "usage": "the crime 指前後文已知案件，作者最後說相信兩人的說法。"
+    }
+  ],
+  "41": [
+    {
+      "word": "absence",
+      "partOfSpeech": "n.",
+      "meaning": "缺勤；不在",
+      "usage": "workplace absence 指工作缺勤，與後文請病假的成本相連。"
+    },
+    {
+      "word": "work-related",
+      "partOfSpeech": "adj.",
+      "meaning": "與工作有關的",
+      "usage": "work-related injury or illness 指因工作受傷或生病的情況。"
+    },
+    {
+      "word": "leave employment",
+      "partOfSpeech": "動詞片語",
+      "meaning": "離職",
+      "usage": "with 500 people leaving employment 表示伴隨每週五百人離職。"
+    },
+    {
+      "word": "repetitive strain injury",
+      "partOfSpeech": "n. phr.",
+      "meaning": "重複性勞損",
+      "usage": "文章把它列為缺勤原因，repetitive 表示動作反覆造成累積傷害。"
+    },
+    {
+      "word": "cause",
+      "partOfSpeech": "n.",
+      "meaning": "原因",
+      "usage": "the main cause of joblessness 是失業的主要原因，不是 care 照顧。"
+    },
+    {
+      "word": "a fall from ... to ...",
+      "partOfSpeech": "n. phr.",
+      "meaning": "從……下降到……",
+      "usage": "缺勤天數由八點五降至七點八，fall 指數值下降。"
+    },
+    {
+      "word": "up to",
+      "partOfSpeech": "介系詞片語",
+      "meaning": "高達；多達",
+      "usage": "up to 15% 表示估計最高達百分之十五，不是最低下限。"
+    },
+    {
+      "word": "genuine",
+      "partOfSpeech": "adj.",
+      "meaning": "真實的",
+      "usage": "not genuine 表示並非真的因病缺勤，和後文假病假連貫。"
+    },
+    {
+      "word": "pull a sickie",
+      "partOfSpeech": "口語片語",
+      "meaning": "裝病請假",
+      "usage": "本文以飲酒後請假作例子，這是英式口語而非正式醫學診斷。"
+    }
+  ],
+  "42": [
+    {
+      "word": "absence",
+      "partOfSpeech": "n.",
+      "meaning": "缺勤；不在",
+      "usage": "workplace absence 指工作缺勤，與後文請病假的成本相連。"
+    },
+    {
+      "word": "work-related",
+      "partOfSpeech": "adj.",
+      "meaning": "與工作有關的",
+      "usage": "work-related injury or illness 指因工作受傷或生病的情況。"
+    },
+    {
+      "word": "leave employment",
+      "partOfSpeech": "動詞片語",
+      "meaning": "離職",
+      "usage": "with 500 people leaving employment 表示伴隨每週五百人離職。"
+    },
+    {
+      "word": "repetitive strain injury",
+      "partOfSpeech": "n. phr.",
+      "meaning": "重複性勞損",
+      "usage": "文章把它列為缺勤原因，repetitive 表示動作反覆造成累積傷害。"
+    },
+    {
+      "word": "cause",
+      "partOfSpeech": "n.",
+      "meaning": "原因",
+      "usage": "the main cause of joblessness 是失業的主要原因，不是 care 照顧。"
+    },
+    {
+      "word": "a fall from ... to ...",
+      "partOfSpeech": "n. phr.",
+      "meaning": "從……下降到……",
+      "usage": "缺勤天數由八點五降至七點八，fall 指數值下降。"
+    },
+    {
+      "word": "up to",
+      "partOfSpeech": "介系詞片語",
+      "meaning": "高達；多達",
+      "usage": "up to 15% 表示估計最高達百分之十五，不是最低下限。"
+    },
+    {
+      "word": "genuine",
+      "partOfSpeech": "adj.",
+      "meaning": "真實的",
+      "usage": "not genuine 表示並非真的因病缺勤，和後文假病假連貫。"
+    },
+    {
+      "word": "pull a sickie",
+      "partOfSpeech": "口語片語",
+      "meaning": "裝病請假",
+      "usage": "本文以飲酒後請假作例子，這是英式口語而非正式醫學診斷。"
+    }
+  ],
+  "43": [
+    {
+      "word": "absence",
+      "partOfSpeech": "n.",
+      "meaning": "缺勤；不在",
+      "usage": "workplace absence 指工作缺勤，與後文請病假的成本相連。"
+    },
+    {
+      "word": "work-related",
+      "partOfSpeech": "adj.",
+      "meaning": "與工作有關的",
+      "usage": "work-related injury or illness 指因工作受傷或生病的情況。"
+    },
+    {
+      "word": "leave employment",
+      "partOfSpeech": "動詞片語",
+      "meaning": "離職",
+      "usage": "with 500 people leaving employment 表示伴隨每週五百人離職。"
+    },
+    {
+      "word": "repetitive strain injury",
+      "partOfSpeech": "n. phr.",
+      "meaning": "重複性勞損",
+      "usage": "文章把它列為缺勤原因，repetitive 表示動作反覆造成累積傷害。"
+    },
+    {
+      "word": "cause",
+      "partOfSpeech": "n.",
+      "meaning": "原因",
+      "usage": "the main cause of joblessness 是失業的主要原因，不是 care 照顧。"
+    },
+    {
+      "word": "a fall from ... to ...",
+      "partOfSpeech": "n. phr.",
+      "meaning": "從……下降到……",
+      "usage": "缺勤天數由八點五降至七點八，fall 指數值下降。"
+    },
+    {
+      "word": "up to",
+      "partOfSpeech": "介系詞片語",
+      "meaning": "高達；多達",
+      "usage": "up to 15% 表示估計最高達百分之十五，不是最低下限。"
+    },
+    {
+      "word": "genuine",
+      "partOfSpeech": "adj.",
+      "meaning": "真實的",
+      "usage": "not genuine 表示並非真的因病缺勤，和後文假病假連貫。"
+    },
+    {
+      "word": "pull a sickie",
+      "partOfSpeech": "口語片語",
+      "meaning": "裝病請假",
+      "usage": "本文以飲酒後請假作例子，這是英式口語而非正式醫學診斷。"
+    }
+  ],
+  "44": [
+    {
+      "word": "absence",
+      "partOfSpeech": "n.",
+      "meaning": "缺勤；不在",
+      "usage": "workplace absence 指工作缺勤，與後文請病假的成本相連。"
+    },
+    {
+      "word": "work-related",
+      "partOfSpeech": "adj.",
+      "meaning": "與工作有關的",
+      "usage": "work-related injury or illness 指因工作受傷或生病的情況。"
+    },
+    {
+      "word": "leave employment",
+      "partOfSpeech": "動詞片語",
+      "meaning": "離職",
+      "usage": "with 500 people leaving employment 表示伴隨每週五百人離職。"
+    },
+    {
+      "word": "repetitive strain injury",
+      "partOfSpeech": "n. phr.",
+      "meaning": "重複性勞損",
+      "usage": "文章把它列為缺勤原因，repetitive 表示動作反覆造成累積傷害。"
+    },
+    {
+      "word": "cause",
+      "partOfSpeech": "n.",
+      "meaning": "原因",
+      "usage": "the main cause of joblessness 是失業的主要原因，不是 care 照顧。"
+    },
+    {
+      "word": "a fall from ... to ...",
+      "partOfSpeech": "n. phr.",
+      "meaning": "從……下降到……",
+      "usage": "缺勤天數由八點五降至七點八，fall 指數值下降。"
+    },
+    {
+      "word": "up to",
+      "partOfSpeech": "介系詞片語",
+      "meaning": "高達；多達",
+      "usage": "up to 15% 表示估計最高達百分之十五，不是最低下限。"
+    },
+    {
+      "word": "genuine",
+      "partOfSpeech": "adj.",
+      "meaning": "真實的",
+      "usage": "not genuine 表示並非真的因病缺勤，和後文假病假連貫。"
+    },
+    {
+      "word": "pull a sickie",
+      "partOfSpeech": "口語片語",
+      "meaning": "裝病請假",
+      "usage": "本文以飲酒後請假作例子，這是英式口語而非正式醫學診斷。"
+    }
+  ],
+  "45": [
+    {
+      "word": "absence",
+      "partOfSpeech": "n.",
+      "meaning": "缺勤；不在",
+      "usage": "workplace absence 指工作缺勤，與後文請病假的成本相連。"
+    },
+    {
+      "word": "work-related",
+      "partOfSpeech": "adj.",
+      "meaning": "與工作有關的",
+      "usage": "work-related injury or illness 指因工作受傷或生病的情況。"
+    },
+    {
+      "word": "leave employment",
+      "partOfSpeech": "動詞片語",
+      "meaning": "離職",
+      "usage": "with 500 people leaving employment 表示伴隨每週五百人離職。"
+    },
+    {
+      "word": "repetitive strain injury",
+      "partOfSpeech": "n. phr.",
+      "meaning": "重複性勞損",
+      "usage": "文章把它列為缺勤原因，repetitive 表示動作反覆造成累積傷害。"
+    },
+    {
+      "word": "cause",
+      "partOfSpeech": "n.",
+      "meaning": "原因",
+      "usage": "the main cause of joblessness 是失業的主要原因，不是 care 照顧。"
+    },
+    {
+      "word": "a fall from ... to ...",
+      "partOfSpeech": "n. phr.",
+      "meaning": "從……下降到……",
+      "usage": "缺勤天數由八點五降至七點八，fall 指數值下降。"
+    },
+    {
+      "word": "up to",
+      "partOfSpeech": "介系詞片語",
+      "meaning": "高達；多達",
+      "usage": "up to 15% 表示估計最高達百分之十五，不是最低下限。"
+    },
+    {
+      "word": "genuine",
+      "partOfSpeech": "adj.",
+      "meaning": "真實的",
+      "usage": "not genuine 表示並非真的因病缺勤，和後文假病假連貫。"
+    },
+    {
+      "word": "pull a sickie",
+      "partOfSpeech": "口語片語",
+      "meaning": "裝病請假",
+      "usage": "本文以飲酒後請假作例子，這是英式口語而非正式醫學診斷。"
+    }
+  ],
+  "reading-46-50": [
+    {
+      "word": "colorful",
+      "partOfSpeech": "adj.",
+      "meaning": "色彩豐富的",
+      "usage": "make your meals colorful 是全文以多種顏色蔬果安排餐點的主題。"
+    },
+    {
+      "word": "protect ... against ...",
+      "partOfSpeech": "動詞片語",
+      "meaning": "保護……免於……",
+      "usage": "文章用此結構談蔬果與健康，閱讀時勿把概括說法當成治療保證。"
+    },
+    {
+      "word": "citrus fruit",
+      "partOfSpeech": "n. phr.",
+      "meaning": "柑橘類水果",
+      "usage": "oranges 屬柑橘類，本文另外區分其維生素 C 與其他食物。"
+    },
+    {
+      "word": "rich in",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "富含",
+      "usage": "rich in Vitamin A 表示含有較多維生素 A，和 rich 富有的金錢意思不同。"
+    },
+    {
+      "word": "carrot",
+      "partOfSpeech": "n.",
+      "meaning": "胡蘿蔔",
+      "usage": "本文把 carrots 放在橙黃色蔬菜例子，須與 oranges 橙子區分。"
+    },
+    {
+      "word": "strawberry",
+      "partOfSpeech": "n.",
+      "meaning": "草莓",
+      "usage": "草莓雖是紅色水果，並不是文中所說的柑橘類，支持分類題答案。"
+    },
+    {
+      "word": "red grape",
+      "partOfSpeech": "n. phr.",
+      "meaning": "紅葡萄",
+      "usage": "文章把紅葡萄與草莓並列談心臟健康，是細節題的直接線索。"
+    },
+    {
+      "word": "spinach",
+      "partOfSpeech": "n.",
+      "meaning": "菠菜",
+      "usage": "菠菜是綠色蔬菜段的例子，並非紅色或藍紫色水果。"
+    },
+    {
+      "word": "eggplant",
+      "partOfSpeech": "n.",
+      "meaning": "茄子",
+      "usage": "本文把 eggplants 與 grapes 放在藍紫色蔬果類別中。"
+    },
+    {
+      "word": "memory",
+      "partOfSpeech": "n.",
+      "meaning": "記憶力",
+      "usage": "have a good memory 指記憶力好，文中與 blueberries 的敘述相連。"
+    }
+  ]
+}

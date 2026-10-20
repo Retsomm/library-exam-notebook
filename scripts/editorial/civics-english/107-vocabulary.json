@@ -1,0 +1,480 @@
+{
+  "36": [
+    {
+      "word": "disease",
+      "partOfSpeech": "n.",
+      "meaning": "疾病",
+      "usage": "fatal disease 指致命疾病，後面的 SARS 是病名同位說明。"
+    },
+    {
+      "word": "emergence",
+      "partOfSpeech": "n.",
+      "meaning": "出現",
+      "usage": "the emergence of SARS 指疾病的出現，並非緊急狀況 emergency。"
+    },
+    {
+      "word": "endanger",
+      "partOfSpeech": "v.",
+      "meaning": "危及",
+      "usage": "endangered global public health 表示使全球公共衛生面臨危險。"
+    }
+  ],
+  "37": [
+    {
+      "word": "inspire",
+      "partOfSpeech": "v.",
+      "meaning": "啟發；激起",
+      "usage": "inspire the poet to write 表示景色激發詩人創作。"
+    },
+    {
+      "word": "poet",
+      "partOfSpeech": "n.",
+      "meaning": "詩人",
+      "usage": "poet 是寫詩的人，poem 才是詩作，兩字在本句都有出現。"
+    },
+    {
+      "word": "depict",
+      "partOfSpeech": "v.",
+      "meaning": "描繪",
+      "usage": "depict 常直接描述事物，不能用 depict someone to write 表示啟發創作。"
+    }
+  ],
+  "38": [
+    {
+      "word": "famous",
+      "partOfSpeech": "adj.",
+      "meaning": "著名的",
+      "usage": "famous fashion designer 指知名服裝設計師，呼應為名人設計後聲名大增。"
+    },
+    {
+      "word": "fashion designer",
+      "partOfSpeech": "n. phr.",
+      "meaning": "服裝設計師",
+      "usage": "Jason Wu 在本句的職業，fashion 是時裝，不是動詞製作的用法。"
+    },
+    {
+      "word": "frank",
+      "partOfSpeech": "adj.",
+      "meaning": "坦率的",
+      "usage": "frank 描述個性，不能由為名人設計禮服直接推得他更坦率。"
+    }
+  ],
+  "39": [
+    {
+      "word": "temperature",
+      "partOfSpeech": "n.",
+      "meaning": "溫度",
+      "usage": "high temperature marks 是高溫紀錄，和 global warming 呼應。"
+    },
+    {
+      "word": "be likely to",
+      "partOfSpeech": "句型",
+      "meaning": "很可能",
+      "usage": "is likely to keep on breaking 表示預測可能持續發生。"
+    },
+    {
+      "word": "keep on doing",
+      "partOfSpeech": "動詞片語",
+      "meaning": "持續做某事",
+      "usage": "keep on 後接 breaking 動名詞，描述不斷刷新紀錄。"
+    }
+  ],
+  "40": [
+    {
+      "word": "appreciate",
+      "partOfSpeech": "v.",
+      "meaning": "感激；欣賞",
+      "usage": "appreciate the teacher's hard work 表示肯定老師付出。"
+    },
+    {
+      "word": "semester",
+      "partOfSpeech": "n.",
+      "meaning": "學期",
+      "usage": "at the end of the semester 說明學生送感謝卡的時間。"
+    },
+    {
+      "word": "thank-you card",
+      "partOfSpeech": "n. phr.",
+      "meaning": "感謝卡",
+      "usage": "by giving a thank-you card 提供表達感謝的具體方式。"
+    }
+  ],
+  "41": [
+    {
+      "word": "founder",
+      "partOfSpeech": "n.",
+      "meaning": "創辦人",
+      "usage": "LEGO's founder 指公司創立者，和創立動詞 found 有關。"
+    },
+    {
+      "word": "warehouse",
+      "partOfSpeech": "n.",
+      "meaning": "倉庫",
+      "usage": "本文描述火災燒毀存放木玩具的倉庫，是轉型的敘事線索。"
+    },
+    {
+      "word": "concentrate on",
+      "partOfSpeech": "動詞片語",
+      "meaning": "集中於",
+      "usage": "concentrate all efforts on one product 表示把努力投入單一產品。"
+    },
+    {
+      "word": "be associated with",
+      "partOfSpeech": "動詞片語",
+      "meaning": "和……有關聯",
+      "usage": "not associated with violence 表示品牌刻意避免暴力聯想。"
+    },
+    {
+      "word": "controversial",
+      "partOfSpeech": "adj.",
+      "meaning": "有爭議的",
+      "usage": "controversial topics 與政治、成人內容並列，說明安全品牌定位。"
+    },
+    {
+      "word": "nevertheless",
+      "partOfSpeech": "adv.",
+      "meaning": "然而",
+      "usage": "前句稱安全形象有利，後句指出也成問題，用此詞轉折。"
+    },
+    {
+      "word": "engage in",
+      "partOfSpeech": "動詞片語",
+      "meaning": "參與；從事",
+      "usage": "engage in leisure activities 是從事休閒活動的常見搭配。"
+    },
+    {
+      "word": "tween-ager",
+      "partOfSpeech": "n.",
+      "meaning": "介於兒童與青少年的人",
+      "usage": "本文指想接觸更成熟活動、可能嫌玩具幼稚的年齡群。"
+    },
+    {
+      "word": "be synonymous with",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "等同於",
+      "usage": "safe image 可能被這群孩子視為 childish，形成品牌困境。"
+    },
+    {
+      "word": "childish",
+      "partOfSpeech": "adj.",
+      "meaning": "幼稚的；孩子氣的",
+      "usage": "不是中性兒童專用，而是本段想顯得成熟的孩子所持的負面觀感。"
+    }
+  ],
+  "42": [
+    {
+      "word": "founder",
+      "partOfSpeech": "n.",
+      "meaning": "創辦人",
+      "usage": "LEGO's founder 指公司創立者，和創立動詞 found 有關。"
+    },
+    {
+      "word": "warehouse",
+      "partOfSpeech": "n.",
+      "meaning": "倉庫",
+      "usage": "本文描述火災燒毀存放木玩具的倉庫，是轉型的敘事線索。"
+    },
+    {
+      "word": "concentrate on",
+      "partOfSpeech": "動詞片語",
+      "meaning": "集中於",
+      "usage": "concentrate all efforts on one product 表示把努力投入單一產品。"
+    },
+    {
+      "word": "be associated with",
+      "partOfSpeech": "動詞片語",
+      "meaning": "和……有關聯",
+      "usage": "not associated with violence 表示品牌刻意避免暴力聯想。"
+    },
+    {
+      "word": "controversial",
+      "partOfSpeech": "adj.",
+      "meaning": "有爭議的",
+      "usage": "controversial topics 與政治、成人內容並列，說明安全品牌定位。"
+    },
+    {
+      "word": "nevertheless",
+      "partOfSpeech": "adv.",
+      "meaning": "然而",
+      "usage": "前句稱安全形象有利，後句指出也成問題，用此詞轉折。"
+    },
+    {
+      "word": "engage in",
+      "partOfSpeech": "動詞片語",
+      "meaning": "參與；從事",
+      "usage": "engage in leisure activities 是從事休閒活動的常見搭配。"
+    },
+    {
+      "word": "tween-ager",
+      "partOfSpeech": "n.",
+      "meaning": "介於兒童與青少年的人",
+      "usage": "本文指想接觸更成熟活動、可能嫌玩具幼稚的年齡群。"
+    },
+    {
+      "word": "be synonymous with",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "等同於",
+      "usage": "safe image 可能被這群孩子視為 childish，形成品牌困境。"
+    },
+    {
+      "word": "childish",
+      "partOfSpeech": "adj.",
+      "meaning": "幼稚的；孩子氣的",
+      "usage": "不是中性兒童專用，而是本段想顯得成熟的孩子所持的負面觀感。"
+    }
+  ],
+  "43": [
+    {
+      "word": "founder",
+      "partOfSpeech": "n.",
+      "meaning": "創辦人",
+      "usage": "LEGO's founder 指公司創立者，和創立動詞 found 有關。"
+    },
+    {
+      "word": "warehouse",
+      "partOfSpeech": "n.",
+      "meaning": "倉庫",
+      "usage": "本文描述火災燒毀存放木玩具的倉庫，是轉型的敘事線索。"
+    },
+    {
+      "word": "concentrate on",
+      "partOfSpeech": "動詞片語",
+      "meaning": "集中於",
+      "usage": "concentrate all efforts on one product 表示把努力投入單一產品。"
+    },
+    {
+      "word": "be associated with",
+      "partOfSpeech": "動詞片語",
+      "meaning": "和……有關聯",
+      "usage": "not associated with violence 表示品牌刻意避免暴力聯想。"
+    },
+    {
+      "word": "controversial",
+      "partOfSpeech": "adj.",
+      "meaning": "有爭議的",
+      "usage": "controversial topics 與政治、成人內容並列，說明安全品牌定位。"
+    },
+    {
+      "word": "nevertheless",
+      "partOfSpeech": "adv.",
+      "meaning": "然而",
+      "usage": "前句稱安全形象有利，後句指出也成問題，用此詞轉折。"
+    },
+    {
+      "word": "engage in",
+      "partOfSpeech": "動詞片語",
+      "meaning": "參與；從事",
+      "usage": "engage in leisure activities 是從事休閒活動的常見搭配。"
+    },
+    {
+      "word": "tween-ager",
+      "partOfSpeech": "n.",
+      "meaning": "介於兒童與青少年的人",
+      "usage": "本文指想接觸更成熟活動、可能嫌玩具幼稚的年齡群。"
+    },
+    {
+      "word": "be synonymous with",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "等同於",
+      "usage": "safe image 可能被這群孩子視為 childish，形成品牌困境。"
+    },
+    {
+      "word": "childish",
+      "partOfSpeech": "adj.",
+      "meaning": "幼稚的；孩子氣的",
+      "usage": "不是中性兒童專用，而是本段想顯得成熟的孩子所持的負面觀感。"
+    }
+  ],
+  "44": [
+    {
+      "word": "founder",
+      "partOfSpeech": "n.",
+      "meaning": "創辦人",
+      "usage": "LEGO's founder 指公司創立者，和創立動詞 found 有關。"
+    },
+    {
+      "word": "warehouse",
+      "partOfSpeech": "n.",
+      "meaning": "倉庫",
+      "usage": "本文描述火災燒毀存放木玩具的倉庫，是轉型的敘事線索。"
+    },
+    {
+      "word": "concentrate on",
+      "partOfSpeech": "動詞片語",
+      "meaning": "集中於",
+      "usage": "concentrate all efforts on one product 表示把努力投入單一產品。"
+    },
+    {
+      "word": "be associated with",
+      "partOfSpeech": "動詞片語",
+      "meaning": "和……有關聯",
+      "usage": "not associated with violence 表示品牌刻意避免暴力聯想。"
+    },
+    {
+      "word": "controversial",
+      "partOfSpeech": "adj.",
+      "meaning": "有爭議的",
+      "usage": "controversial topics 與政治、成人內容並列，說明安全品牌定位。"
+    },
+    {
+      "word": "nevertheless",
+      "partOfSpeech": "adv.",
+      "meaning": "然而",
+      "usage": "前句稱安全形象有利，後句指出也成問題，用此詞轉折。"
+    },
+    {
+      "word": "engage in",
+      "partOfSpeech": "動詞片語",
+      "meaning": "參與；從事",
+      "usage": "engage in leisure activities 是從事休閒活動的常見搭配。"
+    },
+    {
+      "word": "tween-ager",
+      "partOfSpeech": "n.",
+      "meaning": "介於兒童與青少年的人",
+      "usage": "本文指想接觸更成熟活動、可能嫌玩具幼稚的年齡群。"
+    },
+    {
+      "word": "be synonymous with",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "等同於",
+      "usage": "safe image 可能被這群孩子視為 childish，形成品牌困境。"
+    },
+    {
+      "word": "childish",
+      "partOfSpeech": "adj.",
+      "meaning": "幼稚的；孩子氣的",
+      "usage": "不是中性兒童專用，而是本段想顯得成熟的孩子所持的負面觀感。"
+    }
+  ],
+  "45": [
+    {
+      "word": "founder",
+      "partOfSpeech": "n.",
+      "meaning": "創辦人",
+      "usage": "LEGO's founder 指公司創立者，和創立動詞 found 有關。"
+    },
+    {
+      "word": "warehouse",
+      "partOfSpeech": "n.",
+      "meaning": "倉庫",
+      "usage": "本文描述火災燒毀存放木玩具的倉庫，是轉型的敘事線索。"
+    },
+    {
+      "word": "concentrate on",
+      "partOfSpeech": "動詞片語",
+      "meaning": "集中於",
+      "usage": "concentrate all efforts on one product 表示把努力投入單一產品。"
+    },
+    {
+      "word": "be associated with",
+      "partOfSpeech": "動詞片語",
+      "meaning": "和……有關聯",
+      "usage": "not associated with violence 表示品牌刻意避免暴力聯想。"
+    },
+    {
+      "word": "controversial",
+      "partOfSpeech": "adj.",
+      "meaning": "有爭議的",
+      "usage": "controversial topics 與政治、成人內容並列，說明安全品牌定位。"
+    },
+    {
+      "word": "nevertheless",
+      "partOfSpeech": "adv.",
+      "meaning": "然而",
+      "usage": "前句稱安全形象有利，後句指出也成問題，用此詞轉折。"
+    },
+    {
+      "word": "engage in",
+      "partOfSpeech": "動詞片語",
+      "meaning": "參與；從事",
+      "usage": "engage in leisure activities 是從事休閒活動的常見搭配。"
+    },
+    {
+      "word": "tween-ager",
+      "partOfSpeech": "n.",
+      "meaning": "介於兒童與青少年的人",
+      "usage": "本文指想接觸更成熟活動、可能嫌玩具幼稚的年齡群。"
+    },
+    {
+      "word": "be synonymous with",
+      "partOfSpeech": "形容詞片語",
+      "meaning": "等同於",
+      "usage": "safe image 可能被這群孩子視為 childish，形成品牌困境。"
+    },
+    {
+      "word": "childish",
+      "partOfSpeech": "adj.",
+      "meaning": "幼稚的；孩子氣的",
+      "usage": "不是中性兒童專用，而是本段想顯得成熟的孩子所持的負面觀感。"
+    }
+  ],
+  "reading-46-50": [
+    {
+      "word": "Hispanic",
+      "partOfSpeech": "adj.",
+      "meaning": "西班牙語系文化的",
+      "usage": "本文談美國特定地區的 Hispanic 工藝，不能直接等同所有美洲原住民藝術。"
+    },
+    {
+      "word": "patron",
+      "partOfSpeech": "n.",
+      "meaning": "贊助者",
+      "usage": "Anglo patrons 指支持或購買藝術的贊助者，影響市場但不等同創作者。"
+    },
+    {
+      "word": "utilitarian",
+      "partOfSpeech": "adj.",
+      "meaning": "實用的",
+      "usage": "utilitarian goods 指日常實用物品，和宗教物件並列。"
+    },
+    {
+      "word": "revival",
+      "partOfSpeech": "n.",
+      "meaning": "復興",
+      "usage": "crafts revival 有開始、巔峰與衰退階段，對應第 46 題時間判斷。"
+    },
+    {
+      "word": "peak",
+      "partOfSpeech": "n.",
+      "meaning": "高峰",
+      "usage": "reaching its peak in the late 1930's 直接提供最受歡迎時期。"
+    },
+    {
+      "word": "catch on",
+      "partOfSpeech": "片語動詞",
+      "meaning": "流行；受到歡迎",
+      "usage": "never caught on nationally 是未在全國流行，不是完全沒人欣賞。"
+    },
+    {
+      "word": "speculation",
+      "partOfSpeech": "n.",
+      "meaning": "投機",
+      "usage": "with an eye for speculation 指著眼未來轉售獲利的購藏動機。"
+    },
+    {
+      "word": "artisan",
+      "partOfSpeech": "n.",
+      "meaning": "工藝師",
+      "usage": "artisans 能依自身傳統工作，是未被投機市場支配的正面後果。"
+    },
+    {
+      "word": "legacy",
+      "partOfSpeech": "n.",
+      "meaning": "傳承；遺產",
+      "usage": "artistic legacy 是祖先留下的藝術傳統，不是只指金錢遺產。"
+    },
+    {
+      "word": "identity",
+      "partOfSpeech": "n.",
+      "meaning": "認同",
+      "usage": "cultural pride and identity 說明作品仍有文化意義，不只是迎合市場。"
+    },
+    {
+      "word": "evolution",
+      "partOfSpeech": "n.",
+      "meaning": "演變",
+      "usage": "從早期材料、復興到當代媒材，是全文藝術演變的主軸。"
+    }
+  ]
+}
