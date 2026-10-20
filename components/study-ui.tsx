@@ -9,8 +9,9 @@ export function PageHeading({title,sub,eyebrow=brand.english}:{title:string;sub:
 export function EmptyState({title,description,icon,children}:{title:string;description:string;icon?:string;children?:ReactNode}){
  return <section className="empty">{icon&&<Icon name={icon}/>}<h3>{title}</h3><p>{description}</p>{children}</section>;
 }
-export function LoadingState({message}:{message:string}){
- return <main className="loading" role="status"><BrandLogo variant="mark"/><p>{message}</p></main>;
+export function LoadingState({message,inline=false}:{message:string;inline?:boolean}){
+ const Container=inline?'div':'main';
+ return <Container className={`loading${inline?' loading-inline':''}`} role="status"><BrandLogo variant="mark"/><p>{message}</p></Container>;
 }
 export function QuestionBookmarkButton({bookmarked,onToggle}:{bookmarked:boolean;onToggle:()=>void}){
  return <button type="button" className={`icon-btn ${bookmarked?'selected':''}`} onClick={onToggle} aria-label={bookmarked?'取消收藏':'收藏題目'} aria-pressed={bookmarked}><Icon name="star"/></button>;
