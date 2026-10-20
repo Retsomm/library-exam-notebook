@@ -23,11 +23,12 @@ test('moving questions, restarting a session or showing results cannot reveal a 
  assert.equal(resolveExplanation({questionId:'unknown',context:'practice'},state),null);
 });
 test('saved explanations and practice resolve the same question object and preserve their next actions',()=>{
- const saved={...state,screen:'explanations'};
+ const saved={...state,screen:'favorites',collectionTab:'explanations'};
  const target=resolveExplanation({questionId:ids[0],context:'saved'},saved);
  assert.strictEqual(target.question,questions.get(ids[0]));assert.equal(target.nextId,ids[1]);
  assert.equal(resolveExplanation({questionId:ids[1],context:'saved'},saved).nextId,undefined);
  assert.equal(resolveExplanation({questionId:ids[0],context:'saved'},{...saved,savedIds:[]}),null);
+ for(const collectionTab of ['questions','words'])assert.equal(resolveExplanation({questionId:ids[0],context:'saved'},{...saved,collectionTab}),null);
  const last={...state,session:{...state.session,index:1,checked:{[ids[1]]:false}}};
  assert.equal(resolveExplanation({questionId:ids[1],context:'practice'},last).isLast,true);
 });

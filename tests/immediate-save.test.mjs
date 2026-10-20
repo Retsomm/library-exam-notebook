@@ -20,6 +20,11 @@ test('saving and removing an explanation reaches storage before an immediate rel
   assert.deepEqual(validateBackup(JSON.parse(saved.get(key)),new Set([id])).explanationBookmarks,[id]);
   cloud.mutate(s=>{s.explanationBookmarks=[];});
   assert.deepEqual(validateBackup(JSON.parse(saved.get(key)),new Set([id])).explanationBookmarks,[]);
+  const wordId='115-1-1234567890abcdef';
+  cloud.mutate(s=>{s.vocabularyBookmarks.push(wordId);});
+  assert.deepEqual(validateBackup(JSON.parse(saved.get(key)),new Set(['115-1-1'])).vocabularyBookmarks,[wordId]);
+  cloud.mutate(s=>{s.vocabularyBookmarks=[];});
+  assert.deepEqual(validateBackup(JSON.parse(saved.get(key)),new Set(['115-1-1'])).vocabularyBookmarks,[]);
   assert.equal(latest.history.length,0);
  }finally{if(original)Object.defineProperty(globalThis,'localStorage',original);else delete globalThis.localStorage;}
 });

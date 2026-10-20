@@ -11,7 +11,8 @@ test('mobile practice, wrong answers, bookmarks and readable text',async({page})
   await expect(page.getByRole('status')).toContainText('錯題本');
   await page.getByRole('button',{name:'錯題本',exact:false}).first().click();
   await expect(page.locator('.question-row')).toHaveCount(1);
-  await page.getByRole('button',{name:'收藏題目',exact:false}).first().click();
+  await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:/^收藏/}).click();
+  await page.getByRole('tab',{name:/收藏題目/}).click();
   await expect(page.locator('.question-row')).toHaveCount(1);
 });
 test('Firebase setup failure is explicit and guest practice remains available',async({page})=>{
@@ -39,14 +40,43 @@ test('explanation popup is opt-in, saves independently, and next question closes
  await dialog.getByRole('button',{name:'下一題',exact:false}).click();
  await expect(page.getByRole('dialog')).toHaveCount(0);
  await expect(page.getByText('115 年 · 國文 · 第 2 題',{exact:false})).toBeVisible();
- await page.getByRole('button',{name:/^收藏解析/}).click();
+ await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:/^收藏/}).click();
+ await page.getByRole('tab',{name:/收藏解析/}).click();
  await expect(page.locator('.question-row')).toHaveCount(1);
  await page.getByRole('button',{name:'查看解析 →',exact:true}).click();
  await expect(page.getByRole('dialog')).toBeVisible();
  await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);
  await page.reload();
- await page.getByRole('button',{name:/^收藏解析/}).click();
+ await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:/^收藏/}).click();
+ await page.getByRole('tab',{name:/收藏解析/}).click();
  await expect(page.locator('.question-row')).toHaveCount(1);
  await page.getByRole('button',{name:/取消收藏第/}).click();
  await expect(page.locator('.question-row')).toHaveCount(0);
+});
+
+test('English word cards can be saved, reviewed, searched and removed in unified favorites',async({page})=>{
+ await page.goto('/demo/');
+ await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'歷屆題庫',exact:true}).click();
+ await page.getByRole('searchbox',{name:'搜尋題目'}).fill('reliable');
+ await page.locator('.question-row').first().getByRole('button',{name:'練習 →',exact:true}).click();
+ await page.locator('.answer-list .option').first().click();await page.getByRole('button',{name:'確認答案',exact:true}).click();
+ await expect(page.getByRole('dialog')).toHaveCount(0);
+ await page.getByRole('button',{name:'查看解析',exact:true}).click();
+ const save=page.getByRole('dialog').getByRole('button',{name:/^收藏單字 /}).first();
+ const word=(await save.getAttribute('aria-label'))!.replace('收藏單字 ','');await save.click();
+ await expect(page.getByRole('dialog').getByRole('button',{name:`取消收藏單字 ${word}`,exact:true})).toHaveAttribute('aria-pressed','true');
+ await page.getByRole('button',{name:'關閉解析',exact:true}).click();
+ await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:/^收藏/}).click();
+ await page.getByRole('tab',{name:/收藏單字/}).click();
+ const card=page.locator('.saved-vocabulary .vocabulary-card');await expect(card).toHaveCount(1);
+ await expect(card.getByRole('button',{name:'顯示中文與例句'})).toHaveAttribute('aria-expanded','false');
+ await card.getByRole('button',{name:'顯示中文與例句'}).click();
+ await expect(card.getByRole('button',{name:'隱藏中文與例句'})).toHaveAttribute('aria-expanded','true');
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ await page.reload();await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:/^收藏/}).click();await page.getByRole('tab',{name:/收藏單字/}).click();
+ await expect(page.locator('.saved-vocabulary .vocabulary-card')).toHaveCount(1);
+ await page.getByRole('searchbox',{name:'搜尋收藏單字'}).fill('zzzz_no_match');await expect(page.getByRole('heading',{name:'沒有符合的收藏單字'})).toBeVisible();
+ await page.getByRole('searchbox',{name:'搜尋收藏單字'}).fill(word);
+ await page.getByRole('button',{name:`取消收藏單字 ${word}`,exact:true}).click();
+ await expect(page.getByRole('heading',{name:'還沒有收藏單字'})).toBeVisible();
 });

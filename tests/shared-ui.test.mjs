@@ -65,3 +65,15 @@ test('shared progress remains accessible for empty and completed sessions',()=>{
  assert.match(render(h(ProgressBar,{value:12,total:10,label:'練習進度'})),/aria-valuenow="100"/);
  for(const bookmarked of [true,false])assert.match(render(h(QuestionBookmarkButton,{bookmarked,onToggle:noop})),new RegExp(`aria-pressed="${bookmarked}"`));
 });
+
+test('shared vocabulary cards expose save state and hide review definitions until requested',()=>{
+ const Card=component('vocabulary-card').default;
+ const item={word:'reliable',partOfSpeech:'adj.',meaning:'可靠的',usage:'a reliable source：可靠的來源'};
+ const explanation=render(h(Card,{item,saved:false,onToggle:noop}));
+ assert.match(explanation,/收藏單字 reliable/);assert.match(explanation,/aria-pressed="false"/);assert.doesNotMatch(explanation,/hidden=""/);
+ const review=render(h(Card,{item,saved:true,onToggle:noop,review:true,source:'113 年 · 第 41 題',onSource:noop}));
+ assert.match(review,/取消收藏單字 reliable/);assert.match(review,/aria-expanded="false"/);assert.match(review,/hidden=""/);assert.match(review,/113 年 · 第 41 題/);
+ const Tabs=component('favorites-tabs').default;
+ const tabs=render(h(Tabs,{value:'words',counts:{questions:1,explanations:2,words:3},onChange:noop}));
+ assert.equal((tabs.match(/role="tab"/g)||[]).length,3);assert.equal((tabs.match(/aria-selected="true"/g)||[]).length,1);assert.match(tabs,/id="favorites-tab-words"[^>]*tabIndex="0"/i);
+});

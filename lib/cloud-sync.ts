@@ -1,7 +1,7 @@
 'use client';
 import { collection, doc, getFirestore, onSnapshot, runTransaction, serverTimestamp, type Firestore, type Unsubscribe } from 'firebase/firestore';
 import { firebaseAuth } from './firebase-client';
-import {applyQuestionMutation,cloudState,migrationChanges,mergeHistory,type Mutation,type CloudQuestion} from './sync-model.mjs';
+import {applyStudyMutation,vocabularyMigration,applyQuestionMutation,cloudState,migrationChanges,mergeHistory,type Mutation,type CloudQuestion} from './sync-model.mjs';
 import type {Question,StudyState} from './types';
 export type SyncStatus='connecting'|'synced'|'saving'|'offline'|'error';
 export class CloudSync {
@@ -34,7 +34,7 @@ export class CloudSync {
   if(this.disposed)return;
   for(const change of changes){
    const previous=[...this.queue].reverse().find(m=>m.docId===change.docId&&m.mode===change.mode&&!this.inflight.has(m.id));
-   if(previous){previous.patch={...previous.patch,...change.patch,...(change.patch.history?{history:mergeHistory(previous.patch.history,change.patch.history)}:{})};}
+   if(previous){previous.patch={...previous.patch,...change.patch,...(change.patch.history?{history:mergeHistory(previous.patch.history,change.patch.history)}:{}),...(change.patch.vocabularyBookmarks?{vocabularyBookmarks:{...previous.patch.vocabularyBookmarks,...change.patch.vocabularyBookmarks}}:{})};}
    else this.queue.push({...change,id:crypto.randomUUID()});
   }
   if(changes.length){this.persist();this.status(navigator.onLine?'saving':'offline');this.schedule();}
@@ -46,6 +46,7 @@ export class CloudSync {
     this.enqueue(migrationChanges(this.initial,this.remote,this.sessionExists));
     if(this.persist()){try{localStorage.setItem(this.markerKey,'1');this.migrated=true;}catch{this.status('error');}}
    }
+   this.enqueue(vocabularyMigration(this.initial,this.sessionJSON));
    this.initialized=true;
   }
   this.receive(cloudState(this.remote,this.sessionJSON,this.questions,this.queue));
@@ -65,8 +66,9 @@ export class CloudSync {
      const snap=await tx.get(ref);const current=snap.data()||{};
      if(current.applied?.includes(mutation.id))return current;
      if(mutation.docId==='_session'){
-      if(mutation.mode==='migrate'&&snap.exists())return current;
-      const next={revision:(current.revision||0)+1,sessionJSON:mutation.patch.sessionJSON,applied:[...(current.applied||[]).slice(-127),mutation.id]};
+      const sessionJSON=applyStudyMutation(current.sessionJSON,mutation.patch,mutation.mode,snap.exists());
+      if(sessionJSON.length>200000)throw Error('Study metadata exceeds its storage limit');
+      const next={revision:(current.revision||0)+1,sessionJSON,applied:[...(current.applied||[]).slice(-127),mutation.id]};
       tx.set(ref,{...next,updatedAt:serverTimestamp()});return next;
      }else{
       let change=mutation;

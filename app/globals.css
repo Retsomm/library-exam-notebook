@@ -125,3 +125,18 @@ button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,te
 @media(max-width:850px){.sidebar{background:#172136}.exam-countdown{padding:24px;gap:20px}.countdown-intro h2{font-size:20px}.countdown-time>strong{font-size:56px}.countdown-details strong{font-size:14px}}
 @media(max-width:620px){.sidebar nav{background:#172136;border-color:#736242}.sidebar .site-logo .site-logo-wordmark strong{font-size:18px;letter-spacing:1px}.sidebar .site-logo .site-logo-wordmark small{font-size:6px}.site-logo-mark,.sidebar .site-logo-mark{width:38px;height:43px}.sidebar .navitem .count{background:#414764;color:#e6d2a6}.login-card>.site-logo .site-logo-wordmark strong{font-size:25px;letter-spacing:2px}.login-card>.site-logo .site-logo-wordmark small{font-size:8px}.login-card h1{font-size:22px}.exam-countdown{grid-template-columns:minmax(0,1fr) 108px;gap:16px;padding:22px 18px;margin:20px 0}.countdown-intro h2{font-size:18px}.countdown-intro>p:not(.eyebrow){font-size:12px}.countdown-intro time{font-size:13px}.countdown-time{padding:0 0 0 12px;border-right:0}.countdown-time>strong{font-size:50px}.countdown-time>p{font-size:10px;line-height:1.7}.countdown-time>span{font-size:10px;letter-spacing:0}.countdown-details{grid-column:1/-1;border-top:1px solid #b59a653d;padding-top:12px}.countdown-details strong{display:inline;margin-left:7px}.countdown-details .link{min-height:44px;margin-top:3px}.hero p{max-width:65%}}
 @media(max-width:360px){.exam-countdown{grid-template-columns:minmax(0,1fr)}.countdown-time{border:0;border-top:1px solid #b59a653d;padding:12px 0 0}.countdown-details{grid-column:auto}}
+
+/* Collections share one navigation destination; its tabs stay inside the page. */
+.favorites-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:24px 0;max-width:620px}
+.favorites-tabs [role=tab]{min-height:46px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--muted);font:inherit;font-size:14px;cursor:pointer;display:flex;justify-content:center;align-items:center;gap:8px;padding:10px 8px}
+.favorites-tabs [aria-selected=true]{background:rgba(197,166,103,.17);border-color:#c5a667;color:#e5c78f}
+.favorites-tabs [role=tab] span{font-size:11px;opacity:.8}
+#favorites-panel{min-width:0;outline-offset:6px}
+.vocabulary-card{min-width:0;overflow-wrap:anywhere}
+.vocabulary-card dt{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.vocabulary-card dt>span{min-width:0}
+.vocabulary-card .word-save{min-height:44px;flex-shrink:0;font-size:12px;padding:8px 10px;margin:0}
+.vocabulary-card .word-reveal{min-height:44px;margin:6px 0 12px;font-size:13px}
+.vocabulary-card .word-source{display:block;margin-top:18px;text-align:left;font-size:12px;min-height:32px}
+.word-pagination{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:24px}
+@media(max-width:620px){.sidebar nav{grid-template-columns:repeat(6,minmax(0,1fr))}.favorites-tabs{gap:6px}.favorites-tabs [role=tab]{font-size:13px;gap:5px;padding:10px 5px}.vocabulary-card dt{gap:8px}.saved-vocabulary{grid-template-columns:1fr}}
