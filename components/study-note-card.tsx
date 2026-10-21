@@ -1,16 +1,17 @@
 'use client';
+import type {ReactNode} from 'react';
 import type {Exam,Question} from '@/lib/types';
 import OfficialSourceLink from './official-source-link';
-export type StudyNote={id:string;subjectIndex:number;group:string;title:string;lead:string;points:{term:string;detail:string}[];example:string;trap:string;recall:string;answer:string;questionIds:string[];sources:{title:string;url:string}[];mnemonic?:string;order?:number};
-type Props={note:StudyNote;questions:Map<string,Question>;exams:Map<string,Exam>;onPractice:(questions:Question[],title:string)=>void;onViewExplanation:(id:string)=>void};
-export default function StudyNoteCard({note,questions,exams,onPractice,onViewExplanation}:Props){
+export type StudyNote={id:string;subjectIndex:number;group:string;title:string;lead:string;points:{term:string;detail:string}[];example:string;trap:string;recall:string;answer:string;questionIds:string[];sources:{title:string;url:string}[];mnemonic?:string;order?:number;track?:string;vocabularyIds?:string[]};
+type Props={note:StudyNote;vocabularyContent?:ReactNode;questions:Map<string,Question>;exams:Map<string,Exam>;onPractice:(questions:Question[],title:string)=>void;onViewExplanation:(id:string)=>void};
+export default function StudyNoteCard({note,vocabularyContent,questions,exams,onPractice,onViewExplanation}:Props){
  const related=note.questionIds.map(id=>questions.get(id)).filter((q):q is Question=>!!q);
- const body=<><dl className="note-points">{note.points.map(point=><div key={point.term}><dt>{point.term}</dt><dd>{point.detail}</dd></div>)}</dl><div className="note-example"><h4>用例子理解</h4><p>{note.example}</p></div><div className="note-trap"><h4>容易混淆的地方</h4><p>{note.trap}</p></div><div className="note-recall"><h4>遮住後回想</h4><p>{note.recall}</p><details><summary>查看重點答案</summary><p>{note.answer}</p></details></div></>;
+ const body=<><dl className="note-points">{note.points.map(point=><div key={point.term}><dt>{point.term}</dt><dd>{point.detail}</dd></div>)}</dl><div className="note-example"><h4>用例子理解</h4><p>{note.example}</p></div><div className="note-trap"><h4>容易混淆的地方</h4><p>{note.trap}</p></div><div className="note-recall"><h4>遮住後回想</h4><p>{note.recall}</p><details><summary>查看重點答案</summary><p>{note.answer}</p></details></div>{vocabularyContent}</>;
  return <article className="note-card" aria-labelledby={`note-${note.id}`}>
   <p className="eyebrow">{note.group}{note.order?` · 重點 ${String(note.order).padStart(2,'0')}`:''}</p>
   <h3 id={`note-${note.id}`}>{note.title}</h3><p className="note-lead">{note.lead}</p>
   {note.mnemonic&&<div className="note-mnemonic"><h4>記憶訣竅</h4><p>{note.mnemonic}</p></div>}
-  {note.order?<details className="note-lesson"><summary>閱讀完整重點 · {note.points.length} 個觀念</summary>{body}</details>:body}
+  {(note.order||note.track)?<details className="note-lesson"><summary>閱讀完整重點 · {note.points.length} 個觀念</summary>{body}</details>:body}
   <button className="btn primary" disabled={!related.length} onClick={()=>onPractice(related,`重點練習 · ${note.title}`)}>練習關聯考題 · {related.length} 題 →</button>
   <details className="note-sources"><summary>逐題對照、解析與官方來源 · {related.length} 題</summary>
    <p className="text-muted">{note.order?'同考點只整理一份；以下列出歸入本主題的每一題。題目特有的選項、例外與完整說明，可點「查看原題解析」。':'以下為編輯選出的關聯題目，不表示該主題的全部出題次數。'}</p>

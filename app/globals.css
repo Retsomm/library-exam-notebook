@@ -208,3 +208,6 @@ button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,te
 .note-source-actions .btn,.note-source-actions .link,.note-source-actions a{min-height:44px;display:inline-flex;align-items:center;white-space:normal}
 .note-references a{display:block;margin:8px 0;overflow-wrap:anywhere}
 @media(max-width:600px){.course-outline{padding:18px}.course-outline ol{grid-template-columns:minmax(0,1fr)}.course-outline h3{font-size:18px}.note-source-actions{align-items:stretch}.note-source-actions .btn{width:100%;justify-content:center}}
+
+.note-topic-words{margin:18px 0;border-top:1px solid var(--line);padding-top:12px}
+.note-topic-words .saved-vocabulary{grid-template-columns:minmax(0,1fr)}

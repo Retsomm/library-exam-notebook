@@ -20,7 +20,7 @@ for(const width of [390,1440])test(`study notes, shared practice and word favori
  await page.getByRole('button',{name:'關閉解析',exact:true}).click();
  await nav.getByRole('button',{name:'重點整理',exact:true}).click();
  await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/公民與英文/}).click();
- await page.getByRole('button',{name:'英文單字與片語',exact:true}).click();
+ await page.getByRole('button',{name:'全部單字與片語',exact:true}).click();
  await expect(page.locator('.vocabulary-card')).toHaveCount(20);
  await page.getByRole('searchbox',{name:'搜尋單字'}).fill('fear');
  const save=page.getByRole('button',{name:/^收藏單字 /}).first();
@@ -59,4 +59,27 @@ for(const width of [390,1440])test(`professional course coverage and opt-in sour
  await page.locator('.answer-list .option').first().click();await page.getByRole('button',{name:'確認答案',exact:true}).click();
  await expect(page.getByRole('dialog')).toHaveCount(0);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+});
+
+for(const width of [390,1440])test(`expanded civic route and canonical topic words at ${width}px`,async({page})=>{
+ await page.setViewportSize({width,height:900});await page.goto('/demo/');
+ const nav=page.getByRole('navigation',{name:'主要導覽'});
+ await nav.getByRole('button',{name:'重點整理',exact:true}).click();
+ await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/公民與英文/}).click();
+ await expect(page.getByRole('heading',{name:'45 個合併主題 · 315 / 315 題已對應'})).toBeVisible();
+ await page.getByRole('searchbox',{name:'搜尋重點'}).fill('115-1-35');
+ await expect(page.locator('.note-card')).toHaveCount(1);
+ await page.getByRole('button',{name:'英文主題重點',exact:true}).click();
+ await page.getByRole('searchbox',{name:'搜尋重點'}).fill('時間與改變');
+ const card=page.locator('.note-card');await expect(card).toHaveCount(1);
+ await card.getByText(/閱讀完整重點/).click();
+ await card.getByText(/本主題單字與片語/).click();
+ await card.getByRole('button',{name:'收藏單字 indoors',exact:true}).click();
+ await page.getByRole('button',{name:'全部單字與片語',exact:true}).click();
+ await page.getByRole('searchbox',{name:'搜尋單字'}).fill('indoors');
+ await expect(page.getByRole('button',{name:'取消收藏單字 indoors',exact:true})).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/^國文/}).click();
+ await page.getByRole('searchbox',{name:'搜尋重點'}).fill('爽是差錯');
+ await expect(page.locator('.note-card')).toHaveCount(1);
 });
