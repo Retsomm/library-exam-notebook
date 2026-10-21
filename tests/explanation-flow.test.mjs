@@ -45,3 +45,12 @@ test('the app has one practice renderer, one explanation dialog host, and no inl
  }
  assert.deepEqual(consumers,{QuestionPractice:['study-app.tsx'],ExplanationDialog:['study-app.tsx'],AnswerExplanation:['explanation-dialog.tsx']});
 });
+test('notes open canonical explanations only on an explicit request, without changing practice',()=>{
+ const selection={questionId:ids[0],context:'notes'},notesState={...state,screen:'notes'};
+ assert.equal(resolveExplanation(null,notesState),null);
+ const before=JSON.stringify(notesState.session);
+ const target=resolveExplanation(selection,notesState);
+ assert.strictEqual(target.question,questions.get(ids[0]));assert.equal(target.context,'notes');assert.equal(target.nextId,undefined);
+ assert.equal(JSON.stringify(notesState.session),before);
+ for(const screen of ['practice','favorites','overview'])assert.equal(resolveExplanation(selection,{...notesState,screen}),null);
+});

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "scope": "106–115 年已收錄試題（112 年未開缺）",
   "notes": [
     {
@@ -796,77 +796,444 @@
       ]
     },
     {
-      "id": "lib-mission",
+      "id": "course-l01",
       "subjectIndex": 2,
-      "group": "基礎與倫理",
-      "title": "圖書館五律：用讀者的旅程記",
-      "lead": "從書被使用、讀者找到書，到節省時間與持續成長，五律是一套服務思考。",
+      "group": "01 圖書館與資訊：先建立全貌",
+      "title": "圖書館的五種館型：先問為誰服務",
+      "lead": "館名只是線索，設立目的與服務對象才是分類關鍵。",
       "points": [
         {
-          "term": "前兩律",
-          "detail": "圖書供使用；每位讀者有其書。從典藏走向讓不同讀者獲得所需資源。"
+          "term": "五種任務",
+          "detail": "國家館保存國家出版文獻，公共館服務社區，大專校院館支援教研，中小學館配合學習，專門館支援特定機構或領域。"
         },
         {
-          "term": "第三、四律",
-          "detail": "每本書有其讀者；節省讀者時間。揭示與檢索、動線與服務都相關。"
+          "term": "館名與性質",
+          "detail": "國立臺灣圖書館、國立公共資訊圖書館仍是公共館；國立是設立層級，不是國家圖書館的同義詞。工研院館則屬專門館。"
         },
         {
-          "term": "第五律",
-          "detail": "圖書館是成長的有機體。館藏、讀者、服務與空間都會變動。"
+          "term": "治理分工",
+          "detail": "中央圖書館主管機關是教育部；國圖推動許多全國性業務，但不是法定主管機關。國家館由中央設立，地方館人事另看所屬政府層級。"
         }
       ],
-      "example": "改善目錄讓讀者更快找到書，很適合用第四律理解；無障礙服務也呼應每位讀者有其書。",
-      "trap": "服務措施可能呼應不只一律；考題問最直接對應時，抓它強調的核心。",
-      "recall": "「節省讀者時間」是第幾律？",
-      "answer": "第四律。不要與最小努力原則這個資訊行為概念混為同一個名稱。",
+      "mnemonic": "國保、公共、校教、專業：先目的，再館名。",
+      "example": "醫院館員為醫師找臨床文獻，任務集中於醫學專業，可判斷為專門館。",
+      "trap": "不要因為館名有「國立」，就一律選國家圖書館。",
+      "recall": "國立公共資訊圖書館是國家館嗎？",
+      "answer": "不是，它是公共圖書館；設立層級與服務類型是兩種分類。",
       "questionIds": [
-        "106-2-4",
-        "114-2-40",
-        "107-2-22"
+        "115-2-8",
+        "114-2-9",
+        "113-2-43",
+        "109-2-10",
+        "109-2-15",
+        "109-2-16",
+        "106-2-5"
       ],
       "sources": [
         {
-          "title": "Crawford 與 Gorman：Future Libraries 作者原文節選",
-          "url": "https://www.ala.org/aboutala/offices/publishing/editions/samplers/futurelibraries"
+          "title": "全國法規資料庫：圖書館法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=H0010008"
+        },
+        {
+          "title": "教育部：圖書館設立及營運標準",
+          "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001556&media=print"
+        },
+        {
+          "title": "國立臺灣圖書館：臺灣圖書館史研究",
+          "url": "https://www.ntl.edu.tw/public/Attachment/9923104843100.pdf"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "course-l02",
+      "subjectIndex": 2,
+      "group": "01 圖書館與資訊：先建立全貌",
+      "title": "西方發展史：把人、制度與年份連起來",
+      "lead": "歷史先記事件的意義，再記年份，成立與開館不要混背。",
+      "points": [
+        {
+          "term": "重要節點",
+          "detail": "古羅馬公共藏書與今日普及公共館制度不同；波士頓公共館常考1854年開館。1876年連到DDC首版、ALA成立與Library Journal創刊。"
+        },
+        {
+          "term": "教育與人物",
+          "detail": "杜威也推動哥倫比亞圖書館學校；Butler的重要圖書館學著作是1933年。哈佛比中古歐洲大學晚，中古大學館常依靠贈書。"
+        },
+        {
+          "term": "制度背景",
+          "detail": "1710英國安妮法涉及著作權；1862 Morrill法與贈地大學有關；1946丹麥PLR涉及公共補償作者，不是逐次向借書人收租。LC館長不是國會議長直接兼任。"
+        }
+      ],
+      "mnemonic": "1876「分類、學會、期刊」三件一起記。",
+      "example": "問開館年時找實際開放事件，不能直接拿設立或籌備年份作答。",
+      "trap": "「最早」必須看比較範圍，古代藏書與現代制度不可混為一談。",
+      "recall": "PLR是向借書人逐次收費嗎？",
+      "answer": "不是，公共出借權以公共制度補償作者等權利人，具體方式依國別制度。",
+      "questionIds": [
+        "114-2-11",
+        "114-2-13",
+        "111-2-9",
+        "111-2-11",
+        "110-2-7",
+        "109-2-7",
+        "109-2-8",
+        "108-2-1",
+        "108-2-6",
+        "107-2-3",
+        "106-2-2"
+      ],
+      "sources": [
+        {
+          "title": "Harvard Library：圖書館歷史與機構介紹",
+          "url": "https://library.harvard.edu/about"
+        },
+        {
+          "title": "世界智慧財產權組織：著作權及相關權利",
+          "url": "https://www.wipo.int/copyright/en/"
+        },
+        {
+          "title": "PLR International：Public Lending Right",
+          "url": "https://plrinternational.com/about-us/"
+        },
+        {
+          "title": "美國國家檔案館：Morrill Act",
+          "url": "https://www.archives.gov/milestone-documents/morrill-act"
+        },
+        {
+          "title": "教育部教育百科：圖書館史（梁朝雲）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%9C%96%E6%9B%B8%E9%A4%A8%E5%8F%B2"
+        },
+        {
+          "title": "文化部：電子書計次借閱制度說明",
+          "url": "https://ebook.moc.gov.tw/"
+        },
+        {
+          "title": "ALA：學會歷史",
+          "url": "https://www.ala.org/aboutala/history"
+        },
+        {
+          "title": "美國國會圖書館：Librarian of Congress",
+          "url": "https://www.loc.gov/about/about-the-librarian"
+        },
+        {
+          "title": "Boston Public Library：BPL History",
+          "url": "https://www.bpl.org/bpl-history/"
+        },
+        {
+          "title": "芝加哥大學圖書館：出版社檔案中的 Butler 1933 年著作",
+          "url": "https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.PRESSTEST"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "course-l03",
+      "subjectIndex": 2,
+      "group": "01 圖書館與資訊：先建立全貌",
+      "title": "中文圖書館史：藏書、目錄、印刷到公共服務",
+      "lead": "沿著「保存文獻→整理知識→服務一般人」來讀，人物就有位置。",
+      "points": [
+        {
+          "term": "古代目錄",
+          "detail": "老子與周代守藏史相連；北宋崇文總目為官修目錄，鄭樵通志校讎略重目錄學。江南圖書館沿革連到南京。"
+        },
+        {
+          "term": "書籍技術",
+          "detail": "簡牘、卷軸、紙本、雕版、活字可並存，不是後者一出現前者就消失。明代司禮監經廠是宮廷印書脈絡，宋明印刷評價仍須讀題幹。"
+        },
+        {
+          "term": "近代推廣",
+          "detail": "梁啟超倡議公共館；文華公書林1910年、圖書科1920年是不同事件。山中樵與日治臺灣推廣相關；臺灣閱讀節自2013年由國圖推動。"
+        }
+      ],
+      "mnemonic": "保存看藏書，整理看目錄，普及看服務。",
+      "example": "把公書林設立和圖書館學教育分成兩個事件，就不會把1910與1920交換。",
+      "trap": "「印刷最盛」屬教材評價，不代表其他朝代不重要。",
+      "recall": "文華的1910和1920是同一事件嗎？",
+      "answer": "不是，分別連到公書林與圖書館教育的重要發展。",
+      "questionIds": [
+        "114-2-8",
+        "113-2-8",
+        "113-2-10",
+        "110-2-3",
+        "109-2-37",
+        "108-2-2",
+        "108-2-4",
+        "108-2-5",
+        "107-2-1",
+        "107-2-9",
+        "106-2-1",
+        "106-2-9"
+      ],
+      "sources": [
+        {
+          "title": "教育部教育百科：圖書館史（梁朝雲）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%9C%96%E6%9B%B8%E9%A4%A8%E5%8F%B2"
+        },
+        {
+          "title": "國立臺灣圖書館：臺灣圖書館史研究",
+          "url": "https://www.ntl.edu.tw/public/Attachment/9923104843100.pdf"
+        },
+        {
+          "title": "國立臺灣大學：明代出版與藏書研究",
+          "url": "https://tdr.lib.ntu.edu.tw/handle/123456789/76207?mode=full"
+        },
+        {
+          "title": "國家圖書館：2013 臺灣閱讀節",
+          "url": "https://trf.ncl.edu.tw/2013/"
+        },
+        {
+          "title": "教育部教育百科：目錄學（潘美月）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E7%9B%AE%E9%8C%84%E5%AD%B8"
+        },
+        {
+          "title": "中央研究院近代史研究所：近代中國圖書館運動研究",
+          "url": "https://www.mh.sinica.edu.tw/MHDocument/PublicationDetail/PublicationDetail_1650.pdf"
+        },
+        {
+          "title": "教育部教育百科：江南圖書館（張碧惠）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%B1%9F%E5%8D%97%E5%9C%96%E6%9B%B8%E9%A4%A8"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "course-l04",
+      "subjectIndex": 2,
+      "group": "01 圖書館與資訊：先建立全貌",
+      "title": "組織與學會：先分行政、專業、服務平台",
+      "lead": "縮寫先放進功能格，再背完整名稱。",
+      "points": [
+        {
+          "term": "國際教育",
+          "detail": "IFLA是國際專業組織；ALA與美國圖資碩士教育認證相關；CILIP對應英國專業教育，WISE是圖資線上課程合作。"
+        },
+        {
+          "term": "臺灣分工",
+          "detail": "圖書館學會推動訓練認證，圖資教育學會關注教育研究，館際合作協會關注合作服務；國圖統計與個別公共館平台仍要辨別年度承辦分工。"
+        },
+        {
+          "term": "國家與專門",
+          "detail": "LC、NLM、NAL分別連到國會、醫學、農業；NSDL屬數位計畫脈絡。國家標準主管體系與圖書館法規主管體系不同。"
+        }
+      ],
+      "mnemonic": "機關管制度、學會推專業、平台供服務。",
+      "example": "問課程認證想到ALA或CILIP；問書目查詢則看書目系統。",
+      "trap": "會址、平台承辦與收錄量會變，歷史題不能當永久現況。",
+      "recall": "IFLA、ALA、NBINet都屬學會嗎？",
+      "answer": "不是，NBINet是書目合作網路，不能和專業組織混列。",
+      "questionIds": [
+        "113-2-1",
+        "111-2-1",
+        "111-2-20",
+        "110-2-2",
+        "110-2-20",
+        "110-2-35",
+        "109-2-3",
+        "109-2-11",
+        "107-2-15",
+        "107-2-39",
+        "106-2-3",
+        "106-2-39"
+      ],
+      "sources": [
+        {
+          "title": "ALA：Accredited Programs",
+          "url": "https://www.ala.org/educationcareers/accreditedprograms"
+        },
+        {
+          "title": "IMLS：WISE 跨圖書資訊學院線上課程合作計畫",
+          "url": "https://www.imls.gov/grant-spotlights/august-2008-15-library-schools-share-quality-online-courses-wise-consortium"
+        },
+        {
+          "title": "國家圖書館：圖書館統計 CNS 定義",
+          "url": "https://libstat.ncl.edu.tw/cnsDefinition/search"
+        },
+        {
+          "title": "CILIP：英國圖書資訊專業組織",
+          "url": "https://www.cilip.org.uk/"
+        },
+        {
+          "title": "中華民國圖書館學會",
+          "url": "https://www.lac.org.tw/"
+        },
+        {
+          "title": "教育部教育百科：館際合作（莊道明）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E9%A4%A8%E9%9A%9B%E5%90%88%E4%BD%9C"
+        },
+        {
+          "title": "國立公共資訊圖書館：公共圖書館統計系統",
+          "url": "https://publibstat.nlpi.edu.tw/Frontend/Home/FrontLogin"
+        },
+        {
+          "title": "全國法規資料庫：標準法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0100044"
+        },
+        {
+          "title": "美國國立醫學圖書館：機構與服務介紹",
+          "url": "https://www.nlm.nih.gov/about/index.html"
+        },
+        {
+          "title": "中華圖書資訊學教育學會：關於學會",
+          "url": "https://calise.org.tw/bbs/%E9%97%9C%E6%96%BC%E5%AD%B8%E6%9C%83/"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "course-l05",
+      "subjectIndex": 2,
+      "group": "01 圖書館與資訊：先建立全貌",
+      "title": "資訊科學：資訊怎麼產生、整理與被使用",
+      "lead": "這門學科同時研究人、資訊與技術，不只是電腦操作。",
+      "points": [
+        {
+          "term": "形成背景",
+          "detail": "二戰後資訊科學快速發展，與文獻學、通訊及計算機等交會；歐洲文獻學常連到Otlet、La Fontaine。"
+        },
+        {
+          "term": "知識流動",
+          "detail": "從知識生產到組織、分配、使用，圖書館都能參與。Drucker知識工作者靠專業知識工作；Toffler第三波連到資訊社會。"
+        },
+        {
+          "term": "研究與感受",
+          "detail": "Cranfield重檢索實驗評估。資訊過載偏資訊量超出處理能力，資訊焦慮偏使用者面對缺口或資訊壓力的不安。"
+        }
+      ],
+      "mnemonic": "產生→整理→流通→使用，沿資訊的一生理解。",
+      "example": "十萬筆結果是處理量問題；不知道哪筆可信而不安，是心理感受。",
+      "trap": "資訊科學不等於只學程式，也不只研究紙本書。",
+      "recall": "資訊過載和資訊焦慮完全相同嗎？",
+      "answer": "不同，前者偏量與能力落差，後者偏人的不安感受，兩者可能同時出現。",
+      "questionIds": [
+        "115-2-2",
+        "114-2-4",
+        "111-2-5",
+        "111-2-6",
+        "111-2-7",
+        "110-2-5",
+        "109-2-34",
+        "107-2-2",
+        "107-2-7"
+      ],
+      "sources": [
+        {
+          "title": "教育部教育百科：資訊社會（徐惠文）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E8%B3%87%E8%A8%8A%E7%A4%BE%E6%9C%83"
+        },
+        {
+          "title": "Cleverdon：Cranfield 檢索研究原始報告（ACM SIGIR 典藏）",
+          "url": "https://sigir.org/resources/museum/"
+        },
+        {
+          "title": "教育部教育百科：目標管理（黃昆輝）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E7%9B%AE%E6%A8%99%E7%AE%A1%E7%90%86"
+        },
+        {
+          "title": "教育部教育百科：文獻學（黃沛榮）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%96%87%E7%8D%BB%E5%AD%B8"
+        },
+        {
+          "title": "Alvin Toffler：The Third Wave 出版介紹",
+          "url": "https://www.penguinrandomhouse.com/books/179102/the-third-wave-by-alvin-toffler/"
+        },
+        {
+          "title": "教育部教育百科：資訊超載（賴玲玲）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E8%B3%87%E8%A8%8A%E8%B6%85%E8%BC%89"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "id": "course-l06",
+      "subjectIndex": 2,
+      "group": "01 圖書館與資訊：先建立全貌",
+      "title": "資訊需求：從模糊感覺到能輸入的查詢",
+      "lead": "人在說得清楚之前，往往已經感到需要幫助。",
+      "points": [
+        {
+          "term": "Taylor四層",
+          "detail": "內在需求visceral是模糊感覺，意識需求conscious開始想清楚，形式化formalized能描述，妥協需求compromised為適應系統改寫成查詢。"
+        },
+        {
+          "term": "缺口與橋樑",
+          "detail": "Belkin的ASK指知識狀態缺口；Dervin意義建構把資訊看成跨越情境與目標間缺口的橋。"
+        },
+        {
+          "term": "Wilson範圍",
+          "detail": "資訊行為最大，資訊尋求是主動找，資訊搜尋是與系統互動的較小範圍。最省力原則不是五律之一。"
+        }
+      ],
+      "mnemonic": "感到→想到→說到→輸入到；行為包尋求，尋求包搜尋。",
+      "example": "把完整睡眠問題縮成「睡眠 衛教」輸入資料庫，是配合系統的妥協表達。",
+      "trap": "搜尋框裡幾個字不一定等於全部真正需求。",
+      "recall": "Taylor哪層已在適應系統？",
+      "answer": "妥協需求；最初模糊感受則是內在需求。",
+      "questionIds": [
+        "115-2-3",
+        "115-2-32",
+        "114-2-40",
+        "113-2-4",
+        "111-2-3",
+        "106-2-30"
+      ],
+      "sources": [
+        {
+          "title": "Belkin、Oddy、Brooks：ASK for information retrieval 原始論文",
+          "url": "https://surface.syr.edu/istpub/150/"
+        },
+        {
+          "title": "Robert S. Taylor：Question-Negotiation and Information Seeking in Libraries",
+          "url": "https://crl.acrl.org/index.php/crl/article/view/16421/0"
         },
         {
           "title": "教育部教育百科：最小努力原則（陳啟亮）",
           "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%9C%80%E5%B0%8F%E5%8A%AA%E5%8A%9B%E5%8E%9F%E5%89%87"
         },
         {
-          "title": "John V. Richardson：Samuel S. Green 圖書館史研究",
-          "url": "https://pages.gseis.ucla.edu/faculty/richardson/dis245/SSGREEN.htm"
-        }
-      ]
-    },
-    {
-      "id": "lib-ethics",
-      "subjectIndex": 2,
-      "group": "基礎與倫理",
-      "title": "思想自由與 PAPA：服務不只提供資料",
-      "lead": "館員除了幫人找到資訊，也要思考資訊如何被選擇、使用與保護。",
-      "points": [
-        {
-          "term": "思想自由",
-          "detail": "館藏不應只因作者背景或觀點而排除；選擇仍須有服務需求與專業政策。"
-        },
-        {
-          "term": "Privacy／Accuracy",
-          "detail": "隱私：個資與借閱資訊如何保護；正確性：資訊是否可靠、錯誤由誰負責。"
-        },
-        {
-          "term": "Property／Accessibility",
-          "detail": "財產權：資訊權利與授權；可近用性：誰能取得資訊、有哪些障礙。"
+          "title": "T. D. Wilson：Models in information behaviour research",
+          "url": "https://www.informationr.net/tdw/publ/papers/1999JDoc.html"
         }
       ],
-      "example": "有人要求公開讀者借閱清單，先想到隱私；電子書授權範圍則涉及財產權與取得條件。",
-      "trap": "PAPA 的兩個 A 不相同：Accuracy 是正確性，Accessibility 是可近用性。",
-      "recall": "PAPA 中談資訊品質的是哪一個 A？",
-      "answer": "Accuracy；不是談取得障礙的 Accessibility。",
+      "order": 6
+    },
+    {
+      "id": "course-l08",
+      "subjectIndex": 2,
+      "group": "01 圖書館與資訊：先建立全貌",
+      "title": "閱讀自由與倫理：選藏不代表替內容背書",
+      "lead": "館員守住讀者比較與選擇的空間，而不是替他決定思想。",
+      "points": [
+        {
+          "term": "中立選擇",
+          "detail": "ALA權利宣言反對因作者背景觀點排除資源，也抗拒審查。Freedom to Read的多元館藏不等於館方認同全部內容。"
+        },
+        {
+          "term": "專業界線",
+          "detail": "因個人價值刪書和依一致規則管理安全不同；倫理也關心公平、隱私及利益衝突。"
+        },
+        {
+          "term": "情境與版本",
+          "detail": "供應商招待要看職務關聯與規範，不能只憑吃飯二字判斷。舊題的核心價值數目與守則原文依版本理解，合理合作不因未列原文就不道德。"
+        }
+      ],
+      "mnemonic": "選藏不是背書，服務不是審查。",
+      "example": "同時提供支持與反對政策的書，是讓讀者比較，不是館方自相矛盾。",
+      "trap": "不能把原文辨認題當成所有倫理判斷的完整清單。",
+      "recall": "可因不喜歡作者立場而刪其書嗎？",
+      "answer": "不能僅憑立場排除，應依專業館藏政策與一致標準評估。",
       "questionIds": [
         "115-2-1",
-        "115-2-21",
-        "114-2-15"
+        "114-2-7",
+        "114-2-22",
+        "113-2-18",
+        "113-2-21",
+        "111-2-8",
+        "111-2-21",
+        "110-2-19",
+        "109-2-4",
+        "107-2-8"
       ],
       "sources": [
         {
@@ -874,44 +1241,314 @@
           "url": "https://www.ala.org/advocacy/intfreedom/librarybill"
         },
         {
-          "title": "Richard O. Mason：Four Ethical Issues of the Information Age（原文重刊）",
-          "url": "https://www.gdrc.org/info-design/4-ethics.html"
-        }
-      ]
-    },
-    {
-      "id": "lib-collection",
-      "subjectIndex": 2,
-      "group": "館藏與保存",
-      "title": "館藏發展：從社區需求到持續評估",
-      "lead": "選書不是看到好書就買。先知道服務誰，再以政策讓選擇、採購與淘汰有一致依據。",
-      "points": [
-        {
-          "term": "需求與政策",
-          "detail": "了解社區或學校的使用者，訂館藏範圍、深度、語言、選擇與淘汰原則。"
+          "title": "ALA：Freedom to Read Statement",
+          "url": "https://www.ala.org/advocacy/intfreedom/freedomreadstatement"
         },
         {
-          "term": "選擇與採訪",
-          "detail": "選擇決定適合收什麼，採訪處理購買、交換、贈送等取得方式。"
+          "title": "臺灣學術倫理教育資源中心：學術倫理課程與規範",
+          "url": "https://ethics.moe.edu.tw/"
         },
         {
-          "term": "評鑑與淘汰",
-          "detail": "看內容品質、使用情況、時效與保存價值，不把借閱量當唯一標準。"
+          "title": "ALA：Our Enduring Values 作者與出版介紹",
+          "url": "https://alastore.ala.org/content/our-enduring-values-librarianship-21st-century"
         },
         {
-          "term": "捐贈",
-          "detail": "仍按政策評估，不能承諾來者全收或永不淘汰。"
+          "title": "中華民國圖書館學會：圖書館員專業倫理守則",
+          "url": "https://www.lac.org.tw/law/12"
+        },
+        {
+          "title": "ALA：2024 年核心價值更新說明",
+          "url": "https://www.ala.org/news/2024/02/american-library-association-updates-core-values"
         }
       ],
-      "example": "老舊醫療資訊可能有風險；地方史料即使使用較少，仍可能具有長期保存價值。",
-      "trap": "館藏發展是循環，不是一次採購完就結束；免費捐書也有處理與空間成本。",
-      "recall": "低借閱率是否足以直接判定一本書必須淘汰？",
-      "answer": "不夠。還要看內容價值、地方性、研究需求與保存使命。",
+      "order": 7
+    },
+    {
+      "id": "course-l09",
+      "subjectIndex": 2,
+      "group": "01 圖書館與資訊：先建立全貌",
+      "title": "PAPA與借閱隱私：資料正確也可能侵犯權益",
+      "lead": "借閱紀錄可能透露健康、信仰與觀點，需要保護。",
+      "points": [
+        {
+          "term": "PAPA四格",
+          "detail": "Privacy隱私、Accuracy正確、Property財產、Accessibility可近用。錯資料看正確性，暴露個資看隱私，誰能接觸看可近用。"
+        },
+        {
+          "term": "保護方法",
+          "detail": "只蒐集必要資料、限制存取與保存、統計盡量去識別。線上參考對話也可能含敏感資料，不能因在網路就公開。"
+        },
+        {
+          "term": "法規背景",
+          "detail": "公務機關蒐集需特定目的與依據；個資查詢15日等期限要連同延長條件讀。2001 PATRIOT Act是歷史政策題，不宜當今日所有國家的現況。"
+        }
+      ],
+      "mnemonic": "私、準、產、近：先看哪種權益受影響。",
+      "example": "公布具姓名的借書排行榜，內容即使正確，仍可能侵犯隱私。",
+      "trap": "一個情境可能同時涉及多種倫理問題，不必硬說只有一種。",
+      "recall": "Accuracy與Accessibility有何不同？",
+      "answer": "前者問資料是否正確，後者問能否及如何取得資訊。",
       "questionIds": [
+        "115-2-21",
+        "114-2-15",
+        "113-2-37",
+        "113-2-40",
+        "110-2-49",
+        "109-2-18",
+        "109-2-20",
+        "108-2-7",
+        "107-2-38"
+      ],
+      "sources": [
+        {
+          "title": "Richard O. Mason：Four Ethical Issues of the Information Age（原文重刊）",
+          "url": "https://www.gdrc.org/info-design/4-ethics.html"
+        },
+        {
+          "title": "RUSA：數位參考服務指引 2017",
+          "url": "https://www.ala.org/sites/default/files/rusa/content/resources/guidelines/GuidelinesVirtualReference_2017.pdf"
+        },
+        {
+          "title": "全國法規資料庫：個人資料保護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0050021"
+        },
+        {
+          "title": "美國國會：USA PATRIOT Act 法案原文及歷史",
+          "url": "https://www.congress.gov/bill/107th-congress/house-bill/3162"
+        },
+        {
+          "title": "中華民國圖書館學會：圖書館員專業倫理守則",
+          "url": "https://www.lac.org.tw/law/12"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "id": "course-l48",
+      "subjectIndex": 2,
+      "group": "01 圖書館與資訊：先建立全貌",
+      "title": "書目計量：期刊、作者、詞頻各一條",
+      "lead": "先記統計對象，再學公式。",
+      "points": [
+        {
+          "term": "Bradford",
+          "detail": "主題文獻集中核心期刊再分散，期刊區數常以1:n:n²概括，n不固定5。"
+        },
+        {
+          "term": "Lotka與Zipf",
+          "detail": "Lotka作者生產力，Zipf詞頻順位；Garfield與引文索引發展相關，不把所有資訊學者歸同類。"
+        },
+        {
+          "term": "應用界線",
+          "detail": "計量助選刊分析，引用不是真假或唯一品質證明；傳統目錄學辨章學術考鏡源流不只是數量。"
+        }
+      ],
+      "mnemonic": "布期、洛人、齊字。",
+      "example": "選核心期刊想Bradford，作者篇數分布看Lotka。",
+      "trap": "模型是概括，不是每個資料集精準遵循。",
+      "recall": "Lotka看期刊還是作者？",
+      "answer": "作者的文獻生產力。",
+      "questionIds": [
+        "114-2-3",
+        "111-2-2",
+        "110-2-46",
+        "109-2-6",
+        "107-2-30"
+      ],
+      "sources": [
+        {
+          "title": "國立臺灣圖書館：期刊評鑑及期刊影響係數研究",
+          "url": "https://www.ntl.edu.tw/public/Attachment/08161501967.pdf"
+        },
+        {
+          "title": "Eugene Garfield：Five Decades of Citation Indexing 作者回顧",
+          "url": "https://garfield.library.upenn.edu/papers/beijingchina2009.html"
+        },
+        {
+          "title": "教育部教育百科：洛特卡定律",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%B4%9B%E7%89%B9%E5%8D%A1%E5%AE%9A%E5%BE%8B"
+        },
+        {
+          "title": "教育部教育百科：目錄學（潘美月）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E7%9B%AE%E9%8C%84%E5%AD%B8"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "id": "course-l50",
+      "subjectIndex": 2,
+      "group": "01 圖書館與資訊：先建立全貌",
+      "title": "圖書館核心理念：從擁有走向可靠取用",
+      "lead": "學完各種服務，再回來看為何要做這些事。",
+      "points": [
+        {
+          "term": "阮甘納桑五律",
+          "detail": "書為使用、每位讀者有其書、每書有讀者、節省讀者時間、館是成長有機體，重點在使用。"
+        },
+        {
+          "term": "新五律另記",
+          "detail": "Crawford與Gorman重服務人、各種傳播形式、明智科技、自由取用、承先啟後；106年題考這套，不能硬套舊五律。"
+        },
+        {
+          "term": "當代延伸",
+          "detail": "ownership到access不只數本館所有權，還看取得能力；Library2.0重參與，IFLA倡議連SDGs2030，數位仍需保存成本。"
+        }
+      ],
+      "mnemonic": "舊：用讀書時長；新：人形式科技自由未來。",
+      "example": "透過互借取得所需，不一定每館都買同一本。",
+      "trap": "新舊五律與最省力原則是不同清單。",
+      "recall": "取用導向代表保存不重要嗎？",
+      "answer": "不是，是同時看可靠取得與長期保存，不只看擁有量。",
+      "questionIds": [
+        "113-2-16",
+        "106-2-4",
+        "106-2-6"
+      ],
+      "sources": [
+        {
+          "title": "IFLA：International Advocacy Programme",
+          "url": "https://www.ifla.org/publications/international-advocacy-programme-iap-brochure/"
+        },
+        {
+          "title": "Crawford 與 Gorman：Future Libraries 作者原文節選",
+          "url": "https://www.ala.org/aboutala/offices/publishing/editions/samplers/futurelibraries"
+        },
+        {
+          "title": "IFLA／UNESCO：公共圖書館宣言",
+          "url": "https://www.ifla.org/public-library-manifesto/"
+        },
+        {
+          "title": "IFLA：電子資源館藏發展指引與標準",
+          "url": "https://www.ifla.org/acquisition-collection-development-standards-3/"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "id": "course-l07",
+      "subjectIndex": 2,
+      "group": "02 讀者與服務：把需求變成幫助",
+      "title": "資訊素養與Big6：找得到，還要判斷與負責",
+      "lead": "會按搜尋鍵只是開始，還需理解需求、品質與合宜使用。",
+      "points": [
+        {
+          "term": "完整能力",
+          "detail": "資訊素養涵蓋辨識需求、搜尋、評估、使用及倫理；健康素養不是自行診斷。UNESCO強調能力貫穿生活。"
+        },
+        {
+          "term": "Big6流程",
+          "detail": "任務界定→尋求策略→位置取得→使用→統整→評鑑，由Eisenberg與Berkowitz提出，先懂問題再找資料。"
+        },
+        {
+          "term": "其他架構",
+          "detail": "SCONUL七支柱、ACRL舊標準與新Framework要分版本。MOOC如Coursera、edX不只是放影片；OCW開放教材不等於學位，終身學習也不限年齡。"
+        }
+      ],
+      "mnemonic": "Big6「問、選、找、用、合、評」。",
+      "example": "館員教孩子拆問題與挑來源，讓孩子自己完成作業，比直接給答案更符合學習目的。",
+      "trap": "學習紀錄不自動變學分；會軟體不等於資訊素養完整。",
+      "recall": "Big6開始與結束分別做什麼？",
+      "answer": "先界定任務，最後檢查成果與過程。",
+      "questionIds": [
+        "114-2-35",
+        "114-2-41",
+        "113-2-5",
+        "113-2-6",
+        "113-2-34",
+        "111-2-36",
+        "110-2-34",
+        "109-2-35",
+        "109-2-46",
+        "108-2-37",
+        "106-2-7",
+        "106-2-8",
+        "106-2-36",
+        "106-2-48"
+      ],
+      "sources": [
+        {
+          "title": "ACRL：Framework for Information Literacy for Higher Education",
+          "url": "https://www.ala.org/acrl/standards/ilframework"
+        },
+        {
+          "title": "Coursera：線上課程與學習服務",
+          "url": "https://www.coursera.org/"
+        },
+        {
+          "title": "SCONUL：資訊素養七支柱",
+          "url": "https://www.sconul.ac.uk/knowledge-hub/library-structures-and-strategies/resources-and-links/"
+        },
+        {
+          "title": "教育部教育百科：學習型組織（專家撰稿）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%AD%B8%E7%BF%92%E5%9E%8B%E7%B5%84%E7%B9%94"
+        },
+        {
+          "title": "Eisenberg 與 Berkowitz：The Big6 官方教學資源",
+          "url": "https://thebig6.org/"
+        },
+        {
+          "title": "美國國立醫學圖書館：MedlinePlus 健康資訊",
+          "url": "https://medlineplus.gov/"
+        },
+        {
+          "title": "全國法規資料庫：終身學習法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=H0080048"
+        },
+        {
+          "title": "MIT OpenCourseWare：About",
+          "url": "https://ocw.mit.edu/about/"
+        },
+        {
+          "title": "UNESCO：Information Literacy",
+          "url": "https://www.unesco.org/en/ifap/information-literacy"
+        },
+        {
+          "title": "IFLA／UNESCO：公共圖書館宣言",
+          "url": "https://www.ifla.org/public-library-manifesto/"
+        },
+        {
+          "title": "國家圖書館：公共圖書館高齡服務指引",
+          "url": "https://nclfile.ncl.edu.tw/files/201911/e51da5e4-7150-4ffc-981d-1f358c2b9e94.pdf"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "id": "course-l13",
+      "subjectIndex": 2,
+      "group": "02 讀者與服務：把需求變成幫助",
+      "title": "社區分析：沒有借書證的人也要被看見",
+      "lead": "先理解居民需要，才知道買什麼、辦什麼。",
+      "points": [
+        {
+          "term": "調查對象",
+          "detail": "包括現有使用者及非使用者，了解人口、語言、教育與生活條件；借閱紀錄不能代表全體居民。"
+        },
+        {
+          "term": "需求轉服務",
+          "detail": "地方產業、文史、族群可形成特色館藏，如古坑咖啡。自然環境資料是否重要要看任務，不是永遠無關。"
+        },
+        {
+          "term": "落差與連結",
+          "detail": "數位落差含設備、能力、語言與實際受益；社會資本是信任、網絡及合作。交流空間可協助社區連結。"
+        }
+      ],
+      "mnemonic": "先問誰沒來、為什麼，再問要提供什麼。",
+      "example": "借閱少可能是開放時間不適合輪班族，不一定是居民不愛閱讀。",
+      "trap": "現有讀者偏好不能代表所有人，館員興趣也不能取代需求。",
+      "recall": "為何分析非使用者？",
+      "answer": "才能發現服務障礙及尚未被滿足的需求。",
+      "questionIds": [
+        "115-2-10",
         "114-2-30",
-        "114-2-31",
-        "115-2-30",
-        "115-2-31"
+        "113-2-17",
+        "109-2-33",
+        "109-2-40",
+        "108-2-9",
+        "107-2-4",
+        "106-2-10",
+        "106-2-29"
       ],
       "sources": [
         {
@@ -923,40 +1560,192 @@
           "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/acquisition-collection-development/publications/gift_guide_2019_edition.pdf"
         },
         {
-          "title": "教育部：圖書館設立及營運標準",
-          "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001556&media=print"
-        }
-      ]
-    },
-    {
-      "id": "lib-reference",
-      "subjectIndex": 2,
-      "group": "讀者與服務",
-      "title": "參考服務：先釐清問題，才找工具",
-      "lead": "讀者第一句話未必是完整需求。訪談的目的是理解真正需要解決的事情。",
-      "points": [
-        {
-          "term": "問題類型",
-          "detail": "指引型問位置；事實型要簡短事實；研究型需較深入搜尋與綜合。"
+          "title": "教育部教育百科：數位落差（毛慶禎）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%95%B8%E4%BD%8D%E8%90%BD%E5%B7%AE"
         },
         {
-          "term": "開放與中立提問",
-          "detail": "讓讀者描述情境、需求與使用目的，避免把館員猜測塞進問題。"
+          "title": "教育部教育百科：社會資本（專家撰稿）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E7%A4%BE%E6%9C%83%E8%B3%87%E6%9C%AC"
         },
         {
-          "term": "直接與間接服務",
-          "detail": "直接面對讀者回答、指導；選擇參考資源、建立工具等支持工作屬間接面向。"
+          "title": "IFLA：採訪與館藏發展標準及指引",
+          "url": "https://www.ifla.org/acquisition-collection-development-standards-3/"
         }
       ],
-      "example": "讀者問「有沒有某國資料」，先問要旅遊、投資還是課堂報告，才能選對深度與工具。",
-      "trap": "不要一聽到關鍵字就丟一份搜尋結果；資訊太多也可能沒有回答問題。",
-      "recall": "「GATT 是什麼機構？」較接近哪一類參考問題？",
-      "answer": "事實型問題，可用可靠參考來源提供明確事實。",
+      "order": 12
+    },
+    {
+      "id": "course-l14",
+      "subjectIndex": 2,
+      "group": "02 讀者與服務：把需求變成幫助",
+      "title": "高齡與無障礙：降低參與門檻",
+      "lead": "不是先貼標籤，而是看使用者需要哪些協助。",
+      "points": [
+        {
+          "term": "定義與對象",
+          "detail": "高齡指南常見65歲，樂齡政策可見55歲，屬不同定義。閱讀協助也包括學習障礙，不限視障。"
+        },
+        {
+          "term": "資源與空間",
+          "detail": "大字、點字、MP3、DAISY提供不同方式；靜態圖像不自動無障礙。動線、照明、字級與樓層可達性要一起看。"
+        },
+        {
+          "term": "參與與訓練",
+          "detail": "活躍老化重學習與社會參與，不是醫療診斷。題庫高齡指南十項由館員訓練到最後評估，先準備能力再修正服務，也要理解高齡工作者。"
+        }
+      ],
+      "mnemonic": "看得清、到得了、聽得懂、願意來。",
+      "example": "文字可放大又提供有聲版本，讓不同需求者選適合方式。",
+      "trap": "55與65不可跨法規互換，樓層也不能脫離可達性一概判斷。",
+      "recall": "樂齡55歲與高齡65歲矛盾嗎？",
+      "answer": "不一定，是不同政策或規範定義，須看題目情境。",
       "questionIds": [
-        "114-2-33",
+        "115-2-9",
+        "115-2-33",
+        "114-2-29",
+        "111-2-17",
+        "110-2-9",
+        "110-2-40",
+        "107-2-5",
+        "106-2-35",
+        "106-2-38"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：公共圖書館高齡服務指引",
+          "url": "https://nclfile.ncl.edu.tw/files/201911/e51da5e4-7150-4ffc-981d-1f358c2b9e94.pdf"
+        },
+        {
+          "title": "全國法規資料庫：圖書館法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=H0010008"
+        },
+        {
+          "title": "W3C：Web Content Accessibility Guidelines 2.2",
+          "url": "https://www.w3.org/TR/WCAG22/"
+        },
+        {
+          "title": "DAISY Consortium：無障礙出版標準",
+          "url": "https://daisy.org/"
+        },
+        {
+          "title": "ALA：2005 年高齡議題會議及政策討論",
+          "url": "https://www.ala.org/aboutala/offices/olos/prewhcoaforum/whcoa2005forum"
+        },
+        {
+          "title": "全國法規資料庫：終身學習法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=H0080048"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "id": "course-l15",
+      "subjectIndex": 2,
+      "group": "02 讀者與服務：把需求變成幫助",
+      "title": "閱讀推廣與多元文化：閱讀是對話",
+      "lead": "目的是讓人理解與參與，不只是考他記了多少。",
+      "points": [
+        {
+          "term": "親子共讀",
+          "detail": "Bookstart起於英國；共讀重互動陪伴。兒少法兒童未滿12歲、少年12至未滿18歲是特定法律定義。"
+        },
+        {
+          "term": "節慶與真人",
+          "detail": "UNESCO世界閱讀與版權日4月23日，連到加泰隆尼亞贈書傳統；真人圖書館交流生命經驗，常考丹麥2000年Roskilde。"
+        },
+        {
+          "term": "多元文化",
+          "detail": "包含移民、新住民、原住民族及跨年齡需求，口述文化也值得保存。原住民族資訊中心有原民會、臺大合作脈絡。"
+        }
+      ],
+      "mnemonic": "共讀重對話，真人重交流，多元讓不同經驗被看見。",
+      "example": "邀家長分享家鄉故事，可同時推動閱讀與保存口述文化。",
+      "trap": "多元文化不排除兒童，真人圖書也不是任意揭露個人隱私。",
+      "recall": "世界閱讀與版權日是哪一天？",
+      "answer": "4月23日，由UNESCO推動。",
+      "questionIds": [
+        "115-2-39",
+        "115-2-40",
+        "114-2-12",
+        "114-2-19",
+        "114-2-39",
+        "113-2-32",
+        "113-2-39",
+        "111-2-10",
+        "111-2-33",
+        "111-2-40",
+        "110-2-37",
+        "110-2-38",
+        "109-2-38"
+      ],
+      "sources": [
+        {
+          "title": "Human Library Organization：官方計畫說明",
+          "url": "https://humanlibrary.org/"
+        },
+        {
+          "title": "UNESCO：World Book and Copyright Day",
+          "url": "https://www.unesco.org/en/days/world-book-and-copyright"
+        },
+        {
+          "title": "全國法規資料庫：兒童及少年福利與權益保障法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0050001"
+        },
+        {
+          "title": "IFLA／UNESCO：公共圖書館宣言",
+          "url": "https://www.ifla.org/public-library-manifesto/"
+        },
+        {
+          "title": "BookTrust：Bookstart",
+          "url": "https://www.booktrust.org.uk/how-we-help/programmes/bookstart/"
+        },
+        {
+          "title": "國立臺灣大學：原住民族圖書資訊中心設立宗旨",
+          "url": "https://isrc.ntu.edu.tw/information_library.php"
+        },
+        {
+          "title": "IFLA／UNESCO：多元文化圖書館宣言",
+          "url": "https://www.ifla.org/ifla-unesco-multicultural-library-manifesto/"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "id": "course-l16",
+      "subjectIndex": 2,
+      "group": "02 讀者與服務：把需求變成幫助",
+      "title": "參考問題分型：先判斷需要多深的回答",
+      "lead": "一句想找資料，可能問位置，也可能需深入研究。",
+      "points": [
+        {
+          "term": "由淺入深",
+          "detail": "方向性問位置設備；事實性問可查證的數字、名稱、日期；研究性需多來源分析。"
+        },
+        {
+          "term": "檢索方式",
+          "detail": "已知資料有題名作者等線索，主題檢索找一群相關資料；觀光人數屬事實查證，仍須確認年份與統計口徑。"
+        },
+        {
+          "term": "主動服務",
+          "detail": "SDI依興趣檔推送新資訊；預約已借出的書是流通服務。閱讀指導、互借直接協助讀者，合作採編多在幕後。"
+        }
+      ],
+      "mnemonic": "問路→查數→研究；先深度，再工具。",
+      "example": "找龍應台《野火集》是已知資料，找抗爭研究則是主題探索。",
+      "trap": "問題分型與檢索方式是不同分類，不能只因有數字就不查來源。",
+      "recall": "依興趣定期送新文獻叫什麼？",
+      "answer": "SDI選粹資訊服務，以需求或興趣檔為基礎。",
+      "questionIds": [
+        "115-2-36",
         "114-2-34",
-        "114-2-37",
-        "115-2-36"
+        "111-2-34",
+        "111-2-37",
+        "111-2-47",
+        "110-2-13",
+        "110-2-17",
+        "107-2-34",
+        "106-2-32",
+        "106-2-34"
       ],
       "sources": [
         {
@@ -964,166 +1753,422 @@
           "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%8F%83%E8%80%83%E6%9B%B8"
         },
         {
-          "title": "Dervin 與 Dewdney：Neutral Questioning 原始論文",
-          "url": "https://www.jstor.org/stable/25827718"
-        }
-      ]
-    },
-    {
-      "id": "lib-needs",
-      "subjectIndex": 2,
-      "group": "讀者與服務",
-      "title": "資訊需求理論：先記學者在解釋什麼",
-      "lead": "把名字與一個畫面連在一起，比只背縮寫更容易辨認題目。",
-      "points": [
-        {
-          "term": "Belkin：ASK",
-          "detail": "覺得知識有缺口，甚至還說不清楚問題；檢索要理解這種不確定需求。"
+          "title": "教育部教育百科：專題選粹服務（曾淑賢）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%B0%88%E9%A1%8C%E9%81%B8%E7%B2%B9%E6%9C%8D%E5%8B%99"
         },
-        {
-          "term": "Taylor：四層次",
-          "detail": "感受性 → 意識性 → 形式化 → 妥協性。從模糊感覺到整理成問題，再調整成向系統提出的查詢。"
-        },
-        {
-          "term": "Kuhlthau：搜尋歷程",
-          "detail": "關心搜尋過程的感受、想法與行動，不確定感可能隨階段改變。"
-        }
-      ],
-      "example": "「只可意會不可言傳」先想到 Taylor 的感受性需求；「知識非常態」則想到 Belkin。",
-      "trap": "最後交給檢索系統的字詞，不一定等於讀者心裡最原始、最完整的需求。",
-      "recall": "ASK 的提出者是 Taylor 嗎？",
-      "answer": "不是，是 Belkin；Taylor 的四層次是另一套需求分析。",
-      "questionIds": [
-        "115-2-3",
-        "115-2-32",
-        "106-2-30"
-      ],
-      "sources": [
-        {
-          "title": "Belkin、Oddy、Brooks：ASK for information retrieval 原始論文",
-          "url": "https://surface.syr.edu/istpub/150/"
-        },
-        {
-          "title": "Robert S. Taylor：Question-Negotiation and Information Seeking in Libraries",
-          "url": "https://crl.acrl.org/index.php/crl/article/view/16421/0"
-        }
-      ]
-    },
-    {
-      "id": "lib-retrieval",
-      "subjectIndex": 2,
-      "group": "檢索與科技",
-      "title": "布林檢索：同概念 OR，不同概念 AND",
-      "lead": "把研究題目拆成概念組，再放進各組的同義詞，搜尋式就有結構。",
-      "points": [
-        {
-          "term": "OR",
-          "detail": "合併同義或近義詞的集合，通常擴大結果。"
-        },
-        {
-          "term": "AND",
-          "detail": "取不同條件交集，通常縮小結果。"
-        },
-        {
-          "term": "NOT",
-          "detail": "排除含某條件的結果，但可能誤刪同時談兩者的相關文獻。"
-        },
-        {
-          "term": "區塊組合",
-          "detail": "每個概念組內用 OR，概念組之間用 AND；括號用來保護組合順序。"
-        }
-      ],
-      "example": "(父母 OR 家長) AND (學童 OR 小學生) AND (成績 OR 學習表現)。先拆人群與關係，再補同義詞。",
-      "trap": "擴大與縮小是以相同資料庫、相同檢索規則比較；不同系統的預設處理可能不同。",
-      "recall": "找更多同義詞結果，應優先加 AND 還是 OR？",
-      "answer": "OR；AND 要同時滿足，反而可能減少結果。",
-      "questionIds": [
-        "115-2-45",
-        "114-2-46"
-      ],
-      "sources": [
         {
           "title": "Manning、Raghavan、Schütze：Introduction to Information Retrieval",
           "url": "https://nlp.stanford.edu/IR-book/"
         },
         {
-          "title": "Google Search：進階檢索說明",
-          "url": "https://support.google.com/websearch/answer/2466433"
+          "title": "ACRL：Standards for Libraries in Higher Education",
+          "url": "https://www.ala.org/acrl/standards/standardslibraries"
+        },
+        {
+          "title": "國研院：全國文獻傳遞服務系統",
+          "url": "https://ndds.stpi.niar.org.tw/"
         }
-      ]
+      ],
+      "order": 15
     },
     {
-      "id": "lib-evaluation",
+      "id": "course-l17",
       "subjectIndex": 2,
-      "group": "管理與評鑑",
-      "title": "輸入、輸出、成果：不要把忙碌當成成效",
-      "lead": "評鑑先問量到哪一層：投入多少、做了多少、使用者改變多少。",
+      "group": "02 讀者與服務：把需求變成幫助",
+      "title": "參考訪談：把表面問題問成真正需求",
+      "lead": "館員先幫讀者釐清，再提供合適協助。",
       "points": [
         {
-          "term": "輸入 input",
-          "detail": "經費、人力、設備與可用資源。"
+          "term": "中性提問",
+          "detail": "問用途、深度、時間、語言，不誘導立場；親切態度與易辨認服務台降低求助門檻。"
         },
         {
-          "term": "輸出 output",
-          "detail": "服務次數、借閱量、活動場次等直接產出。"
+          "term": "專業界線",
+          "detail": "提供法律醫療資訊，不代替專家作個案判斷；不自行鑑價古籍，不替孩子交作業。"
         },
         {
-          "term": "成果 outcome",
-          "detail": "讀者知識、能力或行為的改變，例如學會可靠資訊查證。"
-        },
-        {
-          "term": "PDCA",
-          "detail": "Plan 計畫 → Do 執行 → Check 查核 → Act 改善，持續循環。"
+          "term": "線上與評估",
+          "detail": "表單郵件非同步不等於低效；虛擬訪談須保密。隱密觀察可測真實表現，也需考量倫理與設計。"
         }
       ],
-      "example": "辦十場資訊素養課是輸出；學生真的能辨識不可靠來源，才是在看成果。",
-      "trap": "滿意度可以提供線索，但不能單靠高滿意就證明學習能力已提升。",
-      "recall": "新增兩位館員，是輸入、輸出還是成果？",
-      "answer": "輸入，是投入服務的人力資源。",
+      "mnemonic": "先用途，再條件，最後確認有沒有幫上忙。",
+      "example": "協助找法律扶助來源，不替讀者保證官司結果。",
+      "trap": "年資不自動等於能力，中性也不等於冷淡。",
+      "recall": "中性提問要引導支持館員意見嗎？",
+      "answer": "不應，它用來釐清需求，避免預設答案。",
       "questionIds": [
-        "115-2-14",
-        "115-2-15",
-        "108-2-10",
-        "106-2-20"
+        "114-2-37",
+        "113-2-38",
+        "111-2-39",
+        "109-2-17",
+        "108-2-32",
+        "108-2-33",
+        "108-2-34",
+        "107-2-19"
       ],
       "sources": [
+        {
+          "title": "Dervin 與 Dewdney：Neutral Questioning 原始論文",
+          "url": "https://www.jstor.org/stable/25827718"
+        },
+        {
+          "title": "RUSA：參考資訊服務人員行為表現指引 2023",
+          "url": "https://www.ala.org/sites/default/files/rusa/content/Guidelines%20for%20Behavioral%20Performance%20of%20Reference%20and%20Information%20Service%20Providers%202023.pdf"
+        },
+        {
+          "title": "IFLA／UNESCO：公共圖書館宣言",
+          "url": "https://www.ifla.org/public-library-manifesto/"
+        },
+        {
+          "title": "ACRL：Framework for Information Literacy for Higher Education",
+          "url": "https://www.ala.org/acrl/standards/ilframework"
+        },
+        {
+          "title": "教育部教育百科：參考書（王錫章）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%8F%83%E8%80%83%E6%9B%B8"
+        },
+        {
+          "title": "美國國立醫學圖書館：MedlinePlus 健康資訊",
+          "url": "https://medlineplus.gov/"
+        },
+        {
+          "title": "RUSA：數位參考服務指引 2017",
+          "url": "https://www.ala.org/sites/default/files/rusa/content/resources/guidelines/GuidelinesVirtualReference_2017.pdf"
+        },
+        {
+          "title": "教育部教育百科：圖書館評鑑（蔡明月）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%9C%96%E6%9B%B8%E9%A4%A8%E8%A9%95%E9%91%91"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "id": "course-l18",
+      "subjectIndex": 2,
+      "group": "02 讀者與服務：把需求變成幫助",
+      "title": "參考工具箱：問題不同，工具就不同",
+      "lead": "記用途比記書的外觀更有用。",
+      "points": [
+        {
+          "term": "快查工具",
+          "detail": "辭典查詞，百科建概觀，年鑑查年度，年表看順序，名錄找人機構，手冊供實務資料。"
+        },
+        {
+          "term": "找文獻與地方",
+          "detail": "書目記文獻，索引指篇目位置，摘要補概述；方志描述地方，傳記工具查人物，參考書常供查閱而非通讀。"
+        },
+        {
+          "term": "專門來源",
+          "detail": "Ulrich’s是期刊目錄，教育部重編辭典查詞義；免費網路來源也可用，但要評權威性、更新與範圍。"
+        }
+      ],
+      "mnemonic": "詞典、概百科、年資料年鑑、時序年表、人館名錄。",
+      "example": "先用百科認識主題，再用索引找研究論文，不是兩者只能選一個。",
+      "trap": "bibliography、biography、bibliotherapy分別是書目、傳記、書目療法。",
+      "recall": "要找期刊是否持續出版，先查什麼？",
+      "answer": "期刊名錄等工具，再核對更新與刊名沿革。",
+      "questionIds": [
+        "115-2-23",
+        "114-2-23",
+        "114-2-33",
+        "111-2-27",
+        "110-2-23",
+        "110-2-24",
+        "108-2-24",
+        "108-2-27",
+        "107-2-23",
+        "107-2-36",
+        "107-2-43",
+        "106-2-13",
+        "106-2-24",
+        "106-2-25",
+        "106-2-26",
+        "106-2-28"
+      ],
+      "sources": [
+        {
+          "title": "教育部教育百科：書目（顧力仁）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%9B%B8%E7%9B%AE"
+        },
+        {
+          "title": "教育部教育百科：參考書（王錫章）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%8F%83%E8%80%83%E6%9B%B8"
+        },
+        {
+          "title": "教育部：重編國語辭典修訂本",
+          "url": "https://dict.revised.moe.edu.tw/"
+        },
+        {
+          "title": "國家圖書館：臺灣期刊論文索引系統",
+          "url": "https://tpl.ncl.edu.tw/"
+        },
+        {
+          "title": "Ulrichsweb：全球期刊名錄",
+          "url": "https://ulrichsweb.serialssolutions.com/login"
+        },
+        {
+          "title": "教育部教育百科：方志（專家撰稿）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%96%B9%E5%BF%97"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "id": "course-l19",
+      "subjectIndex": 2,
+      "group": "02 讀者與服務：把需求變成幫助",
+      "title": "資料庫與政府資訊：查內容、查計畫、查出版品不同",
+      "lead": "先看收錄對象，再看平台名稱。",
+      "points": [
+        {
+          "term": "政府三個G",
+          "detail": "GRB偏政府研究計畫，GPI偏政府出版品，GPN是出版品統一編號；不是ISBN或資料庫別名。"
+        },
+        {
+          "term": "學術工具",
+          "detail": "Scopus引文摘要，JCR期刊指標，EndNote與RefWorks管理引用。查到索引紀錄不保證附全文。"
+        },
+        {
+          "term": "文獻性質",
+          "detail": "正式商業出版常稱白色，報告等常稱灰色；原始研究與索引摘要層次要看內容，教材分類可能不同。OpenGrey是歷史平台，不能假定仍運作。"
+        }
+      ],
+      "mnemonic": "計畫GRB、出版GPI、號碼GPN。",
+      "example": "一筆論文引用只幫你定位，全文仍須查館藏或授權。",
+      "trap": "指標不是每篇論文品質證明，官方網址也需看完整網域。",
+      "recall": "GPN和ISBN可以互換嗎？",
+      "answer": "不能，屬不同識別制度，一份出版品可能同時有多種號碼。",
+      "questionIds": [
+        "114-2-28",
+        "113-2-11",
+        "113-2-23",
+        "113-2-28",
+        "111-2-4",
+        "111-2-25",
+        "111-2-26",
+        "111-2-38",
+        "110-2-28",
+        "110-2-30",
+        "108-2-26",
+        "108-2-29",
+        "107-2-31",
+        "107-2-32",
+        "107-2-49"
+      ],
+      "sources": [
+        {
+          "title": "ISSN International Centre：國際標準期刊號",
+          "url": "https://www.issn.org/"
+        },
+        {
+          "title": "Budapest Open Access Initiative：開放取用宣言",
+          "url": "https://www.budapestopenaccessinitiative.org/read/"
+        },
+        {
+          "title": "IANA：Root Zone Database",
+          "url": "https://www.iana.org/domains/root/db"
+        },
+        {
+          "title": "國家科學及技術委員會：政府研究資訊系統",
+          "url": "https://www.grb.gov.tw/"
+        },
+        {
+          "title": "文化部：政府出版品資訊網",
+          "url": "https://gpi.culture.tw/"
+        },
+        {
+          "title": "教育部教育百科：參考資源（吳瑠璃）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail/?search=%E5%8F%83%E8%80%83%E8%B3%87%E6%BA%90&title=%E5%8F%83%E8%80%83%E8%B3%87%E6%BA%90"
+        },
+        {
+          "title": "GreyNet：灰色文獻及 OpenGrey 資源",
+          "url": "https://www.greynet.org/opengreydatabase.html"
+        },
+        {
+          "title": "International ISBN Agency：ISBN 規範及使用手冊",
+          "url": "https://www.isbn-international.org/content/isbn-users-manual/29"
+        },
+        {
+          "title": "Elsevier：Scopus 索引資料庫",
+          "url": "https://www.elsevier.com/products/scopus"
+        },
+        {
+          "title": "Clarivate：Journal Citation Reports",
+          "url": "https://clarivate.com/academia-government/scientific-and-academic-research/research-funding-analytics/journal-citation-reports/"
+        },
+        {
+          "title": "國立臺灣圖書館：期刊評鑑及期刊影響係數研究",
+          "url": "https://www.ntl.edu.tw/public/Attachment/08161501967.pdf"
+        },
         {
           "title": "教育部教育百科：圖書館評鑑（蔡明月）",
           "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%9C%96%E6%9B%B8%E9%A4%A8%E8%A9%95%E9%91%91"
         },
         {
-          "title": "ASQ：Plan-Do-Check-Act Cycle",
-          "url": "https://asq.org/quality-resources/pdca-cycle"
-        }
-      ]
-    },
-    {
-      "id": "lib-fte",
-      "subjectIndex": 2,
-      "group": "管理與評鑑",
-      "title": "FTE 全時當量：把工時換成同一單位",
-      "lead": "FTE 計算的是相當於多少名全職工作量，不是現場有幾個人。",
-      "points": [
-        {
-          "term": "基本公式",
-          "detail": "總計入工時 ÷ 一名全職標準工時；也可先分別換算每人當量再加總。"
+          "title": "教育部教育百科：統計學（黃登源）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E7%B5%B1%E8%A8%88%E5%AD%B8"
         },
         {
-          "term": "兼職",
-          "detail": "若標準每週 40 小時，某人每週 20 小時就是 0.5 FTE。"
+          "title": "國家圖書館：館藏特色",
+          "url": "https://www.ncl.edu.tw/collections"
         },
         {
-          "term": "範圍",
-          "detail": "館員、工讀生、志工是否計入，以題幹指定與統計口徑為準。"
+          "title": "華藝線上圖書館：學術資料服務",
+          "url": "https://www.airitilibrary.com/"
         }
       ],
-      "example": "4 名全職加 1 名半職，為 4.5 FTE；再有 2 名各每週 10 小時的人員，若全職40小時且題目要求計入，增加0.5 FTE。",
-      "trap": "先把每週、每月工時統一再相除，不可把不同期間直接相加。",
-      "recall": "兩位半職人員合計幾個 FTE？",
-      "answer": "1 FTE，前提是兩人都以相同的全職工時為基準。",
+      "order": 18
+    },
+    {
+      "id": "course-l33",
+      "subjectIndex": 2,
+      "group": "02 讀者與服務：把需求變成幫助",
+      "title": "空間服務：交流、學習、動手與取書",
+      "lead": "先看人在裡面做什麼，再決定設備。",
+      "points": [
+        {
+          "term": "目的分工",
+          "detail": "第三場所是家與工作外交流空間；learning commons整合學習資訊支援；makerspace讓人製作探索。"
+        },
+        {
+          "term": "包容設計",
+          "detail": "自造空間也歡迎初學者，教學安全不能少；兒童、高齡與身障可達性要一起考慮。"
+        },
+        {
+          "term": "自動保存",
+          "detail": "ASRS自動儲存提取提高密集保存效率，臺大是題庫案例，不取代選藏或參考服務。"
+        }
+      ],
+      "mnemonic": "第三交流、共享學習、自造動手、ASRS取書。",
+      "example": "討論報告時又能諮詢資訊工具，接近學習共享整合理念。",
+      "trap": "新設備不自動等於服務創新。",
+      "recall": "makerspace只適合高手嗎？",
+      "answer": "不是，入門教學與安全支援讓新手也能參與。",
       "questionIds": [
-        "115-2-19",
-        "106-2-18"
+        "115-2-34",
+        "114-2-32",
+        "111-2-15",
+        "110-2-16",
+        "110-2-39"
+      ],
+      "sources": [
+        {
+          "title": "ACRL：Standards for Libraries in Higher Education",
+          "url": "https://www.ala.org/acrl/standards/standardslibraries"
+        },
+        {
+          "title": "國立臺灣大學圖書館：自動化書庫",
+          "url": "https://www.lib.ntu.edu.tw/node/3367"
+        },
+        {
+          "title": "ALA：Makerspaces 空間與服務說明",
+          "url": "https://www.ala.org/tools/atoz/makerspaces"
+        },
+        {
+          "title": "IFLA／UNESCO：公共圖書館宣言",
+          "url": "https://www.ifla.org/public-library-manifesto/"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "id": "course-l34",
+      "subjectIndex": 2,
+      "group": "02 讀者與服務：把需求變成幫助",
+      "title": "流通與技術服務：借還背後先把資料準備好",
+      "lead": "一本書能借出，已經歷採訪、編目與加工。",
+      "points": [
+        {
+          "term": "前後臺",
+          "detail": "採編加工通常是技術服務；借還、預約是流通，不同館部門名稱可能不同。"
+        },
+        {
+          "term": "資料連結",
+          "detail": "書目認資源，館藏認複本位置，借閱認狀態；流通依讀者與資料類型設定期限件數權限。"
+        },
+        {
+          "term": "例外辨認",
+          "detail": "珍本與特藏有專門規定，課程指定用書不等於特藏；R等標記依館規，期刊到刊登錄也不等於付帳。"
+        }
+      ],
+      "mnemonic": "採編先備好，流通再借還。",
+      "example": "同版兩本一本借出一本在架，需要複本資料才能顯示正確。",
+      "trap": "不要把本館代碼說成全球唯一標準。",
+      "recall": "到刊登錄完成就代表已付款嗎？",
+      "answer": "不代表，收刊與帳款是不同紀錄。",
+      "questionIds": [
+        "113-2-24",
+        "111-2-35",
+        "108-2-8",
+        "108-2-31",
+        "108-2-47",
+        "107-2-6",
+        "107-2-28"
+      ],
+      "sources": [
+        {
+          "title": "教育部教育百科：參考書（王錫章）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%8F%83%E8%80%83%E6%9B%B8"
+        },
+        {
+          "title": "美國國會圖書館：Care, Handling and Storage",
+          "url": "https://www.loc.gov/preservation/care/"
+        },
+        {
+          "title": "IFLA：採訪與館藏發展標準及指引",
+          "url": "https://www.ifla.org/acquisition-collection-development-standards-3/"
+        },
+        {
+          "title": "Koha：官方使用手冊",
+          "url": "https://koha-community.org/manual/latest/en/html/"
+        },
+        {
+          "title": "NISO：Understanding Metadata",
+          "url": "https://www.niso.org/publications/understanding-metadata-2017"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "id": "course-l20",
+      "subjectIndex": 2,
+      "group": "03 館藏與合作：資料的一生",
+      "title": "資源與識別碼：內容、載體、出版方式分開",
+      "lead": "期刊可以是紙本也可以是電子，兩種分類並不互斥。",
+      "points": [
+        {
+          "term": "性質與載體",
+          "detail": "連續資源可年刊；數位資源可離線；微縮膠卷多是類比。檔案重自然形成的來源脈絡，不以同儕審查定義。"
+        },
+        {
+          "term": "號碼對象",
+          "detail": "ISBN圖書13碼自2007年起常見，ISSN連續資源8碼；ISMN樂譜、ISRC錄音、ISAN視聽著作，各識別不同對象。"
+        },
+        {
+          "term": "選擇利用",
+          "detail": "地圖看年月、比例尺、地名、範圍；視聽看內容技術及授權。VOD隨選，DVD區碼是播放機制，不是完整著作權判斷。"
+        }
+      ],
+      "mnemonic": "講什麼、怎麼裝、怎麼出；再問號碼識別誰。",
+      "example": "離線光碟仍是數位資源，年刊仍可能是連續出版品。",
+      "trap": "EAN、ISBN、ISSN可能同在封底，但長度用途不同。",
+      "recall": "微縮膠卷一定是數位嗎？",
+      "answer": "不是，通常是類比攝影資料，後續掃描才產生數位檔。",
+      "questionIds": [
+        "115-2-24",
+        "115-2-25",
+        "114-2-24",
+        "113-2-29",
+        "109-2-22",
+        "109-2-42",
+        "108-2-16",
+        "108-2-17",
+        "108-2-23",
+        "108-2-28",
+        "107-2-13",
+        "107-2-29",
+        "107-2-35",
+        "106-2-47"
       ],
       "sources": [
         {
@@ -1131,43 +2176,416 @@
           "url": "https://libstat.ncl.edu.tw/cnsDefinition/search"
         },
         {
-          "title": "CONCERT：全國學術電子資訊資源共享聯盟",
-          "url": "https://concert.stpi.niar.org.tw/"
-        }
-      ]
-    },
-    {
-      "id": "lib-openaccess",
-      "subjectIndex": 2,
-      "group": "館藏與保存",
-      "title": "開放取用與掠奪期刊：免費不等於沒品質",
-      "lead": "先分讀者能否取得、作者如何付費，以及期刊是否真正把關。",
-      "points": [
-        {
-          "term": "金色途徑",
-          "detail": "透過期刊出版開放取得文章；不代表所有金色期刊都向作者收費。"
+          "title": "ISSN International Centre：國際標準期刊號",
+          "url": "https://www.issn.org/"
         },
         {
-          "term": "綠色途徑",
-          "detail": "作者將允許的版本存入典藏庫，須注意版本、授權與可能的禁運期。"
+          "title": "教育部教育百科：方志（專家撰稿）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%96%B9%E5%BF%97"
         },
         {
-          "term": "混合型",
-          "detail": "訂閱型期刊讓部分文章選擇付費開放。"
+          "title": "教育部教育百科：電子出版（邱貴發）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E9%9B%BB%E5%AD%90%E5%87%BA%E7%89%88"
         },
         {
-          "term": "掠奪型",
-          "detail": "以不實承諾或缺乏實質審查等方式牟利；不能只憑是否收費判斷。"
+          "title": "MDN：Web media technologies",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Media"
+        },
+        {
+          "title": "IFLA：採訪與館藏發展標準及指引",
+          "url": "https://www.ifla.org/acquisition-collection-development-standards-3/"
+        },
+        {
+          "title": "美國國家檔案館：檔案與研究資源",
+          "url": "https://www.archives.gov/research"
+        },
+        {
+          "title": "Sony：DVD 區域碼使用說明",
+          "url": "https://helpguide.sony.net/ammig/VPCEG2_EH2_EJ2_EL2_EK_series/EN/contents/02/10/06/06.html"
+        },
+        {
+          "title": "IFPI：ISRC 國際標準錄音錄影資料代碼",
+          "url": "https://isrc.ifpi.org/"
+        },
+        {
+          "title": "International ISBN Agency：ISBN 規範及使用手冊",
+          "url": "https://www.isbn-international.org/content/isbn-users-manual/29"
         }
       ],
-      "example": "某期刊平常需訂閱，作者付費後特定文章可免費讀，這個情境指向混合型。",
-      "trap": "開放閱讀不等於可以任意修改、重製或商用，仍要看授權。",
-      "recall": "收取文章處理費的期刊，一定是掠奪期刊嗎？",
-      "answer": "不是。要檢查審查、透明度、編輯資訊與出版實務。",
+      "order": 21
+    },
+    {
+      "id": "course-l21",
+      "subjectIndex": 2,
+      "group": "03 館藏與合作：資料的一生",
+      "title": "館藏發展：先定服務方向，再選資料",
+      "lead": "政策回答為誰收、收多深，不是採購流水帳。",
+      "points": [
+        {
+          "term": "政策內容",
+          "detail": "涵蓋對象、範圍、深度、選擇標準、合作、評鑑與維護，也適用電子資源。"
+        },
+        {
+          "term": "選藏判準",
+          "detail": "依需求品質、適切性與成本；高價不保證優質，包裝漂亮不代表內容好，不以館員個人立場排除。"
+        },
+        {
+          "term": "流程位置",
+          "detail": "採訪、編目、提供使用、評鑑除藏相連；決定收什麼屬發展，決定給哪個類號屬組織。竭盡蒐集不只收最新出版。"
+        }
+      ],
+      "mnemonic": "先為誰，再收什麼，再怎麼選。",
+      "example": "地方史舊書可能因保存使命而比新書更值得保留。",
+      "trap": "未出現在某題清單的合理政策內容，不代表永遠不重要。",
+      "recall": "政策與帳冊差在哪？",
+      "answer": "政策規範方向與標準，帳冊記錄交易與經費。",
+      "questionIds": [
+        "114-2-31",
+        "113-2-30",
+        "110-2-25",
+        "109-2-27",
+        "108-2-20",
+        "107-2-10"
+      ],
+      "sources": [
+        {
+          "title": "IFLA：Gifts for the Collections 2019",
+          "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/acquisition-collection-development/publications/gift_guide_2019_edition.pdf"
+        },
+        {
+          "title": "教育部：圖書館設立及營運標準",
+          "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001556&media=print"
+        },
+        {
+          "title": "教育部教育百科：館藏發展（吳明德）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E9%A4%A8%E8%97%8F%E7%99%BC%E5%B1%95"
+        },
+        {
+          "title": "NISO：Understanding Metadata",
+          "url": "https://www.niso.org/publications/understanding-metadata-2017"
+        },
+        {
+          "title": "IFLA：採訪與館藏發展標準及指引",
+          "url": "https://www.ifla.org/acquisition-collection-development-standards-3/"
+        },
+        {
+          "title": "中華民國圖書館學會：圖書館員專業倫理守則",
+          "url": "https://www.lac.org.tw/law/12"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "id": "course-l22",
+      "subjectIndex": 2,
+      "group": "03 館藏與合作：資料的一生",
+      "title": "採訪方式：批准、包購、長訂、贈書",
+      "lead": "抓住誰先選、能否退、是否持續三個問題。",
+      "points": [
+        {
+          "term": "採購模式",
+          "detail": "Approval按選書檔送書，依約審退；blanket依範圍包購；standing持續訂系列；PDA/DDA由需求觸發購買。"
+        },
+        {
+          "term": "贈書交換",
+          "detail": "免費取得仍有整理保存空間成本，附加永久專室條件需評估；交換可補缺藏，並非把無用舊書倒給別館。"
+        },
+        {
+          "term": "流程廠商",
+          "detail": "請購與已下訂不同；評廠商看品質履約不是年齡；作者活動可推廣，也需避免利益衝突。"
+        }
+      ],
+      "mnemonic": "批准審退、包購範圍、長訂系列、需求觸發。",
+      "example": "電子書使用達契約門檻才購買，是需求觸發模式。",
+      "trap": "Approval退書條件看契約，零購入費不等於零成本。",
+      "recall": "贈書前除了內容還要看什麼？",
+      "answer": "整理保存成本、空間及附帶限制是否合館藏政策。",
+      "questionIds": [
+        "115-2-30",
+        "114-2-25",
+        "113-2-14",
+        "111-2-14",
+        "111-2-23",
+        "111-2-24",
+        "110-2-26",
+        "110-2-27",
+        "110-2-33",
+        "109-2-9",
+        "108-2-19",
+        "107-2-11",
+        "107-2-16",
+        "106-2-16"
+      ],
+      "sources": [
+        {
+          "title": "IFLA：Gifts for the Collections 2019",
+          "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/acquisition-collection-development/publications/gift_guide_2019_edition.pdf"
+        },
+        {
+          "title": "IFLA：採訪與館藏發展標準及指引",
+          "url": "https://www.ifla.org/acquisition-collection-development-standards-3/"
+        },
+        {
+          "title": "IFLA／UNESCO：公共圖書館宣言",
+          "url": "https://www.ifla.org/public-library-manifesto/"
+        },
+        {
+          "title": "臺灣學術電子書暨資料庫聯盟",
+          "url": "https://taebc.lib.ntnu.edu.tw/"
+        },
+        {
+          "title": "University of Liège：Beyond the Library Collections（作者論文集）",
+          "url": "https://arxiv.org/abs/2307.02362"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "id": "course-l23",
+      "subjectIndex": 2,
+      "group": "03 館藏與合作：資料的一生",
+      "title": "館藏評鑑與除藏：數量不是品質",
+      "lead": "問這批資料有沒有服務到人，比只問幾本更完整。",
+      "points": [
+        {
+          "term": "證據來源",
+          "detail": "規模、借閱、館內使用、引文、專家與讀者需求可互補；量化不保證完全客觀。"
+        },
+        {
+          "term": "適用脈絡",
+          "detail": "引文分析常適合學術館，不一定代表公共館需求；館內使用補借閱漏項，訪談未列某標準也非毫無價值。"
+        },
+        {
+          "term": "除藏判斷",
+          "detail": "看過時、損壞、重複、使用及保存價值；人文資料不只看年齡，合作也不以丟書為唯一目的。"
+        }
+      ],
+      "mnemonic": "多少是量，合不合是質，有沒有幫助是效益。",
+      "example": "醫療指南過時風險和古典文學不同，不宜同一出版年限淘汰。",
+      "trap": "出版社政策不是館藏成效本身。",
+      "recall": "低借閱地方史料一定除藏嗎？",
+      "answer": "不一定，還要考量使命、稀有性與長期研究價值。",
+      "questionIds": [
+        "115-2-31",
+        "113-2-31",
+        "111-2-31",
+        "109-2-29",
+        "107-2-14",
+        "107-2-20"
+      ],
+      "sources": [
+        {
+          "title": "教育部教育百科：圖書館評鑑（蔡明月）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%9C%96%E6%9B%B8%E9%A4%A8%E8%A9%95%E9%91%91"
+        },
+        {
+          "title": "教育部教育百科：館藏淘汰（吳明德）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E9%A4%A8%E8%97%8F%E6%B7%98%E6%B1%B0"
+        },
+        {
+          "title": "國立臺灣圖書館：期刊評鑑及期刊影響係數研究",
+          "url": "https://www.ntl.edu.tw/public/Attachment/08161501967.pdf"
+        },
+        {
+          "title": "國家圖書館：圖書館統計 CNS 定義",
+          "url": "https://libstat.ncl.edu.tw/cnsDefinition/search"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "id": "course-l24",
+      "subjectIndex": 2,
+      "group": "03 館藏與合作：資料的一生",
+      "title": "館際合作：一本館沒有，合作網路可能有",
+      "lead": "先知道哪裡有，再選借調或傳遞方式。",
+      "points": [
+        {
+          "term": "服務分工",
+          "detail": "互借由館與館借調，跨館證讓讀者自行到館，文獻傳遞送影本或電子內容，費用與授權各異。"
+        },
+        {
+          "term": "合作基礎",
+          "detail": "聯合目錄呈現多館位置，紙本時代已有；借出館政策影響借期與範圍。NDDS資格承辦須按年代辨認。"
+        },
+        {
+          "term": "歷史與代價",
+          "detail": "Farmington、Samuel Green、法國王家圖書館交換等屬歷史題；合作省重複但不保證增預算、免費或省空間。"
+        }
+      ],
+      "mnemonic": "互借是館替你借，跨館證是你去借，傳遞送內容。",
+      "example": "先查聯合目錄找持有館，再按規定申請，不憑猜測找館。",
+      "trap": "有合作不表示所有授權與費用消失。",
+      "recall": "文獻傳遞一定免費嗎？",
+      "answer": "不一定，可能有複印、郵寄、服務或授權費用。",
+      "questionIds": [
+        "115-2-11",
+        "115-2-37",
+        "114-2-38",
+        "113-2-27",
+        "111-2-32",
+        "110-2-11",
+        "110-2-29",
+        "110-2-36",
+        "109-2-23",
+        "109-2-24",
+        "109-2-31",
+        "109-2-32",
+        "109-2-36",
+        "108-2-22",
+        "107-2-22",
+        "106-2-14",
+        "106-2-15",
+        "106-2-27"
+      ],
+      "sources": [
+        {
+          "title": "臺北市立圖書館：圖書館國際交換研究文獻",
+          "url": "https://www-ws.gov.taipei/001/Upload/public/Attachment/012115494588.pdf"
+        },
+        {
+          "title": "國研院：全國文獻傳遞服務系統",
+          "url": "https://ndds.stpi.niar.org.tw/"
+        },
+        {
+          "title": "國家圖書館：全國圖書書目資訊網",
+          "url": "https://nbinet.ncl.edu.tw/"
+        },
+        {
+          "title": "IFLA／UNESCO：公共圖書館宣言",
+          "url": "https://www.ifla.org/public-library-manifesto/"
+        },
+        {
+          "title": "教育部教育百科：館藏淘汰（吳明德）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E9%A4%A8%E8%97%8F%E6%B7%98%E6%B1%B0"
+        },
+        {
+          "title": "教育部教育百科：館際合作（莊道明）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E9%A4%A8%E9%9A%9B%E5%90%88%E4%BD%9C"
+        },
+        {
+          "title": "CONCERT：全國學術電子資訊資源共享聯盟",
+          "url": "https://concert.stpi.niar.org.tw/"
+        },
+        {
+          "title": "全國法規資料庫：著作權法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0070017"
+        },
+        {
+          "title": "John V. Richardson：Samuel S. Green 圖書館史研究",
+          "url": "https://pages.gseis.ucla.edu/faculty/richardson/dis245/SSGREEN.htm"
+        },
+        {
+          "title": "College & Research Libraries：Report on Farmington Plan Program",
+          "url": "https://crl.acrl.org/index.php/crl/article/download/11481/12927"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "id": "course-l25",
+      "subjectIndex": 2,
+      "group": "03 館藏與合作：資料的一生",
+      "title": "電子資源聯盟：買到的常是使用權",
+      "lead": "擁有檔案、訂閱權、永久取用是三件事。",
+      "points": [
+        {
+          "term": "生命週期",
+          "detail": "ERM涵蓋試用、選擇、授權、訂購、啟用、統計與續訂；當年能看不保證停訂後仍可看。"
+        },
+        {
+          "term": "聯盟採購",
+          "detail": "CONCERT重電子資源合作與廣泛學科需求，可跨館型；按FTE規模分攤和每館同額有不同公平效果。"
+        },
+        {
+          "term": "長期策略",
+          "detail": "價格上漲促成聯盟、OA、機構典藏等；政策需兼顧內容、契約、平台、成本與保存。"
+        }
+      ],
+      "mnemonic": "租用先問誰能用、用多久、停訂怎麼辦。",
+      "example": "小館與大館付同額，小館每人成本可能較高。",
+      "trap": "聯盟不是所有合作的同義詞，也不保證永久全文。",
+      "recall": "停訂後可否讀舊年份？",
+      "answer": "要看授權及永久取用安排，不能只因曾付錢就推定。",
+      "questionIds": [
+        "115-2-22",
+        "114-2-27",
+        "113-2-26",
+        "111-2-29",
+        "111-2-30",
+        "110-2-21",
+        "110-2-31",
+        "108-2-21",
+        "106-2-17",
+        "106-2-18"
+      ],
+      "sources": [
+        {
+          "title": "CONCERT：全國學術電子資訊資源共享聯盟",
+          "url": "https://concert.stpi.niar.org.tw/"
+        },
+        {
+          "title": "國家圖書館：數位化論文典藏聯盟文件",
+          "url": "https://nclfile.ncl.edu.tw/files/202403/aafcd07e-bf09-4ef4-863f-ae0148e767f1.pdf"
+        },
+        {
+          "title": "臺灣學術電子書暨資料庫聯盟",
+          "url": "https://taebc.lib.ntnu.edu.tw/"
+        },
+        {
+          "title": "IFLA：電子資源館藏發展指引與標準",
+          "url": "https://www.ifla.org/acquisition-collection-development-standards-3/"
+        },
+        {
+          "title": "臺灣學術電子書聯盟：共建共享與永續經營計畫",
+          "url": "https://puclla.lib.nccu.edu.tw/wp-content/uploads/2021/05/5-2.pdf"
+        },
+        {
+          "title": "Budapest Open Access Initiative：開放取用宣言",
+          "url": "https://www.budapestopenaccessinitiative.org/read/"
+        },
+        {
+          "title": "IFLA／UNESCO：公共圖書館宣言",
+          "url": "https://www.ifla.org/public-library-manifesto/"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "id": "course-l26",
+      "subjectIndex": 2,
+      "group": "03 館藏與合作：資料的一生",
+      "title": "開放取用OA：讀者免費與作者付費分開",
+      "lead": "OA不等於不審稿，也不等於全部採同一收費。",
+      "points": [
+        {
+          "term": "三種模式",
+          "detail": "金色由出版端開放，綠色透過典藏需注意版本與禁限期，混合是訂閱期刊部分文章開放。"
+        },
+        {
+          "term": "費用品質",
+          "detail": "APC是文章處理費，有收也有不收；掠奪性問題在欺瞞、透明度與品質控制，不是只看OA或費用。"
+        },
+        {
+          "term": "權利疑義",
+          "detail": "權利依契約授權，不能說出版社一律全拿；115年題用一定收費形容掠奪性期刊過度概括，作答與學理應分開。"
+        }
+      ],
+      "mnemonic": "OA問能否讀，APC問誰付出版費。",
+      "example": "訂閱刊只有某篇可免費看，可能是混合OA。",
+      "trap": "有收費不必然掠奪，免費看也不必然可任意改作。",
+      "recall": "綠色OA能上傳任何版本嗎？",
+      "answer": "不能，需確認可存版本、禁限期與授權條件。",
       "questionIds": [
         "115-2-5",
         "115-2-26",
-        "115-2-41"
+        "115-2-41",
+        "114-2-5",
+        "114-2-6",
+        "113-2-3",
+        "113-2-9",
+        "110-2-22",
+        "107-2-21"
       ],
       "sources": [
         {
@@ -1177,43 +2595,108 @@
         {
           "title": "Budapest Open Access Initiative：開放取用宣言",
           "url": "https://www.budapestopenaccessinitiative.org/read/"
-        }
-      ]
-    },
-    {
-      "id": "lib-preservation",
-      "subjectIndex": 2,
-      "group": "館藏與保存",
-      "title": "保存與數位典藏：原件、檔案都要照顧",
-      "lead": "數位化能降低原件使用壓力，但不是拍完照就完成永久保存。",
-      "points": [
-        {
-          "term": "原件保存",
-          "detail": "控制溫濕度、光線與污染，使用合適材料與搬運方式，依媒材特性處理。"
         },
         {
-          "term": "數位保存",
-          "detail": "備份、完整性檢查、格式與載體管理，確保未來仍可讀取。"
-        },
-        {
-          "term": "後設資料",
-          "detail": "記錄來源、權利、技術資訊與處理歷程，幫助理解及管理檔案。"
+          "title": "全國法規資料庫：著作權法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0070017"
         }
       ],
-      "example": "一份掃描檔如果沒有來源、版本與備份，即使當下能開啟，也不代表未來可靠。",
-      "trap": "備份與長期保存不完全相同；單純多存一份仍可能一起遭遇格式淘汰或錯誤。",
-      "recall": "掃描完成後，可以立即認定原件已無保存價值嗎？",
-      "answer": "不能。原件可能有物質、歷史或研究價值，須按典藏政策評估。",
+      "order": 27
+    },
+    {
+      "id": "course-l27",
+      "subjectIndex": 2,
+      "group": "03 館藏與合作：資料的一生",
+      "title": "機構典藏與學術傳播：讓成果留得下找得到",
+      "lead": "研究成果不只正式期刊，還可能是論文、報告、資料。",
+      "points": [
+        {
+          "term": "IR範圍",
+          "detail": "機構典藏以本機構產出為核心，不只作者自傳也可館方協助；TAIR臺灣、JAIRO日本、OAI倡議技術要分辨。"
+        },
+        {
+          "term": "研究支援",
+          "detail": "學術傳播含出版權利、OA及影響力協助；metadata館員偏資訊組織，新職稱不代表全部同工。"
+        },
+        {
+          "term": "引文評估",
+          "detail": "引文索引追引用，未必全文；SCI概念1955與後來出版不同，期刊指標不是每篇品質保證。"
+        }
+      ],
+      "mnemonic": "IR是機構成果的家，出版保存搜尋評估各有工具。",
+      "example": "將報告存入典藏可增加可見度，全文公開仍要看權利。",
+      "trap": "收錄不必限期刊，也不代表無條件開放改作。",
+      "recall": "IR一定只收自行上傳的期刊文嗎？",
+      "answer": "不是，內容與提交方式依機構政策可多元。",
       "questionIds": [
-        "115-2-24",
-        "115-2-27",
-        "115-2-28"
+        "115-2-12",
+        "113-2-50",
+        "111-2-50",
+        "110-2-4",
+        "110-2-32"
       ],
       "sources": [
         {
-          "title": "國家圖書館：圖書館統計 CNS 定義",
-          "url": "https://libstat.ncl.edu.tw/cnsDefinition/search"
+          "title": "ACRL：Standards for Libraries in Higher Education",
+          "url": "https://www.ala.org/acrl/standards/standardslibraries"
         },
+        {
+          "title": "臺灣學術機構典藏資源網 TAIR",
+          "url": "https://tair.org.tw/"
+        },
+        {
+          "title": "日本國立情報學研究所：IRDB",
+          "url": "https://irdb.nii.ac.jp/en/"
+        },
+        {
+          "title": "Open Archives Initiative：OAI-PMH 規範",
+          "url": "https://www.openarchives.org/OAI/openarchivesprotocol.html"
+        },
+        {
+          "title": "Budapest Open Access Initiative：開放取用宣言",
+          "url": "https://www.budapestopenaccessinitiative.org/read/"
+        },
+        {
+          "title": "Eugene Garfield：Five Decades of Citation Indexing 作者回顧",
+          "url": "https://garfield.library.upenn.edu/papers/beijingchina2009.html"
+        }
+      ],
+      "order": 28
+    },
+    {
+      "id": "course-l35",
+      "subjectIndex": 2,
+      "group": "03 館藏與合作：資料的一生",
+      "title": "特藏珍本：保存價值不只看價格",
+      "lead": "稀有、來源、地方與研究價值都可能使資料需特殊照護。",
+      "points": [
+        {
+          "term": "保存細節",
+          "detail": "珍本不宜任貼黏性防盜條，材質修復需專業；一般參考服務也不自行鑑價。"
+        },
+        {
+          "term": "機構案例",
+          "detail": "伊能嘉矩文庫連臺大，圖書醫院連國立臺灣圖書館，國際出版品交換連國圖。"
+        },
+        {
+          "term": "使用界線",
+          "detail": "特藏不等於課程保留書；大型館完全沒有某種珍本等絕對說法須警覺，舊題措辭不應變普遍真理。"
+        }
+      ],
+      "mnemonic": "稀、源、地、研四種價值。",
+      "example": "外觀普通手稿可能因親筆與研究價值而需專門保存。",
+      "trap": "出版年或價格不能單獨決定重要性。",
+      "recall": "珍本能按一般書貼防盜條嗎？",
+      "answer": "不宜，黏膠可能傷原件，應採適合材質的保護方式。",
+      "questionIds": [
+        "115-2-27",
+        "115-2-28",
+        "115-2-29",
+        "114-2-26",
+        "113-2-33",
+        "111-2-28"
+      ],
+      "sources": [
         {
           "title": "美國國會圖書館：Care, Handling and Storage",
           "url": "https://www.loc.gov/preservation/care/"
@@ -1221,211 +2704,1890 @@
         {
           "title": "國立臺灣大學圖書館：伊能嘉矩文庫",
           "url": "https://dl.lib.ntu.edu.tw/s/ino"
-        }
-      ]
-    },
-    {
-      "id": "lib-literacy",
-      "subjectIndex": 2,
-      "group": "讀者與服務",
-      "title": "資訊素養與無障礙：讓人有能力使用資訊",
-      "lead": "服務完成不是「把資料交出去」，而是讓不同讀者能找到、判斷並使用它。",
-      "points": [
-        {
-          "term": "資訊素養",
-          "detail": "辨認需求、找資料、評估品質、合宜使用與表達，包含倫理責任。"
         },
         {
-          "term": "無障礙",
-          "detail": "替不同需求提供可近用的形式與操作方式，不把所有讀者當成同一種使用者。"
+          "title": "國家圖書館：業務職掌",
+          "url": "https://actio.ncl.edu.tw/content_269.html"
         },
         {
-          "term": "學習共享空間",
-          "detail": "整合空間、科技與學習支持，常見於大學圖書館，不只是擺更多桌椅。"
+          "title": "教育部教育百科：善本（昌彼得）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%96%84%E6%9C%AC"
+        },
+        {
+          "title": "國立臺灣圖書館：認識本館及圖書醫院沿革",
+          "url": "https://www.ntl.edu.tw/wSite/aboutlib.html"
         }
       ],
-      "example": "提供螢幕閱讀器可讀的電子文字，與只提供掃描圖片，對視障讀者的可用性差很多。",
-      "trap": "高齡不等於不會使用科技，身心障礙也不代表需求相同，應以個別需要調整。",
-      "recall": "資訊素養只等於會操作搜尋引擎嗎？",
-      "answer": "不是。還要能評估來源、理解內容並合乎倫理地使用。",
+      "order": 29
+    },
+    {
+      "id": "course-l36",
+      "subjectIndex": 2,
+      "group": "03 館藏與合作：資料的一生",
+      "title": "數位保存：檔案還在不代表打得開",
+      "lead": "載體、格式、環境與可信度都要顧。",
+      "points": [
+        {
+          "term": "四策略",
+          "detail": "refreshing換儲存媒體不改格式，migration轉格式或環境，emulation模擬舊環境，technology preservation保留舊硬軟體。"
+        },
+        {
+          "term": "OAIS",
+          "detail": "SIP提交進系統，AIP典藏保存，DIP提供利用；是階段套件，不是副檔名。"
+        },
+        {
+          "term": "成本風險",
+          "detail": "異地備份分散災害，距離數字依指定標準；數位仍有人力設備成本，保存性詮釋資料記技術權利事件。"
+        }
+      ],
+      "mnemonic": "S送進、A保存、D送出；換媒體與轉格式分開。",
+      "example": "PDF原樣搬新硬碟是refresh，改成另一格式是migration。",
+      "trap": "備份不等於完整長期保存，能讀也不證明來源可信。",
+      "recall": "AIP與DIP差別？",
+      "answer": "AIP供系統典藏，DIP依需求提供使用者。",
       "questionIds": [
-        "114-2-35",
-        "115-2-33",
-        "115-2-34",
-        "114-2-29"
+        "110-2-43",
+        "110-2-45",
+        "109-2-30",
+        "109-2-49",
+        "106-2-49"
       ],
       "sources": [
         {
-          "title": "ACRL：Framework for Information Literacy for Higher Education",
-          "url": "https://www.ala.org/acrl/standards/ilframework"
+          "title": "Digital Preservation Coalition：Preservation action",
+          "url": "https://www.dpconline.org/handbook/"
+        },
+        {
+          "title": "教育部憑證管理中心：憑證實務作業基準（異地備援歷史規範）",
+          "url": "https://moeaca.nat.gov.tw/content/moeaca_cpsv1.3update.pdf"
+        },
+        {
+          "title": "CCSDS：Open Archival Information System 參考模式",
+          "url": "https://public.ccsds.org/Pubs/650x0m2.pdf"
+        }
+      ],
+      "order": 30
+    },
+    {
+      "id": "course-l47",
+      "subjectIndex": 2,
+      "group": "03 館藏與合作：資料的一生",
+      "title": "授權條件：可讀、可改、可商用分開",
+      "lead": "免費看不是放棄全部權利。",
+      "points": [
+        {
+          "term": "CC四條",
+          "detail": "BY標示、NC非商業、ND禁改作、SA相同分享；BY-SA沒有NC，不能自行加禁商用。"
+        },
+        {
+          "term": "使用界線",
+          "detail": "網路公開不代表公眾領域；下載、複製、傳送要看授權及法律。"
+        },
+        {
+          "term": "不同制度",
+          "detail": "影片分級、DVD區碼與著作權是不同軸；歷史保護級六歲等要按當時規則，不能一個符號判全部。"
+        }
+      ],
+      "mnemonic": "BY報名、NC禁商、ND不改、SA同約。",
+      "example": "CC BY-SA可商用仍須標示及遵守相同方式分享等條件。",
+      "trap": "ND不是允許衍生的正面縮寫。",
+      "recall": "BY-SA一定不可商用嗎？",
+      "answer": "不是，非商業條件看NC。",
+      "questionIds": [
+        "114-2-16",
+        "109-2-1",
+        "109-2-43",
+        "106-2-23"
+      ],
+      "sources": [
+        {
+          "title": "Creative Commons：授權條款",
+          "url": "https://creativecommons.org/share-your-work/cclicenses/"
+        },
+        {
+          "title": "全國法規資料庫：出版品及錄影節目帶分級管理辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=P0030009"
+        },
+        {
+          "title": "教育部教育百科：參考書（王錫章）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%8F%83%E8%80%83%E6%9B%B8"
+        }
+      ],
+      "order": 31
+    },
+    {
+      "id": "course-l10",
+      "subjectIndex": 2,
+      "group": "04 營運與制度：讓服務持續運作",
+      "title": "送存與著作權：保存下來不等於可以任意公開",
+      "lead": "送存義務和使用權限要分開檢查。",
+      "points": [
+        {
+          "term": "送存制度",
+          "detail": "歷屆常考國圖、立法院國會圖書館各一份，及限期送存；數位出版也有保存問題，學位論文另有學位授予法脈絡。"
+        },
+        {
+          "term": "義務與權利",
+          "detail": "罰鍰題關鍵是定價十倍而非二十倍，不是除藏規則。收到送存本不代表取得所有重製與公開傳輸權。"
+        },
+        {
+          "term": "重製例外",
+          "detail": "著作權法48、48之1各有適用條件；個人非營利研究、合理範圍、已公開發表等不能省略。摘要例外涉及指定機關、教育機構及公眾使用圖書館，不含所有未公開作品。"
+        }
+      ],
+      "mnemonic": "送存是留下來，授權是怎麼用。",
+      "example": "出版社交電子書供保存，不等於允許每個人無限下載全文。",
+      "trap": "數字、期限、權利仍要對照題目年度及有效條文。",
+      "recall": "送存是否自動取得全文公開權？",
+      "answer": "否，保存、重製與公開傳輸須分別看法律及授權。",
+      "questionIds": [
+        "115-2-17",
+        "115-2-18",
+        "111-2-16",
+        "110-2-1",
+        "110-2-10",
+        "109-2-2",
+        "109-2-26",
+        "108-2-13",
+        "106-2-21"
+      ],
+      "sources": [
+        {
+          "title": "全國法規資料庫：著作權法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0070017"
         },
         {
           "title": "全國法規資料庫：圖書館法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=H0010008"
         },
         {
-          "title": "W3C：Web Content Accessibility Guidelines 2.2",
-          "url": "https://www.w3.org/TR/WCAG22/"
-        }
-      ]
-    },
-    {
-      "id": "lib-metrics",
-      "subjectIndex": 2,
-      "group": "基礎與倫理",
-      "title": "文獻計量三定律：人、刊、詞分開記",
-      "lead": "看到定律名字先問它在數什麼，就比較不會混在一起。",
-      "points": [
-        {
-          "term": "Lotka 洛特卡",
-          "detail": "研究作者的生產力分布；發表很多篇的作者相對少。"
+          "title": "全國法規資料庫：學位授予法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0030010"
         },
         {
-          "term": "Bradford 布萊德福",
-          "detail": "研究某主題文獻在期刊間的分散，少數核心期刊集中較多相關文章。"
-        },
-        {
-          "term": "Zipf 齊夫",
-          "detail": "研究詞頻與排名的關係，也常連結最小努力的思考。"
+          "title": "教育部：圖書館設立及營運標準",
+          "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001556&media=print"
         }
       ],
-      "example": "題目問哪些期刊最集中某主題文章，先想到 Bradford；問作者產出則找 Lotka。",
-      "trap": "定律描述的是模式，不是每一套資料都精確符合固定數值。",
-      "recall": "作者、期刊、詞頻，分別聯想到誰？",
-      "answer": "Lotka、Bradford、Zipf。先用研究對象定位，再看題目細節。",
+      "order": 32
+    },
+    {
+      "id": "course-l11",
+      "subjectIndex": 2,
+      "group": "04 營運與制度：讓服務持續運作",
+      "title": "專業人員：資格、比例、編制是三件事",
+      "lead": "先看人夠不夠資格，再算配置，最後看員額基準。",
+      "points": [
+        {
+          "term": "資格途徑",
+          "detail": "相關學歷或公開專門論著、指定任用資格、課程20學分或320小時、3年以上專業經驗等是不同途徑，並非全部同時具備；還有每年20小時以上訓練要求。"
+        },
+        {
+          "term": "人員比例",
+          "detail": "國家館3/4、公共館1/3、大學館2/3、專科館1/2、高中及國中小1/3、專門館1/4，至少一位專業人員；不能寫成所有大專一律2/3。"
+        },
+        {
+          "term": "編制與志工",
+          "detail": "鄉鎮市館依服務人口分級，題庫常考15萬人門檻。志工可支援各級公共館，但不取代政策責任。職能指南、學會認證與任用資格不同。"
+        }
+      ],
+      "mnemonic": "先資格、再比例、後編制。",
+      "example": "60位大學館員依2/3要求，需40位專業人員。",
+      "trap": "證照不自動等於所有公職、教職任用資格。",
+      "recall": "20學分的課程途徑另對應多少時數？",
+      "answer": "320小時，不是200小時；仍須看規定及職缺適用條件。",
       "questionIds": [
-        "110-2-46",
-        "109-2-6",
-        "114-2-40"
+        "115-2-7",
+        "115-2-13",
+        "114-2-10",
+        "114-2-17",
+        "113-2-7",
+        "109-2-5",
+        "108-2-12"
       ],
       "sources": [
         {
-          "title": "國立臺灣圖書館：期刊評鑑及期刊影響係數研究",
-          "url": "https://www.ntl.edu.tw/public/Attachment/08161501967.pdf"
+          "title": "國家圖書館：公共圖書館工作人員專業知能",
+          "url": "https://isp.ncl.edu.tw/files/file_pool/1/0N084550371369260888/1-1%E5%85%AC%E5%85%B1%E5%9C%96%E6%9B%B8%E9%A4%A8%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%93%A1%E5%B0%88%E6%A5%AD%E7%9F%A5%E8%83%BD.pdf"
         },
         {
-          "title": "教育部教育百科：洛特卡定律",
-          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%B4%9B%E7%89%B9%E5%8D%A1%E5%AE%9A%E5%BE%8B"
+          "title": "IFLA／UNESCO：公共圖書館宣言",
+          "url": "https://www.ifla.org/public-library-manifesto/"
         },
         {
-          "title": "教育部教育百科：最小努力原則（陳啟亮）",
-          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%9C%80%E5%B0%8F%E5%8A%AA%E5%8A%9B%E5%8E%9F%E5%89%87"
-        }
-      ]
-    },
-    {
-      "id": "cat-tools",
-      "subjectIndex": 3,
-      "group": "編目基礎",
-      "title": "分類、編目規則、MARC：各做哪件事",
-      "lead": "把一本書放進系統，通常同時需要內容判斷、描述規則與儲存格式。",
-      "points": [
-        {
-          "term": "分類法",
-          "detail": "將知識依學科或主題組織，提供分類號。"
-        },
-        {
-          "term": "編目規則",
-          "detail": "決定資源如何描述、選擇與記錄檢索點，例如中國編目規則、RDA。"
-        },
-        {
-          "term": "MARC",
-          "detail": "讓書目資料以欄位、指標、分欄等結構儲存交換，不是分類法。"
-        },
-        {
-          "term": "主題詞表",
-          "detail": "以受控詞彙表達主題，改善同義詞分散與檢索一致性。"
+          "title": "教育部：圖書館設立及營運標準",
+          "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001556&media=print"
         }
       ],
-      "example": "RDA 告訴你要記錄哪些資訊；MARC 的欄位把資訊放進可交換的結構。",
-      "trap": "概念模型 FRBR／LRM、編目規則 RDA、編碼格式 MARC，層次不同，不能互當同義詞。",
-      "recall": "MARC 21 是替圖書決定分類號的分類法嗎？",
-      "answer": "不是，它是機讀格式；分類號可以記入其中對應欄位。",
+      "order": 33
+    },
+    {
+      "id": "course-l12",
+      "subjectIndex": 2,
+      "group": "04 營運與制度：讓服務持續運作",
+      "title": "營運標準的數字：館型、單位、分母一起記",
+      "lead": "背一個數字不夠，要知道它對誰、算什麼。",
+      "points": [
+        {
+          "term": "館藏與開放",
+          "detail": "公共館國立總館100萬、直轄市50萬冊件，縣市期刊300種，鄉鎮市2萬冊件；直轄市年增7千另算。開放常考56小時與鄉鎮市48小時，另有核准例外。"
+        },
+        {
+          "term": "經費分母",
+          "detail": "公共館15%以館預算扣人事與新建工程；大學專科30%。普通高中教學設備費15%、其他高中7%、國中小10%，分母不同不能直接比金額。"
+        },
+        {
+          "term": "歷史與工程",
+          "detail": "舊國中基準按班級數分規模；密集書架950公斤每平方公尺等是題目指定條件，真實工程需專業設計。專門館不能直接套公共館最低藏量。"
+        }
+      ],
+      "mnemonic": "館、數、單位、年份四個一起背。",
+      "example": "國中教學設備費300萬，10%是30萬；公共館適用分母800萬，15%是120萬。",
+      "trap": "40萬不是該題直轄市總館標準；總量與每年增量也不同。",
+      "recall": "直轄市總館至少40萬冊何處錯？",
+      "answer": "題庫所依標準是50萬冊件，不是40萬。",
+      "questionIds": [
+        "115-2-20",
+        "114-2-18",
+        "113-2-20",
+        "111-2-19",
+        "110-2-18",
+        "109-2-19",
+        "109-2-28",
+        "108-2-14",
+        "108-2-15",
+        "107-2-17",
+        "107-2-18",
+        "106-2-22"
+      ],
+      "sources": [
+        {
+          "title": "教育部：圖書館設立及營運標準",
+          "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001556&media=print"
+        },
+        {
+          "title": "教育部教育百科：圖書館建築（李文馨）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%9C%96%E6%9B%B8%E9%A4%A8%E5%BB%BA%E7%AF%89"
+        },
+        {
+          "title": "教育部：國民中學圖書館設立及營運基準歷史版本",
+          "url": "https://edu.law.moe.gov.tw/LawContentHistory.aspx?hid=2657"
+        }
+      ],
+      "order": 34
+    },
+    {
+      "id": "course-l28",
+      "subjectIndex": 2,
+      "group": "04 營運與制度：讓服務持續運作",
+      "title": "管理循環：規劃後要檢查與改善",
+      "lead": "做完計畫不是終點，持續修正才形成管理。",
+      "points": [
+        {
+          "term": "PDCA",
+          "detail": "Plan規劃、Do執行、Check檢查、Act改善；控制是設標準、比較實際、修正差異。"
+        },
+        {
+          "term": "組織形式",
+          "detail": "功能式按採編等專業分工，矩陣式結合功能與專案；委員會偏諮詢治理，不包辦日常執行。"
+        },
+        {
+          "term": "落地回饋",
+          "detail": "創意需實施才成創新，策略規劃要評估，行政與前臺互補，團隊不靠極端個人主義。"
+        }
+      ],
+      "mnemonic": "想、做、查、改，回到下一輪。",
+      "example": "調班表後再量等待時間，才能知道改善有沒有作用。",
+      "trap": "只檢查不行動，仍停在C。",
+      "recall": "A是再評一次分嗎？",
+      "answer": "不是，是依檢查結果採取改善行動。",
+      "questionIds": [
+        "115-2-15",
+        "113-2-13",
+        "113-2-22",
+        "111-2-22",
+        "109-2-21",
+        "108-2-3",
+        "108-2-10",
+        "108-2-35",
+        "106-2-11",
+        "106-2-12",
+        "106-2-20"
+      ],
+      "sources": [
+        {
+          "title": "ASQ：Plan-Do-Check-Act Cycle",
+          "url": "https://asq.org/quality-resources/pdca-cycle"
+        },
+        {
+          "title": "OpenStax：Principles of Management（組織、領導與控制）",
+          "url": "https://openstax.org/details/books/principles-management"
+        }
+      ],
+      "order": 35
+    },
+    {
+      "id": "course-l29",
+      "subjectIndex": 2,
+      "group": "04 營運與制度：讓服務持續運作",
+      "title": "人員與變革：能力、動機與安心工作",
+      "lead": "人不是排班數字，還有成長與安全需求。",
+      "points": [
+        {
+          "term": "需求高原",
+          "detail": "Maslow生理、安全、歸屬、尊重、自我實現；升遷受限是結構型高原，缺挑戰是內容型。"
+        },
+        {
+          "term": "領導改變",
+          "detail": "Fiedler看領導與情境配合，含關係、任務結構、權力；Lewin解凍→改變→再凍結讓新做法穩定。"
+        },
+        {
+          "term": "防治義務",
+          "detail": "性騷擾防治法題庫10人申訴管道、30人訂定公開防治措施是不同門檻，不能交換，也不能未達門檻就放任。"
+        }
+      ],
+      "mnemonic": "願意做、能夠做、安心做；變革先鬆舊再穩新。",
+      "example": "每天重複而無挑戰偏內容型高原，不一定是沒有升遷缺額。",
+      "trap": "領導效果不能脫離情境，法定人數不能脫離義務。",
+      "recall": "再凍結為什麼必要？",
+      "answer": "讓新制度穩定運作，避免改完又回原狀。",
+      "questionIds": [
+        "115-2-16",
+        "114-2-21",
+        "113-2-12",
+        "111-2-12",
+        "108-2-11",
+        "106-2-19"
+      ],
+      "sources": [
+        {
+          "title": "衛生福利部：性騷擾防治法",
+          "url": "https://dep.mohw.gov.tw/DOPs/cp-1287-15012-105.html"
+        },
+        {
+          "title": "教育部教育百科：組織變革（黃昆輝）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E7%B5%84%E7%B9%94%E8%AE%8A%E9%9D%A9"
+        },
+        {
+          "title": "OpenStax：Principles of Management（組織、領導與控制）",
+          "url": "https://openstax.org/details/books/principles-management"
+        },
+        {
+          "title": "OpenStax：Content Theories of Motivation",
+          "url": "https://openstax.org/books/principles-management/pages/14-2-content-theories-of-motivation"
+        },
+        {
+          "title": "OpenStax：Situational (Contingency) Approaches to Leadership",
+          "url": "https://openstax.org/books/principles-management/pages/13-6-situational-contingency-approaches-to-leadership"
+        }
+      ],
+      "order": 36
+    },
+    {
+      "id": "course-l30",
+      "subjectIndex": 2,
+      "group": "04 營運與制度：讓服務持續運作",
+      "title": "績效與預算：投入、產出、成效",
+      "lead": "食材是投入，做幾份是產出，吃飽是成效。",
+      "points": [
+        {
+          "term": "三層指標",
+          "detail": "投入人力經費，產出借閱下載，成效能力或生活改變；效率要有投入分母，不是看到使用量就算效率。"
+        },
+        {
+          "term": "預算支出",
+          "detail": "資本偏長期資產，經常偏持續運作如會員費訂閱；雲端費不因科技就變設備。PPBS連目標計畫預算與成本效益。"
+        },
+        {
+          "term": "計算與定義",
+          "detail": "4全職加半職FTE為4.5，標準人員可能不含學生志工；每借閱成本分子含相關經常人事費。參考量、閉架館內借閱、遠端使用與電子借閱依CNS定義分。"
+        }
+      ],
+      "mnemonic": "投資源、出服務、看改變；效率問花多少換多少。",
+      "example": "多100次下載是產出，研究能力改善才是成效。",
+      "trap": "人頭數不等於FTE，館內使用也不只閉架取書。",
+      "recall": "4位全職加半職的FTE？",
+      "answer": "4.5，計的是全職工作量當量。",
+      "questionIds": [
+        "115-2-14",
+        "115-2-19",
+        "114-2-14",
+        "113-2-15",
+        "113-2-35",
+        "111-2-13",
+        "111-2-18",
+        "110-2-15",
+        "109-2-39"
+      ],
+      "sources": [
+        {
+          "title": "教育部教育百科：圖書館評鑑（蔡明月）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%9C%96%E6%9B%B8%E9%A4%A8%E8%A9%95%E9%91%91"
+        },
+        {
+          "title": "國家圖書館：圖書館統計 CNS 定義",
+          "url": "https://libstat.ncl.edu.tw/cnsDefinition/search"
+        },
+        {
+          "title": "教育部教育百科：圖書館預算（莊道明）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%9C%96%E6%9B%B8%E9%A4%A8%E9%A0%90%E7%AE%97"
+        },
+        {
+          "title": "教育部教育百科：統計學（黃登源）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E7%B5%B1%E8%A8%88%E5%AD%B8"
+        }
+      ],
+      "order": 37
+    },
+    {
+      "id": "course-l31",
+      "subjectIndex": 2,
+      "group": "04 營運與制度：讓服務持續運作",
+      "title": "品質評估：人、資訊、場所三個角度",
+      "lead": "有幾本書和服務感覺如何，需要不同證據。",
+      "points": [
+        {
+          "term": "LibQUAL",
+          "detail": "服務情感、資訊控制、圖書館作為場所三面向，可對應館員、資訊取得、空間感受。"
+        },
+        {
+          "term": "其他工具",
+          "detail": "SERVQUAL較一般服務品質，DigiQUAL偏數位；平衡計分卡的員工訓練屬學習與成長。"
+        },
+        {
+          "term": "解讀結果",
+          "detail": "統計看趨勢，訪談補原因，不只讀數字；縮寫看似品質工具不代表真有該標準。"
+        }
+      ],
+      "mnemonic": "LibQUAL記人、資訊、地方。",
+      "example": "館員耐心屬服務情感，電子資源易取得偏資訊控制。",
+      "trap": "館藏量影響服務，但不是LibQUAL獨立正式面向名稱。",
+      "recall": "員工訓練在平衡計分卡哪一面？",
+      "answer": "學習與成長，累積未來服務能力。",
+      "questionIds": [
+        "114-2-20",
+        "113-2-19",
+        "113-2-36",
+        "110-2-14",
+        "109-2-14"
+      ],
+      "sources": [
+        {
+          "title": "ARL：LibQUAL",
+          "url": "https://www.libqual.org/"
+        },
+        {
+          "title": "教育部教育百科：平衡計分卡（邱子恆）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%B9%B3%E8%A1%A1%E8%A8%88%E5%88%86%E5%8D%A1"
+        },
+        {
+          "title": "ARL：DigiQUAL 數位圖書館品質研究原文",
+          "url": "https://www.libqual.org/documents/LibQual/publications/digiqual.pdf"
+        }
+      ],
+      "order": 38
+    },
+    {
+      "id": "course-l32",
+      "subjectIndex": 2,
+      "group": "04 營運與制度：讓服務持續運作",
+      "title": "行銷不只海報：以讀者成本為中心",
+      "lead": "免費也可能花很多時間與心力，便利程度很重要。",
+      "points": [
+        {
+          "term": "4P到7P",
+          "detail": "產品、價格、通路、推廣，再加人員、流程、實體證據；公關是推廣手段，不是獨立新增正式P。"
+        },
+        {
+          "term": "成本通路",
+          "detail": "價格包括金錢、時間、交通與理解成本；行動與網路服務要解決需求，不只追科技。"
+        },
+        {
+          "term": "推播自主",
+          "detail": "訂閱、退訂與隱私要尊重讀者，不能把無法退出當機構優勢。"
+        }
+      ],
+      "mnemonic": "產價通推，再加人程證。",
+      "example": "免費講座只在上班時間，對上班族仍有高成本。",
+      "trap": "只推館方想說的內容不等於以使用者為中心。",
+      "recall": "免費服務還有Price嗎？",
+      "answer": "有，讀者仍付出時間交通與學習成本。",
+      "questionIds": [
+        "114-2-36",
+        "109-2-13",
+        "108-2-36",
+        "108-2-48",
+        "107-2-12",
+        "107-2-27",
+        "107-2-48",
+        "106-2-33"
+      ],
+      "sources": [
+        {
+          "title": "OpenStax：Principles of Marketing（服務行銷）",
+          "url": "https://openstax.org/details/books/principles-marketing"
+        },
+        {
+          "title": "MDN：Web 開發文件",
+          "url": "https://developer.mozilla.org/en-US/docs/Web"
+        },
+        {
+          "title": "L-Soft：LISTSERV 電子郵件群組軟體",
+          "url": "https://www.lsoft.com/products/listserv.asp"
+        }
+      ],
+      "order": 39
+    },
+    {
+      "id": "course-l49",
+      "subjectIndex": 2,
+      "group": "04 營運與制度：讓服務持續運作",
+      "title": "專業認證：報考、證照、任用三道門",
+      "lead": "通過某考試不代表自動符合所有職務。",
+      "points": [
+        {
+          "term": "認證目的",
+          "detail": "提升能力與公眾信任，不是保證職位；學會認證與法定任用資格須分開。"
+        },
+        {
+          "term": "門檻差異",
+          "detail": "資訊組織分析師等檢定可有高中職等報考途徑，不全限圖資研究所；通過也不變教授資格。"
+        },
+        {
+          "term": "持續發展",
+          "detail": "進階職能如閱讀推廣、訓練社群與倫理共同形成能力；不能只靠年資判斷。"
+        }
+      ],
+      "mnemonic": "報考資格≠證照≠任用資格。",
+      "example": "可以報檢定，只代表符合該考試條件，不代表符合每個公職缺。",
+      "trap": "細則會修，報名看當期公告。",
+      "recall": "認證只保障持證者工作嗎？",
+      "answer": "不是，核心在能力與服務品質，並不保證職位。",
+      "questionIds": [
+        "115-2-6",
+        "108-2-40",
+        "108-2-43",
+        "107-2-25",
+        "106-2-37"
+      ],
+      "sources": [
+        {
+          "title": "中華民國圖書館學會：圖書資訊專業人員能力認證",
+          "url": "https://www.lac.org.tw/news/31379"
+        },
+        {
+          "title": "中華民國圖書館學會：圖書館員專業倫理守則",
+          "url": "https://www.lac.org.tw/law/12"
+        },
+        {
+          "title": "ALA：Accredited Programs",
+          "url": "https://www.ala.org/educationcareers/accreditedprograms"
+        },
+        {
+          "title": "RUSA：參考資訊服務人員行為表現指引 2023",
+          "url": "https://www.ala.org/sites/default/files/rusa/content/Guidelines%20for%20Behavioral%20Performance%20of%20Reference%20and%20Information%20Service%20Providers%202023.pdf"
+        }
+      ],
+      "order": 40
+    },
+    {
+      "id": "course-l37",
+      "subjectIndex": 2,
+      "group": "05 科技與數位：理解系統的分工",
+      "title": "電腦資料基礎：位值、圖像與資料庫",
+      "lead": "先認題目在談哪一層，才不會混用規則。",
+      "points": [
+        {
+          "term": "數值硬體",
+          "detail": "二進1010.01為10.25；BCD每4位一數字，0101 0011是53。CPU含控制運算暫存器，不把主記憶體直接算入。"
+        },
+        {
+          "term": "圖像結構",
+          "detail": "JPEG通常有失真壓縮，像素不是品質唯一因素；樹前序先根再左再右，和畫面排版不同。"
+        },
+        {
+          "term": "關聯資料庫",
+          "detail": "主鍵唯一不空，可多欄複合；多值屬性可拆關聯表。SQL宣告要什麼資料，不逐步指定每個機器動作。"
+        }
+      ],
+      "mnemonic": "二進看位值，BCD逐四位；主鍵辨身分。",
+      "example": "同一串位元按BCD與純二進位讀，會得到不同值。",
+      "trap": "候選鍵可多組，選定的主鍵不能重複。",
+      "recall": "1010.01二進位是多少？",
+      "answer": "10.25，小數第二位是1/4。",
+      "questionIds": [
+        "115-2-46",
+        "114-2-44",
+        "114-2-45",
+        "113-2-44",
+        "111-2-41",
+        "111-2-44",
+        "111-2-45",
+        "107-2-37",
+        "106-2-43"
+      ],
+      "sources": [
+        {
+          "title": "OpenStax：Introduction to Computer Science",
+          "url": "https://openstax.org/details/books/introduction-computer-science"
+        },
+        {
+          "title": "PostgreSQL：關聯式資料庫概念",
+          "url": "https://www.postgresql.org/docs/current/tutorial-concepts.html"
+        },
+        {
+          "title": "Adobe：Image resolution and pixel dimensions",
+          "url": "https://helpx.adobe.com/photoshop/using/image-size-resolution.html"
+        }
+      ],
+      "order": 41
+    },
+    {
+      "id": "course-l38",
+      "subjectIndex": 2,
+      "group": "05 科技與數位：理解系統的分工",
+      "title": "網路與資安：安全傳輸不保證內容為真",
+      "lead": "通道安全與事實可信要分開檢查。",
+      "points": [
+        {
+          "term": "協定與網路",
+          "detail": "HTTP應用、TCP傳輸、IP網際、PPP鏈結；DNS對應網域位址，星狀拓樸由中心連節點，TANet是學術網路。"
+        },
+        {
+          "term": "帳戶與攻擊",
+          "detail": "身分證號不宜當密碼；殭屍程式形成botnet，SSO減重複登入也集中風險；TLS保護傳輸並支援驗證。"
+        },
+        {
+          "term": "標準界線",
+          "detail": "27000家族與27001要求不同，私有區塊鏈不必然不安全。現代印表機可雙向，不能將舊單向案例當永遠通則。"
+        }
+      ],
+      "mnemonic": "鎖住通道，不會鎖住謊言。",
+      "example": "假消息頁也可用HTTPS，仍要核對來源。",
+      "trap": "gov字串出現在網址路徑不代表主機是官方。",
+      "recall": "HTTPS證明文章正確嗎？",
+      "answer": "不能，主要保護連線，不替內容事實背書。",
+      "questionIds": [
+        "115-2-42",
+        "115-2-43",
+        "114-2-43",
+        "113-2-47",
+        "111-2-43",
+        "110-2-47",
+        "110-2-48",
+        "109-2-47",
+        "108-2-18",
+        "108-2-30",
+        "106-2-45"
+      ],
+      "sources": [
+        {
+          "title": "NIST：Blockchain Technology Overview",
+          "url": "https://doi.org/10.6028/NIST.IR.8202"
+        },
+        {
+          "title": "NIST：Cybersecurity Framework",
+          "url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "title": "IETF：Requirements for Internet Hosts RFC 1122",
+          "url": "https://www.rfc-editor.org/rfc/rfc1122"
+        },
+        {
+          "title": "ISO：ISO/IEC 27001 資訊安全管理系統",
+          "url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "title": "IETF：HTTP Semantics RFC 9110",
+          "url": "https://www.rfc-editor.org/rfc/rfc9110"
+        },
+        {
+          "title": "IETF：TLS 1.3 RFC 8446",
+          "url": "https://www.rfc-editor.org/rfc/rfc8446"
+        },
+        {
+          "title": "教育部：TANet區域網路中心",
+          "url": "https://dept.moe.gov.tw/ED2700/cp.aspx?Create=1&n=FBB9B41A2800414D&s=FD4CAE493012714E"
+        },
+        {
+          "title": "IANA：Root Zone Database",
+          "url": "https://www.iana.org/domains/root/db"
+        },
+        {
+          "title": "Microsoft：Single sign-on 概念",
+          "url": "https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on"
+        }
+      ],
+      "order": 42
+    },
+    {
+      "id": "course-l39",
+      "subjectIndex": 2,
+      "group": "05 科技與數位：理解系統的分工",
+      "title": "資訊架構與網站工具：讓人知道自己在哪裡",
+      "lead": "組織頁面、分析行為、傳檔與訂閱各有分工。",
+      "points": [
+        {
+          "term": "架構四系統",
+          "detail": "組織、標示、導覽、搜尋一起支援找尋；命名要讓讀者理解，手機入口也要可見。"
+        },
+        {
+          "term": "工具",
+          "detail": "RSS訂閱更新，FTP傳檔，Analytics分析使用；紀錄看行為，未必直接知道動機。"
+        },
+        {
+          "term": "呈現可用",
+          "detail": "星等是評分，標籤雲呈現詞特性；可得、可近用、可用不同。網路工程與軟體工程相關，舊題排他措辭不可照背。"
+        }
+      ],
+      "mnemonic": "組標導搜；工具先問負責哪件事。",
+      "example": "許多人在某頁離開，統計指出現象，原因需訪談或測試。",
+      "trap": "放上網不等於每個人都能有效使用。",
+      "recall": "網站紀錄能直接知道心理動機嗎？",
+      "answer": "不能，需其他證據補充解釋。",
+      "questionIds": [
+        "115-2-38",
+        "115-2-49",
+        "115-2-50",
+        "114-2-48",
+        "114-2-49",
+        "113-2-49",
+        "109-2-50",
+        "108-2-42",
+        "108-2-45",
+        "107-2-47",
+        "106-2-44",
+        "106-2-50"
+      ],
+      "sources": [
+        {
+          "title": "MDN：HTTP cookies",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies"
+        },
+        {
+          "title": "Rosenfeld、Morville、Arango：Information Architecture 作者著作",
+          "url": "https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/"
+        },
+        {
+          "title": "MDN：Web 開發文件",
+          "url": "https://developer.mozilla.org/en-US/docs/Web"
+        },
+        {
+          "title": "GNU：自由軟體定義",
+          "url": "https://www.gnu.org/philosophy/free-sw.html"
+        },
+        {
+          "title": "RSS Advisory Board：RSS 2.0 Specification",
+          "url": "https://www.rssboard.org/rss-specification"
+        },
+        {
+          "title": "IETF：File Transfer Protocol RFC 959",
+          "url": "https://www.rfc-editor.org/rfc/rfc959"
+        },
+        {
+          "title": "MDN：Responsive Web Design",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design"
+        },
+        {
+          "title": "Bluetooth SIG：Bluetooth Location Services",
+          "url": "https://www.bluetooth.com/learn-about-bluetooth/solutions/location-services/"
+        },
+        {
+          "title": "Casey 與 Savastinuk：Library 2.0 作者著作與出版說明",
+          "url": "https://store.infotoday.com/product/library-2-0/"
+        },
+        {
+          "title": "W3C：Web Content Accessibility Guidelines 2.2",
+          "url": "https://www.w3.org/TR/WCAG22/"
+        },
+        {
+          "title": "全國法規資料庫：個人資料保護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0050021"
+        }
+      ],
+      "order": 43
+    },
+    {
+      "id": "course-l40",
+      "subjectIndex": 2,
+      "group": "05 科技與數位：理解系統的分工",
+      "title": "搜尋邏輯：概念分組再縮放範圍",
+      "lead": "把結果想成集合，AND與OR就不會記反。",
+      "points": [
+        {
+          "term": "布林集合",
+          "detail": "同義用OR擴大，不同必要條件用AND交集；排除刪特定集合。AND不會更多，但可能相同。"
+        },
+        {
+          "term": "語法索引",
+          "detail": "site:限網域，負號截字及空格依系統規定；倒置檔由詞指向文件位置，非全文倒存。"
+        },
+        {
+          "term": "改善查詢",
+          "detail": "相關回饋依判斷改善結果，自然語言有同義歧義問題；已知文獻與主題探索策略不同，相關性也可能依情境定義。"
+        }
+      ],
+      "mnemonic": "同概念OR，不同條件AND。",
+      "example": "（高齡OR老年）AND閱讀，兼顧異稱與必要主題。",
+      "trap": "自然語言不必然每次提高檢全，截字號也非全球一致。",
+      "recall": "A AND B一定比A少嗎？",
+      "answer": "不會更多，但A全符合B時可以一樣多。",
+      "questionIds": [
+        "115-2-45",
+        "114-2-46",
+        "113-2-45",
+        "111-2-46",
+        "110-2-6",
+        "109-2-45",
+        "108-2-46",
+        "107-2-24",
+        "107-2-26",
+        "107-2-33",
+        "106-2-42"
+      ],
+      "sources": [
+        {
+          "title": "Manning、Raghavan、Schütze：Introduction to Information Retrieval",
+          "url": "https://nlp.stanford.edu/IR-book/"
+        },
+        {
+          "title": "Google Search：進階檢索說明",
+          "url": "https://support.google.com/websearch/answer/2466433"
+        },
+        {
+          "title": "W3C：SKOS Reference",
+          "url": "https://www.w3.org/TR/skos-reference/"
+        },
+        {
+          "title": "Manning、Raghavan、Schütze：Relevance feedback and query expansion",
+          "url": "https://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-and-query-expansion-1.html"
+        },
+        {
+          "title": "國家圖書館：臺灣網站典藏系統",
+          "url": "https://webarchive.ncl.edu.tw/"
+        }
+      ],
+      "order": 44
+    },
+    {
+      "id": "course-l41",
+      "subjectIndex": 2,
+      "group": "05 科技與數位：理解系統的分工",
+      "title": "系統建置：需求先行，維護與移轉不能漏",
+      "lead": "上線當天能跑只是開始，資料關聯要持續正確。",
+      "points": [
+        {
+          "term": "規劃選擇",
+          "detail": "先需求可行性成本，再RFP徵求方案；可現成開源委外自建，不是只有自己寫。"
+        },
+        {
+          "term": "開發維護",
+          "detail": "雛型反覆試用修需求，維護常占長期大成本，人力時間也算經濟可行性。"
+        },
+        {
+          "term": "移轉核對",
+          "detail": "書目館藏讀者借閱需連動核對，權限規則常需重新設定；舊題基本清單未列經費，不代表帳務永不移轉。"
+        }
+      ],
+      "mnemonic": "問需求→選方案→試→搬→長期養。",
+      "example": "筆數正確還需對條碼、借閱狀態與讀者連結。",
+      "trap": "RFP不是已簽的合約，匯入成功也非完整驗收。",
+      "recall": "RFP通常在選商前還是簽約後？",
+      "answer": "徵求方案及選擇前，用以說明需求與評選條件。",
+      "questionIds": [
+        "115-2-48",
+        "113-2-46",
+        "111-2-48",
+        "110-2-42",
+        "107-2-40",
+        "106-2-46"
+      ],
+      "sources": [
+        {
+          "title": "GNU：自由軟體定義",
+          "url": "https://www.gnu.org/philosophy/free-sw.html"
+        },
+        {
+          "title": "Koha：官方使用手冊",
+          "url": "https://koha-community.org/manual/latest/en/html/"
+        },
+        {
+          "title": "教育部教育百科：需求建議書（胡歐蘭）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E9%9C%80%E6%B1%82%E5%BB%BA%E8%AD%B0%E6%9B%B8"
+        },
+        {
+          "title": "NIST：Cybersecurity Framework",
+          "url": "https://www.nist.gov/cyberframework"
+        }
+      ],
+      "order": 45
+    },
+    {
+      "id": "course-l42",
+      "subjectIndex": 2,
+      "group": "05 科技與數位：理解系統的分工",
+      "title": "ILS、ERM、LSP與探索服務：前後臺分清",
+      "lead": "管理館務與讓讀者找資料，是互補的工作。",
+      "points": [
+        {
+          "term": "管理端",
+          "detail": "ILS整合採編流通，LSP整合多類資源服務，ERM管電子生命週期。Koha、Evergreen、NewGenLib開源，Sierra商用。"
+        },
+        {
+          "term": "搜尋端",
+          "detail": "OPAC查館藏，新一代增加互動多語聚集；探索服務建中央索引，federated即時問各庫。ISBN查詢不是新一代才有。"
+        },
+        {
+          "term": "範圍與人物",
+          "detail": "探索有收錄授權限制，跨庫有速度去重問題，不固定最多五庫；DSpace、Fedora偏典藏。Kilgour連到OCLC合作書目。"
+        }
+      ],
+      "mnemonic": "後臺管，前臺找；中央先建庫，跨庫現問。",
+      "example": "同一框找文章電子書，借期規則仍由管理系統負責。",
+      "trap": "像Google的介面不等於涵蓋全球全文。",
+      "recall": "Koha與DSpace用途相同嗎？",
+      "answer": "不同，前者偏整合管理，後者偏數位典藏。",
+      "questionIds": [
+        "115-2-47",
+        "114-2-47",
+        "113-2-2",
+        "110-2-41",
+        "110-2-50",
+        "109-2-41",
+        "108-2-44",
+        "107-2-41",
+        "107-2-44",
+        "106-2-41"
+      ],
+      "sources": [
+        {
+          "title": "OCLC：WorldCat Discovery 資源探索服務",
+          "url": "https://www.oclc.org/en/worldcat-discovery.html"
+        },
+        {
+          "title": "Koha：官方使用手冊",
+          "url": "https://koha-community.org/manual/latest/en/html/"
+        },
+        {
+          "title": "Evergreen：官方系統與文件",
+          "url": "https://evergreen-ils.org/"
+        },
+        {
+          "title": "Innovative：Sierra 圖書館系統",
+          "url": "https://www.iii.com/products/sierra/"
+        },
+        {
+          "title": "OCLC：組織歷史",
+          "url": "https://www.oclc.org/en/fifty.html"
+        },
+        {
+          "title": "Ex Libris：Alma 圖書館服務平台",
+          "url": "https://exlibrisgroup.com/products/alma-library-services-platform/"
+        },
+        {
+          "title": "DSpace：官方儲存庫軟體說明",
+          "url": "https://dspace.org/"
+        },
+        {
+          "title": "Fedora Repository：官方儲存庫軟體說明",
+          "url": "https://fedora.lyrasis.org/"
+        },
+        {
+          "title": "OPEC：組織介紹",
+          "url": "https://www.opec.org/"
+        }
+      ],
+      "order": 46
+    },
+    {
+      "id": "course-l43",
+      "subjectIndex": 2,
+      "group": "05 科技與數位：理解系統的分工",
+      "title": "詮釋資料：不只題名作者的說明卡",
+      "lead": "不同資料幫你發現、管理或長期保存資源。",
+      "points": [
+        {
+          "term": "用途",
+          "detail": "描述性辨認發現，管理性處理權利，保存性記事件技術；使用資料可記展覽紀錄，結構與填值規範亦不同。"
+        },
+        {
+          "term": "領域配對",
+          "detail": "DC基本15元素、ISO15836常考2003；EAD檔案查詢輔助，CSDGM地理、LOM學習物件、MARC館藏交換。"
+        },
+        {
+          "term": "互通機制",
+          "detail": "ISO2709管紀錄結構，OAI-PMH擷取詮釋資料而非保證全文；共同元素促互通但不自動正確。"
+        }
+      ],
+      "mnemonic": "描述找得到，管理用得對，保存留得久。",
+      "example": "作者題名幫發現，轉檔紀錄幫理解保存過程。",
+      "trap": "只有掃描圖而無描述權利資訊，不等於完整數位服務。",
+      "recall": "OAI-PMH主要取什麼？",
+      "answer": "詮釋資料，不保證搬全部全文。",
+      "questionIds": [
+        "114-2-1",
+        "114-2-2",
+        "113-2-41",
+        "113-2-48",
+        "110-2-44",
+        "109-2-44",
+        "108-2-39",
+        "107-2-42",
+        "107-2-50"
+      ],
+      "sources": [
+        {
+          "title": "DCMI：Dublin Core Metadata Terms",
+          "url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/"
+        },
+        {
+          "title": "教育部教育百科：都柏林核心集（陳淑君）",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E9%83%BD%E6%9F%8F%E6%9E%97%E6%A0%B8%E5%BF%83%E9%9B%86"
+        },
+        {
+          "title": "美國國會圖書館：Encoded Archival Description",
+          "url": "https://www.loc.gov/ead/"
+        },
+        {
+          "title": "NISO：Understanding Metadata",
+          "url": "https://www.niso.org/publications/understanding-metadata-2017"
+        },
+        {
+          "title": "中央研究院：數位典藏與數位學習成果入口",
+          "url": "https://digitalarchives.tw/"
+        },
+        {
+          "title": "美國國會圖書館：MARC 21 Bibliographic",
+          "url": "https://www.loc.gov/marc/bibliographic/"
+        },
+        {
+          "title": "FGDC：Content Standard for Digital Geospatial Metadata",
+          "url": "https://www.fgdc.gov/metadata/csdgm-standard"
+        },
+        {
+          "title": "Open Archives Initiative：OAI-PMH 規範",
+          "url": "https://www.openarchives.org/OAI/openarchivesprotocol.html"
+        },
+        {
+          "title": "美國國會圖書館：MARC 21 Authority",
+          "url": "https://www.loc.gov/marc/authority/"
+        },
+        {
+          "title": "Budapest Open Access Initiative：開放取用宣言",
+          "url": "https://www.budapestopenaccessinitiative.org/read/"
+        }
+      ],
+      "order": 47
+    },
+    {
+      "id": "course-l44",
+      "subjectIndex": 2,
+      "group": "05 科技與數位：理解系統的分工",
+      "title": "語意網：先替事物命名，再說關係",
+      "lead": "從「這本書—作者是—某人」開始理解。",
+      "points": [
+        {
+          "term": "模型規則",
+          "detail": "FRBR、LRM是概念模型，RDA是描述規則，MARC是格式；模型不是欄位表。"
+        },
+        {
+          "term": "URI與RDF",
+          "detail": "URI識別，RDF以主體謂詞客體三元組描述，可多種語法，不只XML也不是HTML替代品。"
+        },
+        {
+          "term": "鏈結與查詢",
+          "detail": "Linked談連結，Open談再利用；SPARQL查RDF圖，OWL描述本體，XML是標記語言。"
+        }
+      ],
+      "mnemonic": "命名URI，關係RDF，沿連結探索。",
+      "example": "兩館使用同作者URI，較容易辨認同名是否同人。",
+      "trap": "機器可讀不代表敘述一定真。",
+      "recall": "RDF只能XML嗎？",
+      "answer": "不是，是可用不同序列化表示的資料模型。",
+      "questionIds": [
+        "115-2-4",
+        "115-2-44"
+      ],
+      "sources": [
+        {
+          "title": "IFLA：書目概念模式",
+          "url": "https://www.ifla.org/g/bcm-rg/ifla-s-bibliographic-conceptual-models/"
+        },
+        {
+          "title": "RDA Toolkit",
+          "url": "https://www.rdatoolkit.org/"
+        },
+        {
+          "title": "W3C：RDF 1.1 Concepts",
+          "url": "https://www.w3.org/TR/rdf11-concepts/"
+        }
+      ],
+      "order": 48
+    },
+    {
+      "id": "course-l45",
+      "subjectIndex": 2,
+      "group": "05 科技與數位：理解系統的分工",
+      "title": "數位平台沿革：先記功能，再記改名",
+      "lead": "平台會整合，歷史名稱仍能幫理解發展。",
+      "points": [
+        {
+          "term": "文本網頁",
+          "detail": "Gutenberg連1971 Hart輸入獨立宣言；臺灣網頁典藏連國圖；PANDORA澳洲後整合Trove脈絡。"
+        },
+        {
+          "term": "合作服務",
+          "detail": "QuestionPoint虛擬參考，2019轉Springshare與LibAnswers發展；World Digital Library臺灣合作連國圖。"
+        },
+        {
+          "term": "權限目的",
+          "detail": "Google Books可只有片段；Portico、LOCKSS偏保存，SPARC倡議傳播，與Gutenberg公開文本不同。"
+        }
+      ],
+      "mnemonic": "先標文本、網頁、問答、保存四種功能。",
+      "example": "查到Google Books書目不等於能讀整本。",
+      "trap": "歷史題不表示平台至今未改變。",
+      "recall": "QuestionPoint主要做什麼？",
+      "answer": "合作虛擬參考諮詢，不是電子採購或借還系統。",
+      "questionIds": [
+        "115-2-35",
+        "114-2-50",
+        "113-2-25",
+        "110-2-12",
+        "109-2-12",
+        "108-2-25",
+        "108-2-50",
+        "107-2-45",
+        "106-2-31"
+      ],
+      "sources": [
+        {
+          "title": "OCLC：QuestionPoint 合作及移轉歷史",
+          "url": "https://www.oclc.org/en/about/finance/mergers.html"
+        },
+        {
+          "title": "國家圖書館：館藏與世界數位圖書館合作",
+          "url": "https://www.ncl.edu.tw/collections"
+        },
+        {
+          "title": "Project Gutenberg：About",
+          "url": "https://www.gutenberg.org/about/"
+        },
+        {
+          "title": "國家圖書館：臺灣網站典藏系統",
+          "url": "https://webarchive.ncl.edu.tw/"
+        },
+        {
+          "title": "Google Books：官方說明",
+          "url": "https://books.google.com/intl/en/googlebooks/about.html"
+        },
+        {
+          "title": "澳洲國家圖書館：PANDORA Overview",
+          "url": "https://pandora.nla.gov.au/overview.html"
+        },
+        {
+          "title": "Portico：數位內容保存服務",
+          "url": "https://www.portico.org/"
+        },
+        {
+          "title": "Stanford：LOCKSS 數位保存",
+          "url": "https://www.lockss.org/"
+        }
+      ],
+      "order": 49
+    },
+    {
+      "id": "course-l46",
+      "subjectIndex": 2,
+      "group": "05 科技與數位：理解系統的分工",
+      "title": "行動與社群：參與、定位、通知不同",
+      "lead": "手機是入口，還要看背後功能。",
+      "points": [
+        {
+          "term": "行動技術",
+          "detail": "Beacon多用BLE近距感知；QR提供掃描入口；AR疊現實，VR偏虛擬，AR不必頭戴。"
+        },
+        {
+          "term": "互動機制",
+          "detail": "Facebook社群、Podcast可非同步收聽，郵件可推播但非必然社群平台；使用者替資源加標籤形成社會標記。"
+        },
+        {
+          "term": "參與限制",
+          "detail": "Library2.0重參與改善，不是取消安全；自由標記有歧義，行動導覽要清楚；機器人服務也需定位通訊等能力。"
+        }
+      ],
+      "mnemonic": "Beacon藍牙，AR疊現實，Podcast可回聽。",
+      "example": "手機畫面疊館內資訊也是AR，不一定戴頭盔。",
+      "trap": "原題GSP等疑似OCR要回原卷，不能擅改GPS後推論。",
+      "recall": "AR一定要頭戴嗎？",
+      "answer": "不一定，手機也可呈現擴增實境。",
+      "questionIds": [
+        "114-2-42",
+        "113-2-42",
+        "111-2-42",
+        "111-2-49",
+        "110-2-8",
+        "109-2-25",
+        "109-2-48",
+        "108-2-38",
+        "108-2-41",
+        "108-2-49",
+        "107-2-46",
+        "106-2-40"
+      ],
+      "sources": [
+        {
+          "title": "W3C：WebXR Device API",
+          "url": "https://www.w3.org/TR/webxr/"
+        },
+        {
+          "title": "Bluetooth SIG：Bluetooth Location Services",
+          "url": "https://www.bluetooth.com/learn-about-bluetooth/solutions/location-services/"
+        },
+        {
+          "title": "MDN：Web 開發文件",
+          "url": "https://developer.mozilla.org/en-US/docs/Web"
+        },
+        {
+          "title": "國家教育研究院典藏：圖書館機器人應用研究",
+          "url": "https://teric.naer.edu.tw/wSite/PDFReader?fileName=1516856504416&format=pdf&xmlId=2000037"
+        },
+        {
+          "title": "Casey 與 Savastinuk：Library 2.0 作者著作與出版說明",
+          "url": "https://store.infotoday.com/product/library-2-0/"
+        },
+        {
+          "title": "MDN：Responsive Web Design",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design"
+        },
+        {
+          "title": "Apple Podcasts：RSS Feed Requirements",
+          "url": "https://podcasters.apple.com/support/823-podcast-requirements"
+        },
+        {
+          "title": "RSS Advisory Board：RSS 2.0 Specification",
+          "url": "https://www.rssboard.org/rss-specification"
+        },
+        {
+          "title": "全國法規資料庫：個人資料保護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0050021"
+        },
+        {
+          "title": "OpenStax：Principles of Marketing（服務行銷）",
+          "url": "https://openstax.org/details/books/principles-marketing"
+        }
+      ],
+      "order": 50
+    },
+    {
+      "id": "course-c01",
+      "subjectIndex": 3,
+      "group": "01 資訊組織：先認識工作與工具",
+      "title": "資訊組織：辨認、聚集，最後取得",
+      "lead": "像替書庫畫地圖，先給資源身分，再讓人找到。",
+      "points": [
+        {
+          "term": "兩條工作",
+          "detail": "記述編目描述題名責任版本外觀；主題編目分析內容並給類號及主題入口，資訊組織又比單項編目更廣。"
+        },
+        {
+          "term": "使用者路徑",
+          "detail": "尋找辨認選擇取得；同作品各版本相聚叫聚集，告訴實際位置叫定位，Taylor最後功能重取得線索。"
+        },
+        {
+          "term": "資源特性",
+          "detail": "正式出版品可有相同複本，利於標準化；檔案博物館物件更重獨特來源，標準化也不能抹去複本差異。"
+        }
+      ],
+      "mnemonic": "記述問是誰，主題問談什麼，館藏問在哪。",
+      "example": "紅樓夢各譯本放一起，又能分辨要借哪版，兼具聚集與識別。",
+      "trap": "找到紀錄不等於拿到資源，題名字詞也不等於主題分析。",
+      "recall": "題名作者與主題標目分屬什麼？",
+      "answer": "前者屬記述及名稱檢索脈絡，後者屬主題編目。",
       "questionIds": [
         "115-3-1",
-        "115-3-2",
         "114-3-3",
-        "115-3-6"
+        "111-3-3",
+        "110-3-3",
+        "109-3-11",
+        "107-3-2",
+        "107-3-32",
+        "106-3-1",
+        "106-3-2"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        },
+        {
+          "title": "美國國會圖書館：MARC 21 書目格式",
+          "url": "https://www.loc.gov/marc/bibliographic/"
+        },
+        {
+          "title": "美國國會圖書館：BIBFRAME",
+          "url": "https://www.loc.gov/bibframe/"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "course-c02",
+      "subjectIndex": 3,
+      "group": "01 資訊組織：先認識工作與工具",
+      "title": "規則、格式、模型、詞表：先分工具層次",
+      "lead": "像填表，知道每種工具負責哪件事才不混亂。",
+      "points": [
+        {
+          "term": "規則格式",
+          "detail": "CCR、AACR2、RDA教如何描述檢索；MARC21、CMARC安排交換欄位，ISBD規範描述順序標點，ISBN是識別碼。"
+        },
+        {
+          "term": "模型詞彙",
+          "detail": "FRBR、LRM表示實體關係；AAT、LCSH提供受控詞，分類表安排類號。模型不是詞表或欄位。"
+        },
+        {
+          "term": "實務與號碼",
+          "detail": "編目園地提供規範答疑，手冊統一館務不是複本統計；ISAN視聽、ISRC錄音、ISMN樂譜，不能因都與音樂相關就交換。"
+        }
+      ],
+      "mnemonic": "模想事物、規教寫法、格放欄位、詞統說法。",
+      "example": "RDA教怎麼記出版者，MARC讓系統知道該段是出版資料。",
+      "trap": "2013國圖西文採RDA是規則變化，不能用格式回答。",
+      "recall": "RDA與MARC21互斥嗎？",
+      "answer": "不是，分別規範內容與交換格式，可以配合。",
+      "questionIds": [
+        "115-3-2",
+        "115-3-5",
+        "115-3-9",
+        "113-3-3",
+        "111-3-48",
+        "110-3-9",
+        "109-3-3",
+        "109-3-7",
+        "108-3-36",
+        "107-3-3",
+        "106-3-39"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        },
+        {
+          "title": "Getty：藝術與建築索引典 AAT",
+          "url": "https://www.getty.edu/research/tools/vocabularies/aat/"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "course-c03",
+      "subjectIndex": 3,
+      "group": "01 資訊組織：先認識工作與工具",
+      "title": "抄錄與CIP：省工不等於免核對",
+      "lead": "先確認現成紀錄真的描述手中資源。",
+      "points": [
+        {
+          "term": "抄錄編目",
+          "detail": "核對版本出版載體後用他館紀錄，加入本館位置條碼等，不能直接抄他館館藏。"
+        },
+        {
+          "term": "CIP",
+          "detail": "出版前依出版者資料建立預行紀錄，ISBN內容可先有，頁數尺寸可能未定，成書須補正。"
+        },
+        {
+          "term": "品質",
+          "detail": "正確一致適切比欄位多重要，減少編目員不自動提高品質；共同規範訓練審核才有效。"
+        }
+      ],
+      "mnemonic": "抄編先對本，CIP待成書。",
+      "example": "手上電子版不能只把下載的精裝版紀錄換館名。",
+      "trap": "詳細度不等於品質，也不因來自大館就不用查。",
+      "recall": "CIP為何要成書後核對？",
+      "answer": "出版前資訊未定稿，頁數尺寸題名可能變動。",
+      "questionIds": [
+        "114-3-1",
+        "113-3-1",
+        "113-3-4",
+        "110-3-1",
+        "110-3-2",
+        "109-3-2",
+        "106-3-3",
+        "106-3-11"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        },
+        {
+          "title": "美國國會圖書館：合作編目計畫 PCC",
+          "url": "https://www.loc.gov/aba/pcc/"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "course-c04",
+      "subjectIndex": 3,
+      "group": "01 資訊組織：先認識工作與工具",
+      "title": "目錄形式與原則：從入口排列看找書目的",
+      "lead": "形式可以改，使用者便利仍是核心。",
+      "points": [
+        {
+          "term": "目錄排列",
+          "detail": "字典式混排作者題名主題，分置式拆開入口，分類目錄按分類；中文字順還要選筆畫注音或檢字碼。"
+        },
+        {
+          "term": "國際沿革",
+          "detail": "Cutter字典式目錄規則，1961巴黎原則，2009及2016 ICP是不同節點；優先考慮使用者而非只圖館員省事。"
+        },
+        {
+          "term": "電子能力",
+          "detail": "OPAC可布林組合，分類及ISBN查詢早有，新一代重互動多語作品聚集，不是所有好功能都新發明。"
+        }
+      ],
+      "mnemonic": "字典混排、分置分排、分類按主題。",
+      "example": "不知道作者仍可從題名主題找書，代表多條入口有用。",
+      "trap": "展示介面功能不一定是FRBR正式任務名稱。",
+      "recall": "字典式只排題名嗎？",
+      "answer": "不是，作者、題名、主題入口混合字順。",
+      "questionIds": [
+        "115-3-3",
+        "115-3-10",
+        "114-3-2",
+        "114-3-9",
+        "111-3-4",
+        "108-3-4",
+        "108-3-5",
+        "107-3-1",
+        "107-3-5",
+        "107-3-46"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 書目格式",
+          "url": "https://www.loc.gov/marc/bibliographic/"
+        },
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        },
+        {
+          "title": "國家圖書館：全國圖書書目資訊網",
+          "url": "https://nbinet.ncl.edu.tw/"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "course-c05",
+      "subjectIndex": 3,
+      "group": "02 記述編目：替資源寫身分資料",
+      "title": "傳統八大項：先畫著錄位置圖",
+      "lead": "長串標點先切區塊，就知道每段在說什麼。",
+      "points": [
+        {
+          "term": "八項順序",
+          "detail": "題名著者、版本、資料特殊細節、出版、稽核、集叢、附註、標準號碼及其他必要記載；只列部分仍維持相對次序。"
+        },
+        {
+          "term": "各項分工",
+          "detail": "稽核看外觀，附註補說明，集叢講系列；CCR以ISBD等為基礎，乙編標目不包辦主題詞規則。"
+        },
+        {
+          "term": "詳略版本",
+          "detail": "第一層仍要正題名，星號任選依規則；圖書章含小冊不等於連續資源。110整合版ISBD與108一律給分題保留歷史背景。"
+        }
+      ],
+      "mnemonic": "題版特出稽集註號。",
+      "example": "少列版本特殊細節時，出版仍在稽核之前。",
+      "trap": "八項是歷屆CCR架構，不表示所有新版規範都完全一樣。",
+      "recall": "附件算出版項嗎？",
+      "answer": "不算，常在稽核末或附註等處理，依規則判定。",
+      "questionIds": [
+        "115-3-4",
+        "115-3-7",
+        "114-3-5",
+        "114-3-7",
+        "113-3-5",
+        "113-3-6",
+        "110-3-6",
+        "110-3-8",
+        "109-3-5",
+        "108-3-30",
+        "107-3-14"
       ],
       "sources": [
         {
           "title": "國家圖書館：《中國編目規則》第三版",
           "url": "https://catweb.ncl.edu.tw/standard/page/25559"
         }
-      ]
+      ],
+      "order": 5
     },
     {
-      "id": "cat-classes",
+      "id": "course-c06",
       "subjectIndex": 3,
-      "group": "分類與主題",
-      "title": "中文分類與 DDC：數字相同不代表主題相同",
-      "lead": "先辨認分類法名稱，再看類號；別把兩套十大類硬套在一起。",
+      "group": "02 記述編目：替資源寫身分資料",
+      "title": "題名：整件名稱、並列名稱與內部篇目",
+      "lead": "先看描述整件還是裡面某一篇。",
       "points": [
         {
-          "term": "中文分類 0–4",
-          "detail": "000 總類、100 哲學、200 宗教、300 科學、400 應用科學。"
+          "term": "層次",
+          "detail": "正題名辨資源，並列題名是另一語文正式名稱；新編若屬題名不能亂刪。分卷以共同題名、部分號、部分題名表層次。"
         },
         {
-          "term": "中文分類 5–9",
-          "detail": "500 社會科學、600 史地、700 世界史地、800 語文、900 藝術。"
+          "term": "合輯",
+          "detail": "有共同題名先描述整件，篇目放內容註；無共同題名依相同或不同責任者用分號句點等，替代題名又名也需保留。"
         },
         {
-          "term": "DDC 差異",
-          "detail": "300 社會科學、400 語言、500 科學、600 技術、700 藝術、800 文學、900 歷史與地理。"
-        },
-        {
-          "term": "使用類表",
-          "detail": "簡目只是入口，細分、複分與例外要查題目指定版本的類表及註釋。"
+          "term": "來源符號",
+          "detail": "補配用方括弧；原題名省略號按CCR轉破折號，方括弧轉圓括弧。RDA並列題名可取資源其他部分，不把正題名來源限制全套過去。"
         }
       ],
-      "example": "「藝術」在中文分類的大類是900，在DDC是700；看到數字先別直接回答學科。",
-      "trap": "600 史地與700世界史地的範圍要依中文類表細目理解，不可將所有世界地理一律塞進600。",
-      "recall": "DDC 的500與中文分類的500，是同一學科嗎？",
-      "answer": "不是。DDC 500是科學，中文分類500是社會科學。",
+      "mnemonic": "整件找正題，換語看並列，裡面篇目放內容註。",
+      "example": "十首曲目的名稱是內容註，不是十個並列題名。",
+      "trap": "外文原作題名不自動是並列題名，須看它在資源上的角色。",
+      "recall": "合輯有共同題名，各篇通常記哪？",
+      "answer": "內容註，必要時另建各篇入口。",
       "questionIds": [
-        "115-3-17",
-        "114-3-17",
-        "115-3-24"
+        "115-3-13",
+        "114-3-8",
+        "113-3-7",
+        "113-3-9",
+        "113-3-13",
+        "111-3-5",
+        "111-3-9",
+        "109-3-6",
+        "108-3-19"
       ],
       "sources": [
         {
-          "title": "國家圖書館：《中文圖書分類法》2007年版",
-          "url": "https://catweb.ncl.edu.tw/standard/page/25549"
-        }
-      ]
-    },
-    {
-      "id": "cat-analysis",
-      "subjectIndex": 3,
-      "group": "分類與主題",
-      "title": "主題分析與分類：先讀內容，再找號碼",
-      "lead": "書名是線索，不是全部。要判斷它實際在談什麼、從哪個角度談。",
-      "points": [
-        {
-          "term": "分析",
-          "detail": "看題名、目次、序言、摘要及內文，抓主要主題與研究觀點。"
-        },
-        {
-          "term": "概念表達",
-          "detail": "先用精準語句整理內容，再轉換為受控詞或分類號。"
-        },
-        {
-          "term": "多主題",
-          "detail": "依相互關係、篇幅與類表規則選擇；三個以上論題不等於一律歸總類。"
-        },
-        {
-          "term": "較上位類",
-          "detail": "兩個並列細目共同討論時，可檢查是否有適切的共同上位類。"
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
         }
       ],
-      "example": "同談中日與中韓外交史，須檢視中國與亞洲外交的上位類，而不是任意只挑其中一國。",
-      "trap": "不要只因題名出現「電腦」就分電腦科學，可能是在談電腦犯罪的法律問題。",
-      "recall": "主題分析可以只看書名而不看內容嗎？",
-      "answer": "不宜。題名可能比喻、含糊，或不能完整呈現研究角度。",
+      "order": 6
+    },
+    {
+      "id": "course-c07",
+      "subjectIndex": 3,
+      "group": "02 記述編目：替資源寫身分資料",
+      "title": "責任敘述與入口：照錄名字和選標目不同",
+      "lead": "一邊忠實描述，一邊幫讀者從不同線索找到。",
+      "points": [
+        {
+          "term": "敘述群組",
+          "detail": "同責任與不同責任分清，不同角色可分號；適當來源如版權頁也可用。CCR超過三人按每責任群判斷，剛好三人不要誤刪。"
+        },
+        {
+          "term": "角色入口",
+          "detail": "作者譯者訪談者表演者皆可能有入口；傳記傳主是主題非作者，插圖重要性看創作貢獻不是彩色。"
+        },
+        {
+          "term": "真實與原載",
+          "detail": "考證作者與原載作者可都留線索；敘述中中文外文姓名順序不同於權威姓前名後。CCR、RDA不必與AACR2主款目概念完全相同。"
+        }
+      ],
+      "mnemonic": "敘述原件怎麼寫，入口讀者怎麼找。",
+      "example": "伽利略傳可列原作者、譯者與傳主，但角色不同。",
+      "trap": "有MARC1XX不代表全部規則都只有唯一主作者。",
+      "recall": "黑白插畫可重要到立入口嗎？",
+      "answer": "可以，依創作重要性，不依彩印與否。",
+      "questionIds": [
+        "115-3-14",
+        "114-3-6",
+        "113-3-12",
+        "110-3-12",
+        "109-3-8",
+        "109-3-10",
+        "108-3-6",
+        "108-3-7",
+        "107-3-7",
+        "107-3-16",
+        "107-3-18",
+        "106-3-16"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "id": "course-c08",
+      "subjectIndex": 3,
+      "group": "02 記述編目：替資源寫身分資料",
+      "title": "出版與版本：日期、整套、集叢各有身分",
+      "lead": "出版、印製、版權不一定同年，不要混成一欄。",
+      "points": [
+        {
+          "term": "出版資料",
+          "detail": "多語出版地依正題名等規則取相應形式；陌生私人出版者可補地址。缺出版年按題庫版權、印製、序跋、推定等順序。"
+        },
+        {
+          "term": "版本組件",
+          "detail": "整套電子產品以整套版本為主，組件差異可補註；沒有明示版次不必硬造。早期RDA核心元素有適用條件。"
+        },
+        {
+          "term": "集叢附註",
+          "detail": "兩套集叢各用完整圓括弧敘述，名與號間分號；譯自、參考書目頁碼與不同版權年按附註功能處理。"
+        }
+      ],
+      "mnemonic": "年問種類、版問整件、補充放註。",
+      "example": "[民52?]是推定某年有疑問，不是整個年代。",
+      "trap": "符號有意義，不能當裝飾任意換。",
+      "recall": "多組件版次全塞整套版本項嗎？",
+      "answer": "不宜，先記整套，再補有辨識價值的組件差異。",
+      "questionIds": [
+        "115-3-6",
+        "114-3-13",
+        "109-3-4",
+        "108-3-8",
+        "108-3-10",
+        "108-3-22",
+        "107-3-8",
+        "107-3-43",
+        "106-3-18",
+        "106-3-42"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "id": "course-c09",
+      "subjectIndex": 3,
+      "group": "02 記述編目：替資源寫身分資料",
+      "title": "稽核與特殊資料：數量、尺寸、附件、比例尺",
+      "lead": "問手上這份長什麼樣，而非買多少錢。",
+      "points": [
+        {
+          "term": "數量",
+          "detail": "5,123+面分兩段，不是5123；加號提示後續不完整。多冊各自編頁可用冊數，不必全部加總。"
+        },
+        {
+          "term": "尺寸附件",
+          "detail": "高×寬，公分小數依規則進位；23.1×30.9記24×31。27×13符合高逾寬兩倍的長本條件；附件可在稽核末等處理。"
+        },
+        {
+          "term": "特殊載體",
+          "detail": "影片優先題名畫面，錄音錄影章別分清。地圖1:50000是一比五萬，多種比例不能一律只取最大，文字可換算時規範化。"
+        }
+      ],
+      "mnemonic": "幾件、長怎樣、多大、附什麼。",
+      "example": "1,124+面已知至少125面且不完整，不是1124。",
+      "trap": "原件錯頁未編碼仍須依規則，不可憑直覺改或忽略。",
+      "recall": "圖書尺寸小數四捨五入嗎？",
+      "answer": "按該規則進位到整公分，並依形態決定需記高或高寬。",
+      "questionIds": [
+        "115-3-12",
+        "111-3-6",
+        "111-3-8",
+        "111-3-10",
+        "111-3-11",
+        "110-3-5",
+        "108-3-9",
+        "107-3-6",
+        "106-3-7"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "id": "course-c10",
+      "subjectIndex": 3,
+      "group": "02 記述編目：替資源寫身分資料",
+      "title": "連續與整合資源：新一期和同一份更新不同",
+      "lead": "先認發行模式，再決定怎麼改書目。",
+      "points": [
+        {
+          "term": "連續出版",
+          "detail": "優先首期來源，無首期用可得刊期並說明；全名縮寫並列依規則採完整名稱，卷期數字一致處理。"
+        },
+        {
+          "term": "變更",
+          "detail": "並列題名變更未必新建，可留舊名附註入口；正題名等重大改變另按規則判斷。"
+        },
+        {
+          "term": "整合更新",
+          "detail": "同一網站持續更新，現名245、前名247；副題名常修原紀錄，媒體或重大版本變化再判定。"
+        }
+      ],
+      "mnemonic": "期刊一期接一期，整合同一份更新。",
+      "example": "網站改副題不代表每次都要新建網站書目。",
+      "trap": "最新一期不自動優先於首期，246與247不能互換。",
+      "recall": "首期找不到怎麼辦？",
+      "answer": "用規則允許的適當來源並註明依據，不假裝就是首期。",
+      "questionIds": [
+        "114-3-10",
+        "111-3-7",
+        "111-3-12",
+        "110-3-11",
+        "108-3-12",
+        "108-3-14",
+        "107-3-13",
+        "106-3-13",
+        "106-3-17"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "id": "course-c11",
+      "subjectIndex": 3,
+      "group": "02 記述編目：替資源寫身分資料",
+      "title": "GMD到RDA：內容、設備、載體拆開",
+      "lead": "電子、文字、期刊其實是不同層次。",
+      "points": [
+        {
+          "term": "GMD",
+          "detail": "題名後方括弧標類型，如電子資源、地圖(點字本)；連續性出版品是發行方式，不是同級媒體標示。"
+        },
+        {
+          "term": "三元素",
+          "detail": "內容怎麼表達、媒體需要何設備、載體裝何形式；MARC336內容、337媒體、338載體。"
+        },
+        {
+          "term": "位置目的",
+          "detail": "無共同題名同責任作品，GMD依CCR放第一題名後；主要助辨形式設備，不是館藏統計唯一欄。"
+        }
+      ],
+      "mnemonic": "336內容、337設備、338載體。",
+      "example": "電子文字書內容仍是文字，設備電腦、載體線上資源。",
+      "trap": "電子一詞不能回答全部面向，期刊也可紙本電子。",
+      "recall": "RDA替代單一GMD的三元素？",
+      "answer": "內容類型、媒體類型、載體類型。",
+      "questionIds": [
+        "114-3-11",
+        "113-3-10",
+        "110-3-4",
+        "108-3-15",
+        "107-3-11",
+        "106-3-8",
+        "106-3-12"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 書目格式",
+          "url": "https://www.loc.gov/marc/bibliographic/"
+        },
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "id": "course-c12",
+      "subjectIndex": 3,
+      "group": "02 記述編目：替資源寫身分資料",
+      "title": "RDA思路：實體、屬性與關係",
+      "lead": "不是只列名字，更要交代各自做了什麼。",
+      "points": [
+        {
+          "term": "關係角色",
+          "detail": "RDA記實體屬性及作品、人、家族、團體關係，關係用語分作者譯者等。"
+        },
+        {
+          "term": "創作判斷",
+          "detail": "幾米圖文共同創作可屬作品創作者，不只既成文字的插圖貢獻者；改編也需連原作而非只寫原作者。"
+        },
+        {
+          "term": "版本界線",
+          "detail": "舊Toolkit與新版不同，core題按年代；RDA不包辦所有領域詮釋資料，也不是HTTP或SPARQL。"
+        }
+      ],
+      "mnemonic": "先認實體，再記屬性，最後連關係。",
+      "example": "同列兩人名字，標作者與譯者才知道誰做什麼。",
+      "trap": "權威檢索點不等於唯一主作者。",
+      "recall": "RDA會處理人與團體關係嗎？",
+      "answer": "會，屬性與實體間關係都是核心。",
+      "questionIds": [
+        "115-3-11",
+        "114-3-12",
+        "114-3-14",
+        "114-3-27",
+        "113-3-11",
+        "111-3-14",
+        "108-3-46",
+        "106-3-47"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        },
+        {
+          "title": "IFLA：FRBR、FRAD、FRSAD 與 LRM 概念模式",
+          "url": "https://www.ifla.org/g/bcm-rg/ifla-s-bibliographic-conceptual-models/"
+        },
+        {
+          "title": "美國國會圖書館：MARC 21 權威格式",
+          "url": "https://www.loc.gov/marc/authority/"
+        },
+        {
+          "title": "美國國會圖書館：BIBFRAME",
+          "url": "https://www.loc.gov/bibframe/"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "id": "course-c13",
+      "subjectIndex": 3,
+      "group": "03 分類與主題：讓內容找得到",
+      "title": "分類先讀內容：多主題要看重心與方向",
+      "lead": "書名只是線索，不能看到同字就取號。",
+      "points": [
+        {
+          "term": "分析順序",
+          "detail": "內容學科先，地域時代後，讀目次序言內文；索引找線索還須回詳表。"
+        },
+        {
+          "term": "多論題",
+          "detail": "有主次按重心，無主次按指定規則；中日韓可找東亞共同上位，不能任挑最小類。"
+        },
+        {
+          "term": "影響比較",
+          "detail": "兩論題常歸受影響者；115題是一主題對其他多主題，抓共同施加關係者；多主題共同影響一者則抓受者，仍看全書重心。"
+        }
+      ],
+      "mnemonic": "先內容再地時；先重心再規則；先畫箭頭再判。",
+      "example": "植物森林影響氣候，若研究焦點是氣候，就不因植物在書名前面而分類植物。",
+      "trap": "一律歸施因或受因都過度概括。",
+      "recall": "先秦經濟思想先看年代嗎？",
+      "answer": "先學科內容，再地域與時代等細分。",
       "questionIds": [
         "115-3-15",
         "114-3-16",
-        "114-3-18"
+        "113-3-17",
+        "113-3-23",
+        "111-3-22",
+        "109-3-13",
+        "108-3-18",
+        "107-3-21",
+        "107-3-26",
+        "106-3-23"
       ],
       "sources": [
         {
@@ -1440,400 +4602,1300 @@
           "title": "Getty：藝術與建築索引典 AAT",
           "url": "https://www.getty.edu/research/tools/vocabularies/aat/"
         }
-      ]
+      ],
+      "order": 13
     },
     {
-      "id": "cat-description",
+      "id": "course-c14",
       "subjectIndex": 3,
-      "group": "編目基礎",
-      "title": "著錄八大項：沿著認識一本書的順序",
-      "lead": "先知道叫什麼、哪一版，再看出版、外觀與其他補充資訊。",
+      "group": "03 分類與主題：讓內容找得到",
+      "title": "分類體系：現成格子與拆開組合",
+      "lead": "列舉像櫃格，分析綜合像依規則組零件。",
       "points": [
         {
-          "term": "前四項",
-          "detail": "題名及著者敘述 → 版本 → 資料特殊細節 → 出版。"
+          "term": "方法",
+          "detail": "列舉預排主題，分析綜合先拆層面再組號，冒號分類典型；有附表不自動全變分析綜合。"
         },
         {
-          "term": "後四項",
-          "detail": "稽核 → 集叢 → 附註 → 標準號碼及其他必要記載。"
+          "term": "PMEST",
+          "detail": "主體Personality、物質Matter、作用Energy、空間Space、時間Time，M非Memory、S非Schedule。"
         },
         {
-          "term": "不同規範",
-          "detail": "這是中國編目規則題型的框架；不要直接當成所有現代規範完全相同的章節架構。"
-        },
-        {
-          "term": "特殊細節",
-          "detail": "依資料類型可能記比例尺等資訊，並非每種資料都同樣適用。"
+          "term": "人物標記",
+          "detail": "Richardson相似歷史進化三律，Bliss科學教育共識；單純標記單一符號，文數混合是混合。DDC1876，冒號1933比UDC及LCC發展晚。"
         }
       ],
-      "example": "看到地圖比例尺，先想到地圖的特殊細節，而不是把它當出版者資訊。",
-      "trap": "集叢不是期刊的同義詞；一本書可能屬於某套集叢但仍是單行本。",
-      "recall": "八大項中，版本項之後是哪一項？",
-      "answer": "資料特殊細節項，再來才是出版項。",
+      "mnemonic": "主物動地時；先拆再組。",
+      "example": "描述某地某時的作物栽培，可拆對象、作用、空間時間。",
+      "trap": "樹分枝不必嚴格is-a繼承，符號長短也非單純混合判準。",
+      "recall": "冒號分類核心特色？",
+      "answer": "層面分析後依規則綜合組號。",
       "questionIds": [
-        "115-3-7",
-        "115-3-12",
-        "115-3-14",
-        "114-3-5"
+        "114-3-24",
+        "111-3-18",
+        "111-3-19",
+        "111-3-20",
+        "110-3-15",
+        "110-3-20",
+        "109-3-24",
+        "108-3-41",
+        "107-3-22",
+        "106-3-22"
       ],
       "sources": [
+        {
+          "title": "國家圖書館：《中文圖書分類法》2007年版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25549"
+        },
+        {
+          "title": "W3C：SKOS 參考規範",
+          "url": "https://www.w3.org/TR/skos-reference/"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "id": "course-c15",
+      "subjectIndex": 3,
+      "group": "03 分類與主題：讓內容找得到",
+      "title": "DDC：十進、相關索引與文學順序",
+      "lead": "先把特色連起來，再記版本史。",
+      "points": [
+        {
+          "term": "沿革",
+          "detail": "1876首版，2011第23版，1993 DOS光碟不同節點；教材首冠Dewey常連第13版而非15。"
+        },
+        {
+          "term": "結構索引",
+          "detail": "200宗教；Relative Index連主題在不同學科位置，最後需核詳表；>集中款目涉及類號範圍不是算術大於。"
+        },
+        {
+          "term": "文學安排",
+          "detail": "先語言再體裁再時代，不先看作者國籍；附表複分需依規則，不能單獨作完整類號。"
+        }
+      ],
+      "mnemonic": "十進加相關索引；文學語體時。",
+      "example": "雨果小說先法語文學再小說與年代。",
+      "trap": "DDC與中文分類同數字不必同學科。",
+      "recall": "文學先語言還是國籍？",
+      "answer": "先作品所屬語言文學體系，國籍不能取代。",
+      "questionIds": [
+        "115-3-17",
+        "114-3-15",
+        "113-3-15",
+        "113-3-20",
+        "111-3-15",
+        "110-3-22",
+        "109-3-16",
+        "108-3-28"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中文圖書分類法》2007年版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25549"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "id": "course-c16",
+      "subjectIndex": 3,
+      "group": "03 分類與主題：讓內容找得到",
+      "title": "中文分類法：大類、註釋、附表一起讀",
+      "lead": "類號像地址，先大區再細節。",
+      "points": [
+        {
+          "term": "大類沿革",
+          "detail": "2007版由賴永祥中國分類法基礎修訂；000總、100哲、200宗、300科學、400應用、500社會、600中國史地、700世界史地、800語文、900藝術。"
+        },
+        {
+          "term": "具體考點",
+          "detail": "數學300，醫藥家政農業400；085各國叢書有第一第二法，非082清代083民國087翻譯叢書。索引按筆畫不是著者碼。"
+        },
+        {
+          "term": "註釋複分",
+          "detail": "同表示同義，範圍註界定涵蓋，仿分改分另有功能；總類複分不只000可用。特定克特式一字母加數字，不是兩字母。"
+        }
+      ],
+      "mnemonic": "先大類細類，再看註釋附表。",
+      "example": "農業辭典與農業書目主題同，形式不同。",
+      "trap": "大類簡稱不是完整詳表，2005詞表不能倒用2007版。",
+      "recall": "總類複分只能用000嗎？",
+      "answer": "不是，依規則可附其他學科，但不能獨立代表主題。",
+      "questionIds": [
+        "114-3-17",
+        "113-3-16",
+        "111-3-16",
+        "111-3-17",
+        "110-3-21",
+        "109-3-17",
+        "109-3-18",
+        "107-3-27",
+        "107-3-28",
+        "106-3-19",
+        "106-3-21"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中文圖書分類法》2007年版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25549"
+        },
+        {
+          "title": "Getty：藝術與建築索引典 AAT",
+          "url": "https://www.getty.edu/research/tools/vocabularies/aat/"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "id": "course-c17",
+      "subjectIndex": 3,
+      "group": "03 分類與主題：讓內容找得到",
+      "title": "LCC與專門分類：不是所有分類都十進",
+      "lead": "字母數字的來源與排序都要分開讀。",
+      "points": [
+        {
+          "term": "LCC特色",
+          "detail": "分學科與館藏需求發展，列舉式，階層不總顯性；I O W X Y未配置一般大類，R醫學S農業Z圖書館學書目。"
+        },
+        {
+          "term": "符號排序",
+          "detail": "加號依類表表示延伸範圍，Cutter數字按小數，前面分類數按整數，不可混算。"
+        },
+        {
+          "term": "NLM",
+          "detail": "醫學與相關領域專門分類；DDC、LCC、冒號較通用，專門是範圍不是只有某館可用。"
+        }
+      ],
+      "mnemonic": "LCC先字母後數字，NLM先想醫學。",
+      "example": "D.4789排D.56前，不因位數長就較大。",
+      "trap": "階層不顯性不等於毫無結構。",
+      "recall": "R、S、Z都未使用嗎？",
+      "answer": "不是，都是已配置的重要大類。",
+      "questionIds": [
+        "115-3-18",
+        "110-3-25",
+        "108-3-13",
+        "108-3-26",
+        "107-3-23"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中文圖書分類法》2007年版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25549"
+        },
+        {
+          "title": "美國國立醫學圖書館：MeSH",
+          "url": "https://www.nlm.nih.gov/mesh/meshhome.html"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "id": "course-c18",
+      "subjectIndex": 3,
+      "group": "03 分類與主題：讓內容找得到",
+      "title": "七略與四部：先看當時知識框架",
+      "lead": "古代分類不能只按現代學科直覺。",
+      "points": [
+        {
+          "term": "七略六分",
+          "detail": "輯略偏總敘，六藝諸子詩賦兵書術數方技為實質六類，所以稱六分法。"
+        },
+        {
+          "term": "經史子集",
+          "detail": "春秋記史事，但在四部中因儒家經典地位歸經，不是只因像歷史就歸史。"
+        },
+        {
+          "term": "現代對照",
+          "detail": "現代學科細分不同，舊部類與新類號不能直接一對一，先辨題目採哪套體系。"
+        }
+      ],
+      "mnemonic": "七略一總六分，四部經史子集。",
+      "example": "同一本春秋，先問題幹是四部還是現代分類，再判位置。",
+      "trap": "書名中的七不等於實質七分類。",
+      "recall": "七略為何稱六分法？",
+      "answer": "輯略為總敘，其他六略構成主要分類。",
+      "questionIds": [
+        "108-3-16",
+        "108-3-24"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中文圖書分類法》2007年版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25549"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "id": "course-c19",
+      "subjectIndex": 3,
+      "group": "03 分類與主題：讓內容找得到",
+      "title": "索書號與排架：從大地址比到小地址",
+      "lead": "分類號只到街區，還要把同區書分清。",
+      "points": [
+        {
+          "term": "層次",
+          "detail": "分類再著者，後續種次年代部冊複本；v.2第二卷，不是第二版，同版另一本叫複本。"
+        },
+        {
+          "term": "比較",
+          "detail": "小數.12 .25 .255 .86 .9；LCC先字母整數再Cutter小數年代，前段相同才比後段。"
+        },
+        {
+          "term": "區分",
+          "detail": "同作者同類不同作品用種次；不同作者撞號另區分。既定:3作者區分保持，作品-3續為-4，符號依館規。"
+        }
+      ],
+      "mnemonic": "區街戶樓逐層比，前層未完不跳。",
+      "example": "230.255先於230.9，不把255當整數。",
+      "trap": "部冊複本名詞在舊題可概括，仍看實際區別對象。",
+      "recall": "同版多一本是新卷嗎？",
+      "answer": "不是，是複本；新卷與新版是不同概念。",
+      "questionIds": [
+        "115-3-16",
+        "114-3-22",
+        "111-3-2",
+        "110-3-13",
+        "109-3-15",
+        "108-3-21",
+        "107-3-24",
+        "106-3-20",
+        "106-3-25"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中文圖書分類法》2007年版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25549"
+        },
         {
           "title": "國家圖書館：《中國編目規則》第三版",
           "url": "https://catweb.ncl.edu.tw/standard/page/25559"
         }
-      ]
+      ],
+      "order": 19
     },
     {
-      "id": "cat-subject",
+      "id": "course-c20",
       "subjectIndex": 3,
-      "group": "分類與主題",
-      "title": "索引典：同義、上下位、相關三條線",
-      "lead": "把概念之間的關係想清楚，符號就不難背。",
+      "group": "03 分類與主題：讓內容找得到",
+      "title": "著者號：先認工具，再依姓名結構取碼",
+      "lead": "四角、五筆、Cutter不能混用口訣。",
       "points": [
         {
-          "term": "USE／UF",
-          "detail": "等同或優先使用關係。非採用詞用 USE 指向採用詞；UF 從採用詞指出非採用詞。"
+          "term": "四角",
+          "detail": "十形碼5插6方；取四碼看姓名結構。梁啟超3334為姓上兩角、雙名各左上；複姓單名兩姓各左上、名上兩角。"
         },
         {
-          "term": "BT／NT",
-          "detail": "上下位關係。BT較廣，NT較狹；例如交通工具與機車。"
+          "term": "五筆",
+          "detail": "點橫直撇捺，角不在內；首尾五筆時代碼1至8不同於四角0至9，碼長也看結構。"
         },
         {
-          "term": "RT",
-          "detail": "相關但非上下位，也非同義；只是存在有意義的概念關聯。"
-        },
-        {
-          "term": "專指度與詳盡度",
-          "detail": "專指度看詞是否精確到主題層次；詳盡度看涵蓋多少主題面向。"
+          "term": "其他取號",
+          "detail": "團體按指定名稱如中華奧會，不機械截全銜；克特字母加數字不等於中文角碼。"
         }
       ],
-      "example": "「摩托車 用 機車」表示以機車作採用詞，不表示機車是摩托車的上位概念。",
-      "trap": "收很多詞不一定就很專指；涵蓋範圍與選詞精確程度是兩個維度。",
-      "recall": "BT 是較廣詞還是較狹詞？",
-      "answer": "較廣詞。NT才是較狹詞。",
+      "mnemonic": "先哪一法，再幾個字，再取位置。",
+      "example": "複姓單名不能每字各取兩碼變六碼，須依規則取足四碼。",
+      "trap": "字形複筆影響結果，OCR不清回原卷。",
+      "recall": "四角6是五筆第六形嗎？",
+      "answer": "不是，四角6是方口形，五筆另有五種基本筆形。",
       "questionIds": [
-        "115-3-19",
+        "114-3-23",
+        "113-3-2",
+        "111-3-23",
+        "111-3-24",
+        "110-3-14",
+        "108-3-11",
+        "107-3-20",
+        "107-3-25",
+        "106-3-26"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中文圖書分類法》2007年版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25549"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "id": "course-c21",
+      "subjectIndex": 3,
+      "group": "03 分類與主題：讓內容找得到",
+      "title": "主題分析：專指性與詳盡度分開",
+      "lead": "不是越細越多越好，而要貼合內容。",
+      "points": [
+        {
+          "term": "流程",
+          "detail": "閱讀分析概念→選用詞類號→核對覆查，使用者導向也不能離題加熱門詞。"
+        },
+        {
+          "term": "兩尺度",
+          "detail": "專指性是範圍貼合，詳盡度是涵蓋多少面向；人體解剖學比解剖學更準，但縮成單一器官又太窄。"
+        },
+        {
+          "term": "方法界線",
+          "detail": "系統主題法用分類，字順主題法用詞；受控詞要經規範，詞表能解釋詞義不能證明研究真假。"
+        }
+      ],
+      "mnemonic": "專指對多準，詳盡涵多全。",
+      "example": "比較三種教學方法，不宜只標其中一小節的遊戲教學。",
+      "trap": "不在詞表的詞不能隨口宣稱已是正式受控詞。",
+      "recall": "最狹窄詞一定最好嗎？",
+      "answer": "不一定，需與整份內容範圍相稱。",
+      "questionIds": [
         "115-3-21",
-        "115-3-23",
-        "114-3-20"
+        "114-3-18",
+        "114-3-19",
+        "113-3-18",
+        "113-3-19",
+        "110-3-16",
+        "109-3-14",
+        "109-3-19",
+        "109-3-22",
+        "109-3-23",
+        "106-3-27",
+        "106-3-28"
       ],
       "sources": [
         {
           "title": "Getty：藝術與建築索引典 AAT",
           "url": "https://www.getty.edu/research/tools/vocabularies/aat/"
-        }
-      ]
-    },
-    {
-      "id": "cat-authority",
-      "subjectIndex": 3,
-      "group": "權威與合作",
-      "title": "權威控制：同一人聚在一起，不同人分開",
-      "lead": "搜尋名字時有兩種麻煩：一個人有多種名字，或很多人用同一個名字。",
-      "points": [
-        {
-          "term": "一致性",
-          "detail": "同一實體的不同名稱透過權威資料連結，避免作品四散。"
         },
         {
-          "term": "唯一識別",
-          "detail": "同名不同人可用生卒年、職業等限定資訊區別，避免混在一起。"
-        },
-        {
-          "term": "參照",
-          "detail": "引導異名、相關名稱與檢索點，不是把所有原始名稱從書目刪掉。"
-        },
-        {
-          "term": "跨機構連結",
-          "detail": "VIAF連結各機構權威資料，不能簡化成全球只能採一種語文名稱。"
+          "title": "國家圖書館：《中文圖書分類法》2007年版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25549"
         }
       ],
-      "example": "兩位「王明」各有不同生年，可加限定詞區別；一位作者用本名與筆名，則要建立適當連結。",
-      "trap": "權威不是判斷作者學術地位高不高，而是在管理名稱與識別。",
-      "recall": "權威控制只需要把所有同名者合併嗎？",
-      "answer": "不對。同一實體要聚合，不同實體反而要區分。",
+      "order": 21
+    },
+    {
+      "id": "course-c22",
+      "subjectIndex": 3,
+      "group": "03 分類與主題：讓內容找得到",
+      "title": "索引典：用不用、上下位、相關三種路",
+      "lead": "有的換正式名字，有的往上往下或旁邊走。",
+      "points": [
+        {
+          "term": "等同",
+          "detail": "USE用由非採用到正式，UF不用由正式列異稱；燈節用元宵節，不代表日常字一定誰更高級。"
+        },
+        {
+          "term": "層級聯想",
+          "detail": "BT上位NT下位RT相關，SN範圍註；節目比電視節目廣，連續劇較窄，因果不等同義。"
+        },
+        {
+          "term": "展示版本",
+          "detail": "字順分類圖形展示；反義語意相反，是否合併看政策。LCSH1988前後用USE等符號取代舊表達，不是取消參照。"
+        }
+      ],
+      "mnemonic": "用往正名，不用列異名；BT上NT下RT旁。",
+      "example": "不明飛行體不用UFO，表示正式詞是不明飛行體，不是禁用它。",
+      "trap": "中文參見需看工具說明，不能所有參照都當等號。",
+      "recall": "SN是同義詞縮寫？",
+      "answer": "不是，Scope Note範圍註。",
       "questionIds": [
-        "115-3-26",
-        "115-3-27",
-        "115-3-28",
-        "114-3-25"
+        "115-3-19",
+        "115-3-23",
+        "114-3-20",
+        "113-3-22",
+        "113-3-24",
+        "111-3-21",
+        "111-3-26",
+        "110-3-18",
+        "110-3-19",
+        "110-3-23",
+        "110-3-26",
+        "108-3-3",
+        "108-3-23",
+        "107-3-31",
+        "106-3-24",
+        "106-3-29"
+      ],
+      "sources": [
+        {
+          "title": "Getty：藝術與建築索引典 AAT",
+          "url": "https://www.getty.edu/research/tools/vocabularies/aat/"
+        },
+        {
+          "title": "國家圖書館：中文主題詞表新增詞彙與關係規則",
+          "url": "https://catweb.ncl.edu.tw/QandA/page/23513"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "id": "course-c23",
+      "subjectIndex": 3,
+      "group": "03 分類與主題：讓內容找得到",
+      "title": "主題標題與複分：主題後再加條件",
+      "lead": "先主題，再補哪裡、何時或何種形式。",
+      "points": [
+        {
+          "term": "語法形式",
+          "detail": "青年心理學、Economic forecasting是修飾詞加主詞；印象派(繪畫)為括弧限定，介系詞連接詞又不同。"
+        },
+        {
+          "term": "複分",
+          "detail": "主題、地理、時代、形式；光學—年鑑是形式。人名能當主題，不自動是基本人名複分。一般與論題複分不能任意拼接。"
+        },
+        {
+          "term": "詞條結構",
+          "detail": "標目詞、參考類號、註釋、參照；全書使用說明不同層，附表合法詞也可組配，非非正式詞。"
+        }
+      ],
+      "mnemonic": "談什麼，再談哪裡何時、用什麼形式。",
+      "example": "農業—手冊主題仍是農業，手冊是編輯形式。",
+      "trap": "一致用語主要靠詞控制，不是參考類號本身。",
+      "recall": "光學—論文集的論文集是什麼？",
+      "answer": "形式複分，表達文獻編輯形制。",
+      "questionIds": [
+        "113-3-25",
+        "111-3-25",
+        "110-3-17",
+        "109-3-20",
+        "109-3-21",
+        "109-3-25",
+        "108-3-29",
+        "107-3-19",
+        "106-3-31"
+      ],
+      "sources": [
+        {
+          "title": "Getty：藝術與建築索引典 AAT",
+          "url": "https://www.getty.edu/research/tools/vocabularies/aat/"
+        },
+        {
+          "title": "國家圖書館：《中文圖書分類法》2007年版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25549"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "id": "course-c24",
+      "subjectIndex": 3,
+      "group": "03 分類與主題：讓內容找得到",
+      "title": "FAST、AAT、MeSH：領域與組配方式",
+      "lead": "先分受控詞工具和文獻資料庫。",
+      "points": [
+        {
+          "term": "FAST",
+          "detail": "從LCSH簡化複雜前組合，分層面使用；舊題八層面、OCLC現行九層面，要標版本，不是全部取代LCSH。"
+        },
+        {
+          "term": "領域配對",
+          "detail": "AAT藝術建築多語，臺灣與中研院相關；MeSH醫學，AGROVOC農業；LISA是文獻索引摘要，非索引典。"
+        },
+        {
+          "term": "版本品質",
+          "detail": "2005中文詞表參考類號不能倒套2007分類法；品質看覆蓋詞義關係與維護，不只編製時間。"
+        }
+      ],
+      "mnemonic": "FAST拆面向、AAT藝術、MeSH醫學、LISA找文獻。",
+      "example": "藝術材質可用AAT詞值，但它不包辦整筆作品描述模型。",
+      "trap": "現行九面向含個人團體會議地理事件題名時期論題形式，語文不是獨立一面。",
+      "recall": "AAT和CDWA同一類嗎？",
+      "answer": "不同，前者受控詞彙，後者描述藝術作品的類別架構。",
+      "questionIds": [
+        "115-3-20",
+        "115-3-22",
+        "115-3-24",
+        "115-3-25",
+        "114-3-21",
+        "113-3-21",
+        "110-3-24",
+        "109-3-26",
+        "108-3-31",
+        "107-3-29"
+      ],
+      "sources": [
+        {
+          "title": "Getty：藝術與建築索引典 AAT",
+          "url": "https://www.getty.edu/research/tools/vocabularies/aat/"
+        },
+        {
+          "title": "OCLC：FAST 計畫與層面說明",
+          "url": "https://www.oclc.org/research/areas/data-science/fast.html"
+        },
+        {
+          "title": "國家圖書館：《中文圖書分類法》2007年版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25549"
+        },
+        {
+          "title": "美國國立醫學圖書館：MeSH",
+          "url": "https://www.nlm.nih.gov/mesh/meshhome.html"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "id": "course-c25",
+      "subjectIndex": 3,
+      "group": "04 權威控制：把同名與異名分清楚",
+      "title": "權威控制：同人不分散，同名不混淆",
+      "lead": "權威是辨識方法，不只是有名機構說了算。",
+      "points": [
+        {
+          "term": "標準異名",
+          "detail": "選採用形式，其他名字留參照；見把異名導正名，參見連相關採用形式，複雜可說明參照。"
+        },
+        {
+          "term": "紀錄內容",
+          "detail": "正式異名關係、辨識特徵及來源依據，需持續維護，不是一次建立永久不改。"
+        },
+        {
+          "term": "品質界線",
+          "detail": "避免盲目參照與繞圈；自由關鍵詞不必經權威控制，名稱題名主題常需一致規範。"
+        }
+      ],
+      "mnemonic": "同人聚同名分，異名帶路來源留底。",
+      "example": "查良鏞與金庸可從兩個名字找到同人。",
+      "trap": "控制不是刪光異名，否則讀者無路可走。",
+      "recall": "權威檔建立後永不改？",
+      "answer": "不是，名稱規則資訊都可能更新。",
+      "questionIds": [
+        "114-3-25",
+        "113-3-14",
+        "111-3-28",
+        "109-3-9",
+        "109-3-27",
+        "109-3-29",
+        "109-3-41",
+        "108-3-35",
+        "107-3-15",
+        "107-3-33",
+        "107-3-38",
+        "106-3-32"
       ],
       "sources": [
         {
           "title": "美國國會圖書館：MARC 21 權威格式",
           "url": "https://www.loc.gov/marc/authority/"
         },
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "id": "course-c26",
+      "subjectIndex": 3,
+      "group": "04 權威控制：把同名與異名分清楚",
+      "title": "個人名稱：先著稱，再辨人",
+      "lead": "採用哪個名字，和加什麼限定是兩步。",
+      "points": [
+        {
+          "term": "採用形式",
+          "detail": "按著稱使用情形，不必出生名；九把刀可用筆名，不代表小說家全必用。多身分也可能分別採用並互連。"
+        },
+        {
+          "term": "外國姓名",
+          "detail": "本人中文名優先，再著稱譯名、作品譯名、自譯；原文括弧姓前名後日期如Dewey, John,1859-1952。"
+        },
+        {
+          "term": "限定",
+          "detail": "同名同朝可用生卒年籍貫，不必每名加全套；書名頁敘述與權威標目不同。"
+        }
+      ],
+      "mnemonic": "先讀者認得，再確定是哪一人。",
+      "example": "陳平見三毛先判陳平是異名，別只記人物配欄號。",
+      "trap": "本名筆名方向依題幹，不必永久同一端採用。",
+      "recall": "一定採出生名嗎？",
+      "answer": "不一定，依著稱與規則，另留異名。",
+      "questionIds": [
+        "115-3-8",
+        "115-3-26",
+        "113-3-8",
+        "113-3-26",
+        "111-3-13",
+        "107-3-12",
+        "107-3-17",
+        "107-3-35",
+        "106-3-6",
+        "106-3-15"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        },
+        {
+          "title": "美國國會圖書館：MARC 21 權威格式",
+          "url": "https://www.loc.gov/marc/authority/"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "id": "course-c27",
+      "subjectIndex": 3,
+      "group": "04 權威控制：把同名與異名分清楚",
+      "title": "團體、地名、會議：名稱不是地址簿",
+      "lead": "限定用來辨識，不是塞入所有背景。",
+      "points": [
+        {
+          "term": "團體",
+          "detail": "CCR正式全銜與隸屬規則，不任採新聞簡稱，也非每部會加行政院；改名可能兩採用形式互連。"
+        },
+        {
+          "term": "地名",
+          "detail": "同寺名用所在地圓括弧，某地名需前置國別省區；完整門牌是地址，不是標目目的。"
+        },
+        {
+          "term": "會議歷史",
+          "detail": "屆次年代地點按規則附加，不能把第一屆黏本名；舊機關按當年組織不倒用今日名稱。"
+        }
+      ],
+      "mnemonic": "團體全銜隸屬，地名辨識，會議屆年地。",
+      "example": "龍山寺(臺北市)在辨同名，不是寫郵寄地址。",
+      "trap": "圓括弧限定與方括弧補配不同，所有城市也非同格式。",
+      "recall": "機關更名必只做異名嗎？",
+      "answer": "不一定，可分別成立採用形式以相關連結表示沿革。",
+      "questionIds": [
+        "114-3-4",
+        "111-3-34",
+        "110-3-7",
+        "109-3-12",
+        "108-3-20",
+        "108-3-25",
+        "107-3-9",
+        "107-3-10",
+        "106-3-9",
+        "106-3-14"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 權威格式",
+          "url": "https://www.loc.gov/marc/authority/"
+        },
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "id": "course-c28",
+      "subjectIndex": 3,
+      "group": "04 權威控制：把同名與異名分清楚",
+      "title": "劃一題名：讓異稱與版本有共同集合點",
+      "lead": "名字不同可能仍同作品，內容大改則要重判。",
+      "points": [
+        {
+          "term": "目的方向",
+          "detail": "選紅樓夢為正名，石頭記導向它，不能反向；改編可能新作品，不硬合併。"
+        },
+        {
+          "term": "組成順序",
+          "detail": "經典先整體部分再語文選輯，如聖經新約德文選輯；音樂用作曲者類型編號調性辨識。"
+        },
+        {
+          "term": "選用語文",
+          "detail": "不一律翻本國語，依著稱規則；多種語文等限定不同於題名照錄。"
+        }
+      ],
+      "mnemonic": "先哪部、哪部分，再補語文特徵。",
+      "example": "德文新約選輯聚到聖經，又保留部分及語文。",
+      "trap": "大幅增修改名先判作品身分，不靠同名強合。",
+      "recall": "選紅樓夢為正名，參照怎麼走？",
+      "answer": "石頭記見紅樓夢，由非採用到採用。",
+      "questionIds": [
+        "114-3-26",
+        "114-3-45",
+        "108-3-17",
+        "108-3-27",
+        "108-3-32",
+        "108-3-34",
+        "106-3-10"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 權威格式",
+          "url": "https://www.loc.gov/marc/authority/"
+        },
+        {
+          "title": "國家圖書館：《中國編目規則》第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
+        }
+      ],
+      "order": 28
+    },
+    {
+      "id": "course-c29",
+      "subjectIndex": 3,
+      "group": "04 權威控制：把同名與異名分清楚",
+      "title": "權威合作：互連多館，不取消差異",
+      "lead": "不同語文可保留各自形式，再辨認同一實體。",
+      "points": [
+        {
+          "term": "系統",
+          "detail": "VIAF連多機構權威保留地方形式；HKCAN香港中文名稱，CNASS等權威脈絡；CEPS偏內容非權威整合。"
+        },
+        {
+          "term": "對象規範",
+          "detail": "人團體會議題名不同於主題詞表，ISBN非人名權威；ISAAR(CPF)由ICA為檔案團體個人家族制定。"
+        },
+        {
+          "term": "歷史範圍",
+          "detail": "NBINet、SMRT功能匯出及收錄範圍須看年度；能查名字不代表是專門權威服務。"
+        }
+      ],
+      "mnemonic": "VIAF跨館連人，HKCAN香港名稱。",
+      "example": "中文與英文採用名可互連，不強迫全球一種拼寫。",
+      "trap": "聚合資料不等於消滅地方規則。",
+      "recall": "VIAF要求全球單一標目嗎？",
+      "answer": "不是，重連結不同權威檔的相同實體。",
+      "questionIds": [
+        "115-3-27",
+        "115-3-28",
+        "114-3-28",
+        "113-3-28",
+        "111-3-27",
+        "110-3-28",
+        "110-3-29",
+        "109-3-28",
+        "107-3-36",
+        "106-3-33",
+        "106-3-35"
+      ],
+      "sources": [
         {
           "title": "國家圖書館：全國圖書書目資訊網",
           "url": "https://nbinet.ncl.edu.tw/"
-        }
-      ]
-    },
-    {
-      "id": "cat-wemi",
-      "subjectIndex": 3,
-      "group": "概念模型",
-      "title": "WEMI：作品、表現形式、具體呈現、單件",
-      "lead": "想像同一部小說一路變成你手上的那一本，就能理解四個層次。",
-      "points": [
-        {
-          "term": "Work 作品",
-          "detail": "抽象的知識或藝術創作，例如某部小說本身。"
         },
-        {
-          "term": "Expression 表現形式",
-          "detail": "以文字、語言、演出等實現作品；不同語文翻譯可屬不同表現形式。"
-        },
-        {
-          "term": "Manifestation 具體呈現",
-          "detail": "出版或製作形成的載體與版本組合，例如某出版社某年的印本。"
-        },
-        {
-          "term": "Item 單件",
-          "detail": "那個版本的一份個別複本，例如你手上有館藏條碼的那一本。"
-        }
-      ],
-      "example": "同一中文譯文印成兩本，各是不同單件；換成新的英文翻譯，則涉及表現形式不同。",
-      "trap": "不是所有改作都只是新表現形式。改編幅度可能形成新作品，要依創作內容判斷。",
-      "recall": "館藏某本書上有讀者手寫筆記，首先屬哪一層的個別特徵？",
-      "answer": "單件 Item；不是整個作品的所有複本都有那份筆記。",
-      "questionIds": [
-        "115-3-44",
-        "114-3-44",
-        "115-3-11"
-      ],
-      "sources": [
-        {
-          "title": "美國國會圖書館：BIBFRAME",
-          "url": "https://www.loc.gov/bibframe/"
-        },
-        {
-          "title": "IFLA：FRBR、FRAD、FRSAD 與 LRM 概念模式",
-          "url": "https://www.ifla.org/g/bcm-rg/ifla-s-bibliographic-conceptual-models/"
-        },
-        {
-          "title": "國家圖書館：《中國編目規則》第三版",
-          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
-        }
-      ]
-    },
-    {
-      "id": "cat-lrm",
-      "subjectIndex": 3,
-      "group": "概念模型",
-      "title": "FRBR、FRAD、FRSAD 與 LRM",
-      "lead": "先用研究範圍分，再記整合後的模型。",
-      "points": [
-        {
-          "term": "FRBR",
-          "detail": "書目紀錄功能需求，常以WEMI與使用者任務理解。"
-        },
-        {
-          "term": "FRAD／FRSAD",
-          "detail": "分別聚焦權威資料、主題權威資料的功能需求。"
-        },
-        {
-          "term": "LRM",
-          "detail": "整合三套模型，建立較一致的書目資訊概念架構。"
-        },
-        {
-          "term": "LRM任務",
-          "detail": "Find 找尋、Identify 識別、Select 選擇、Obtain 取得、Explore 探索。"
-        }
-      ],
-      "example": "看到「整合FRBR、FRAD、FRSAD」優先想到IFLA LRM；不是MARC格式新增了三個欄位。",
-      "trap": "舊模型的任務與新模型不宜混背，題目指定FRBR或LRM時要分開回答。",
-      "recall": "LRM使用者任務中，哪個提醒你還能沿關係繼續發現資料？",
-      "answer": "Explore，探索。",
-      "questionIds": [
-        "115-3-42",
-        "115-3-43",
-        "114-3-40"
-      ],
-      "sources": [
         {
           "title": "美國國會圖書館：MARC 21 權威格式",
           "url": "https://www.loc.gov/marc/authority/"
         },
-        {
-          "title": "IFLA：FRBR、FRAD、FRSAD 與 LRM 概念模式",
-          "url": "https://www.ifla.org/g/bcm-rg/ifla-s-bibliographic-conceptual-models/"
-        },
-        {
-          "title": "美國國會圖書館：BIBFRAME",
-          "url": "https://www.loc.gov/bibframe/"
-        }
-      ]
-    },
-    {
-      "id": "cat-marc",
-      "subjectIndex": 3,
-      "group": "機讀格式",
-      "title": "MARC 21 書目欄位：先記常見骨架",
-      "lead": "先建立號碼與功能的對照，再回個別欄位查指標與分欄。",
-      "points": [
-        {
-          "term": "020／022／082",
-          "detail": "ISBN／ISSN／杜威十進分類號。不同識別碼別放錯。"
-        },
-        {
-          "term": "100／245／246",
-          "detail": "主要個人名稱款目／題名敘述／其他題名形式。"
-        },
-        {
-          "term": "250／264／300",
-          "detail": "版本／製作出版發行等敘述／稽核或實體描述。264具體功能還看第二指標。"
-        },
-        {
-          "term": "500／502／650／700／856",
-          "detail": "一般附註／學位論文註／主題款目一般主題／附加個人名稱／電子位置與取用。"
-        }
-      ],
-      "example": "想讓並列題名也可被找到，須理解246等題名檢索欄位，不能只背245的名稱。",
-      "trap": "這裡整理的是MARC 21書目格式。權威、分類、館藏等格式的同號欄位不可直接照搬。",
-      "recall": "記錄杜威分類號常用哪個欄位？",
-      "answer": "082。不是ISBN的020，也不是題名的245。",
-      "questionIds": [
-        "115-3-31",
-        "115-3-33",
-        "115-3-34",
-        "114-3-29",
-        "114-3-31"
-      ],
-      "sources": [
-        {
-          "title": "美國國會圖書館：MARC 21 書目格式",
-          "url": "https://www.loc.gov/marc/bibliographic/"
-        }
-      ]
-    },
-    {
-      "id": "cat-rda",
-      "subjectIndex": 3,
-      "group": "機讀格式",
-      "title": "RDA 的內容、媒體、載體：讀什麼、怎麼讀、裝在哪",
-      "lead": "把三種描述分開後，就不會都用「電子書」一個詞含糊帶過。",
-      "points": [
-        {
-          "term": "336 內容類型",
-          "detail": "內容如何表達，例如文字、演奏音樂等。"
-        },
-        {
-          "term": "337 媒體類型",
-          "detail": "讀取內容通常需要哪類中介設備，例如電腦；無須設備可屬無媒介。"
-        },
-        {
-          "term": "338 載體類型",
-          "detail": "承載資源的形式，例如冊、線上資源。"
-        },
-        {
-          "term": "關係用語",
-          "detail": "文字作者、編輯者等說明人與資源的關係，不只是列出一串姓名。"
-        }
-      ],
-      "example": "一般線上文字電子書，可以分別描述文字、電腦、線上資源，而不是把三欄都寫電子資源。",
-      "trap": "核心元素與條件性要求要依題目指定規範；不能把每一個可記欄位都說成必備。",
-      "recall": "線上資源屬於內容類型還是載體類型？",
-      "answer": "載體類型；內容仍可能是文字、音樂或其他表達形式。",
-      "questionIds": [
-        "114-3-11",
-        "114-3-12",
-        "115-3-6",
-        "115-3-11"
-      ],
-      "sources": [
-        {
-          "title": "美國國會圖書館：MARC 21 書目格式",
-          "url": "https://www.loc.gov/marc/bibliographic/"
-        },
-        {
-          "title": "國家圖書館：《中國編目規則》第三版",
-          "url": "https://catweb.ncl.edu.tw/standard/page/25559"
-        },
-        {
-          "title": "IFLA：FRBR、FRAD、FRSAD 與 LRM 概念模式",
-          "url": "https://www.ifla.org/g/bcm-rg/ifla-s-bibliographic-conceptual-models/"
-        }
-      ]
-    },
-    {
-      "id": "cat-cooperation",
-      "subjectIndex": 3,
-      "group": "權威與合作",
-      "title": "合作編目：共用紀錄，仍要核對手上資源",
-      "lead": "合作的目的在於減少重複工作、提升一致性，而不是把責任交出去。",
-      "points": [
-        {
-          "term": "WorldCat／OCLC",
-          "detail": "跨館共享書目與館藏資訊，支持查找與合作。"
-        },
-        {
-          "term": "NBINet",
-          "detail": "國內合作編目與聯合目錄的重要系統，促進書目共享及標準化。"
-        },
-        {
-          "term": "抄錄編目",
-          "detail": "取用既有紀錄後，仍核對版次、出版資訊、載體與館藏，不能看到相似題名就全照抄。"
-        },
-        {
-          "term": "CIP",
-          "detail": "預行編目在出版前提供書目資訊，出版後仍可能需要依實物修正。"
-        }
-      ],
-      "example": "同名書有不同出版社或版次，下載紀錄前先比對識別資訊，才不會將兩種資源混為一談。",
-      "trap": "合作編目節省重複勞力，不代表從此不需要專業館員或品質控制。",
-      "recall": "取得別館的紀錄後，還要對照實際館藏嗎？",
-      "answer": "要。須確認描述的是同一資源，並補上本館資料。",
-      "questionIds": [
-        "115-3-37",
-        "115-3-38",
-        "115-3-39",
-        "114-3-37",
-        "114-3-38"
-      ],
-      "sources": [
         {
           "title": "美國國會圖書館：合作編目計畫 PCC",
           "url": "https://www.loc.gov/aba/pcc/"
         },
         {
+          "title": "國家圖書館：中國機讀編目格式第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25566"
+        }
+      ],
+      "order": 29
+    },
+    {
+      "id": "course-c30",
+      "subjectIndex": 3,
+      "group": "05 機讀與合作：交換可用的紀錄",
+      "title": "ISO2709與MARC結構：外框先於內容",
+      "lead": "電腦需要明確知道每段資料在哪裡。",
+      "points": [
+        {
+          "term": "四部分",
+          "detail": "Leader紀錄標示、Directory指引、資料欄、紀錄終止；Leader先於001，提供長度類型處理資訊。"
+        },
+        {
+          "term": "控制欄",
+          "detail": "006補附加特性，007物理特性，008固定資料；必備條件依紀錄規範，不把概括全套所有類型。"
+        },
+        {
+          "term": "技術分工",
+          "detail": "ISO2709結構，Z39.50檢索取用，Unicode跨語字元；Big5 CCCII EACC有歷史用途，彼此非同層替代。"
+        }
+      ],
+      "mnemonic": "Leader看整筆，Directory找位置，欄位讀內容。",
+      "example": "中文字正常但欄位框架錯，系統仍無法正確交換。",
+      "trap": "權威檔是資料集合，不是紀錄內一段結構。",
+      "recall": "001一定排最前嗎？",
+      "answer": "不是，Leader與Directory在它之前。",
+      "questionIds": [
+        "113-3-30",
+        "110-3-32",
+        "110-3-33",
+        "110-3-36",
+        "109-3-31",
+        "109-3-34",
+        "108-3-37",
+        "107-3-48",
+        "106-3-41"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 書目格式",
+          "url": "https://www.loc.gov/marc/bibliographic/"
+        }
+      ],
+      "order": 30
+    },
+    {
+      "id": "course-c31",
+      "subjectIndex": 3,
+      "group": "05 機讀與合作：交換可用的紀錄",
+      "title": "MARC家族：先格式，再紀錄種類，再欄號",
+      "lead": "同為三位數，不一定同意思。",
+      "points": [
+        {
+          "term": "歷史",
+          "detail": "1960年代LC電腦化發展MARC；MARC21整合US與CAN並後續發展，非CMARC直接合併；臺灣CMARC常考1980前後。"
+        },
+        {
+          "term": "五格式",
+          "detail": "書目、權威、館藏、分類、社區資訊，最常用書目不表示唯一；不同媒體不是另算每種格式。"
+        },
+        {
+          "term": "更新",
+          "detail": "MARC持續維護，MARCXML及對映存在，不可說欄位從未改；書目1XX與權威1XX脈絡也不同。"
+        }
+      ],
+      "mnemonic": "先家族，再種類，最後讀數字。",
+      "example": "MARC21的300外觀，CMARC的300附註，不能搬答案。",
+      "trap": "社區資訊是格式類型，不是書目4XX名稱。",
+      "recall": "MARC21只有書目嗎？",
+      "answer": "有五種主要格式，並非只有書目。",
+      "questionIds": [
+        "114-3-35",
+        "113-3-34",
+        "113-3-35",
+        "111-3-29",
+        "109-3-1",
+        "106-3-4",
+        "106-3-5",
+        "106-3-38"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 書目格式",
+          "url": "https://www.loc.gov/marc/bibliographic/"
+        }
+      ],
+      "order": 31
+    },
+    {
+      "id": "course-c32",
+      "subjectIndex": 3,
+      "group": "05 機讀與合作：交換可用的紀錄",
+      "title": "MARC21記述欄：題名、外觀、集叢與論文",
+      "lead": "將數字放回工作順序，比零散背更容易。",
+      "points": [
+        {
+          "term": "題名版本",
+          "detail": "245題名責任，第二指標不排序字元，The含空格4；246異名247前名222識別題名250版本。"
+        },
+        {
+          "term": "外觀集叢",
+          "detail": "300實體，336內容337媒體338載體；490抄集叢$a題名$v編號，受控集叢入口8XX。"
+        },
+        {
+          "term": "論文連結",
+          "detail": "502可整段$a或分$b學位$c機構$d年；856電子位置URL，不保證連結永久可用。"
+        }
+      ],
+      "mnemonic": "245名250版300貌490系列502學位856位置。",
+      "example": "The算T h e加空格，不是3。",
+      "trap": "4XX不包全部集叢功能，敘述與受控入口不同。",
+      "recall": "502$c是學位還是學校？",
+      "answer": "授予機構；學位類型通常$b。",
+      "questionIds": [
+        "115-3-31",
+        "115-3-32",
+        "115-3-34",
+        "114-3-30",
+        "114-3-31",
+        "113-3-29",
+        "111-3-30",
+        "111-3-31",
+        "111-3-33",
+        "110-3-35",
+        "109-3-30",
+        "109-3-36",
+        "108-3-42"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 書目格式",
+          "url": "https://www.loc.gov/marc/bibliographic/"
+        },
+        {
+          "title": "LC：MARC21欄位502",
+          "url": "https://www.loc.gov/marc/bibliographic/bd502.html"
+        },
+        {
+          "title": "LC：MARC21欄位490",
+          "url": "https://www.loc.gov/marc/bibliographic/bd490.html"
+        }
+      ],
+      "order": 32
+    },
+    {
+      "id": "course-c33",
+      "subjectIndex": 3,
+      "group": "05 機讀與合作：交換可用的紀錄",
+      "title": "MARC號碼與主題：先辨由誰給、識別誰",
+      "lead": "控制號、標準號、類號都像代碼但功能不同。",
+      "points": [
+        {
+          "term": "來源控制",
+          "detail": "035其他系統號可含OCLC前綴；040編目來源$e可rda；041語文chi不是國別碼。"
+        },
+        {
+          "term": "主題分類",
+          "detail": "6XX主題入口，050 LCC、082 DDC，分類格式153又是分類號及標目，不能見分類全選同欄。"
+        },
+        {
+          "term": "指標重複",
+          "detail": "1XX與7XX用途可重複性不同；050指標涉及來源，不能只背欄名忽略細項。"
+        }
+      ],
+      "mnemonic": "控制認紀錄，標準認出版，類號認位置。",
+      "example": "OCLC紀錄號與ISBN都可找書目，但放不同欄。",
+      "trap": "語言跨國，chi不等於一個國家。",
+      "recall": "082通常是哪套分類？",
+      "answer": "DDC杜威十進分類法。",
+      "questionIds": [
+        "115-3-30",
+        "115-3-33",
+        "114-3-29",
+        "114-3-33",
+        "113-3-31",
+        "111-3-32",
+        "110-3-30",
+        "108-3-40"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 書目格式",
+          "url": "https://www.loc.gov/marc/bibliographic/"
+        },
+        {
+          "title": "國家圖書館：中國機讀編目格式第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25566"
+        }
+      ],
+      "order": 33
+    },
+    {
+      "id": "course-c34",
+      "subjectIndex": 3,
+      "group": "05 機讀與合作：交換可用的紀錄",
+      "title": "MARC權威：一正四異五相關七連結",
+      "lead": "先看參照方向，再決定欄號。",
+      "points": [
+        {
+          "term": "段位",
+          "detail": "1XX採用、4XX異名反見、5XX相關反參見、7XX相應連結；金庸採用100，查良鏞異名400。"
+        },
+        {
+          "term": "類型",
+          "detail": "100人110團體111會議130題名，不用120代會議；幾米單名按指標規則，不因名人換欄。"
+        },
+        {
+          "term": "辨識特徵",
+          "detail": "370地點371地址372活動373相關團體，新增資訊助辨人；多身分不一律全丟400。"
+        }
+      ],
+      "mnemonic": "一正、四異、五相關、七連結。",
+      "example": "問陳平見三毛的陳平是400，問三毛則100。",
+      "trap": "CMARC採用標目2XX，別跨格式套口訣。",
+      "recall": "活動領域372還是373？",
+      "answer": "372，373是相關團體。",
+      "questionIds": [
+        "115-3-35",
+        "114-3-32",
+        "113-3-32",
+        "113-3-33",
+        "111-3-35",
+        "110-3-27",
+        "110-3-31",
+        "110-3-34",
+        "109-3-35",
+        "108-3-33"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 權威格式",
+          "url": "https://www.loc.gov/marc/authority/"
+        }
+      ],
+      "order": 34
+    },
+    {
+      "id": "course-c35",
+      "subjectIndex": 3,
+      "group": "05 機讀與合作：交換可用的紀錄",
+      "title": "CMARC：另建一張欄位地圖",
+      "lead": "正式名中國機讀編目格式，主要參考UNIMARC。",
+      "points": [
+        {
+          "term": "書目欄",
+          "detail": "200題名著者205版本207連續資源編次300一般註6XX主題；300可重複，205不必每筆有，107題207有官方更正。"
+        },
+        {
+          "term": "權威段",
+          "detail": "2XX採用4XX反見5XX反參見7XX連接；石頭記異名放4XX，不套MARC21的130。"
+        },
+        {
+          "term": "年代政策",
+          "detail": "常考書目權威兩類；106 NBINet交換CMARC按當年，後續轉換不倒改歷史答案。"
+        }
+      ],
+      "mnemonic": "200題205版207期300註。",
+      "example": "看到300先問是哪個格式，不只記中文欄名。",
+      "trap": "相同數字不保證同義，官方更正不可漏。",
+      "recall": "CMARC207可當MARC21同號？",
+      "answer": "不能，兩套格式安排不同，須找相應欄位。",
+      "questionIds": [
+        "115-3-29",
+        "114-3-34",
+        "109-3-32",
+        "108-3-38",
+        "108-3-39",
+        "107-3-4",
+        "107-3-34",
+        "107-3-37",
+        "107-3-40",
+        "106-3-36",
+        "106-3-37",
+        "106-3-40",
+        "106-3-45"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 書目格式",
+          "url": "https://www.loc.gov/marc/bibliographic/"
+        },
+        {
+          "title": "國家圖書館：中國機讀編目格式第三版",
+          "url": "https://catweb.ncl.edu.tw/standard/page/25566"
+        },
+        {
+          "title": "美國國會圖書館：MARC 21 權威格式",
+          "url": "https://www.loc.gov/marc/authority/"
+        },
+        {
           "title": "國家圖書館：全國圖書書目資訊網",
           "url": "https://nbinet.ncl.edu.tw/"
         }
-      ]
+      ],
+      "order": 35
     },
     {
-      "id": "cat-metadata",
+      "id": "course-c36",
       "subjectIndex": 3,
-      "group": "語意網與詮釋資料",
-      "title": "Dublin Core、TEI、對映：先看用途",
-      "lead": "詮釋資料是描述資料的資料；不同領域會挑不同的描述工具。",
+      "group": "05 機讀與合作：交換可用的紀錄",
+      "title": "合作編目：共享紀錄也共享維護責任",
+      "lead": "省去重複建檔，讓更多館藏被找到。",
       "points": [
         {
-          "term": "Dublin Core",
-          "detail": "傳統核心集有15個元素，如題名、創作者、主題、日期等；與更廣的DCMI Terms區分。"
+          "term": "中心目錄",
+          "detail": "OCLC1967、WorldCat全球合作；LC是館OCLC是組織但都提供編目資源，聯合目錄可集中或分散。"
         },
         {
-          "term": "TEI",
-          "detail": "偏向人文文本的編碼與結構標記，不能直接等同一般圖書館機讀格式。"
+          "term": "臺灣",
+          "detail": "NBINet國圖合作交換館藏，SMRT整合入口；承辦、資料量、收錄地區按年代，不能永遠背固定數字。"
         },
         {
-          "term": "Crosswalk",
-          "detail": "把兩套詮釋資料的元素建立對應；粒度與語意不同時可能損失資訊。"
-        },
-        {
-          "term": "互通性",
-          "detail": "除了欄位名稱，值域、語言、編碼與語意也要一致理解。"
+          "term": "義務界線",
+          "detail": "取得也貢獻校核；WorldCat公開查不等於專業系統全免費；Open WorldCat助搜尋引擎發現，CORC是計畫非獨立中心，CONCERT偏採購。"
         }
       ],
-      "example": "甲格式把作者、編者分開，乙只有單一貢獻者欄位，對映後可能失去角色細節。",
-      "trap": "對映不是保證百分之百無損轉換，欄位名稱相近也未必定義相同。",
-      "recall": "Crosswalk 可以保證兩個格式所有細節完全保留嗎？",
-      "answer": "不保證。需檢查元素語意、粒度與一對多關係。",
+      "mnemonic": "共享省重做，回饋養共用。",
+      "example": "一館編後他館核對利用，再各自加自己複本。",
+      "trap": "合作不必然增加預算或直接降低期刊費。",
+      "recall": "合作只下載嗎？",
+      "answer": "還需貢獻、維護與遵循共同規範。",
+      "questionIds": [
+        "115-3-36",
+        "115-3-37",
+        "115-3-38",
+        "115-3-39",
+        "114-3-36",
+        "114-3-37",
+        "114-3-38",
+        "113-3-36",
+        "113-3-38",
+        "113-3-39",
+        "111-3-36",
+        "111-3-37",
+        "111-3-38",
+        "110-3-37",
+        "110-3-38",
+        "110-3-39",
+        "110-3-40",
+        "109-3-38",
+        "109-3-39",
+        "109-3-40",
+        "108-3-1",
+        "108-3-49",
+        "106-3-44",
+        "106-3-50"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：全國圖書書目資訊網",
+          "url": "https://nbinet.ncl.edu.tw/"
+        },
+        {
+          "title": "美國國會圖書館：合作編目計畫 PCC",
+          "url": "https://www.loc.gov/aba/pcc/"
+        }
+      ],
+      "order": 36
+    },
+    {
+      "id": "course-c37",
+      "subjectIndex": 3,
+      "group": "05 機讀與合作：交換可用的紀錄",
+      "title": "PCC四分支：按工作對象記",
+      "lead": "縮寫相似，先認書目、名稱、主題、連續。",
+      "points": [
+        {
+          "term": "四項",
+          "detail": "BIBCO書目，NACO名稱權威，SACO主題權威，CONSER連續資源；MODS是綱要非第五分支。"
+        },
+        {
+          "term": "品質訓練",
+          "detail": "PCC要求能力也提供支援，不是全得先自訓完；個人團體參與按各計畫規定，不一概二分。"
+        },
+        {
+          "term": "沿革",
+          "detail": "CONSER1997整合PCC；NACO合作建權威，VIAF跨檔連權威，功能不完全同。"
+        }
+      ],
+      "mnemonic": "B書、N名、S主、CON連續。",
+      "example": "共同建立作者權威想NACO，不是藝術詞表AAT。",
+      "trap": "組織計畫格式不能放同層清單。",
+      "recall": "CONSER做什麼？",
+      "answer": "連續性資源的合作編目。",
+      "questionIds": [
+        "114-3-39",
+        "113-3-27",
+        "113-3-37",
+        "111-3-39",
+        "110-3-50",
+        "109-3-37",
+        "108-3-50"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：合作編目計畫 PCC",
+          "url": "https://www.loc.gov/aba/pcc/"
+        }
+      ],
+      "order": 37
+    },
+    {
+      "id": "course-c50",
+      "subjectIndex": 3,
+      "group": "05 機讀與合作：交換可用的紀錄",
+      "title": "書目與系統：核心資料支援多種服務",
+      "lead": "前臺找得好，靠後臺一致關聯。",
+      "points": [
+        {
+          "term": "核心檔",
+          "detail": "書目認資源，館藏認複本，連採購流通；移轉需核關聯不只筆數，必要經費資料也不能因舊題未列就刪。"
+        },
+        {
+          "term": "集中分散",
+          "detail": "分散保留自主、可減集中建庫負擔，但跨來源速度去重整合較難；聯合目錄不必物理同庫。"
+        },
+        {
+          "term": "讀者用途",
+          "detail": "新目錄結合自然詞、受控詞、多語聚集；最後仍要辨認選擇取得，不只把欄填滿。"
+        }
+      ],
+      "mnemonic": "書目樞紐、館藏複本、前臺好找靠一致。",
+      "example": "同版重複紀錄讓館藏分散，讀者可能誤以為只一館有。",
+      "trap": "分散式不是零代價，也非功能越多必然越好。",
+      "recall": "分散式目錄的代價？",
+      "answer": "跨站速度、去重及整合可能更複雜。",
+      "questionIds": [
+        "109-3-33",
+        "107-3-39",
+        "107-3-49"
+      ],
+      "sources": [
+        {
+          "title": "國家圖書館：全國圖書書目資訊網",
+          "url": "https://nbinet.ncl.edu.tw/"
+        }
+      ],
+      "order": 38
+    },
+    {
+      "id": "course-c38",
+      "subjectIndex": 3,
+      "group": "06 模型與鏈結：把資料串成知識",
+      "title": "詮釋資料層次：描述對象與欄位結構",
+      "lead": "先知道描述誰，再知道哪些格怎麼組。",
+      "points": [
+        {
+          "term": "用途",
+          "detail": "描述性找辨資源及關係，管理性處理權利，保存性留長期可用資訊；技術資料僅可能其中一部分。"
+        },
+        {
+          "term": "結構填值",
+          "detail": "元素是格，結構是層次組合，填值規範教怎麼寫；AAT供詞，CDWA描述類別，模型組織實體。"
+        },
+        {
+          "term": "資源界線",
+          "detail": "紙本電子分建就是各一紀錄再互連，單筆加連結不叫分建；數位檔特徵別混原物件。"
+        }
+      ],
+      "mnemonic": "誰、哪些格、怎麼組、填什麼。",
+      "example": "掃描解析度是數位檔特徵，不是原紙本尺寸。",
+      "trap": "描述性也可有關係，不只題名作者。",
+      "recall": "保存資料只記副檔名夠嗎？",
+      "answer": "不夠，還需事件技術權利等支援長期理解。",
+      "questionIds": [
+        "108-3-43",
+        "108-3-44",
+        "107-3-45",
+        "106-3-43"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 書目格式",
+          "url": "https://www.loc.gov/marc/bibliographic/"
+        },
+        {
+          "title": "DCMI：Dublin Core 詮釋資料用語",
+          "url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/"
+        }
+      ],
+      "order": 39
+    },
+    {
+      "id": "course-c39",
+      "subjectIndex": 3,
+      "group": "06 模型與鏈結：把資料串成知識",
+      "title": "XML、對映、OAI-PMH：裝、翻、搬不同",
+      "lead": "交換得了不表示意思完全一致。",
+      "points": [
+        {
+          "term": "標記",
+          "detail": "XML由SGML簡化，自訂標記；HTML偏呈現，非XML直接來源。TEI文本編碼倡議以header交代背景。"
+        },
+        {
+          "term": "對映衍生",
+          "detail": "crosswalk對應既有元素，衍生發展新綱要；樞紐綱要減逐對對映，但可能失細節。"
+        },
+        {
+          "term": "擷取",
+          "detail": "OAI-PMH資料提供者、服務提供者、儲存庫合作取詮釋資料，一般讀者不是正式機制角色，也不自動解決全部語意。"
+        }
+      ],
+      "mnemonic": "XML裝、對映翻、OAI-PMH搬。",
+      "example": "creator對作者還要確認是否包含譯者，不能只換欄名。",
+      "trap": "匯入成功不表示意義一致，轉換需記規則損失。",
+      "recall": "以既有綱要發展新綱要叫什麼？",
+      "answer": "衍生；對映是在已有規範間找相應。",
       "questionIds": [
         "115-3-40",
         "115-3-41",
-        "114-3-46"
+        "110-3-42",
+        "109-3-45",
+        "107-3-41"
       ],
       "sources": [
         {
@@ -1844,42 +5906,294 @@
           "title": "DCMI：Dublin Core 詮釋資料用語",
           "url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/"
         }
-      ]
+      ],
+      "order": 40
     },
     {
-      "id": "cat-linked",
+      "id": "course-c40",
       "subjectIndex": 3,
-      "group": "語意網與詮釋資料",
-      "title": "RDF 與鏈結資料：用關係把資源連起來",
-      "lead": "RDF先想成「誰—有什麼關係—指向誰或什麼值」的三元組。",
+      "group": "06 模型與鏈結：把資料串成知識",
+      "title": "Dublin Core：一個對象，一組清楚描述",
+      "lead": "通用元素幫不同機構互通，非只限館員。",
+      "points": [
+        {
+          "term": "基本十五",
+          "detail": "題名創作者主題描述出版者貢獻者日期類型格式識別碼來源語言關係涵蓋權利；基本元素不含style。"
+        },
+        {
+          "term": "一對一",
+          "detail": "不把原作、譯本、掃描檔的特徵當同一物件；不是限制只能一個識別碼。"
+        },
+        {
+          "term": "互通界線",
+          "detail": "共同元素還需一致填值，DC非完整權威格式替代，也不是所有專業只能十五格。"
+        }
+      ],
+      "mnemonic": "先一物一描述，再看基本元素。",
+      "example": "掃描件可記自己的格式日期，再用來源關係連原件。",
+      "trap": "基本集合不等於DC所有發展永遠只有十五項。",
+      "recall": "一對一限制識別碼只能一個嗎？",
+      "answer": "不是，要求描述對象清楚，不混不同資源。",
+      "questionIds": [
+        "114-3-46",
+        "113-3-45",
+        "107-3-47"
+      ],
+      "sources": [
+        {
+          "title": "DCMI：Dublin Core 詮釋資料用語",
+          "url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/"
+        }
+      ],
+      "order": 41
+    },
+    {
+      "id": "course-c41",
+      "subjectIndex": 3,
+      "group": "06 模型與鏈結：把資料串成知識",
+      "title": "專門綱要：檔案、權威、藝術與政府",
+      "lead": "先配領域，再辨父子層級。",
+      "points": [
+        {
+          "term": "EAD",
+          "detail": "finding aids展示全宗系列案卷，舊EAD2002標頭eadheader、前置frontmatter、archdesc描述；filedesc等不是平行大區，新版另查。"
+        },
+        {
+          "term": "MADS",
+          "detail": "XML權威綱要，authority related variant分採用相關異名；identifier等minor是結構分類，不代表不重要，titleInfo層級另辨。"
+        },
+        {
+          "term": "藝術政府",
+          "detail": "CDWA描述藝術作品類別，AAT詞彙、EDM及CIDOC模型；GILS重內容取得呈現責任來源，非資訊安全分級。"
+        }
+      ],
+      "mnemonic": "EAD檔案、MADS權威、CDWA藝術，先父後子。",
+      "example": "把header子元素當整體大段，就像把房間當整棟樓。",
+      "trap": "歷史結構要標版本，不能永遠套新版。",
+      "recall": "AAT是完整藝術資料模型嗎？",
+      "answer": "不是，主要提供受控詞彙。",
+      "questionIds": [
+        "113-3-44",
+        "111-3-46",
+        "110-3-43",
+        "110-3-44",
+        "109-3-43",
+        "108-3-2",
+        "108-3-45"
+      ],
+      "sources": [
+        {
+          "title": "Getty：藝術與建築索引典 AAT",
+          "url": "https://www.getty.edu/research/tools/vocabularies/aat/"
+        },
+        {
+          "title": "DCMI：Dublin Core 詮釋資料用語",
+          "url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/"
+        },
+        {
+          "title": "美國國會圖書館：MARC 21 權威格式",
+          "url": "https://www.loc.gov/marc/authority/"
+        },
+        {
+          "title": "美國國會圖書館：MADS 權威資料綱要",
+          "url": "https://www.loc.gov/standards/mads/"
+        },
+        {
+          "title": "美國國會圖書館：EAD 檔案描述標準與版本",
+          "url": "https://www.loc.gov/ead/"
+        }
+      ],
+      "order": 42
+    },
+    {
+      "id": "course-c42",
+      "subjectIndex": 3,
+      "group": "06 模型與鏈結：把資料串成知識",
+      "title": "FRBR四層：故事、說法、版本、這一本",
+      "lead": "從抽象創作一路走到你手上的複本。",
+      "points": [
+        {
+          "term": "W與E",
+          "detail": "Work創作，Expression以特定語言演奏等實現；譯文或樂譜演奏可不同表現，改編可能新作品。"
+        },
+        {
+          "term": "M與I",
+          "detail": "Manifestation特定出版載體形式，Item特定複本；紙本電子版常差M，有本館條碼一本是I，數位也可有單件。"
+        },
+        {
+          "term": "群組關係",
+          "detail": "第一組WEMI，第二傳統人團體，第三主題；作品一對多表現，表現與具體呈現可多對多，別全背一對一。"
+        }
+      ],
+      "mnemonic": "故事W、說法E、版本M、這本I。",
+      "example": "同譯文平裝電子差M，同版有你筆記的那本是I特徵。",
+      "trap": "地區版評論改編先看內容，不只看封面語文。",
+      "recall": "本館有條碼那一本哪層？",
+      "answer": "Item單件，不是整種出版形式。",
+      "questionIds": [
+        "115-3-44",
+        "114-3-44",
+        "113-3-42",
+        "111-3-45",
+        "110-3-41",
+        "110-3-45",
+        "108-3-48",
+        "107-3-50",
+        "106-3-49"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：BIBFRAME",
+          "url": "https://www.loc.gov/bibframe/"
+        },
+        {
+          "title": "IFLA：FRBR、FRAD、FRSAD 與 LRM 概念模式",
+          "url": "https://www.ifla.org/g/bcm-rg/ifla-s-bibliographic-conceptual-models/"
+        }
+      ],
+      "order": 43
+    },
+    {
+      "id": "course-c43",
+      "subjectIndex": 3,
+      "group": "06 模型與鏈結：把資料串成知識",
+      "title": "FRAD到LRM：整合模型，新增探索",
+      "lead": "先懂WEMI，再懂權威辨識如何納入。",
+      "points": [
+        {
+          "term": "整合來源",
+          "detail": "LRM整合FRBR FRAD FRSAD；FRAD含家族名稱識別碼受控點規則機構，RDA不是第四個合併模型。"
+        },
+        {
+          "term": "任務",
+          "detail": "FRBR尋找識別選擇獲取，LRM加探索；FRAD脈絡化證成未原名列五任務，不代表依據沒用。"
+        },
+        {
+          "term": "範圍",
+          "detail": "IFLA推動，代理者分人與集體含家族團體；子類繼承父特徵不可反推全部父都有子特性，也不包辦採購行政。"
+        }
+      ],
+      "mnemonic": "三FR成LRM，四任務加探索。",
+      "example": "從作者沿合作關係發現其他作品，是探索。",
+      "trap": "不是LC單獨制定，也非MARC、RDA混合格式。",
+      "recall": "LRM多哪任務？",
+      "answer": "explore探索，沿關係發現脈絡。",
+      "questionIds": [
+        "115-3-42",
+        "115-3-43",
+        "114-3-40",
+        "114-3-49",
+        "113-3-40",
+        "111-3-1",
+        "111-3-41",
+        "111-3-50",
+        "110-3-10",
+        "110-3-49",
+        "109-3-42",
+        "109-3-50"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：MARC 21 權威格式",
+          "url": "https://www.loc.gov/marc/authority/"
+        },
+        {
+          "title": "IFLA：FRBR、FRAD、FRSAD 與 LRM 概念模式",
+          "url": "https://www.ifla.org/g/bcm-rg/ifla-s-bibliographic-conceptual-models/"
+        },
+        {
+          "title": "美國國會圖書館：BIBFRAME",
+          "url": "https://www.loc.gov/bibframe/"
+        }
+      ],
+      "order": 44
+    },
+    {
+      "id": "course-c44",
+      "subjectIndex": 3,
+      "group": "06 模型與鏈結：把資料串成知識",
+      "title": "書目關係：對等、衍生、部分與身分",
+      "lead": "先說兩資源怎麼相關，再套名稱。",
+      "points": [
+        {
+          "term": "內容形式",
+          "detail": "原書微縮複製常屬對等，改編翻譯有衍生脈絡；WEMI又分作品表現，不同框架名詞勿混。"
+        },
+        {
+          "term": "邏輯與模型",
+          "detail": "對稱可反向，反身對自己，非同義；PRESSoo處理連續資源動態複雜性，關係數量也依模型。"
+        },
+        {
+          "term": "外部三類",
+          "detail": "關係連結如出生地，身分連結認同一對象，詞彙連結對應綱要；語言標籤可存在但非三分法第四類。"
+        }
+      ],
+      "mnemonic": "先內容改否、載體改否、是不是部分。",
+      "example": "微縮複製和小說改舞臺劇，不能只因經過處理就叫同一關係。",
+      "trap": "身分連結需證據，同名不一定同人。",
+      "recall": "對稱等於反身嗎？",
+      "answer": "不是，對稱看反向，反身看自身。",
+      "questionIds": [
+        "113-3-43",
+        "113-3-46",
+        "113-3-47",
+        "106-3-34"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：BIBFRAME",
+          "url": "https://www.loc.gov/bibframe/"
+        },
+        {
+          "title": "IFLA：FRBR、FRAD、FRSAD 與 LRM 概念模式",
+          "url": "https://www.ifla.org/g/bcm-rg/ifla-s-bibliographic-conceptual-models/"
+        },
+        {
+          "title": "W3C：RDF 1.1 概念與資料模型",
+          "url": "https://www.w3.org/TR/rdf11-concepts/"
+        },
+        {
+          "title": "W3C：OWL 2 概述",
+          "url": "https://www.w3.org/TR/owl2-overview/"
+        }
+      ],
+      "order": 45
+    },
+    {
+      "id": "course-c45",
+      "subjectIndex": 3,
+      "group": "06 模型與鏈結：把資料串成知識",
+      "title": "RDF與SPARQL：三元組說話，圖樣提問",
+      "lead": "把資料讀成一句話，語意網就比較好懂。",
       "points": [
         {
           "term": "三元組",
-          "detail": "主詞 subject、述詞 predicate、受詞 object。述詞表達關係，不是自然語言整段敘述。"
+          "detail": "subject主體、predicate謂詞、object客體，誰有何關係對誰或值，沒有第四基本補語。"
         },
         {
-          "term": "URI／IRI",
-          "detail": "用識別碼指認資源，避免只靠字串名稱猜是不是同一個東西。"
+          "term": "工具分工",
+          "detail": "RDF模型多種語法，SPARQL查RDF，XML標記、OWL本體、SWRL規則，非全部查詢語言。"
         },
         {
-          "term": "鏈結資料",
-          "detail": "用HTTP URI讓資源可查找，提供有用的標準化資訊，再連向其他資源。"
-        },
-        {
-          "term": "SKOS",
-          "detail": "適合表達受控詞彙、分類與索引典的概念關係，建立在RDF之上。"
+          "term": "真假",
+          "detail": "資料網不只HTML文件網；RDF能表主張但不自證真實，仍需來源品質查核。"
         }
       ],
-      "example": "「某本書—作者—某個人」可成一個三元組；再把人連到權威識別碼，就能串起跨庫資訊。",
-      "trap": "RDF是資料模型，不是只能寫成XML。公開放上網也不自動等於具開放授權的鏈結開放資料。",
-      "recall": "RDF的述詞扮演什麼角色？",
-      "answer": "表達主詞與受詞之間的關係，例如作者、出版者。",
+      "mnemonic": "誰—什麼關係—誰或什麼值。",
+      "example": "查臺灣出生作者的書，可沿書→作者→出生地關係。",
+      "trap": "轉RDF不自動開放授權或保證正確。",
+      "recall": "Python是RDF標準查詢語言？",
+      "answer": "不是，SPARQL才是，Python可呼叫查詢。",
       "questionIds": [
+        "115-3-45",
         "115-3-47",
-        "115-3-49",
-        "114-3-42",
         "114-3-47",
-        "114-3-50"
+        "114-3-50",
+        "113-3-41",
+        "111-3-42",
+        "110-3-48",
+        "109-3-49",
+        "108-3-47"
       ],
       "sources": [
         {
@@ -1889,12 +6203,206 @@
         {
           "title": "W3C：鏈結資料設計原則",
           "url": "https://www.w3.org/DesignIssues/LinkedData.html"
+        }
+      ],
+      "order": 46
+    },
+    {
+      "id": "course-c46",
+      "subjectIndex": 3,
+      "group": "06 模型與鏈結：把資料串成知識",
+      "title": "鏈結資料：命名、查找、描述、向外連結",
+      "lead": "四步做完整，別人才能理解利用。",
+      "points": [
+        {
+          "term": "四原則",
+          "detail": "URI識別，HTTP URI可查，回有用標準描述如RDF，連其他URI；DOI非唯一，URL與URI不可完全當同義。"
+        },
+        {
+          "term": "Linked與Open",
+          "detail": "前者連結後者再利用權利；可讀禁改不自動符合開放資料精神，也不只用於機器學習。"
+        },
+        {
+          "term": "實作歷史",
+          "detail": "MARC轉RDF需語意對映穩定URI非改副檔名；Berners-Lee1998論述與2001普及文章、Web發明不同節點。"
+        }
+      ],
+      "mnemonic": "命名→查到→說清→連出去。",
+      "example": "HTTP負責查找傳輸，不能代替RDF關係描述。",
+      "trap": "HTML頁連結不等於完成鏈結資料。",
+      "recall": "Linked一定Open嗎？",
+      "answer": "不一定，仍需核對授權與再利用條件。",
+      "questionIds": [
+        "115-3-46",
+        "115-3-49",
+        "115-3-50",
+        "114-3-43",
+        "114-3-48",
+        "113-3-50",
+        "111-3-47",
+        "110-3-46",
+        "109-3-46",
+        "106-3-48"
+      ],
+      "sources": [
+        {
+          "title": "W3C：鏈結資料設計原則",
+          "url": "https://www.w3.org/DesignIssues/LinkedData.html"
+        },
+        {
+          "title": "美國國會圖書館：BIBFRAME",
+          "url": "https://www.loc.gov/bibframe/"
+        },
+        {
+          "title": "W3C：RDF 1.1 概念與資料模型",
+          "url": "https://www.w3.org/TR/rdf11-concepts/"
+        }
+      ],
+      "order": 47
+    },
+    {
+      "id": "course-c47",
+      "subjectIndex": 3,
+      "group": "06 模型與鏈結：把資料串成知識",
+      "title": "SKOS與KOS：概念和名字分開",
+      "lead": "同一概念能有多語異名，不能把字串直接當概念。",
+      "points": [
+        {
+          "term": "KOS",
+          "detail": "分類標題索引典等知識組織系統；術語典偏詞定義，索引典本體表較豐富關係，不是詞清單都有完整網絡。"
+        },
+        {
+          "term": "SKOS",
+          "detail": "RDF詞彙表達概念偏好及替代標籤、關係，助既有詞表互通；不是HTML改版也不是本體編輯軟體。"
+        },
+        {
+          "term": "範圍界線",
+          "detail": "輕量概念綱要不等完整推論本體，也不禁止新詞表；schema.org是詞彙非自動轉換器。"
+        }
+      ],
+      "mnemonic": "概念像人，標籤像名字，名字可多個。",
+      "example": "中文英文可標同概念，不必造兩個不同事物。",
+      "trap": "不同工具的關係強度不同，不能全稱完整本體。",
+      "recall": "SKOS概念與字詞合一不分嗎？",
+      "answer": "不是，刻意分開以支援異名多語。",
+      "questionIds": [
+        "114-3-41",
+        "114-3-42",
+        "113-3-48",
+        "113-3-49",
+        "111-3-44",
+        "110-3-47",
+        "109-3-48",
+        "107-3-42"
+      ],
+      "sources": [
+        {
+          "title": "W3C：SKOS 參考規範",
+          "url": "https://www.w3.org/TR/skos-reference/"
+        },
+        {
+          "title": "美國國會圖書館：BIBFRAME",
+          "url": "https://www.loc.gov/bibframe/"
+        },
+        {
+          "title": "W3C：OWL 2 概述",
+          "url": "https://www.w3.org/TR/owl2-overview/"
+        }
+      ],
+      "order": 48
+    },
+    {
+      "id": "course-c48",
+      "subjectIndex": 3,
+      "group": "06 模型與鏈結：把資料串成知識",
+      "title": "社會標記：自由好表達，也有歧義",
+      "lead": "你的便利標籤，別人未必懂。",
+      "points": [
+        {
+          "term": "三元關係",
+          "detail": "使用者替資源加標籤，folksonomy重自發協作，非先有專家詞表才可用。"
+        },
+        {
+          "term": "自然與控制",
+          "detail": "自然語言用熟悉詞，敘述詞已規範；自由有同義拼字歧義個人暗號，控制需維護但助聚集。"
+        },
+        {
+          "term": "呈現",
+          "detail": "標籤雲顯詞特性，ThemeRiver看時間變化；可加受控建議，但不等PMEST層面分類。"
+        }
+      ],
+      "mnemonic": "人—標籤—資源；自由表達，控制聚集。",
+      "example": "考前救命這標籤自己懂，別人未必知道是分類重點。",
+      "trap": "檢全檢準取捨非每次必然，提高自由度可能也漏同義。",
+      "recall": "folksonomy就是層面分類嗎？",
+      "answer": "不是，前者群眾自由詞，後者有分析組合規則。",
+      "questionIds": [
+        "115-3-48",
+        "111-3-43",
+        "109-3-47",
+        "107-3-30",
+        "107-3-44",
+        "106-3-30",
+        "106-3-46"
+      ],
+      "sources": [
+        {
+          "title": "W3C：RDF 1.1 概念與資料模型",
+          "url": "https://www.w3.org/TR/rdf11-concepts/"
         },
         {
           "title": "W3C：SKOS 參考規範",
           "url": "https://www.w3.org/TR/skos-reference/"
+        },
+        {
+          "title": "Getty：藝術與建築索引典 AAT",
+          "url": "https://www.getty.edu/research/tools/vocabularies/aat/"
         }
-      ]
+      ],
+      "order": 49
+    },
+    {
+      "id": "course-c49",
+      "subjectIndex": 3,
+      "group": "06 模型與鏈結：把資料串成知識",
+      "title": "BIBFRAME：Work、Instance、Item三層",
+      "lead": "不要把三層硬當FRBR四層完全對照。",
+      "points": [
+        {
+          "term": "層次",
+          "detail": "Work創作內容，Instance特定出版製作形式，Item實際複本館藏；未照抄四個獨立WEMI層。"
+        },
+        {
+          "term": "資料位置",
+          "detail": "出版地者年偏Instance，紙本電子差異也常在此；特定館藏條碼偏Item，不同ISBN出版識別。"
+        },
+        {
+          "term": "模型詞彙",
+          "detail": "BIBFRAME、EDM、CIDOC CRM是模型，AAT供詞值，可互相配合。"
+        }
+      ],
+      "mnemonic": "作品想內容，Instance想出版，Item想這一本。",
+      "example": "出版社某電子版是Instance，本館特定複本到Item。",
+      "trap": "111題出版條碼措辭含混，若ISBN不可當複本條碼判。",
+      "recall": "出版者與館藏條碼同層嗎？",
+      "answer": "通常不同，前者Instance，後者Item。",
+      "questionIds": [
+        "111-3-40",
+        "111-3-49",
+        "109-3-44"
+      ],
+      "sources": [
+        {
+          "title": "美國國會圖書館：BIBFRAME",
+          "url": "https://www.loc.gov/bibframe/"
+        },
+        {
+          "title": "Getty：藝術與建築索引典 AAT",
+          "url": "https://www.getty.edu/research/tools/vocabularies/aat/"
+        }
+      ],
+      "order": 50
     }
-  ]
+  ],
+  "method": "兩科逐題閱讀現有解析後，人工按核心概念合併；每題歸入一個主要主題。不同題型、版本及例外在同卡說明，完整逐選項說明沿用原題解析。"
 }

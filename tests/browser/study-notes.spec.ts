@@ -41,3 +41,22 @@ for(const width of [390,1440])test(`study notes, shared practice and word favori
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
  }
 });
+for(const width of [390,1440])test(`professional course coverage and opt-in source explanation at ${width}px`,async({page})=>{
+ await page.setViewportSize({width,height:900});await page.goto('/demo/');
+ await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'重點整理',exact:true}).click();
+ await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/^中文圖書分類編目大意/}).click();
+ await expect(page.getByRole('heading',{name:'50 個合併主題 · 450 / 450 題已對應'})).toBeVisible();
+ await page.getByRole('searchbox',{name:'搜尋重點'}).fill('115-3-15');
+ const card=page.locator('.note-card');await expect(card).toHaveCount(1);
+ await card.getByText(/閱讀完整重點/).click();await expect(card.getByText('用例子理解',{exact:true})).toBeVisible();
+ await expect(page.getByRole('dialog')).toHaveCount(0);
+ await card.getByText(/逐題對照、解析與官方來源/).click();
+ await page.getByRole('button',{name:'查看 115 年第 15 題原題解析',exact:true}).click();
+ await expect(page.getByRole('dialog')).toBeVisible();
+ await expect(page.getByRole('dialog').locator('.option-explanations')).toBeVisible();
+ await page.getByRole('button',{name:'關閉解析',exact:true}).click();
+ await card.getByRole('button',{name:/練習關聯考題/}).click();
+ await page.locator('.answer-list .option').first().click();await page.getByRole('button',{name:'確認答案',exact:true}).click();
+ await expect(page.getByRole('dialog')).toHaveCount(0);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+});

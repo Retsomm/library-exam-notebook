@@ -190,3 +190,21 @@ button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,te
 .note-source a{text-decoration:underline}
 @media(max-width:1100px){.notes-subjects{grid-template-columns:repeat(2,minmax(0,1fr))}.notes-grid{grid-template-columns:1fr}}
 @media(max-width:600px){.notes-intro,.note-card{padding:18px}.notes-filters{display:grid;grid-template-columns:minmax(0,1fr)}.note-card h3{font-size:19px}.notes-mode .btn{flex:1;white-space:normal}.favorites-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible}.favorites-tabs button{min-width:0;justify-content:center;white-space:normal}}
+/* Both courses share one card, practice flow and explanation dialog. */
+.course-outline{padding:24px;margin:20px 0;background:var(--paper);border:1px solid var(--line);border-radius:18px;line-height:1.8;min-width:0}
+.course-outline h3{font-size:21px;margin:8px 0}
+.course-outline ol{padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0}
+.course-outline .btn{display:flex;align-items:flex-start;flex-direction:column;gap:6px;text-align:left;width:100%;white-space:normal;line-height:1.65;min-height:64px}
+.course-outline .btn[aria-pressed="true"]{border-color:var(--green);color:var(--green)}
+.course-outline small{font-weight:400;color:var(--muted)}
+.note-mnemonic{padding:14px 16px;margin:0 0 16px;border-left:3px solid var(--green);background:var(--sage);border-radius:0 10px 10px 0}
+.note-mnemonic p{margin:0}
+.note-lesson{margin-bottom:18px}
+.note-lesson>summary{font-weight:700;min-height:44px}
+.note-lesson[open]>summary{margin-bottom:12px}
+.note-source{display:block;padding:14px 0;border-bottom:1px solid var(--line)}
+.note-question-preview{font-size:13px;line-height:1.7;color:var(--muted);max-height:6.8em;overflow:auto;white-space:pre-wrap}
+.note-source-actions{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
+.note-source-actions .btn,.note-source-actions .link,.note-source-actions a{min-height:44px;display:inline-flex;align-items:center;white-space:normal}
+.note-references a{display:block;margin:8px 0;overflow-wrap:anywhere}
+@media(max-width:600px){.course-outline{padding:18px}.course-outline ol{grid-template-columns:minmax(0,1fr)}.course-outline h3{font-size:18px}.note-source-actions{align-items:stretch}.note-source-actions .btn{width:100%;justify-content:center}}
