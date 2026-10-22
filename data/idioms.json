@@ -422,7 +422,13 @@
       "example": "在各位資深館員面前談編目，我實在是班門弄斧。",
       "questionIds": [
         "115-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "柳宗元〈王氏伯仲唱和詩序〉；魯班傳說",
+        "explanation": "「班」指以木工技藝聞名的魯班。在魯班面前揮斧頭、炫耀木工，就像剛學會兩招的人跑到大師面前賣弄。柳宗元曾用在魯班、郢人門前操斧的比喻，表達在行家面前獻技的意思。因此這個詞常用於自謙或批評不自量力，不能拿來稱讚自己終於練成好本領。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=5&webMd=2"
+      }
     },
     {
       "term": "朝三暮四",
@@ -452,7 +458,13 @@
       "example": "曾被詐騙的他成了驚弓之鳥，接到陌生電話就很緊張。",
       "questionIds": [
         "110-0-44"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《戰國策・楚策四》",
+        "explanation": "更羸告訴魏王，他不用箭也能射下飛過的大雁。原來那隻雁曾受箭傷，飛得慢、叫聲悲切；聽到弓弦聲便驚慌，傷口迸裂而墜落。故事的重點不是膽小天生如此，而是「過去受過傷，因此一遇類似刺激就害怕」。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=17&webMd=2"
+      }
     },
     {
       "term": "滄海桑田",
@@ -473,7 +485,13 @@
       "example": "沒有查證就指控同學作弊，是信口雌黃的行為。",
       "questionIds": [
         "113-0-8"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《晉書・王衍傳》",
+        "explanation": "雌黃是一種黃色礦物，古人可用來塗改文字。《晉書》記載王衍清談時，說法一有不妥就隨口改換，因此有人以「口中雌黃」形容他。從修改文字的材料，轉成隨意改換言論的比喻，後來「信口雌黃」便帶有任意妄說、歪曲事實的貶義。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=30&webMd=2"
+      }
     },
     {
       "term": "守株待兔",
@@ -483,7 +501,13 @@
       "example": "只讀去年考過的一題就期待高分，無異於守株待兔。",
       "questionIds": [
         "115-0-37"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《韓非子・五蠹》",
+        "explanation": "宋國一名農夫碰巧撿到撞上樹樁而死的兔子，就放下農具，天天守在樹樁旁等下一隻。結果兔子沒再來，田也荒廢了。「株」是樹樁，故事在提醒：偶然的好運不能當成固定規律，也不能代替努力。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=39&webMd=2"
+      }
     },
     {
       "term": "刻舟求劍",
@@ -494,7 +518,13 @@
       "questionIds": [
         "115-0-37",
         "114-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《呂氏春秋・察今》",
+        "explanation": "楚人乘船時把劍掉進水裡，卻只在船邊刻記號，打算靠岸後從記號處下水找劍。船已往前走，劍卻留在原來的水底，照著移動後的船去找當然找不到。錯誤就在「環境已變，方法仍不變」。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=43&webMd=2"
+      }
     },
     {
       "term": "一鼓作氣",
@@ -504,7 +534,13 @@
       "example": "趁思路清楚，我決定一鼓作氣完成這份報告。",
       "questionIds": [
         "106-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《左傳・莊公十年》曹劌論戰",
+        "explanation": "長勺之戰中，曹劌等齊軍三次擊鼓後，才請魯莊公進攻。他解釋，第一次擊鼓能振奮士氣，再次便衰弱，第三次已疲乏。「一鼓」因此成為初起的旺盛氣勢；現代用法重點是趁精神正盛，一口氣完成事情。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=48&webMd=2"
+      }
     },
     {
       "term": "紙上談兵",
@@ -555,7 +591,13 @@
       "questionIds": [
         "110-0-30",
         "109-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《後漢書・光武帝紀》",
+        "explanation": "劉秀對歸附的士兵以誠相待，讓他們感到他像是把真心放進別人的肚子裡，毫無猜防。「心」「腹」都是內心的象徵，所以推心置腹不是身體動作，而是把真正的想法與信任交給對方。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=82&webMd=2"
+      }
     },
     {
       "term": "病入膏肓",
@@ -565,7 +607,13 @@
       "example": "這個組織的貪腐已病入膏肓，光換招牌無法解決。",
       "questionIds": [
         "111-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《左傳・成公十年》",
+        "explanation": "晉景公病重，夢見疾病化成兩個小人，商量躲到藥物與針灸難以到達的「膏」「肓」之間。醫者診察後也說已無法治療。這是古人的醫療觀念與敘事，成語沿用的是「病勢深重、難以挽救」的比喻，不是現代醫學診斷。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=83&webMd=2"
+      }
     },
     {
       "term": "一言九鼎",
@@ -585,7 +633,13 @@
       "example": "祖父母相伴多年，依然舉案齊眉，凡事尊重對方。",
       "questionIds": [
         "106-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《後漢書・梁鴻傳》",
+        "explanation": "孟光給丈夫梁鴻送飯時，把盛食物的托盤舉到眉際，以示敬意。「案」在這裡是托盤，不是案件或辦公桌。故事後來用來形容夫妻彼此敬重，不適合直接形容競爭者實力相當。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=91&webMd=2"
+      }
     },
     {
       "term": "車水馬龍",
@@ -606,7 +660,13 @@
       "questionIds": [
         "115-0-38",
         "107-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《詩經・豳風・鴟鴞》",
+        "explanation": "詩中鳥兒趁還沒下雨，取桑樹根皮，修補、纏緊巢的門戶。「綢繆」在這裡是緊密纏束，不是纏綿感情。把鳥先修巢的畫面連到生活，就是在事情發生前先準備，而不是災難來了才補救。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=97&webMd=2"
+      }
     },
     {
       "term": "偃旗息鼓",
@@ -616,7 +676,13 @@
       "example": "雙方達成協議後，這場持續數月的爭論終於偃旗息鼓。",
       "questionIds": [
         "106-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "偃、息的字義與軍事用語",
+        "explanation": "古代軍隊用旗幟和鼓聲傳達指令、振作聲勢。「偃」是放倒，「息」是停止，旗放下、鼓不響，就呈現停止戰鬥或隱藏行動的樣子。後來可泛指活動停止、爭論平息；不能把「息鼓」理解為更用力擊鼓。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=112&webMd=2"
+      }
     },
     {
       "term": "拾人牙慧",
@@ -626,7 +692,13 @@
       "example": "這篇評論只是拾人牙慧，沒有提出自己的觀察。",
       "questionIds": [
         "114-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《世說新語・文學》",
+        "explanation": "殷浩曾問外甥韓康伯，是否又撿了別人的「牙後慧」。這是把別人說過的聰明話，比作牙齒後剩下的東西。後來用「拾人牙慧」批評只重複別人的見解，卻拿來當自己的創見；關鍵不在引用，而在沒有自己的思考。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=115&webMd=2"
+      }
     },
     {
       "term": "乘風破浪",
@@ -636,7 +708,13 @@
       "example": "帶著明確目標，我們準備在新的學期乘風破浪。",
       "questionIds": [
         "108-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《宋書・宗愨傳》",
+        "explanation": "宗愨年少被問及志向時，回答自己想乘長風、破萬里浪。他不是只想描述一次搭船旅行，而是借航海面對大風浪的畫面，表達遠大志向。後來成語便用來形容勇敢向前、克服阻礙。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=118&webMd=2"
+      }
     },
     {
       "term": "杯水車薪",
@@ -657,7 +735,13 @@
       "questionIds": [
         "108-0-1",
         "107-0-40"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《史記・越王句踐世家》",
+        "explanation": "范蠡在越國成功後勸文種離去，指出鳥獵完了弓可能被收藏，兔子捕完了獵狗也可能被烹煮。工具或功臣在完成任務後，反而失去價值甚至遭害，才是這組比喻的重點。因此它談的是忘恩與清算，不只是兔子或狗的生死。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=125&webMd=2"
+      }
     },
     {
       "term": "拋磚引玉",
@@ -677,7 +761,13 @@
       "example": "手機通知不斷，讓他讀書時總是心猿意馬。",
       "questionIds": [
         "109-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "宗教修心用語；《參同契》徐景休箋註",
+        "explanation": "猿猴不停攀跳，馬匹奔馳難收，古人便用這兩種動物比喻散亂、不安定的心念。「心猿」「意馬」後來合成固定說法，形容想東想西、無法專注。記憶時抓住「心念難以收束」，不要把它理解成行動敏捷。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=133&webMd=2"
+      }
     },
     {
       "term": "過河拆橋",
@@ -688,7 +778,13 @@
       "questionIds": [
         "109-0-38",
         "108-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "渡河與橋梁的生活比喻",
+        "explanation": "橋幫人過河，過了河卻把橋拆掉，就把曾經幫助自己的依靠拋棄了。這個比喻含有「目的達成後不認恩情」的批評；不是稱讚懂得斷絕退路，也不同於破釜沉舟的決心。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=139&webMd=2"
+      }
     },
     {
       "term": "前倨後恭",
@@ -699,7 +795,13 @@
       "questionIds": [
         "113-0-6",
         "107-0-21"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《戰國策・秦策一》；《史記・蘇秦列傳》",
+        "explanation": "蘇秦落魄返家時，家人態度冷淡；等他顯達後，嫂嫂卻跪伏相迎。他於是追問，為什麼先前傲慢、後來恭敬？「倨」是傲慢，這個強烈的前後反差揭露看地位、財富改變態度的勢利，並非一般熱情接待。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=142&webMd=2"
+      }
     },
     {
       "term": "弄巧成拙",
@@ -720,7 +822,13 @@
       "questionIds": [
         "115-0-2",
         "114-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《莊子・田子方》追隨孔子而不及的比喻",
+        "explanation": "顏回以走、跑與奔馳的不同速度，比喻自己追隨老師境界的困難。後來望塵莫及像是只能遠望前人揚起的塵土，卻追趕不上，著重差距甚大；不是看見塵土便不願接近。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=150&webMd=2"
+      }
     },
     {
       "term": "水到渠成",
@@ -750,7 +858,13 @@
       "example": "每天背幾個單字，長期累積便能水滴石穿。",
       "questionIds": [
         "113-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "滴水與石頭的自然比喻",
+        "explanation": "水滴看似微弱，長期落在同一處，卻能逐漸侵蝕堅硬石面。成語借這個畫面說明力量雖小，只要持續就可能累積成效。重點是「時間加上持續」，而不是一次使出特別大的力氣。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=179&webMd=2"
+      }
     },
     {
       "term": "袖手旁觀",
@@ -782,7 +896,13 @@
       "questionIds": [
         "114-0-21",
         "109-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《晉書・庾翼傳》",
+        "explanation": "庾翼評論某些高談名理的人，意思是平時可以置於高閣，等天下太平才談任用。「束」是捆起來，「高閣」是高處的架閣；放到高處不再取用，後來就比喻把提案、書籍或人才擱置不用。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=193&webMd=2"
+      }
     },
     {
       "term": "見異思遷",
@@ -803,7 +923,13 @@
       "example": "選書只看封面而完全不看內容，未免有買櫝還珠之嫌。",
       "questionIds": [
         "113-0-7"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《韓非子・外儲說左上》",
+        "explanation": "楚人賣珍珠，特地做了香氣、裝飾都很精美的盒子。鄭國買家喜歡盒子，卻把真正貴重的珍珠退回。「櫝」是盒子，故事嘲諷把包裝當寶、忽略內容，所以不能用來稱讚精明投資。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=199&webMd=2"
+      }
     },
     {
       "term": "明哲保身",
@@ -825,7 +951,13 @@
       "questionIds": [
         "109-0-4",
         "106-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "星月與衣著動作的比喻",
+        "explanation": "把星光當作披在身上的衣服，把月亮當作戴在頭上的帽子，描寫人在天未亮或天已黑時仍奔走。由夜間趕路的畫面，轉成早出晚歸、辛勤忙碌的意思；不是單純在夜裡賞月。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=215&webMd=2"
+      }
     },
     {
       "term": "相敬如賓",
@@ -835,7 +967,13 @@
       "example": "他們結婚多年仍相敬如賓，有分歧時也耐心溝通。",
       "questionIds": [
         "114-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《左傳・僖公三十三年》",
+        "explanation": "臼季出使時看到郤缺耕田，妻子送飯，兩人彼此尊重，像接待賓客一般有禮。他因此認為郤缺有德，向晉文公推薦。成語保存的是夫妻互敬的美德，而不是夫妻生疏到像陌生人。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=216&webMd=2"
+      }
     },
     {
       "term": "鶴立雞群",
@@ -845,7 +983,13 @@
       "example": "她的作品在這次學生展覽中鶴立雞群。",
       "questionIds": [
         "110-0-44"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《世說新語・容止》",
+        "explanation": "有人形容嵇紹在人群中的儀態，像野鶴站在雞群裡，一眼就顯得突出。從外貌、氣度的醒目，後來也推廣到才能優秀。比較的是同一群體中的出眾，不是孤僻或被排擠。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=217&webMd=2"
+      }
     },
     {
       "term": "旁若無人",
@@ -875,7 +1019,13 @@
       "example": "廣告說得天花亂墜，實際使用效果卻很普通。",
       "questionIds": [
         "113-0-8"
-      ]
+      ],
+      "origin": {
+        "kind": "傳說",
+        "reference": "佛教講經感應傳說",
+        "explanation": "傳說高僧說法感動天界，天上的花紛紛落下，原來帶有讚嘆講說精彩的意味。後來用法常轉為批評說得太動聽、太誇張，卻未必可靠。這是宗教傳說的意象，不能當成已證實的歷史事件。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=229&webMd=2"
+      }
     },
     {
       "term": "落井下石",
@@ -896,7 +1046,13 @@
       "questionIds": [
         "110-0-37",
         "108-0-23"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "蘇軾〈九日次韻王鞏〉",
+        "explanation": "重陽節賞菊，過了節日，菊花的時令意義便不同；蘇軾詩中以「明日黃花」表現不必等到佳時過去。後來借指已過時的事物。這裡的明日是節後，不是預告明天會有新鮮事物。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=245&webMd=2"
+      }
     },
     {
       "term": "迎刃而解",
@@ -917,7 +1073,13 @@
       "questionIds": [
         "110-0-38",
         "106-0-18"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "古代近身作戰用語",
+        "explanation": "「兵」在這裡指兵器，不是士兵；短刀短劍要靠近對方才能交戰，因此短兵相接先指近距離戰鬥，再引申為雙方直接交鋒。遇到字義比較題，應特別分清「兵器」與「軍隊」兩種意思。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=269&webMd=2"
+      }
     },
     {
       "term": "事半功倍",
@@ -928,7 +1090,13 @@
       "questionIds": [
         "114-0-1",
         "110-0-26"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《孟子・公孫丑上》",
+        "explanation": "公孫丑問孟子，若掌握齊國政權能有何成就。孟子認為當時推行仁政有條件上的優勢，可用較少力量取得較大功效。後來成語不只談政治，也形容方法合宜、效率高；「事」是投入的功夫，「功」是獲得的成效。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=273&webMd=2"
+      }
     },
     {
       "term": "對症下藥",
@@ -958,7 +1126,13 @@
       "example": "面對讀者需求的變化，服務方式不能抱殘守缺。",
       "questionIds": [
         "115-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《漢書・楚元王傳》所載劉歆〈移書讓太常博士〉",
+        "explanation": "劉歆批評一些學者固守所知的殘缺材料，不願接受新的文獻與見解。「殘」「缺」原本關乎不完備的學術材料，後來泛指死守過時、不完整的觀念。因此不是災民珍惜剩餘家當，也不是節儉的稱讚。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=281&webMd=2"
+      }
     },
     {
       "term": "聲東擊西",
@@ -979,7 +1153,13 @@
       "example": "他因一次重要發現而平步青雲，成為研究團隊的主管。",
       "questionIds": [
         "109-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《成語典》「平步」「青雲」語源說明",
+        "explanation": "「平步」像平常走路一樣輕易，「青雲」則借高空象徵顯要地位。兩個詞組合起來，便像一步就登上高處，說的是仕途或地位順利升高。它描述升遷結果，不等於一個人願意刻苦努力。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=298&webMd=2"
+      }
     },
     {
       "term": "水乳交融",
@@ -999,7 +1179,13 @@
       "example": "發現帳目出現小差錯便立即查核，才能防微杜漸。",
       "questionIds": [
         "107-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《後漢書・丁鴻傳》相關用語",
+        "explanation": "「微」是還很小的問題，「漸」是逐漸擴大的趨勢，「杜」是堵住。把問題在初起時就防止、阻斷，才能避免積成大患。它不是等災難完全發生後再搶救。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=313&webMd=2"
+      }
     },
     {
       "term": "克紹箕裘",
@@ -1010,7 +1196,13 @@
       "questionIds": [
         "113-0-7",
         "109-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《禮記・學記》",
+        "explanation": "《學記》以工匠家庭教子作比：好的冶工之子先學縫裘，好的弓匠之子先學編箕，透過相關手藝打基礎。「箕裘」後來借指父祖的事業，「克」是能夠，「紹」是繼承。成語因此稱讚能承接家業或家學。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=315&webMd=2"
+      }
     },
     {
       "term": "沽名釣譽",
@@ -1020,7 +1212,13 @@
       "example": "若捐款只是為了上新聞，難免有沽名釣譽之嫌。",
       "questionIds": [
         "115-0-37"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "買賣、釣取的動作比喻",
+        "explanation": "「沽」有買賣、求取的意思，「釣」是設法釣到；把名聲當成刻意獵取的東西，就帶出做表面功夫博取好評的意思。重點在名不副實或動機不純，不能用它稱讚真正踏實做事的人。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=319&webMd=2"
+      }
     },
     {
       "term": "欣欣向榮",
@@ -1050,7 +1248,13 @@
       "example": "兩隊旗鼓相當，比賽到最後一刻才分出勝負。",
       "questionIds": [
         "106-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "旗幟與戰鼓代指軍勢",
+        "explanation": "旗幟、戰鼓原本與軍隊指揮及聲勢有關，兩邊旗鼓相當，便表示軍力大致匹敵。後來可以談比賽、辯論或能力比較，重點是雙方實力接近，不是指兩人感情和睦。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=367&webMd=2"
+      }
     },
     {
       "term": "禮尚往來",
@@ -1061,7 +1265,13 @@
       "questionIds": [
         "110-0-4",
         "108-0-43"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《禮記・曲禮上》",
+        "explanation": "《曲禮》說明，人際禮節不能只有一方付出：有來而沒有往，或有往而沒有來，都不合禮。「尚」是重視，因此禮尚往來重在相互回應、維持情誼，並不要求每件禮物都精算成相同價格。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=374&webMd=2"
+      }
     },
     {
       "term": "肆無忌憚",
@@ -1081,7 +1291,13 @@
       "example": "等待面試結果時，他的心裡七上八下。",
       "questionIds": [
         "108-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "上下來回的心理意象",
+        "explanation": "把心情想像成一會兒往上、一會兒往下，無法安定，就能記住忐忑慌亂的意思。七、八在這裡共同營造紛亂感，不必算成十五件事情。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=416&webMd=2"
+      }
     },
     {
       "term": "孤芳自賞",
@@ -1101,7 +1317,13 @@
       "example": "她小心翼翼地翻閱脆弱的古籍。",
       "questionIds": [
         "114-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《詩經・大雅・大明》",
+        "explanation": "詩中用「小心翼翼」形容周文王謹慎恭敬地奉事上天。「翼翼」是恭敬、整飭的樣子，不是像鳥張開翅膀。後來語意擴大，凡做事仔細、怕出差錯，都可使用。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=433&webMd=2"
+      }
     },
     {
       "term": "如膠似漆",
@@ -1132,7 +1354,13 @@
       "example": "面對不合理的拉攏，他先虛與委蛇，再尋機婉拒。",
       "questionIds": [
         "115-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《莊子・應帝王》",
+        "explanation": "故事中壺子與善於相人的季咸周旋，使對方無法掌握自己的狀態。「虛與委蛇」原來包含不固執、隨順應變的意思，後世常轉成假意應付、表面周旋。「蛇」在此讀ㄧˊ；現代使用時通常不是坦誠合作的稱讚。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=463&webMd=2"
+      }
     },
     {
       "term": "捕風捉影",
@@ -1153,7 +1381,13 @@
       "questionIds": [
         "114-0-4",
         "113-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《禮記・檀弓下》",
+        "explanation": "晉國趙武的新居落成，張老用「美哉輪焉，美哉奐焉」讚嘆房屋高大、華美，並寄寓對主人的期許。因此它原本的讚美對象是建築。考題拿天然山川來搭配時，就要留意對象是否合適。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=479&webMd=2"
+      }
     },
     {
       "term": "隨波逐流",
@@ -1164,7 +1398,13 @@
       "questionIds": [
         "114-0-22",
         "111-0-42"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "水流帶動漂浮物的比喻",
+        "explanation": "物體漂在水上，水往哪裡走，它就跟著走，沒有自己決定的方向。借到做人處事，就是缺少立場、隨別人或風氣改變。它與保持原則後再靈活調整，不是同一種態度。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=490&webMd=2"
+      }
     },
     {
       "term": "出人頭地",
@@ -1174,7 +1414,13 @@
       "example": "他希望靠扎實的專業能力出人頭地。",
       "questionIds": [
         "113-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "歐陽脩〈與梅聖俞書〉",
+        "explanation": "歐陽脩讀到蘇軾的文章，十分欣賞，說自己應讓路，讓他比自己更出眾。原來是前輩願意推讓給後起人才的稱許，後來才成為超出一般人、取得成就的說法。「頭地」不是字面上頭部所在的位置。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=491&webMd=2"
+      }
     },
     {
       "term": "玩物喪志",
@@ -1205,7 +1451,13 @@
       "example": "創新服務需要觀察需求，不能一直墨守成規。",
       "questionIds": [
         "115-0-37"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "墨子善守的形象與後來用語",
+        "explanation": "墨子以善於守城聞名，「墨守」因而有牢牢守住的意思；與「成規」合用後，常批評拘泥既有規矩、不肯變通。這是詞義後來的發展，不應倒過來說墨子本人主張拒絕創新。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=506&webMd=2"
+      }
     },
     {
       "term": "塞翁失馬",
@@ -1215,7 +1467,13 @@
       "example": "這次落選讓他找到更適合的方向，也算塞翁失馬。",
       "questionIds": [
         "110-0-44"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《淮南子・人間訓》",
+        "explanation": "邊塞老人失馬，後來馬帶回良馬；兒子騎馬摔傷，卻因此免於出征。禍與福在故事中幾次轉換，提醒人不要只憑眼前得失判斷全部結果。不是保證每一次壞事最後都一定變成好事。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=534&webMd=2"
+      }
     },
     {
       "term": "得過且過",
@@ -1225,7 +1483,13 @@
       "example": "他不再得過且過，開始認真規畫自己的學習。",
       "questionIds": [
         "115-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「過」的過活、度過之義",
+        "explanation": "兩個「過」都與把日子或事情應付過去有關，「且」帶著暫且之意。合起來就是只求眼前勉強過關，不願認真規畫或改進。它不是安然接受處境的「隨遇而安」，而有敷衍怠惰的批評。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=536&webMd=2"
+      }
     },
     {
       "term": "任勞任怨",
@@ -1265,7 +1529,13 @@
       "example": "順利完成首場展覽後，她躊躇滿志，準備挑戰更大的計畫。",
       "questionIds": [
         "115-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《莊子・養生主》庖丁解牛",
+        "explanation": "庖丁熟練地解完牛，提刀站立，四顧而滿足，呈現完成技藝後的自得。「躊躇」在這個固定詞裡不能照平常的「猶豫」解；整體意思是對成就或現況感到滿意、得意。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=597&webMd=2"
+      }
     },
     {
       "term": "春風化雨",
@@ -1285,7 +1555,13 @@
       "example": "新主管雷厲風行地整頓流程，很快改善了延誤情況。",
       "questionIds": [
         "115-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "韓愈〈潮州刺史謝上表〉",
+        "explanation": "韓愈在表文中以雷的猛烈、風的迅速來形容施政作為。由兩種自然力量連成的畫面，就能記住這個詞兼有「果決有力」與「執行迅速」。它不是只說聲音很大，或脾氣急躁。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=603&webMd=2"
+      }
     },
     {
       "term": "人浮於事",
@@ -1295,7 +1571,13 @@
       "example": "業務縮減後仍維持原編制，造成部分部門人浮於事。",
       "questionIds": [
         "115-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "「浮」的超過之義；《禮記・坊記》相關用語",
+        "explanation": "「浮」在這裡不是漂浮，而是超過。古文曾比較職事與俸祿的多寡，後來「人浮於事」固定用來說人員數量超過工作需要。記憶時看成「人數比事情多」，就不會誤認為忙得人手不足。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=608&webMd=2"
+      }
     },
     {
       "term": "目空一切",
@@ -1315,7 +1597,13 @@
       "example": "對安全提醒充耳不聞，往往會付出代價。",
       "questionIds": [
         "115-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《詩經・邶風・旄丘》「褎如充耳」相關意象",
+        "explanation": "「充耳」原可指冠旁的耳飾；後來也用塞住耳朵的畫面表達不願聽取。現代成語常強調對話語、勸告故意不理會，而非真的聽不到聲音。因此隔音設備好，不宜直接說成充耳不聞。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=616&webMd=2"
+      }
     },
     {
       "term": "聽天由命",
@@ -1325,7 +1613,13 @@
       "example": "考前仍有時間補強，不必現在就聽天由命。",
       "questionIds": [
         "111-0-42"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "把結果交給天命的觀念",
+        "explanation": "「聽」「由」都有任憑之意，天命代表超出自身控制的安排。成語表現不再主動干預、任由命運決定的態度；有時是盡力後的無奈，有時則批評消極放棄，須看語境。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=623&webMd=2"
+      }
     },
     {
       "term": "有志竟成",
@@ -1345,7 +1639,13 @@
       "example": "他身居要職卻行為卑劣，被人譏為沐猴而冠。",
       "questionIds": [
         "108-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《史記・項羽本紀》",
+        "explanation": "有人勸項羽留在關中建立事業，項羽卻想衣錦還鄉，於是遭譏像猴子戴上人的冠帽。故事以外表有了人的服飾、內在卻未相稱，批評徒具身分而缺乏相應才德。「沐猴」是獼猴，不是洗過澡的猴子。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=641&webMd=2"
+      }
     },
     {
       "term": "處心積慮",
@@ -1355,7 +1655,13 @@
       "example": "他處心積慮地造假帳目，最後仍被查出。",
       "questionIds": [
         "115-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《穀梁傳・隱公元年》相關論述",
+        "explanation": "古文討論鄭莊公與弟弟共叔段的衝突，責備他長期存心、積累謀算。由這種不善的策畫背景，可以理解成語為何通常含有貶義。想稱讚認真準備文件，應說用心規畫或盡心盡力，不宜稱處心積慮。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=646&webMd=2"
+      }
     },
     {
       "term": "標新立異",
@@ -1376,7 +1682,13 @@
       "questionIds": [
         "110-0-3",
         "106-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《莊子・天下》論大禹治水",
+        "explanation": "《莊子》描寫大禹治水奔波，讓風替自己梳頭、讓雨替自己洗浴。「櫛」本是梳子，在這裡作梳髮之意；「沐」是洗髮。誇張的畫面表達長期在外辛勞，不只是天氣不好。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=658&webMd=2"
+      }
     },
     {
       "term": "劍拔弩張",
@@ -1397,7 +1709,13 @@
       "questionIds": [
         "115-0-36",
         "113-0-6"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "教育部《成語典》；蘇轍〈進君術策・第五道〉（可能典源）",
+        "explanation": "先想像江河的水一直往低處流。「日」在這裡是一天一天，「下」是往下走，後來轉用來說情勢逐漸衰敗。教育部《成語典》把宋代蘇轍談治國的文章列為可能典源：他以水流說明，若放任而不妥善引導，局面可能愈來愈難收拾。要注意「可能」二字，不能把它說成已確定的唯一出處。這個詞的核心是「持續變壞」，不是單純流動得快。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=671&webMd=2"
+      }
     },
     {
       "term": "色厲內荏",
@@ -1407,7 +1725,13 @@
       "example": "他看似氣勢洶洶，其實色厲內荏，一被追問就慌了。",
       "questionIds": [
         "106-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《論語・陽貨》",
+        "explanation": "孔子批評外表強硬、內裡軟弱的人。「色」指外在神色，「厲」是嚴厲，「荏」是柔弱；四個字把外強與內弱對照起來。它不表示受一點怨氣就一定報復，那是睚眥必報。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=673&webMd=2"
+      }
     },
     {
       "term": "萍水相逢",
@@ -1427,7 +1751,13 @@
       "example": "面對網路傳言要查證，避免三人成虎。",
       "questionIds": [
         "115-0-2"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《戰國策・魏策二》",
+        "explanation": "龐蔥問魏王，一個人說街上有虎，相信嗎？兩個人、三個人都這樣說呢？魏王逐漸覺得可信。故事用明明不合理的街市老虎，說明謠言反覆傳播會動搖判斷，不是在稱讚三個人合作很勇猛。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=683&webMd=2"
+      }
     },
     {
       "term": "釜底抽薪",
@@ -1437,7 +1767,13 @@
       "example": "改善漏水的源頭，才是釜底抽薪的辦法。",
       "questionIds": [
         "107-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "火源與沸水的根本關係",
+        "explanation": "「釜」是鍋，「薪」是柴，把鍋底的柴抽走，水便失去持續沸騰的熱源。成語因此比喻從根本解除問題。和揚湯止沸只搬動熱水相比，差別在有沒有處理造成問題的原因。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=689&webMd=2"
+      }
     },
     {
       "term": "運籌帷幄",
@@ -1467,7 +1803,13 @@
       "example": "這份報告排版精美卻沒有資料支持，實在虛有其表。",
       "questionIds": [
         "108-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "鄭處誨《明皇雜錄》所載蕭嵩故事",
+        "explanation": "記載中，蕭嵩外貌高大、儀表出眾，表現卻未能符合人們的期待，因此被評論徒有外表。記住「表」是外在、「虛」是內裡不足，就能掌握它對名實不符的批評。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=708&webMd=2"
+      }
     },
     {
       "term": "患得患失",
@@ -1550,7 +1892,13 @@
       "example": "明知違規還持續造假，最後受罰只能說是咎由自取。",
       "questionIds": [
         "114-0-7"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「咎」與「取」的字義",
+        "explanation": "「咎」指過失、責難或災禍，「自取」是自己招來。因自己的選擇造成不良結果，才適合說咎由自取；若是不由自主的天災或別人加害，就不能輕率地拿這個詞責備當事人。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=789&webMd=2"
+      }
     },
     {
       "term": "醉生夢死",
@@ -1611,7 +1959,13 @@
       "example": "隨意交出帳號密碼，等於引狼入室。",
       "questionIds": [
         "110-0-44"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "狼與住處的危險意象",
+        "explanation": "狼在這個比喻裡代表會傷害人的危險力量，自己把牠帶進屋裡，就讓威脅進入原本應安全的範圍。成語因此強調「自己引進危害」，不同於敵人從外面突然闖入。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=827&webMd=2"
+      }
     },
     {
       "term": "老成持重",
@@ -1664,7 +2018,13 @@
       "questionIds": [
         "115-0-37",
         "114-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《史記・廉頗藺相如列傳》",
+        "explanation": "藺相如反對讓只懂紙上兵法的趙括領軍，拿把瑟的調音柱黏死來比喻。柱子不能移動，琴就無法隨需要調音；兵法若照本宣科，也不能因應戰況。這個故事強調的是拘泥方法、不知變通。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=863&webMd=2"
+      }
     },
     {
       "term": "付之一炬",
@@ -1674,7 +2034,13 @@
       "example": "倉庫失火，多年收藏竟付之一炬。",
       "questionIds": [
         "114-0-7"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「炬」的火把之義",
+        "explanation": "「付」是交給，「炬」是火把，整個詞的畫面是把東西交給一把火燒毀。因此它最重要的語意條件是火焚；若題目寫收藏被洪水沖走，雖同樣是損失，也不能直接換成付之一炬。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=868&webMd=2"
+      }
     },
     {
       "term": "飛黃騰達",
@@ -1684,7 +2050,13 @@
       "example": "他進入公司後飛黃騰達，幾年內就升任高階主管。",
       "questionIds": [
         "108-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "韓愈〈符讀書城南〉",
+        "explanation": "韓愈在勉勵讀書的詩裡，以傳說中神馬「飛黃」奔騰遠去，比喻人生境遇拉開差距。「飛黃」不是黃色飛鳥，而是神馬名。後來成語多用於地位、仕途迅速上升，著重成功顯達。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=880&webMd=2"
+      }
     },
     {
       "term": "嬌生慣養",
@@ -1704,7 +2076,13 @@
       "example": "只擦掉牆上的水漬而不修漏水，無異於揚湯止沸。",
       "questionIds": [
         "110-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "以沸水說理的古代譬喻",
+        "explanation": "「湯」在古文是熱水，「揚」是舀起再倒下。水仍受火加熱，只把沸水舀來舀去，並沒有消除熱源，所以只能暫緩表面現象。與釜底抽薪對照，就能分清「治標」和「從根本處理」。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=926&webMd=2"
+      }
     },
     {
       "term": "頭頭是道",
@@ -1785,7 +2163,13 @@
       "example": "小說描寫那名紈絝子弟成天尋花問柳，荒廢家業。",
       "questionIds": [
         "111-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "遊春語彙與後來的語義轉變",
+        "explanation": "原可描寫尋訪花柳、賞春遊景，後來也常借指追逐風月、嫖妓等行為。因此不能看到花柳便只套入自然風景，也不能一律判成不正當行為；要看人物活動與文章語境。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1032&webMd=2"
+      }
     },
     {
       "term": "刻骨銘心",
@@ -1818,7 +2202,13 @@
         "111-0-37",
         "111-0-44",
         "108-0-41"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "新舊更替的生活比喻",
+        "explanation": "「陳」是舊的，「推陳」是把陳舊、不合用的部分推出去，再讓新內容出現。這個詞強調在既有基礎上改進，不是為了不同而故意怪異，也不是完全否定所有舊事物。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1061&webMd=2"
+      }
     },
     {
       "term": "物換星移",
@@ -1838,7 +2228,13 @@
       "example": "從借閱類型的改變，可以一葉知秋，察覺社區需求的轉向。",
       "questionIds": [
         "108-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《淮南子・說山訓》見葉落而知歲暮的比喻",
+        "explanation": "古人由一片葉子的凋落推知季節變化，把小跡象與大趨勢連起來。後來一葉知秋不一定談秋天，而是從局部線索掌握整體變化。重點是有根據的推知，不是看到一點現象就隨意猜測。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1068&webMd=2"
+      }
     },
     {
       "term": "動輒得咎",
@@ -1889,7 +2285,13 @@
       "example": "史書記載暴君的罪行擢髮難數。",
       "questionIds": [
         "110-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《舊唐書・李密傳》所載討隋檄文",
+        "explanation": "討伐隋煬帝的文字以拔光頭髮也數不完來形容罪惡之多。「擢」是拔起，「數」是計數。因為這個詞與列舉罪行的語境密切相關，通常不能用來稱讚功德或收藏很多。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1087&webMd=2"
+      }
     },
     {
       "term": "耀武揚威",
@@ -1929,7 +2331,13 @@
       "example": "充滿爾虞我詐的合作關係，很難長久維持。",
       "questionIds": [
         "109-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《左傳・宣公十五年》",
+        "explanation": "楚、宋訂盟時約定彼此不欺騙，古文有「我無爾詐，爾無我虞」的說法。後來固定詞刪去否定語，轉成你騙我、我騙你的情況。「虞」在此也是欺騙，不是憂慮或準備。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1134&webMd=2"
+      }
     },
     {
       "term": "陽春白雪",
@@ -1940,7 +2348,13 @@
       "questionIds": [
         "115-0-6",
         "110-0-37"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "宋玉〈對楚王問〉",
+        "explanation": "宋玉以郢中唱歌為喻：通俗歌曲能跟著唱的人多，唱到高雅的〈陽春〉、〈白雪〉，能應和的人就少。成語因此借指高雅深奧、不容易普及的文藝，並非因含「春」字就與教育有關。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1150&webMd=2"
+      }
     },
     {
       "term": "津津有味",
@@ -1970,7 +2384,13 @@
       "example": "散播假消息的始作俑者，應為造成的傷害負責。",
       "questionIds": [
         "114-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《孟子・梁惠王上》",
+        "explanation": "「俑」是用來陪葬的人形偶像，孟子引述孔子對開始使用俑者的批評，從像人的陪葬物談到對生命的重視。後來成語指最先開啟不良風氣的人，帶有貶義；不能拿來稱讚創業者或發明家。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1192&webMd=2"
+      }
     },
     {
       "term": "驚濤駭浪",
@@ -2001,7 +2421,13 @@
       "example": "能找到理解自己創作的人，讓他感受到高山流水的知音之情。",
       "questionIds": [
         "108-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《列子・湯問》伯牙與鍾子期",
+        "explanation": "伯牙彈琴，心中想到高山或流水，鍾子期便能聽懂他的心意。故事重在有人真正理解自己的情感與志趣，所以可比喻知音，也可讚美音樂精妙；不能只按字面判成山水景色。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1252&webMd=2"
+      }
     },
     {
       "term": "花團錦簇",
@@ -2021,7 +2447,13 @@
       "example": "大家及時伸出援手，讓受助家庭感激涕零。",
       "questionIds": [
         "110-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「涕」「零」的古義",
+        "explanation": "「涕」是眼淚，「零」有落下之意，所以不是感激到流鼻涕，而是感動得落淚。由眼淚呈現強烈情緒，整體形容受恩後非常感激；使用時通常比普通的「謝謝」強烈得多。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1260&webMd=2"
+      }
     },
     {
       "term": "赤手空拳",
@@ -2071,7 +2503,13 @@
       "example": "照護工作雖辛勞，她卻因能幫助人而甘之如飴。",
       "questionIds": [
         "110-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《詩經・大雅・綿》「堇荼如飴」的甘苦意象",
+        "explanation": "「飴」是糖一類的甜食；古詩曾把苦味植物與飴相比。後來「甘之如飴」用來表達把辛苦、困難當成甜美之事，心甘情願地接受。它不是說事情客觀上毫不費力，而是強調當事人的態度。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1344&webMd=2"
+      }
     },
     {
       "term": "禍不單行",
@@ -2125,7 +2563,13 @@
       "questionIds": [
         "115-0-4",
         "109-0-25"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "曹操〈步出夏門行・龜雖壽〉",
+        "explanation": "曹操以老馬伏在馬槽旁卻仍有千里之志，表達年歲雖長、雄心未減。「驥」是良馬，「櫪」是馬槽。理解時必須連到後面的志向，不能只看到老馬躺著，就解成衰弱到站不起來。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1373&webMd=2"
+      }
     },
     {
       "term": "見義勇為",
@@ -2155,7 +2599,13 @@
       "example": "他因長期收賄遭揭發，最後身敗名裂。",
       "questionIds": [
         "114-0-7"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "身與名的並列比喻",
+        "explanation": "「身敗」說的是自身處境、事業或地位敗壞，「名裂」則是名譽破損。兩者並列，把失去成就與失去聲譽一起強調，通常用於嚴重惡行被揭發後的結果，不只是一次普通失敗。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1396&webMd=2"
+      }
     },
     {
       "term": "披肝瀝膽",
@@ -2165,7 +2615,13 @@
       "example": "他向好友披肝瀝膽地說明自己的苦衷。",
       "questionIds": [
         "110-0-30"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "肝膽象徵真心的比喻",
+        "explanation": "古人常以肝膽代表內心與真誠。「披」是敞開，「瀝」是滴出，把最裡面的肝膽都顯露出來，便形容毫無保留、誠心相待。這是強烈比喻，不是身體受傷的實寫。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1404&webMd=2"
+      }
     },
     {
       "term": "雨後春筍",
@@ -2175,7 +2631,13 @@
       "example": "共享工作空間近年如雨後春筍般出現。",
       "questionIds": [
         "111-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "春雨後竹筍迅速生長的比喻",
+        "explanation": "春雨滋潤後，竹筍接連冒出地面，形成「出現得快、數量又多」的畫面。成語借此描寫新事物蓬勃出現，不是只說某一件事物長得很高。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1410&webMd=2"
+      }
     },
     {
       "term": "目無全牛",
@@ -2185,7 +2647,13 @@
       "example": "經過多年練習，他處理複雜修復工作已達目無全牛的境界。",
       "questionIds": [
         "114-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《莊子・養生主》庖丁解牛",
+        "explanation": "庖丁剛學解牛時，看見的是一整頭牛；熟練後，眼中已能掌握筋骨與空隙，不必停留在整體外形。這不是沒看清楚，而是熟練到深入結構，所以是稱讚技藝高明，不能解成胡亂想像。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1418&webMd=2"
+      }
     },
     {
       "term": "咬牙切齒",
@@ -2206,7 +2674,13 @@
       "questionIds": [
         "108-0-1",
         "107-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「枵腹」「從公」的字義",
+        "explanation": "「枵」是空虛，「枵腹」就是空著肚子；「從公」是辦理公事。把兩者放在一起，是忙於公務到顧不上吃飯的畫面，用來形容辛勞辦事，不是藉公事白吃白喝。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1435&webMd=2"
+      }
     },
     {
       "term": "勢均力敵",
@@ -2216,7 +2690,13 @@
       "example": "兩位選手勢均力敵，決賽打得十分激烈。",
       "questionIds": [
         "106-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "形勢與力量的雙重比較",
+        "explanation": "「均」是相等，「敵」在這裡是匹敵、相當，兩半都在說雙方實力差不多。它適用於競賽、對抗的力量比較，不含夫妻敬重之情，不能與舉案齊眉替換。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1438&webMd=2"
+      }
     },
     {
       "term": "貽笑大方",
@@ -2226,7 +2706,13 @@
       "example": "這份草稿還需查證，以免錯誤百出，貽笑大方。",
       "questionIds": [
         "109-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《莊子・秋水》",
+        "explanation": "河伯看到秋水浩大，一度自滿；到了北海才知道自己的見識有限，怕被通曉大道的人取笑。「大方」原指通達大道者，後也指內行。成語所以是讓行家見笑，不是讓慷慨的人笑。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1440&webMd=2"
+      }
     },
     {
       "term": "尸位素餐",
@@ -2236,7 +2722,13 @@
       "example": "身為主管若不處理問題，只顧領薪，就是尸位素餐。",
       "questionIds": [
         "108-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《漢書・朱雲傳》",
+        "explanation": "「尸」可指祭祀中坐著代表受祭者的人，由此借喻只占位置而不做事；「素餐」是白吃俸祿。古文用它批評官員不盡職，後來泛指占著職位、享受待遇，卻沒有相應貢獻。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1451&webMd=2"
+      }
     },
     {
       "term": "好高騖遠",
@@ -2246,7 +2738,13 @@
       "example": "初學時應先掌握基本觀念，不要好高騖遠。",
       "questionIds": [
         "108-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「好」「騖」的字義",
+        "explanation": "「好」是喜愛，「騖」是追求、奔赴。只追逐高遠目標，卻忽略能力與腳下基礎，才有這個詞的貶義。遠大志向本身不是錯，錯在不切實際、不肯從眼前做起。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1457&webMd=2"
+      }
     },
     {
       "term": "得魚忘筌",
@@ -2337,7 +2835,13 @@
       "example": "他器宇軒昂地走上講臺，從容向聽眾致意。",
       "questionIds": [
         "107-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "氣度與高揚精神的描寫",
+        "explanation": "「器宇」指氣度、胸襟，「軒昂」有高揚、不凡之意，合起來稱讚人的神采與儀態。不能因器字就以為在形容器皿，也不能僅憑容貌好看就推定實際品德。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1574&webMd=2"
+      }
     },
     {
       "term": "僕僕風塵",
@@ -2389,7 +2893,13 @@
       "example": "他的小屋只有書桌和床，幾乎別無長物。",
       "questionIds": [
         "115-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《世說新語・德行》",
+        "explanation": "王恭把自己的竹席送給友人後，只好坐在草席上。朋友原以為他有多餘的席子，他卻說自己沒有多出的物品。「長物」的「長」讀ㄓㄤˋ，指多餘財物，整個故事在表現簡樸與慷慨，不是說沒有專長。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1731&webMd=2"
+      }
     },
     {
       "term": "入室升堂",
@@ -2399,7 +2909,13 @@
       "example": "經過長期練習，他的書法逐漸入室升堂，不再只是模仿筆畫。",
       "questionIds": [
         "114-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《論語・先進》升堂入室的比喻",
+        "explanation": "孔子評論子路的學習，用已登上廳堂、尚未進入內室來比喻程度有深淺。後來升堂、入室成為學問或技藝漸入佳境的說法；入室升堂是相關詞形，不應照字面理解成進屋後上樓。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1755&webMd=2"
+      }
     },
     {
       "term": "繫風捕影",
@@ -2560,7 +3076,13 @@
       "example": "清晨的公園鳥語花香，適合散步放鬆。",
       "questionIds": [
         "111-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "聲音與氣味的並列描寫",
+        "explanation": "把鳥鳴說成鳥在交談，是擬人的表現；再與花香合寫，便同時帶出聽覺、嗅覺的美好。它常描寫春天或清新的自然環境，不是指人說話動聽或文章華美。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=5332&webMd=2"
+      }
     },
     {
       "term": "駑馬十駕",
@@ -2600,7 +3122,13 @@
       "example": "資訊環境瞬息萬變，館員需要持續學習。",
       "questionIds": [
         "115-0-37"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "時間與數量的誇飾",
+        "explanation": "「瞬」是眨眼，「息」是一呼吸，合起來表示很短的時間；「萬」用來誇張變化之多，不是精確的一萬次。成語重在變化快速、難以預料，本身不必然表示愈變愈好或愈變愈壞。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=5446&webMd=2"
+      }
     },
     {
       "term": "形形色色",
@@ -2620,7 +3148,13 @@
       "example": "他為人危言危行，即使得罪權貴也不說假話。",
       "questionIds": [
         "115-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《論語・憲問》",
+        "explanation": "孔子談到國家政治有道、無道時，君子言行應如何自處。「危」在這裡是端正、正直，所以危言危行是說正直的話、做正直的事。它與「危言聳聽」的危險、驚嚇意象不同，不能看到危字就解成擾亂人心。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%8D%B1%E8%A8%80%E5%8D%B1%E8%A1%8C"
+      }
     },
     {
       "term": "風雨同舟",
@@ -2630,7 +3164,13 @@
       "example": "創業初期，幾位夥伴風雨同舟，一起撐過低潮。",
       "questionIds": [
         "115-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《孫子・九地》同舟遇風的比喻",
+        "explanation": "《孫子》說，吳人與越人即使互相敵視，同坐一條船遇到風浪時，也會像左右手一樣互相救助。後來「風雨同舟」借這幅畫面表達共同承受困境；重點是同心互助，不是店家營運衰敗。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%A2%A8%E9%9B%A8%E5%90%8C%E8%88%9F"
+      }
     },
     {
       "term": "巧舌如簧",
@@ -2640,7 +3180,13 @@
       "example": "推銷員巧舌如簧，仍無法掩飾產品的缺點。",
       "questionIds": [
         "115-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《詩經・小雅・巧言》",
+        "explanation": "「簧」是樂器裡振動發聲的薄片，舌頭像簧片般靈巧，就能說出流利動聽的話。但〈巧言〉批評的是讒言與花言巧語，所以這個詞通常有貶義，與真誠、內容充實的妙語如珠不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%B7%A7%E8%88%8C%E5%A6%82%E7%B0%A7"
+      }
     },
     {
       "term": "振振有辭",
@@ -2650,7 +3196,13 @@
       "example": "他遲到還振振有辭地推卸責任，讓同事很不滿。",
       "questionIds": [
         "115-0-2"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「振振」與辯說的語氣",
+        "explanation": "「振振」在這裡呈現自以為理由充分、說得很起勁的樣子。成語常用來形容理未必站得住腳，嘴上卻堅持辯解，因此不能只把「有辭」當作真的有道理；須分清說話氣勢與事實根據。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8C%AF%E6%8C%AF%E6%9C%89%E8%BE%AD"
+      }
     },
     {
       "term": "安土重遷",
@@ -2661,7 +3213,13 @@
       "questionIds": [
         "115-0-2",
         "107-0-44"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《漢書・元帝紀》",
+        "explanation": "古文把安於居住的土地、不輕易搬遷視作人之常情。「重」在這裡是看得慎重，不是重複；因為珍惜熟悉的故土，才慎於遷徙。它不能解成很喜歡搬家，也不必然是固執落後。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AE%89%E5%9C%9F%E9%87%8D%E9%81%B7"
+      }
     },
     {
       "term": "逢迎拍馬",
@@ -2671,7 +3229,13 @@
       "example": "與其逢迎拍馬，不如踏實把工作做好。",
       "questionIds": [
         "115-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "迎合與「拍馬屁」的通俗說法",
+        "explanation": "「逢迎」是刻意迎合對方心意，「拍馬」連到拍馬屁的奉承說法。兩者疊在一起，批評靠討好取悅別人，特別是有權勢者。它不等於有禮貌或懂溝通，不能只因善交際便稱讚逢迎拍馬。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%80%A2%E8%BF%8E%E6%8B%8D%E9%A6%AC"
+      }
     },
     {
       "term": "屢試不爽",
@@ -2681,7 +3245,13 @@
       "example": "這個解題方法經過反覆驗證，確實屢試不爽。",
       "questionIds": [
         "115-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「屢」「爽」的古義",
+        "explanation": "「屢」是多次，「試」是試驗，「爽」在此是差錯、違失。把字義接起來，就是反覆驗證都沒有出差錯。現在常說心情爽不爽，但那不是本詞的意思，因此屢試不爽其實是在肯定方法可靠。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%B1%A2%E8%A9%A6%E4%B8%8D%E7%88%BD"
+      }
     },
     {
       "term": "萬人空巷",
@@ -2692,7 +3262,13 @@
       "questionIds": [
         "115-0-4",
         "111-0-37"
-      ]
+      ],
+      "origin": {
+        "kind": "文獻用例",
+        "reference": "蘇軾〈八月十七日復登望海樓〉",
+        "explanation": "蘇軾詩中曾用「萬人空巷」描寫眾人出門追逐熱鬧景象。要抓住動作的方向：大家從住家的巷弄走出去，聚到某個地方，原先的巷子才空了。成語因此形容盛會吸引很多人，而不是防空演習讓街道淨空。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%90%AC%E4%BA%BA%E7%A9%BA%E5%B7%B7"
+      }
     },
     {
       "term": "如沐春風",
@@ -2702,7 +3278,13 @@
       "example": "老師耐心的講解讓學生如沐春風。",
       "questionIds": [
         "115-0-6"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "朱光庭從學程顥的記載，見《伊洛淵源錄》",
+        "explanation": "朱光庭受程顥教導後，形容自己像在春風中坐了一個月。溫暖的春風用來比喻良師的德性與教化，使人舒暢、受到滋養。後來也可說與溫厚的人相處令人如沐春風，不必真的有風吹來。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A6%82%E6%B2%90%E6%98%A5%E9%A2%A8"
+      }
     },
     {
       "term": "桃李滿門",
@@ -2714,7 +3296,13 @@
         "115-0-6",
         "113-0-5",
         "110-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "桃李比喻栽培的人才與學生",
+        "explanation": "桃樹、李樹經過栽培會開花結果，古人便用桃李比喻受教培養的人才。與「滿門」結合，就表示老師門下學生眾多。這裡的門是師門，不是家門旁真的種滿果樹，與教育有直接關係。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%A1%83%E6%9D%8E%E6%BB%BF%E9%96%80"
+      }
     },
     {
       "term": "程門立雪",
@@ -2724,7 +3312,13 @@
       "example": "求學應有程門立雪的誠意，尊重老師，也認真面對問題。",
       "questionIds": [
         "115-0-6"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《宋史・楊時傳》",
+        "explanation": "楊時與游酢向程頤求教，碰上老師閉目坐著，兩人恭敬等候，等老師察覺時，門外積雪已深。後來以程門立雪表現尊師、求學的誠意。學習重點在態度，不是要求學生冒著危險受凍。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%A8%8B%E9%96%80%E7%AB%8B%E9%9B%AA"
+      }
     },
     {
       "term": "不可終日",
@@ -2734,7 +3328,13 @@
       "example": "謊言被揭穿前，他整天惶惶不可終日。",
       "questionIds": [
         "115-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「終日」與惶惶不安的語境",
+        "explanation": "「終日」是度過一整天，「不可終日」形容恐懼得好像連一天也熬不過。常與「惶惶」連用，說的是人的不安處境，不能拆開解成某種風雨不會持續整天。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E5%8F%AF%E7%B5%82%E6%97%A5"
+      }
     },
     {
       "term": "好自為之",
@@ -2744,7 +3344,13 @@
       "example": "出門求學前，父親叮嚀他好自為之，對自己負責。",
       "questionIds": [
         "115-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「自」「為」的勸告用法",
+        "explanation": "「自」是自己，「為」是處理、行事，意思是希望對方自己妥善行動。它可以是關心的勉勵，也可能是帶警告的告誡，要由說話情境判斷；與敷衍度日的得過且過並不相同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A5%BD%E8%87%AA%E7%82%BA%E4%B9%8B"
+      }
     },
     {
       "term": "自求多福",
@@ -2754,7 +3360,13 @@
       "example": "救援尚未到達，眾人只能先自求多福，尋找安全的地方。",
       "questionIds": [
         "115-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《詩經・大雅・文王》",
+        "explanation": "〈文王〉勸人以殷商為鑑、修養德行，藉此為自己求得福祉。因此「自求」原來重在自身努力，不是被動等好運。現代有時也用來表示局勢艱難，只能靠自己設法，語氣可能帶無奈。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%87%AA%E6%B1%82%E5%A4%9A%E7%A6%8F"
+      }
     },
     {
       "term": "行不由徑",
@@ -2764,7 +3376,13 @@
       "example": "他行不由徑，寧願慢慢努力，也不靠不當關係獲利。",
       "questionIds": [
         "114-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《論語・雍也》",
+        "explanation": "子游向孔子介紹澹臺滅明，說他行走不抄小路，沒有公事也不私下拜訪自己。這些表現用來說明他正直、不鑽營。後來成語便借走正路的畫面，比喻做事守正，不靠邪門捷徑。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%A1%8C%E4%B8%8D%E7%94%B1%E5%BE%91"
+      }
     },
     {
       "term": "群起效尤",
@@ -2774,7 +3392,13 @@
       "example": "對作弊放任不管，可能讓其他人群起效尤。",
       "questionIds": [
         "114-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「效」「尤」的字義",
+        "explanation": "「群起」是大家一起，「效」是仿效，「尤」在這裡指過失、壞樣子。合起來是大家跟著學壞，貶義藏在最後一個字裡。因此不能說下屬仿效長官的正直叫群起效尤。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%BE%A4%E8%B5%B7%E6%95%88%E5%B0%A4"
+      }
     },
     {
       "term": "真知灼見",
@@ -2784,7 +3408,13 @@
       "example": "這份報告提出真知灼見，幫助我們看清問題核心。",
       "questionIds": [
         "114-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「真知」「灼見」的並列",
+        "explanation": "「真知」是真正的了解，「灼」有明亮、明晰的意思，因此「灼見」是清楚透徹的見解。兩者並列，稱讚認識深入而可靠，與自謙所見有限的「管見」語氣相反。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%9C%9F%E7%9F%A5%E7%81%BC%E8%A6%8B"
+      }
     },
     {
       "term": "略陳管見",
@@ -2794,7 +3424,13 @@
       "example": "關於閱讀推廣，我想略陳管見，請各位指教。",
       "questionIds": [
         "114-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "以管窺物的自謙比喻",
+        "explanation": "從細管看外面的世界，視野會很有限，古人因此用「管見」謙稱自己的見解。「略陳」是簡略說明。整句是發表意見時自謙，不表示自己的文章已具有高明透徹的真知灼見。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%95%A5%E9%99%B3%E7%AE%A1%E8%A6%8B"
+      }
     },
     {
       "term": "謹言慎行",
@@ -2804,7 +3440,13 @@
       "example": "負責對外發言的人更應謹言慎行，避免傳遞錯誤訊息。",
       "questionIds": [
         "114-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《禮記・緇衣》言語行為的慎重觀念",
+        "explanation": "「謹」「慎」都表示小心，分別用來修飾言語與行動，要求說話有分寸、做事不輕率。與操作器械時的小心翼翼相比，它更著重人的言行修養，兩者不能在每個句子裡任意互換。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%AC%B9%E8%A8%80%E6%85%8E%E8%A1%8C"
+      }
     },
     {
       "term": "玩日愒歲",
@@ -2814,7 +3456,13 @@
       "example": "他終於不再玩日愒歲，開始每天按表讀書。",
       "questionIds": [
         "114-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《左傳・昭公元年》",
+        "explanation": "古文用「玩歲而愒日」批評貪圖安逸、不顧長遠後果。「玩」在此有輕忽之意，「愒」讀ㄎㄞˋ，與貪求安逸相關。成語說的是虛耗時間，不能只解成經過很多年的年深月久。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%8E%A9%E6%97%A5%E6%84%92%E6%AD%B2"
+      }
     },
     {
       "term": "年深月久",
@@ -2824,7 +3472,13 @@
       "example": "木門年深月久，表面已留下許多磨痕。",
       "questionIds": [
         "114-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "年、月與深、久的疊加",
+        "explanation": "年與月並列，把時間拉長；「深」「久」都在強調經歷已久。它本身只說時間長，不判斷這段時間是否被浪費。正因如此，不能把玩日愒歲中的怠惰意思也套進來。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%B9%B4%E6%B7%B1%E6%9C%88%E4%B9%85"
+      }
     },
     {
       "term": "環堵蕭然",
@@ -2834,7 +3488,13 @@
       "example": "詩人雖環堵蕭然，仍以讀書自得其樂。",
       "questionIds": [
         "114-0-7"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "陶淵明〈五柳先生傳〉",
+        "explanation": "五柳先生的住處簡陋，牆壁甚至不足以遮住風日，文中以「環堵蕭然」描寫貧困生活。「堵」是牆，四面牆內空落落的，重點是缺少家財，不是整理後乾淨明亮。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%92%B0%E5%A0%B5%E8%95%AD%E7%84%B6"
+      }
     },
     {
       "term": "琴瑟友之",
@@ -2844,7 +3504,13 @@
       "example": "婚禮致辭引用琴瑟友之，祝福新人相愛相親。",
       "questionIds": [
         "114-0-7"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《詩經・周南・關雎》",
+        "explanation": "〈關雎〉寫君子思慕淑女，想以琴瑟親近、取悅她。「友」在這裡有親愛、親近的意思，不是說任何朋友或兄弟一起彈琴。因篇章是男女戀慕的情境，考題用來描述兄弟便不恰當。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%90%B4%E7%91%9F%E5%8F%8B%E4%B9%8B"
+      }
     },
     {
       "term": "富甲一方",
@@ -2905,7 +3571,13 @@
       "example": "主管公開懲處造假者，希望收到殺雞儆猴的效果。",
       "questionIds": [
         "114-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "傳說",
+        "reference": "以雞警戒猴的民間比喻",
+        "explanation": "通俗解說常用殺雞讓猴害怕的畫面，表示處罰一個對象，以警告其他人。「儆」是警戒。這裡採民間比喻理解，不把它說成某位歷史人物確實做過的事；語義重點是處罰的示警作用。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%AE%BA%E9%9B%9E%E5%84%86%E7%8C%B4"
+      }
     },
     {
       "term": "功同良相",
@@ -2925,7 +3597,13 @@
       "example": "庭院老樹枝葉扶疏，為行人遮擋烈日。",
       "questionIds": [
         "113-0-6"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「扶疏」的繁茂舒展之義",
+        "explanation": "「扶疏」形容枝葉向四面舒展、繁茂分布。整個詞的畫面是蓬勃而有層次的樹冠，不是枝葉稀少或凋零。題目若同時寫樹林蕭瑟，就要檢查兩個意象是否互相矛盾。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%9E%9D%E8%91%89%E6%89%B6%E7%96%8F"
+      }
     },
     {
       "term": "滄海橫流",
@@ -2935,7 +3613,13 @@
       "example": "在滄海橫流的年代，人們更盼望安定的生活。",
       "questionIds": [
         "113-0-6"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "海水泛濫與世局動盪的比喻",
+        "explanation": "「滄海」是大海，「橫流」不是沿固定河道平穩流動，而是四處漫流。由失去秩序的水勢，借指天下動盪、局勢混亂。因此不能把它當成從飯店俯瞰美麗海景的普通形容詞。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%BB%84%E6%B5%B7%E6%A9%AB%E6%B5%81"
+      }
     },
     {
       "term": "曾經滄海",
@@ -2946,7 +3630,13 @@
       "questionIds": [
         "113-0-7",
         "108-0-26"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "元稹〈離思〉",
+        "explanation": "元稹用見過廣大滄海後，其他水面就難以相比，譬喻曾有深刻、珍貴的感情經驗，後來難以再被一般事物打動。理解時抓住「經歷過，所以眼界或感情不再相同」，不是世事變遷無常的滄海桑田。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%9B%BE%E7%B6%93%E6%BB%84%E6%B5%B7"
+      }
     },
     {
       "term": "爍石流金",
@@ -2956,7 +3646,13 @@
       "example": "盛夏午後爍石流金，工人必須適時補水休息。",
       "questionIds": [
         "113-0-7"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《楚辭・招魂》及金石熔化的誇飾",
+        "explanation": "楚辭中有熱到金石都會熔化的描寫。「爍」「流」在這裡與熔化有關，把堅硬的石頭與金屬也受熱融解，誇張天氣炎熱。它不能用來說謠言傷人；那是容易混淆的「眾口鑠金」意象。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%88%8D%E7%9F%B3%E6%B5%81%E9%87%91"
+      }
     },
     {
       "term": "奮勇爭先",
@@ -2966,7 +3662,13 @@
       "example": "選手們奮勇爭先，朝終點衝刺。",
       "questionIds": [
         "113-0-8"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "奮、勇、爭先的動作組合",
+        "explanation": "「奮」是振起精神，「勇」是鼓起勇氣，「爭先」是努力搶在前面。合起來描寫積極競爭、勇往直前。急救時需要的是及時、專業與合作，不是彼此爭著搶第一，所以仍須看搭配場合。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A5%AE%E5%8B%87%E7%88%AD%E5%85%88"
+      }
     },
     {
       "term": "落落大方",
@@ -2977,7 +3679,13 @@
       "questionIds": [
         "113-0-8",
         "109-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「落落」的坦率開朗之義",
+        "explanation": "「落落」在這裡形容態度開朗、不拘束，「大方」是自然得體。整體稱讚待人接物從容有禮，並不是花錢慷慨，也不是冷漠疏離。面對質疑仍保持風度，可以使用。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%90%BD%E8%90%BD%E5%A4%A7%E6%96%B9"
+      }
     },
     {
       "term": "剪燭西窗",
@@ -2987,7 +3695,13 @@
       "example": "兩位老友相約返鄉後剪燭西窗，細談多年經歷。",
       "questionIds": [
         "111-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "李商隱〈夜雨寄北〉",
+        "explanation": "詩人身在異地，想像將來與所思念的人重聚，在西窗邊一同剪去燭花，聊起此刻的夜雨。燭光與夜談讓人感受到親密重逢，所以成語指親友相聚談心，並不特指靠文章交朋友。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%89%AA%E7%87%AD%E8%A5%BF%E7%AA%97"
+      }
     },
     {
       "term": "以文會友",
@@ -2999,7 +3713,13 @@
         "111-0-5",
         "108-0-43",
         "106-0-22"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《論語・顏淵》",
+        "explanation": "曾子談君子透過文章、學問結交朋友，再藉朋友幫助自己修養仁德。「文」連到文化與學問，「會」是會合、結交。重點在交往的途徑，不只是久別重逢的溫馨場景。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BB%A5%E6%96%87%E6%9C%83%E5%8F%8B"
+      }
     },
     {
       "term": "風中殘燭",
@@ -3009,7 +3729,13 @@
       "example": "病榻上的老人如風中殘燭，需要細心照護。",
       "questionIds": [
         "111-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "殘燭與風的雙重脆弱意象",
+        "explanation": "蠟燭已快燒完，又置於風中，隨時可能熄滅。這個畫面常比喻生命衰弱、處境不穩。用於重病者時著重生命垂危；和病入膏肓相近，但不在描述疾病進入身體的哪個位置。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%A2%A8%E4%B8%AD%E6%AE%98%E7%87%AD"
+      }
     },
     {
       "term": "好行小慧",
@@ -3019,7 +3745,13 @@
       "example": "他好行小慧，總想靠小手段贏得好處。",
       "questionIds": [
         "111-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《論語・衛靈公》",
+        "explanation": "孔子說，整天聚在一起卻不談正義之事，只愛施展小聰明，很難有所成就。「小慧」與真正明辨是非的大智慧形成對照，所以成語通常是批評賣弄小聰明，也可連到小恩小惠。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A5%BD%E8%A1%8C%E5%B0%8F%E6%85%A7"
+      }
     },
     {
       "term": "池魚籠鳥",
@@ -3029,7 +3761,13 @@
       "example": "被困在不喜歡的職涯中，他覺得自己如池魚籠鳥。",
       "questionIds": [
         "111-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "池與籠限制活動範圍的比喻",
+        "explanation": "池中的魚、籠中的鳥不能自由往來，因此成語借指受束縛、失去自由的人。它不一定表示生命即將結束；與鳥覆危巢相比，一個重在「不自由」，另一個重在「有覆亡危險」。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B1%A0%E9%AD%9A%E7%B1%A0%E9%B3%A5"
+      }
     },
     {
       "term": "掉以輕心",
@@ -3039,7 +3777,13 @@
       "example": "即使是熟悉的操作，也不能對安全規定掉以輕心。",
       "questionIds": [
         "111-0-37"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "柳宗元〈答韋中立論師道書〉相關用語",
+        "explanation": "柳宗元談作文態度時，強調不敢以輕忽之心對待。「掉以輕心」後來用來說把事情看得太輕、沒有認真防備。記憶重點是態度不夠慎重，不是心裡忽然失去某樣東西。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8E%89%E4%BB%A5%E8%BC%95%E5%BF%83"
+      }
     },
     {
       "term": "破涕為笑",
@@ -3049,7 +3793,13 @@
       "example": "得知小狗平安找到，孩子立刻破涕為笑。",
       "questionIds": [
         "111-0-37"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《文選》所收潘岳〈寡婦賦〉等文獻用語",
+        "explanation": "「涕」是眼淚，破涕就是止住哭泣，再轉而露出笑容。它把前後情緒反差集中成四個字，常用於憂愁解除、得到好消息的情境，不是邊哭邊笑而沒有轉變。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%A0%B4%E6%B6%95%E7%82%BA%E7%AC%91"
+      }
     },
     {
       "term": "童山濯濯",
@@ -3059,7 +3809,13 @@
       "example": "山坡遭濫伐後童山濯濯，雨季時容易發生土石流。",
       "questionIds": [
         "110-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《孟子・告子上》牛山之木的論述",
+        "explanation": "孟子談牛山原本有美麗樹木，卻因斧斤砍伐、牛羊啃食而變得光禿。「童山」是無草木的山，「濯濯」是光禿的樣子。後來也能借喻頭髮稀少，不能把童字解成山很年輕。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%AB%A5%E5%B1%B1%E6%BF%AF%E6%BF%AF"
+      }
     },
     {
       "term": "吐哺握髮",
@@ -3069,7 +3825,13 @@
       "example": "領導者若有吐哺握髮的誠意，才能吸引人才。",
       "questionIds": [
         "110-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《史記・魯周公世家》",
+        "explanation": "周公告誡伯禽，自己雖身分尊貴，仍怕怠慢賢士：吃飯時吐出口中食物、洗頭時握著未乾頭髮，就趕去接待。「吐哺」「握髮」一起呈現求才殷切，不是形容吃相不好或生活慌亂。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%90%90%E5%93%BA%E6%8F%A1%E9%AB%AE"
+      }
     },
     {
       "term": "宵衣旰食",
@@ -3080,7 +3842,13 @@
       "questionIds": [
         "110-0-30",
         "107-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "古代君主勤政的描寫",
+        "explanation": "「宵衣」是天未亮便穿衣起身，「旰食」是忙到天色晚才吃飯，「旰」讀ㄍㄢˋ。兩個生活細節放在一起，表現勤於政務、顧不上休息；不是形容晝夜顛倒、沉迷宴飲。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AE%B5%E8%A1%A3%E6%97%B0%E9%A3%9F"
+      }
     },
     {
       "term": "廢寢忘食",
@@ -3093,7 +3861,13 @@
       "questionIds": [
         "111-0-29",
         "110-0-30"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《論語・述而》發憤忘食等專注意象",
+        "explanation": "「廢寢」是顧不上睡覺，「忘食」是忘記吃飯，古代已有以忘食形容專心求學的說法。後來合成固定詞，強調投入程度非常深；它不是特指為政，也不表示不睡不吃是值得照做的健康習慣。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BB%A2%E5%AF%A2%E5%BF%98%E9%A3%9F"
+      }
     },
     {
       "term": "弊絕風清",
@@ -3103,7 +3877,13 @@
       "example": "改革不能只靠口號，必須讓制度真正弊絕風清。",
       "questionIds": [
         "110-0-30"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "弊端消除與風氣清正的對照",
+        "explanation": "「弊」是不良弊端，「絕」是斷除；「風」指風氣，「清」是清正。整句通常稱讚行政或社會風氣改善，不能只把風清當成涼爽的天氣。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BC%8A%E7%B5%95%E9%A2%A8%E6%B8%85"
+      }
     },
     {
       "term": "政以賄成",
@@ -3113,7 +3893,13 @@
       "example": "史書揭露當時政以賄成，百姓深受其害。",
       "questionIds": [
         "110-0-30"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《左傳・襄公十年》",
+        "explanation": "古文以政事靠賄賂而成，揭示政治失去公正的問題。「以」表示憑藉，「賄」是財物與賄賂；意思不是政府善用經費完成建設，而是辦事必須行賄的腐敗。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%94%BF%E4%BB%A5%E8%B3%84%E6%88%90"
+      }
     },
     {
       "term": "巾幗鬚眉",
@@ -3123,7 +3909,13 @@
       "example": "她帶領團隊完成艱鉅任務，被讚為巾幗鬚眉。",
       "questionIds": [
         "110-0-30"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "女性頭飾與男性鬍鬚的借代",
+        "explanation": "「巾幗」原是女子頭飾，借指女性；「鬚眉」借男子鬍鬚、眉毛指男性。兩者合用常稱讚女性具有卓越才幹與氣魄，是傳統的借代說法，不表示勇氣或能力只屬於男性。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%B7%BE%E5%B9%97%E9%AC%9A%E7%9C%89"
+      }
     },
     {
       "term": "女中豪傑",
@@ -3133,7 +3925,13 @@
       "example": "這位女中豪傑在動盪年代挺身而出，保護鄉民。",
       "questionIds": [
         "110-0-30"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "性別範圍與人才評價的組合",
+        "explanation": "「女中」是女性之中，「豪傑」指才幹、氣魄出眾的人，整句直接稱讚傑出女性。它不是貶義，也與沐猴而冠那種外表和才德不相稱的嘲諷不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A5%B3%E4%B8%AD%E8%B1%AA%E5%82%91"
+      }
     },
     {
       "term": "懷黃佩紫",
@@ -3143,7 +3941,13 @@
       "example": "他雖懷黃佩紫，仍不忘早年朋友。",
       "questionIds": [
         "110-0-37"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "古代官員的金印與紫綬",
+        "explanation": "黃、紫不是任意兩種顏色，而與金印、紫色印綬等高官標誌相關。「懷」「佩」描寫持有、佩帶，合起來借指身居高位。辨別文意時，應想到官位身分，而非服飾搭配。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%87%B7%E9%BB%83%E4%BD%A9%E7%B4%AB"
+      }
     },
     {
       "term": "言而有信",
@@ -3153,7 +3957,13 @@
       "example": "他言而有信，答應借出的書總會準時帶來。",
       "questionIds": [
         "110-0-41"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《論語・學而》",
+        "explanation": "《論語》談朋友交往，強調說出的話有信用。「信」在這裡是守信，不是收到書信；重點是承諾能履行。它可用來稱讚說到做到，不代表口才流利便一定有信。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%A8%80%E8%80%8C%E6%9C%89%E4%BF%A1"
+      }
     },
     {
       "term": "琴瑟不調",
@@ -3163,7 +3973,13 @@
       "example": "夫妻長期缺乏溝通，難免琴瑟不調。",
       "questionIds": [
         "109-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "琴瑟合奏比喻夫妻相處",
+        "explanation": "琴與瑟一起演奏要互相協調，傳統文學常借它們比喻夫妻關係。聲調不合，就轉指夫妻感情失和。判斷對象時要留意這層婚姻意涵，不能看到兩個人吵架就一律使用。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%90%B4%E7%91%9F%E4%B8%8D%E8%AA%BF"
+      }
     },
     {
       "term": "雁行折翼",
@@ -3173,7 +3989,13 @@
       "example": "悼念兄長的輓辭以雁行折翼，表達手足離散之痛。",
       "questionIds": [
         "109-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "雁行比喻兄弟的傳統用語",
+        "explanation": "飛雁成行，古人借排列有序的雁群比喻兄弟。「折翼」則是翅膀折損，合起來常用於哀悼兄弟去世。它不是慶賀兄弟成就，也不只是一般飛鳥受傷的描寫。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%9B%81%E8%A1%8C%E6%8A%98%E7%BF%BC"
+      }
     },
     {
       "term": "蘭桂騰芳",
@@ -3183,7 +4005,13 @@
       "example": "長輩盼望子孫蘭桂騰芳，成為有益社會的人。",
       "questionIds": [
         "109-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "香草佳木比喻優秀子孫",
+        "explanation": "蘭與桂都有芳香，古人常借美好植物稱讚子弟。「騰芳」是香氣發散，進一步比喻後代才德優秀、發揚家聲。辨別題辭時，抓住它稱讚的是子孫，不是父母健康。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%98%AD%E6%A1%82%E9%A8%B0%E8%8A%B3"
+      }
     },
     {
       "term": "椿萱並茂",
@@ -3194,7 +4022,13 @@
       "questionIds": [
         "109-0-36",
         "107-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《莊子》的大椿與《詩經》的諼草意象",
+        "explanation": "大椿象徵長壽，後來常用來指父親；萱草連到母親居處與忘憂的意象，常代指母親。「並茂」是兩者同樣茂盛，因此祝願或形容父母都健在安康，不是只祝其中一位。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%A4%BF%E8%90%B1%E4%B8%A6%E8%8C%82"
+      }
     },
     {
       "term": "兩情相悅",
@@ -3204,7 +4038,13 @@
       "example": "兩人相處多年、兩情相悅，決定攜手成家。",
       "questionIds": [
         "108-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "雙方情意互相回應",
+        "explanation": "「兩情」指雙方的情感，「相悅」是彼此喜愛，常用在男女情愛。記住必須是雙向的，若只有一方有意、另一方無情，便不符合這個詞的條件。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%85%A9%E6%83%85%E7%9B%B8%E6%82%85"
+      }
     },
     {
       "term": "四體不勤",
@@ -3214,7 +4054,13 @@
       "example": "求學不能四體不勤，也要學會照顧自己的生活。",
       "questionIds": [
         "108-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《論語・微子》",
+        "explanation": "一位丈人責問子路四肢不勞動、五穀也分不清，藉此批評他不熟悉實際農作。「四體」是四肢，「勤」是勞動，不能把它理解成身體不健康或動作不靈活。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%9B%9B%E9%AB%94%E4%B8%8D%E5%8B%A4"
+      }
     },
     {
       "term": "宜室宜家",
@@ -3224,7 +4070,13 @@
       "example": "賀卡上寫著宜室宜家，祝福新人生活美滿。",
       "questionIds": [
         "108-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《詩經・周南・桃夭》",
+        "explanation": "〈桃夭〉以桃花盛開比喻女子出嫁，祝願她使家庭和順。「宜」是合宜、和順，「室」「家」共同指向家庭生活。後來常作婚嫁祝賀，不是房屋裝潢適合居住的廣告用語。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AE%9C%E5%AE%A4%E5%AE%9C%E5%AE%B6"
+      }
     },
     {
       "term": "二八年華",
@@ -3244,7 +4096,13 @@
       "example": "主管以身作則，團隊便有風行草偃的改變。",
       "questionIds": [
         "107-0-28"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《論語・顏淵》",
+        "explanation": "孔子用風和草比喻上位者對人民的影響：風吹過，草就跟著倒向一邊。「偃」是倒伏，後來風行草偃常用來說上行下效、風氣受到帶動，不是自然災害吹倒植物而已。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%A2%A8%E8%A1%8C%E8%8D%89%E5%81%83"
+      }
     },
     {
       "term": "震耳欲聾",
@@ -3285,7 +4143,13 @@
       "example": "這則神祕傳聞只是齊東野語，不宜當作史實。",
       "questionIds": [
         "106-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《孟子・萬章上》",
+        "explanation": "孟子用「齊東野人之語」斥責不可靠的傳說。後來縮成齊東野語，重點是來源粗疏、沒有根據，不是話語已經老舊。陳腔濫調可能陳舊，但未必虛假，兩者不能直接畫等號。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%BD%8A%E6%9D%B1%E9%87%8E%E8%AA%9E"
+      }
     },
     {
       "term": "陳腔濫調",
@@ -3295,7 +4159,13 @@
       "example": "文章若滿是陳腔濫調，就難以打動讀者。",
       "questionIds": [
         "106-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "舊腔調比喻沒有新意的表達",
+        "explanation": "「陳」是陳舊，「濫」有浮泛、不加選擇之意，腔調原可談說唱聲調，後借指言論或文章。整體批評內容老套、反覆搬用，與來源不可靠的謠言不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%99%B3%E8%85%94%E6%BF%AB%E8%AA%BF"
+      }
     },
     {
       "term": "睚眥必報",
@@ -3305,7 +4175,13 @@
       "example": "他睚眥必報，只因一句玩笑就處處刁難同事。",
       "questionIds": [
         "106-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《史記・范雎蔡澤列傳》",
+        "explanation": "記載中范雎對曾受的恩惠與怨恨都記得清楚，連很小的冒犯也報復。「睚眥」本與怒目相視有關，後借指微小怨隙。因此成語批評心胸狹窄，不是單純外表凶狠。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%9D%9A%E7%9C%A5%E5%BF%85%E5%A0%B1"
+      }
     },
     {
       "term": "力挽狂瀾",
@@ -3577,7 +4453,13 @@
       "example": "館中收藏的地方照片不計其數。",
       "questionIds": [
         "110-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「計」的計算之義",
+        "explanation": "「計」是計算，「其數」是它的數量，合起來是多到難以計算。這個詞主要強調數量龐大，通常沒有明確褒貶；與專用來說罪惡很多的擢髮難數，搭配範圍不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E8%A8%88%E5%85%B6%E6%95%B8"
+      }
     },
     {
       "term": "不足為奇",
@@ -3659,7 +4541,13 @@
       "example": "責任應查清楚，不能讓基層代人受過。",
       "questionIds": [
         "110-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「代」「過」的字義",
+        "explanation": "「代」是替代，「過」在這裡是過失與其責罰，不是經過某處。成語指替別人承受本不屬於自己的責任。它著重責任落錯對象，和主動為共同目標承受辛苦並不相同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BB%A3%E4%BA%BA%E5%8F%97%E9%81%8E"
+      }
     },
     {
       "term": "以德服人",
@@ -3840,7 +4728,13 @@
       "example": "畢業後大家各奔東西，仍保持聯絡。",
       "questionIds": [
         "109-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "東西代表不同方向",
+        "explanation": "「奔」是前往、奔赴，東與西用來代表彼此分開的方向，不一定真的一個向東、一個向西。常見於畢業、離別等各自展開生活的情境；這是分道的畫面，不自帶爭執或背叛的意思。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%90%84%E5%A5%94%E6%9D%B1%E8%A5%BF"
+      }
     },
     {
       "term": "各從其志",
@@ -3971,7 +4865,13 @@
       "example": "故事以報應不爽作結，勸人不要作惡。",
       "questionIds": [
         "107-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「爽」的差失之義",
+        "explanation": "「爽」在此指差錯、偏差，整句在傳統因果觀念中表示善惡報應沒有落空。它不是說報應令人不快。考試遇到「屢試不爽」時，也可以用同一個古義幫助理解。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A0%B1%E6%87%89%E4%B8%8D%E7%88%BD"
+      }
     },
     {
       "term": "多聞闕疑",
@@ -3991,7 +4891,13 @@
       "example": "百姓盼望天下太平，能安穩生活。",
       "questionIds": [
         "109-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "天下與太平的政治理想",
+        "explanation": "「天下」借指普遍的社會或國家，「太平」是安定、沒有戰亂。成語描繪人人得以安居的狀態。依語氣不同，也可能反諷有人以為問題已全解決，仍須配合上下文。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A4%A9%E4%B8%8B%E5%A4%AA%E5%B9%B3"
+      }
     },
     {
       "term": "天下為公",
@@ -4011,7 +4917,13 @@
       "example": "真相終於揭露，受害者感嘆天理昭彰。",
       "questionIds": [
         "107-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「昭」「彰」的明顯之義",
+        "explanation": "「昭」與「彰」都有清楚顯現的意思，整個詞表示正義、道理彰顯，常與惡行受到制裁的敘事相連。它表達的是傳統道德評價，不是天氣晴朗或自然景色明亮。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A4%A9%E7%90%86%E6%98%AD%E5%BD%B0"
+      }
     },
     {
       "term": "天道無親",
@@ -4051,7 +4963,13 @@
       "example": "他改掉拖延習慣，成為奮發有為的青年。",
       "questionIds": [
         "108-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "振奮與有所作為的結合",
+        "explanation": "「奮發」是振作精神、積極努力，「有為」是能做出事情與成績。兩部分合起來稱讚進取態度與行動力，和只追求不切實際目標的好高騖遠不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A5%AE%E7%99%BC%E6%9C%89%E7%82%BA"
+      }
     },
     {
       "term": "奼紫嫣紅",
@@ -4102,7 +5020,13 @@
       "example": "家中室如懸磬，他仍珍惜僅有的幾本書。",
       "questionIds": [
         "110-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《左傳・僖公二十六年》",
+        "explanation": "古文以家室像懸掛的磬一樣，描寫財物空乏的處境。「磬」是古代石製樂器；整個比喻保存的是室內空落、貧乏的畫面，不能因為提到樂器就當成音樂好聽。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AE%A4%E5%A6%82%E6%87%B8%E7%A3%AC"
+      }
     },
     {
       "term": "容光煥發",
@@ -4122,7 +5046,13 @@
       "example": "雙方協商不成，最後只好對簿公堂。",
       "questionIds": [
         "114-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "古代司法文書與訊問用語",
+        "explanation": "「簿」是記錄案件的文書，「對簿」是接受核對、訊問，公堂則是官府審理事情的場所。後來說雙方對簿公堂，通常就是訴諸司法、在法庭上釐清爭端，並非對照一本簿子這麼簡單。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%B0%8D%E7%B0%BF%E5%85%AC%E5%A0%82"
+      }
     },
     {
       "term": "山重水複",
@@ -4303,7 +5233,13 @@
       "example": "小說最後的轉折讓讀者拍案驚奇。",
       "questionIds": [
         "107-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "拍桌與驚嘆的動作描寫",
+        "explanation": "「案」是桌子，「拍案」是拍桌子；遇到奇特、出乎意料的事情，驚訝得拍桌，就是這個詞的畫面。它也成為小說集的書名，但不能因此把書名當成所有用法的最早語源。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8B%8D%E6%A1%88%E9%A9%9A%E5%A5%87"
+      }
     },
     {
       "term": "持祿養交",
@@ -4333,7 +5269,13 @@
       "example": "老師一番說明，讓他有撥雲見日之感。",
       "questionIds": [
         "115-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "雲遮日光的比喻",
+        "explanation": "雲遮住太陽，撥開後重新看見光亮，借指疑惑解除、困境出現轉機。記憶重點是由不明到清楚、由遮蔽到顯露；不是說某種壞情況一天比一天加重。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%92%A5%E9%9B%B2%E8%A6%8B%E6%97%A5"
+      }
     },
     {
       "term": "擇善固執",
@@ -4374,7 +5316,13 @@
       "example": "春去秋來，老館員已在這裡服務三十年。",
       "questionIds": [
         "111-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "季節交替表現時間流逝",
+        "explanation": "春離去、秋到來，兩個季節代表一年又一年的更替，並不是省略夏冬後真的只有兩季。這個詞常營造歲月推移的感受，喜悅或感傷則由上下文決定。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%98%A5%E5%8E%BB%E7%A7%8B%E4%BE%86"
+      }
     },
     {
       "term": "春意闌珊",
@@ -4464,7 +5412,13 @@
       "example": "小說用桃羞杏讓，描繪人物的出眾容貌。",
       "questionIds": [
         "110-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "花朵擬人與美貌的誇飾",
+        "explanation": "桃花像害羞、杏花也要退讓，是把花擬人化，說人的容貌比鮮花更動人。這種寫法屬文學誇飾，不能照字面認為花真的會有情緒；常用來讚美人物容貌。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%A1%83%E7%BE%9E%E6%9D%8F%E8%AE%93"
+      }
     },
     {
       "term": "業精於勤",
@@ -4524,7 +5478,13 @@
       "example": "輓聯以母儀足式，追念長輩一生的德行。",
       "questionIds": [
         "110-0-21"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "母德與楷模的傳統頌辭",
+        "explanation": "「儀」是風範，「式」可作法式、典範理解，整句稱讚母親的品德足供效法。常見於女性長輩的頌辭或輓辭，不能只看到「足」便解成數量足夠。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%AF%8D%E5%84%80%E8%B6%B3%E5%BC%8F"
+      }
     },
     {
       "term": "民惟邦本",
@@ -4604,7 +5564,13 @@
       "example": "各地學者濟濟一堂，共同討論閱讀教育。",
       "questionIds": [
         "114-0-36"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「濟濟」的人才眾多之義",
+        "explanation": "「濟濟」讀ㄐㄧˇ ㄐㄧˇ，常用來說人才或賓客很多；「一堂」則把眾人聚在同一場合的畫面集中起來。它通常帶熱鬧、人才匯聚的正面意味，不能把濟字讀成救濟的ㄐㄧˋ。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%BF%9F%E6%BF%9F%E4%B8%80%E5%A0%82"
+      }
     },
     {
       "term": "為德不卒",
@@ -4686,7 +5652,13 @@
       "example": "重新整理書架後，閱覽空間煥然一新。",
       "questionIds": [
         "114-0-7"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「煥然」的明亮鮮明之義",
+        "explanation": "「煥」與光彩鮮明相關，「煥然」形容面貌明亮、新鮮，再加「一新」強調整體改變。它稱讚更新後的樣子；與環堵蕭然的貧乏空落，不是同一件事。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%85%A5%E7%84%B6%E4%B8%80%E6%96%B0"
+      }
     },
     {
       "term": "牝牡驪黃",
@@ -4746,7 +5718,13 @@
       "example": "他決定遠離那些狐群狗黨，重新生活。",
       "questionIds": [
         "110-0-44"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "動物形象與朋黨的貶喻",
+        "explanation": "狐、狗在這個固定詞裡被用作負面譬喻，「群」「黨」都指聚在一起的人。整體用來斥責勾結作惡的同夥，不能拿來中性地稱呼一般朋友或社團。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%8B%90%E7%BE%A4%E7%8B%97%E9%BB%A8"
+      }
     },
     {
       "term": "獨樹一格",
@@ -4806,7 +5784,13 @@
       "example": "管理公款的人私自挪用，是監守自盜。",
       "questionIds": [
         "114-0-7"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "職責與行為的反差",
+        "explanation": "「監守」是受託看管，「自盜」卻是自己偷取。正因看管者本應保護財物，卻利用職務侵占，才有這個強烈的反差。它比一般偷竊多了受託保管卻背叛責任的條件。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%9B%A3%E5%AE%88%E8%87%AA%E7%9B%9C"
+      }
     },
     {
       "term": "相提並論",
@@ -4926,7 +5910,13 @@
       "example": "經費有限，更要精打細算地安排採購。",
       "questionIds": [
         "113-0-7"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "計算動作的疊加",
+        "explanation": "「精」「細」都強調仔細，「打」「算」連到盤算收支與資源。成語說的是謹慎計畫、不輕易浪費，並不等於捨棄珍貴內容而只買漂亮包裝的買櫝還珠。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%B2%BE%E6%89%93%E7%B4%B0%E7%AE%97"
+      }
     },
     {
       "term": "精雕細琢",
@@ -4966,7 +5956,13 @@
       "example": "作者借老鶴乘軒，批評任人唯親的現象。",
       "questionIds": [
         "113-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《左傳・閔公二年》衛懿公好鶴",
+        "explanation": "衛懿公喜愛鶴，讓鶴享受官員般的待遇、乘坐軒車。等敵人來犯，百姓不滿地說既然鶴有俸祿官位，就讓鶴去打仗。故事批評寵愛失當、讓不適任者享有高位，不是祝賀老人搭車。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%80%81%E9%B6%B4%E4%B9%98%E8%BB%92"
+      }
     },
     {
       "term": "能言善道",
@@ -5089,7 +6085,13 @@
       "example": "細心記錄讀者反應，能幫助館員見微知著。",
       "questionIds": [
         "108-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "由細小跡象推察大變化的觀察方法",
+        "explanation": "「微」是細小、尚不顯眼的徵兆，「著」是明顯的發展。由小處看出大趨勢，才是這個詞的意思。它要求敏銳而有根據的判斷，與憑空猜測、任意牽連不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%A6%8B%E5%BE%AE%E7%9F%A5%E8%91%97"
+      }
     },
     {
       "term": "話中有話",
@@ -5172,7 +6174,13 @@
       "questionIds": [
         "114-0-37",
         "109-0-3"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《禮記・禮運》",
+        "explanation": "《禮運》描述理想政治時，提到選拔賢德、有能力的人服務大眾。「與」通「舉」，讀ㄐㄩˇ，不是一般連接詞「和」。成語著重依德行與才能任用，與只按親疏安排位置相反。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%81%B8%E8%B3%A2%E8%88%87%E8%83%BD"
+      }
     },
     {
       "term": "遺世獨立",
@@ -5265,7 +6273,13 @@
       "example": "學習需要鐵杵磨針的耐心，不要急於求成。",
       "questionIds": [
         "113-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "傳說",
+        "reference": "李白幼時遇老婦磨杵的勸學故事",
+        "explanation": "流傳的故事說，李白見老婦把粗鐵杵磨成細針，因而領悟只要持續用功，艱難的目標也能靠累積接近。這是後世傳說，不宜當成已證實的李白生平事實；成語取的是不怕慢、肯堅持的精神。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%90%B5%E6%9D%B5%E7%A3%A8%E9%87%9D"
+      }
     },
     {
       "term": "離群索居",
@@ -5781,7 +6795,13 @@
       "example": "城外鼓角齊鳴，軍隊準備出發。",
       "questionIds": [
         "106-0-1"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "古代軍隊的聲響信號",
+        "explanation": "「鼓」是戰鼓，「角」是號角，「齊鳴」是一起響起。兩種軍中聲響合在一起，描寫出征或戰場的氣勢。它本身不包含第一次擊鼓士氣最盛的道理，因此和一鼓作氣不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%BC%93%E8%A7%92%E9%BD%8A%E9%B3%B4"
+      }
     },
     {
       "term": "大雅之堂",
@@ -5792,7 +6812,13 @@
       "questionIds": [
         "114-0-36",
         "111-0-40"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "「雅」與莊重文雅場合的用語",
+        "explanation": "「雅」在這裡指文雅、高尚，「堂」是廳堂，合起來借指有品位、正式的場合。常見搭配是能否登大雅之堂，用於談作品或言行是否登得上正式場合，不是某一棟固定建築的專名。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A4%A7%E9%9B%85%E4%B9%8B%E5%A0%82"
+      }
     },
     {
       "term": "青雲之志",
@@ -5802,7 +6828,13 @@
       "example": "他年少便有青雲之志，希望投入公共服務。",
       "questionIds": [
         "108-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "以高空象徵高遠志向",
+        "explanation": "青雲在高處，文學因此借它象徵高遠的理想與境界。「之志」說的是心中抱負，與已經升到高位的飛黃騰達不同。選項比較時，要分清「想往上努力」與「已獲顯達」。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%9D%92%E9%9B%B2%E4%B9%8B%E5%BF%97"
+      }
     },
     {
       "term": "奮翅鼓翼",
@@ -5812,7 +6844,13 @@
       "example": "面對新的挑戰，青年們奮翅鼓翼，勇敢前行。",
       "questionIds": [
         "108-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "鳥振翅飛翔的動作比喻",
+        "explanation": "「奮」「鼓」都有振動、振起的意思，翅與翼則是翅膀。鳥奮力拍翼，借喻人振作精神、積極向上。這個詞稱讚努力前進，不是說已經取得高官厚祿。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A5%AE%E7%BF%85%E9%BC%93%E7%BF%BC"
+      }
     },
     {
       "term": "以友輔仁",
@@ -6005,7 +7043,13 @@
       "example": "這張老照片引人遐思，讓人想像昔日街景。",
       "questionIds": [
         "111-0-37"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "「遐」的遙遠之義",
+        "explanation": "「遐」是遠，「遐思」是向遠處展開的想像或思緒。因此引人遐思指作品、景物使人產生豐富聯想，不是使人遐想就等於已有可靠證據。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BC%95%E4%BA%BA%E9%81%90%E6%80%9D"
+      }
     },
     {
       "term": "惶恐不安",
@@ -6146,7 +7190,13 @@
       "example": "無論職位高低，違法亂紀都應受到追究。",
       "questionIds": [
         "114-0-4"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "法律與紀律的並列",
+        "explanation": "「違法」是違反法律，「亂紀」是破壞紀律。兩者連用，加強對不守規範行為的批評。它描述不當行為本身，與身敗名裂所描述的名譽敗壞結果，層次不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%81%95%E6%B3%95%E4%BA%82%E7%B4%80"
+      }
     },
     {
       "term": "開張大吉",
@@ -6186,7 +7236,13 @@
       "example": "婚禮賀辭以瓜瓞延祥，寄託家族興旺的祝願。",
       "questionIds": [
         "110-0-21"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《詩經・大雅・綿》瓜瓞意象與婚嫁題辭",
+        "explanation": "「瓞」是小瓜，瓜藤上大小瓜接續生長，古人借來比喻子孫綿延。「延祥」再加上福澤延續的祝願，所以常用於婚嫁或家族繁衍的祝賀，不是一般店鋪開業。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%93%9C%E7%93%9E%E5%BB%B6%E7%A5%A5"
+      }
     },
     {
       "term": "弄璋誌喜",
@@ -6196,7 +7252,13 @@
       "example": "親友以弄璋誌喜，祝賀家中男嬰誕生。",
       "questionIds": [
         "110-0-21"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《詩經・小雅・斯干》",
+        "explanation": "〈斯干〉以給男孩玉璋、給女孩紡織用具的描寫，反映古代對子女角色的期待。後來「弄璋」成為生男孩的賀語，「誌喜」是記下喜事。這是傳統用法背景，並不表示今日應以性別決定人的價值。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BC%84%E7%92%8B%E8%AA%8C%E5%96%9C"
+      }
     },
     {
       "term": "花開並蒂",
@@ -6206,7 +7268,13 @@
       "example": "婚禮佈置以花開並蒂，象徵新人相依。",
       "questionIds": [
         "108-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "同一花莖上並生花朵的婚戀比喻",
+        "explanation": "「蒂」是花與枝莖連接的部位，同根並生的花朵給人相依相伴的畫面，後來常用於祝福夫妻和美。它是植物意象的借喻，不是只要兩朵花同時開就一定有婚嫁含義。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%8A%B1%E9%96%8B%E4%B8%A6%E8%92%82"
+      }
     },
     {
       "term": "棠棣聯輝",
@@ -6216,7 +7284,13 @@
       "example": "兩兄弟同獲學術獎，親友以棠棣聯輝祝賀。",
       "questionIds": [
         "108-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《詩經・小雅・常棣》與兄弟題辭",
+        "explanation": "〈常棣〉歌詠兄弟情誼，常棣、棠棣遂成為手足的象徵。「聯輝」表示彼此相連、共同增光，因此常用於稱讚兄弟一同顯耀，不能把它當成夫妻恩愛的題辭。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%A3%A0%E6%A3%A3%E8%81%AF%E8%BC%9D"
+      }
     },
     {
       "term": "華堂集瑞",
@@ -6226,7 +7300,13 @@
       "example": "新居落成，親友送上華堂集瑞的賀匾。",
       "questionIds": [
         "108-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "廳堂與祥瑞的賀語",
+        "explanation": "「華堂」是美好的廳堂，「集瑞」是聚集吉祥，將房屋與福氣連在一起，常用於新居落成、喬遷。它的祝賀對象是居所，不能僅因字面喜氣就用在所有場合。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%8F%AF%E5%A0%82%E9%9B%86%E7%91%9E"
+      }
     },
     {
       "term": "博愛濟眾",
@@ -6236,7 +7316,13 @@
       "example": "大家以博愛濟眾，讚揚醫療團隊的服務。",
       "questionIds": [
         "108-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "廣泛關愛與救助人群",
+        "explanation": "「博愛」是廣泛關愛，「濟眾」是幫助眾人，兩者合起來稱讚有益群體的救助行為。常見於醫療、慈善頌辭，判斷時要看被稱讚者的服務對象與貢獻。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%8D%9A%E6%84%9B%E6%BF%9F%E7%9C%BE"
+      }
     },
     {
       "term": "杏壇春滿",
@@ -6246,7 +7332,13 @@
       "example": "校慶賀匾寫著杏壇春滿，祝願學校持續育才。",
       "questionIds": [
         "108-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《莊子・漁父》杏壇講學意象與教育題辭",
+        "explanation": "《莊子》描寫孔子在杏壇休息、弟子讀書的場景，後世杏壇成為教育與講學的象徵。「春滿」再用春天滋養萬物的畫面，祝願教化興盛，所以題辭應連到教育界。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%9D%8F%E5%A3%87%E6%98%A5%E6%BB%BF"
+      }
     },
     {
       "term": "繞樑韻永",
@@ -6256,7 +7348,13 @@
       "example": "這場音樂會繞樑韻永，散場後觀眾仍意猶未盡。",
       "questionIds": [
         "108-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "《列子・湯問》韓娥歌聲繞梁的故事",
+        "explanation": "傳說韓娥歌唱後離開，餘音彷彿仍繞著屋梁，久久不散。題辭把這個意象化為「繞樑韻永」，稱讚音樂餘韻悠長、令人難忘，不是形容建築梁柱堅固。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%B9%9E%E6%A8%91%E9%9F%BB%E6%B0%B8"
+      }
     },
     {
       "term": "肩鴻任鉅",
@@ -6376,7 +7474,13 @@
       "example": "經過反覆修改，這項研究終於九轉功成。",
       "questionIds": [
         "113-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "語源",
+        "reference": "道教煉丹「九轉」的用語",
+        "explanation": "古代道教煉丹有反覆轉煉的觀念，「九轉」用來表現多次鍛鍊而完成。後來不必真的談煉丹，也可借指經長期努力終於成功。要把它當文化典故理解，不能據此認為煉丹能長生。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B9%9D%E8%BD%89%E5%8A%9F%E6%88%90"
+      }
     },
     {
       "term": "鳥覆危巢",
@@ -6386,7 +7490,13 @@
       "example": "公司資金即將耗盡，處境如鳥覆危巢，必須立刻尋求改善。",
       "questionIds": [
         "111-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "文獻用例",
+        "reference": "李商隱〈行次昭應縣道上送戶部李郎中充昭義攻討〉",
+        "explanation": "詩中把沸鼎中的魚與危巢裡的鳥並列：處境已如此危險，不必等外力再來，便可能遭殃。鳥覆危巢因此用來比喻形勢危急，與池魚籠鳥強調活動受限制的意思不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%B3%A5%E8%A6%86%E5%8D%B1%E5%B7%A2"
+      }
     },
     {
       "term": "放利而行",
@@ -6396,7 +7506,13 @@
       "example": "合作若只知放利而行，不顧夥伴，關係就難以長久。",
       "questionIds": [
         "111-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《論語・里仁》",
+        "explanation": "孔子說「放於利而行，多怨」，提醒人如果凡事只依自身利益行動，容易招來怨恨。「放」在這裡是依循、依據，不是放下利益。因此成語批評以利己為準則，不能誤解成慷慨讓利。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%94%BE%E5%88%A9%E8%80%8C%E8%A1%8C"
+      }
     },
     {
       "term": "朝夕不保",
@@ -6406,7 +7522,13 @@
       "example": "戰亂中百姓朝夕不保，只盼早日恢復和平。",
       "questionIds": [
         "111-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "以早晚表示極短時間",
+        "explanation": "「朝夕」是早晨與晚上，「不保」是不能保障。連短短一段時間的安危都沒有把握，就呈現隨時可能遭遇災禍的緊迫感。它強調危險迫近，不只是長期但穩定的貧困。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%9C%9D%E5%A4%95%E4%B8%8D%E4%BF%9D"
+      }
     }
   ]
 }

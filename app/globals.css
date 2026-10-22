@@ -211,3 +211,15 @@ button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,te
 
 .note-topic-words{margin:18px 0;border-top:1px solid var(--line);padding-top:12px}
 .note-topic-words .saved-vocabulary{grid-template-columns:minmax(0,1fr)}
+
+/* One idiom learning layout for the dictionary and explanation dialog. */
+.idiom-learning{min-width:0;margin:1rem 0;line-height:1.85;overflow-wrap:anywhere}
+.idiom-learning h4{margin:.5rem 0;color:var(--gold,#d7b77c)}
+.idiom-learning dl{display:grid;gap:.85rem;margin:0}
+.idiom-learning dl>div{min-width:0;padding:0;background:none;border:0}
+.idiom-learning dt{font-weight:700;margin:0 0 .25rem}
+.idiom-learning dd{margin:0}
+.idiom-learning p{margin:.3rem 0}
+.idiom-learning .idiom-reference{font-size:.85rem;opacity:.8}
+.option-explanations .idiom-learning{border-left:2px solid #b69b63;padding-left:1rem}
+@media(max-width:540px){.option-explanations .idiom-learning{padding-left:.65rem}}
