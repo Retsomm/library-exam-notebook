@@ -1,5 +1,5 @@
 'use client';
-import {restoreEnglishBlanks} from '@/lib/english-blanks.mjs';
+import {prepareQuestionText} from '@/lib/question-text.mjs';
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
@@ -49,7 +49,7 @@ const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:stri
   const emap=useMemo(()=>new Map(bank?.exams.map(e=>[e.id,e])||[]),[bank]);
   useEffect(()=>{
     const controller=new AbortController();
-    fetch('/bank.json',{signal:controller.signal}).then(async r=>{if(!r.ok)throw Error(r.status===401?'登入已失效，請重新登入。':'題庫暫時無法載入。');const data:Bank=await r.json();setBank({...data,questions:data.questions.map(restoreEnglishBlanks)});
+    fetch('/bank.json',{signal:controller.signal}).then(async r=>{if(!r.ok)throw Error(r.status===401?'登入已失效，請重新登入。':'題庫暫時無法載入。');const data:Bank=await r.json();setBank({...data,questions:data.questions.map(prepareQuestionText)});
       const known=new Set(data.questions.map(q=>q.id));
       try{const raw=localStorage.getItem(key);if(raw){const parsed=JSON.parse(raw);const restored=validateBackup(parsed,known);if(restored.session&&parsed.session){const map=new Map(data.questions.map(q=>[q.id,q]));for(const id of restored.session.ids){const choice=parsed.session.choices?.[id];if(Array.isArray(choice)&&choice.length&&choice.every(x=>typeof x==='string'&&/^[A-E]$/.test(x))){restored.session.choices[id]=[...new Set<string>(choice)];if(Object.hasOwn(parsed.session.checked||{},id))restored.session.checked[id]=grade(map.get(id)!,choice);}}}setStudy(restored);}}
       catch{setMessage('無法讀取本機舊紀錄，請使用備份檔還原。');}setLoaded(true);
