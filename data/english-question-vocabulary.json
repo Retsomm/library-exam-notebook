@@ -1,0 +1,2005 @@
+[
+  {
+    "word": "main idea",
+    "partOfSpeech": "名詞片語",
+    "meaning": "主旨、中心思想",
+    "usage": "問 main idea 時，要找能涵蓋整篇的核心意思，不只是一個例子。",
+    "forms": [
+      "main idea"
+    ]
+  },
+  {
+    "word": "according to",
+    "partOfSpeech": "介系詞片語",
+    "meaning": "根據、依照",
+    "usage": "According to the passage 表示答案必須有文章依據，不能只憑常識。",
+    "forms": [
+      "according to"
+    ]
+  },
+  {
+    "word": "which of the following",
+    "partOfSpeech": "疑問句型",
+    "meaning": "下列哪一項",
+    "usage": "following 指接下來列出的選項；看到 NOT 時，要找不符合的那一項。",
+    "forms": [
+      "which of the following"
+    ]
+  },
+  {
+    "word": "most likely",
+    "partOfSpeech": "副詞片語",
+    "meaning": "最有可能",
+    "usage": "詢問最可能的解釋；字義題要依上下文判斷，不能只背單一中文意思。",
+    "forms": [
+      "most likely"
+    ]
+  },
+  {
+    "word": "refer to",
+    "partOfSpeech": "動詞片語",
+    "meaning": "指的是、指涉",
+    "usage": "What does X refer to? 是問 X 指誰或什麼，常考代名詞或數字對應的內容。",
+    "forms": [
+      "refer to"
+    ]
+  },
+  {
+    "word": "imply",
+    "partOfSpeech": "動詞",
+    "meaning": "暗示、意味著",
+    "usage": "implied 是 imply 的過去分詞；NOT implied 問的是無法從文章推得的意思。",
+    "forms": [
+      "imply",
+      "implied",
+      "implies"
+    ]
+  },
+  {
+    "word": "mention",
+    "partOfSpeech": "動詞",
+    "meaning": "提到",
+    "usage": "NOT mentioned 是「未提及」，不等於「內容必定錯誤」。",
+    "forms": [
+      "mention",
+      "mentioned",
+      "mentions"
+    ]
+  },
+  {
+    "word": "statement",
+    "partOfSpeech": "名詞",
+    "meaning": "敘述、說法",
+    "usage": "Which statement is true? 是檢查整句敘述是否符合文章。",
+    "forms": [
+      "statement",
+      "statements"
+    ]
+  },
+  {
+    "word": "best title",
+    "partOfSpeech": "名詞片語",
+    "meaning": "最適合的標題",
+    "usage": "標題應概括全篇，過窄的細節或文章未談的議題通常不合適。",
+    "forms": [
+      "best title"
+    ]
+  },
+  {
+    "word": "closest in meaning",
+    "partOfSpeech": "形容詞片語",
+    "meaning": "意思最接近的",
+    "usage": "問同義字時，要代回原句，核對語氣與語境。",
+    "forms": [
+      "closest in meaning"
+    ]
+  },
+  {
+    "word": "mainly discuss",
+    "partOfSpeech": "動詞片語",
+    "meaning": "主要討論",
+    "usage": "mainly 把範圍限定在全文的主要議題，而不是偶爾提到的細節。",
+    "forms": [
+      "mainly discuss"
+    ]
+  },
+  {
+    "word": "primary purpose",
+    "partOfSpeech": "名詞片語",
+    "meaning": "主要目的",
+    "usage": "purpose 問作者為什麼寫這篇文章，例如介紹、說明、比較或說服。",
+    "forms": [
+      "primary purpose"
+    ]
+  },
+  {
+    "word": "author’s attitude",
+    "partOfSpeech": "名詞片語",
+    "meaning": "作者的態度",
+    "usage": "態度題要從作者用字判斷支持、反對、擔憂或中立，不能只看文章主題。",
+    "forms": [
+      "author’s attitude"
+    ]
+  },
+  {
+    "word": "affect",
+    "partOfSpeech": "動詞",
+    "meaning": "影響",
+    "usage": "may affect the human lifespan 指「可能影響人類壽命」；may 不代表一定發生。",
+    "forms": [
+      "affect"
+    ]
+  },
+  {
+    "word": "advance",
+    "partOfSpeech": "名詞；動詞",
+    "meaning": "進展；前進、促進",
+    "usage": "advances in medicine 是醫學的進展；advancing a nation’s culture 則是促進一國文化。",
+    "forms": [
+      "advance",
+      "advances",
+      "advancing"
+    ]
+  },
+  {
+    "word": "lead to",
+    "partOfSpeech": "動詞片語",
+    "meaning": "導致、帶來",
+    "usage": "are leading to longer lives 指這些進展正帶來更長的壽命。",
+    "forms": [
+      "lead to",
+      "leading to",
+      "leads to"
+    ]
+  },
+  {
+    "word": "for sure",
+    "partOfSpeech": "副詞片語",
+    "meaning": "確定地、毫無疑問",
+    "usage": "for sure 的語氣比 may、might、possible 強；推論題常用來設置過度肯定的選項。",
+    "forms": [
+      "for sure"
+    ]
+  },
+  {
+    "word": "rely on",
+    "partOfSpeech": "動詞片語",
+    "meaning": "依靠、仰賴",
+    "usage": "rely on chips 是依靠晶片；rely on chances 則指仰賴機運。",
+    "forms": [
+      "rely on",
+      "relies on",
+      "relying on"
+    ]
+  },
+  {
+    "word": "unexpected",
+    "partOfSpeech": "形容詞",
+    "meaning": "出乎意料的",
+    "usage": "unexpected causes 是未預料到的原因，不可直接等同文章列出的特定災難。",
+    "forms": [
+      "unexpected"
+    ]
+  },
+  {
+    "word": "hardly",
+    "partOfSpeech": "副詞",
+    "meaning": "幾乎不",
+    "usage": "can hardly survive 是「幾乎無法存活」，hardly 帶否定意思，不是努力地。",
+    "forms": [
+      "hardly"
+    ]
+  },
+  {
+    "word": "survive",
+    "partOfSpeech": "動詞",
+    "meaning": "存活、倖存",
+    "usage": "指在危險或困難中繼續生存；survive a disaster 是從災難中倖存。",
+    "forms": [
+      "survive"
+    ]
+  },
+  {
+    "word": "economic crisis",
+    "partOfSpeech": "名詞片語",
+    "meaning": "經濟危機",
+    "usage": "crises 是 crisis 的複數；economic crises 與疾病、交通事故屬不同類型的事件。",
+    "forms": [
+      "economic crisis",
+      "economic crises"
+    ]
+  },
+  {
+    "word": "epidemic disease",
+    "partOfSpeech": "名詞片語",
+    "meaning": "流行性疾病",
+    "usage": "epidemic 指在某地區或人群中流行；不要因同樣是危險事件，就與交通事故混為一談。",
+    "forms": [
+      "epidemic disease",
+      "epidemic diseases"
+    ]
+  },
+  {
+    "word": "artificial intelligence",
+    "partOfSpeech": "名詞片語",
+    "meaning": "人工智慧",
+    "usage": "通常縮寫為 AI；它與 brain-computer interfaces（腦機介面）是不同技術概念。",
+    "forms": [
+      "artificial intelligence"
+    ]
+  },
+  {
+    "word": "electrical power",
+    "partOfSpeech": "名詞片語",
+    "meaning": "電力",
+    "usage": "power 在這裡指能源，不是政治權力。",
+    "forms": [
+      "electrical power"
+    ]
+  },
+  {
+    "word": "cease",
+    "partOfSpeech": "動詞",
+    "meaning": "停止、終止",
+    "usage": "與 begin（開始）方向相反；字義題先辨認動作開始還是結束。",
+    "forms": [
+      "cease"
+    ]
+  },
+  {
+    "word": "postpone",
+    "partOfSpeech": "動詞",
+    "meaning": "延後、延期",
+    "usage": "postpone a meeting 是延後會議；只是改到稍後，不等於取消或開始。",
+    "forms": [
+      "postpone"
+    ]
+  },
+  {
+    "word": "shrink",
+    "partOfSpeech": "動詞",
+    "meaning": "縮小、減少",
+    "usage": "可說衣服縮水或規模縮減，與 initiate 的「開始」不同。",
+    "forms": [
+      "shrink"
+    ]
+  },
+  {
+    "word": "diversity",
+    "partOfSpeech": "名詞",
+    "meaning": "多樣性",
+    "usage": "diversity of board games 指桌遊種類多元，不只是某一款遊戲的規則。",
+    "forms": [
+      "diversity"
+    ]
+  },
+  {
+    "word": "appeal",
+    "partOfSpeech": "名詞；動詞",
+    "meaning": "吸引力；吸引",
+    "usage": "Diversity and Appeal 中 appeal 是名詞，意指桌遊吸引人的地方，不是申訴。",
+    "forms": [
+      "appeal"
+    ]
+  },
+  {
+    "word": "strategy",
+    "partOfSpeech": "名詞",
+    "meaning": "策略",
+    "usage": "strategies 是複數，指為達成目標所採取的計畫或方法。",
+    "forms": [
+      "strategy",
+      "strategies"
+    ]
+  },
+  {
+    "word": "outcome",
+    "partOfSpeech": "名詞",
+    "meaning": "結果",
+    "usage": "actions and outcomes 是「行動與結果」；outcome 不等於遊戲規則。",
+    "forms": [
+      "outcome",
+      "outcomes"
+    ]
+  },
+  {
+    "word": "characteristic",
+    "partOfSpeech": "名詞；形容詞",
+    "meaning": "特徵；典型的",
+    "usage": "a characteristic about Pandemic 是問該遊戲的特性。",
+    "forms": [
+      "characteristic",
+      "characteristics"
+    ]
+  },
+  {
+    "word": "cooperation",
+    "partOfSpeech": "名詞",
+    "meaning": "合作",
+    "usage": "require cooperation 表示必須合作；可和 competition（競爭）對照。",
+    "forms": [
+      "cooperation"
+    ]
+  },
+  {
+    "word": "creativity",
+    "partOfSpeech": "名詞",
+    "meaning": "創造力",
+    "usage": "vocabulary creativity 指運用字彙的創意，並非只靠運氣。",
+    "forms": [
+      "creativity"
+    ]
+  },
+  {
+    "word": "serve as",
+    "partOfSpeech": "動詞片語",
+    "meaning": "作為、充當",
+    "usage": "serve as a source of entertainment 是「作為娛樂來源」，不是端上食物。",
+    "forms": [
+      "serve as"
+    ]
+  },
+  {
+    "word": "break the ice",
+    "partOfSpeech": "動詞片語",
+    "meaning": "打破僵局、使氣氛熱絡",
+    "usage": "指初次見面時讓互動更自在；即使合理，未在文章出現也不能當成已提及的理由。",
+    "forms": [
+      "break the ice"
+    ]
+  },
+  {
+    "word": "social interaction",
+    "partOfSpeech": "名詞片語",
+    "meaning": "社交互動",
+    "usage": "interaction 強調人與人之間的相互交流。",
+    "forms": [
+      "social interaction"
+    ]
+  },
+  {
+    "word": "relaxation",
+    "partOfSpeech": "名詞",
+    "meaning": "放鬆、休息",
+    "usage": "常與 entertainment（娛樂）並列，指玩桌遊帶來的休閒效果。",
+    "forms": [
+      "relaxation"
+    ]
+  },
+  {
+    "word": "bitter",
+    "partOfSpeech": "形容詞",
+    "meaning": "苦的；充滿怨憤的",
+    "usage": "在作者態度選項中，通常指怨憤或尖刻，不能只翻成味道苦。",
+    "forms": [
+      "bitter"
+    ]
+  },
+  {
+    "word": "anxious",
+    "partOfSpeech": "形容詞",
+    "meaning": "焦慮的、擔心的",
+    "usage": "be anxious about 是為某事擔心；attitude 題中的 anxious 指憂慮態度。",
+    "forms": [
+      "anxious"
+    ]
+  },
+  {
+    "word": "supportive",
+    "partOfSpeech": "形容詞",
+    "meaning": "支持的、給予鼓勵的",
+    "usage": "若作者強調桌遊的多項好處，態度可以是 supportive。",
+    "forms": [
+      "supportive"
+    ]
+  },
+  {
+    "word": "aggressive",
+    "partOfSpeech": "形容詞",
+    "meaning": "咄咄逼人的、具攻擊性的",
+    "usage": "態度題中指強硬或帶攻擊性，不等於單純積極推薦。",
+    "forms": [
+      "aggressive"
+    ]
+  },
+  {
+    "word": "academic",
+    "partOfSpeech": "形容詞",
+    "meaning": "學術的",
+    "usage": "academic language 指學術活動使用的語言；不代表所有國家都以它為母語。",
+    "forms": [
+      "academic"
+    ]
+  },
+  {
+    "word": "scholar",
+    "partOfSpeech": "名詞",
+    "meaning": "學者",
+    "usage": "scholars in different disciplines 是不同學科領域的學者。",
+    "forms": [
+      "scholar",
+      "scholars"
+    ]
+  },
+  {
+    "word": "discipline",
+    "partOfSpeech": "名詞",
+    "meaning": "學科領域；紀律",
+    "usage": "different disciplines 在學術語境指不同學科，不是不同的處罰方式。",
+    "forms": [
+      "discipline",
+      "disciplines"
+    ]
+  },
+  {
+    "word": "negotiation",
+    "partOfSpeech": "名詞",
+    "meaning": "協商、談判",
+    "usage": "business communication and negotiation 是商務溝通與談判。",
+    "forms": [
+      "negotiation"
+    ]
+  },
+  {
+    "word": "dominance",
+    "partOfSpeech": "名詞",
+    "meaning": "支配地位、主導優勢",
+    "usage": "the dominance of English 指英語占主導地位，並非直接等於對文化有益。",
+    "forms": [
+      "dominance"
+    ]
+  },
+  {
+    "word": "variety",
+    "partOfSpeech": "名詞",
+    "meaning": "種類、多樣性",
+    "usage": "varieties and functions of language 是語言的種類與功能。",
+    "forms": [
+      "variety",
+      "varieties"
+    ]
+  },
+  {
+    "word": "function",
+    "partOfSpeech": "名詞",
+    "meaning": "功能、作用",
+    "usage": "functions of language 指語言發揮哪些作用，例如溝通與表達認同。",
+    "forms": [
+      "function",
+      "functions"
+    ]
+  },
+  {
+    "word": "contribute to",
+    "partOfSpeech": "動詞片語",
+    "meaning": "促成、有助於",
+    "usage": "NOT contribute to 問哪個因素沒有促成該結果；to 後接名詞或動名詞。",
+    "forms": [
+      "contribute to"
+    ]
+  },
+  {
+    "word": "predominance",
+    "partOfSpeech": "名詞",
+    "meaning": "優勢、主導地位",
+    "usage": "與 dominance 意思相近；predominance of English 是英語居於優勢的現象。",
+    "forms": [
+      "predominance"
+    ]
+  },
+  {
+    "word": "enterprise",
+    "partOfSpeech": "名詞",
+    "meaning": "企業",
+    "usage": "international enterprises 是跨國或國際企業，不是學術機構。",
+    "forms": [
+      "enterprise",
+      "enterprises"
+    ]
+  },
+  {
+    "word": "sole",
+    "partOfSpeech": "形容詞",
+    "meaning": "唯一的",
+    "usage": "sole official language 是「唯一的官方語言」，比「常使用的語言」範圍更嚴格。",
+    "forms": [
+      "sole"
+    ]
+  },
+  {
+    "word": "medium",
+    "partOfSpeech": "名詞",
+    "meaning": "媒介、工具",
+    "usage": "a medium for instruction 是教學媒介；medium 此處不是中等尺寸。",
+    "forms": [
+      "medium"
+    ]
+  },
+  {
+    "word": "instruction",
+    "partOfSpeech": "名詞",
+    "meaning": "教學；指示、說明",
+    "usage": "medium for instruction 中是教學；follow the instructions 中則是依照操作說明。",
+    "forms": [
+      "instruction",
+      "instructions"
+    ]
+  },
+  {
+    "word": "academia",
+    "partOfSpeech": "名詞",
+    "meaning": "學術界",
+    "usage": "global academia 指全球學術界，和 academic（學術的）詞性不同。",
+    "forms": [
+      "academia"
+    ]
+  },
+  {
+    "word": "colonial rule",
+    "partOfSpeech": "名詞片語",
+    "meaning": "殖民統治",
+    "usage": "rule 此處是名詞「統治」，不是一條規則；during their colonial rule 是在殖民統治期間。",
+    "forms": [
+      "colonial rule"
+    ]
+  },
+  {
+    "word": "potential risk",
+    "partOfSpeech": "名詞片語",
+    "meaning": "潛在風險",
+    "usage": "potential 表示可能出現，並非風險已經百分之百發生。",
+    "forms": [
+      "potential risk"
+    ]
+  },
+  {
+    "word": "decline",
+    "partOfSpeech": "名詞；動詞",
+    "meaning": "衰退、下降",
+    "usage": "cultural decline 是文化衰退；文中作者擔心的正是社會文化層面的影響。",
+    "forms": [
+      "decline"
+    ]
+  },
+  {
+    "word": "marginalization",
+    "partOfSpeech": "名詞",
+    "meaning": "邊緣化",
+    "usage": "指群體被排除在資源、權力或主流參與之外。",
+    "forms": [
+      "marginalization"
+    ]
+  },
+  {
+    "word": "underprivileged",
+    "partOfSpeech": "形容詞",
+    "meaning": "弱勢的、資源不足的",
+    "usage": "underprivileged families 指社會或經濟資源較不足的家庭。",
+    "forms": [
+      "underprivileged"
+    ]
+  },
+  {
+    "word": "overwhelming",
+    "partOfSpeech": "形容詞",
+    "meaning": "壓倒性的、令人難以承受的",
+    "usage": "overwhelming frustration 是極強烈、難以承受的挫折感。",
+    "forms": [
+      "overwhelming"
+    ]
+  },
+  {
+    "word": "frustration",
+    "partOfSpeech": "名詞",
+    "meaning": "挫折、受挫感",
+    "usage": "因目標受阻而感到失望或懊惱，不等同一般的困難。",
+    "forms": [
+      "frustration"
+    ]
+  },
+  {
+    "word": "widespread",
+    "partOfSpeech": "形容詞",
+    "meaning": "廣泛存在的",
+    "usage": "widespread discrimination 是普遍存在的歧視。",
+    "forms": [
+      "widespread"
+    ]
+  },
+  {
+    "word": "discrimination",
+    "partOfSpeech": "名詞",
+    "meaning": "歧視；辨別",
+    "usage": "discrimination against someone 指對某人的歧視；此題採社會待遇的意思。",
+    "forms": [
+      "discrimination"
+    ]
+  },
+  {
+    "word": "master",
+    "partOfSpeech": "動詞",
+    "meaning": "精通、掌握",
+    "usage": "master English 指熟練掌握英文，不是成為某人的主人。",
+    "forms": [
+      "master"
+    ]
+  },
+  {
+    "word": "salient",
+    "partOfSpeech": "形容詞",
+    "meaning": "顯著的、重要而突出的",
+    "usage": "most salient agents 指最重要、最突出的推動因素。",
+    "forms": [
+      "salient"
+    ]
+  },
+  {
+    "word": "agent",
+    "partOfSpeech": "名詞",
+    "meaning": "促成因素；代理人",
+    "usage": "advancing a nation’s culture 的語境中，agents 指推動文化的媒介或力量，不是特務。",
+    "forms": [
+      "agent",
+      "agents"
+    ]
+  },
+  {
+    "word": "folklore",
+    "partOfSpeech": "名詞",
+    "meaning": "民俗傳說、民間故事",
+    "usage": "選項 folklores 指民間流傳的故事與傳統；常見字典詞形是 folklore。",
+    "forms": [
+      "folklore",
+      "folklores"
+    ]
+  },
+  {
+    "word": "ethics",
+    "partOfSpeech": "名詞",
+    "meaning": "倫理、道德規範",
+    "usage": "文章把倫理視為媒體傳播的內容；題目問傳播媒介時，須區分媒介與內容。",
+    "forms": [
+      "ethics"
+    ]
+  },
+  {
+    "word": "flight ticket",
+    "partOfSpeech": "名詞片語",
+    "meaning": "機票",
+    "usage": "flight 是航班；與 train ticket（火車票）、bus ticket（客運票）分辨。",
+    "forms": [
+      "flight ticket"
+    ]
+  },
+  {
+    "word": "special discount",
+    "partOfSpeech": "名詞片語",
+    "meaning": "特別折扣",
+    "usage": "NOT shown 問表格未顯示什麼；列出票價不代表另列了折扣。",
+    "forms": [
+      "special discount"
+    ]
+  },
+  {
+    "word": "in order to",
+    "partOfSpeech": "不定詞片語",
+    "meaning": "為了",
+    "usage": "in order to book the ticket 表示提供資料的目的，是為了訂票。",
+    "forms": [
+      "in order to"
+    ]
+  },
+  {
+    "word": "book",
+    "partOfSpeech": "動詞",
+    "meaning": "預訂",
+    "usage": "book the ticket 中 book 是動詞「預訂」，不是名詞「書」。",
+    "forms": [
+      "book"
+    ]
+  },
+  {
+    "word": "driver’s licence",
+    "partOfSpeech": "名詞片語",
+    "meaning": "駕駛執照",
+    "usage": "licence 是英式拼法；driver’s licence number 是駕照號碼，和身分證明號碼不同。",
+    "forms": [
+      "driver’s licence"
+    ]
+  },
+  {
+    "word": "deadline",
+    "partOfSpeech": "名詞",
+    "meaning": "截止期限",
+    "usage": "deadline to pay 是付款截止日，不能與搭車日期混淆。",
+    "forms": [
+      "deadline"
+    ]
+  },
+  {
+    "word": "business class",
+    "partOfSpeech": "名詞片語",
+    "meaning": "商務艙、商務車廂",
+    "usage": "選項須與表格中的 Standard Car（標準車廂）對照。",
+    "forms": [
+      "business class"
+    ]
+  },
+  {
+    "word": "be scheduled at",
+    "partOfSpeech": "動詞片語",
+    "meaning": "預定在某個時間",
+    "usage": "is scheduled at 10:46 表示預定時間為 10:46，不是在問行程長度。",
+    "forms": [
+      "is scheduled at",
+      "be scheduled at"
+    ]
+  },
+  {
+    "word": "improve your condition",
+    "partOfSpeech": "動詞片語",
+    "meaning": "改善你的狀況",
+    "usage": "condition 依前句可指記憶狀況或身體狀況，要先找上下文的問題。",
+    "forms": [
+      "improve your condition"
+    ]
+  },
+  {
+    "word": "blueberry",
+    "partOfSpeech": "名詞",
+    "meaning": "藍莓",
+    "usage": "blueberries 是複數；本文把藍莓與維持良好記憶力連在一起。",
+    "forms": [
+      "blueberry",
+      "blueberries"
+    ]
+  },
+  {
+    "word": "green pepper",
+    "partOfSpeech": "名詞片語",
+    "meaning": "青椒",
+    "usage": "green peppers 是複數；pepper 在此為蔬菜，不是研磨後的胡椒粉。",
+    "forms": [
+      "green pepper",
+      "green peppers"
+    ]
+  },
+  {
+    "word": "nutritionist",
+    "partOfSpeech": "名詞",
+    "meaning": "營養師",
+    "usage": "What do nutritionists suggest? 是問營養師建議什麼。",
+    "forms": [
+      "nutritionist",
+      "nutritionists"
+    ]
+  },
+  {
+    "word": "diet",
+    "partOfSpeech": "名詞",
+    "meaning": "日常飲食",
+    "usage": "our diet 指平常的飲食內容，不一定是在說減肥。",
+    "forms": [
+      "diet"
+    ]
+  },
+  {
+    "word": "suggest",
+    "partOfSpeech": "動詞",
+    "meaning": "建議",
+    "usage": "詢問 suggest about our diet 時，要找原文對飲食的建議。",
+    "forms": [
+      "suggest"
+    ]
+  },
+  {
+    "word": "compete",
+    "partOfSpeech": "動詞",
+    "meaning": "競爭",
+    "usage": "compete for 是爭取某事物；文章強調合作，不代表以競爭搶取時間貨幣。",
+    "forms": [
+      "compete",
+      "competing"
+    ]
+  },
+  {
+    "word": "currency",
+    "partOfSpeech": "名詞",
+    "meaning": "貨幣",
+    "usage": "currencies 是複數；trade currencies 是交易貨幣，不能直接等同交換服務。",
+    "forms": [
+      "currency",
+      "currencies"
+    ]
+  },
+  {
+    "word": "face-to-face",
+    "partOfSpeech": "形容詞；副詞",
+    "meaning": "面對面的",
+    "usage": "face-to-face yoga training 是面授瑜伽訓練，不代表所有平台使用者都只獲得這項服務。",
+    "forms": [
+      "face-to-face"
+    ]
+  },
+  {
+    "word": "round-trip",
+    "partOfSpeech": "形容詞",
+    "meaning": "來回的",
+    "usage": "round-trip tickets 是來回票，和 one-way tickets（單程票）對照。",
+    "forms": [
+      "round-trip"
+    ]
+  },
+  {
+    "word": "virtual money",
+    "partOfSpeech": "名詞片語",
+    "meaning": "虛擬貨幣",
+    "usage": "此題選項須仔細看 money 能換取什麼；anything 比文章提到的 services 範圍更廣。",
+    "forms": [
+      "virtual money"
+    ]
+  },
+  {
+    "word": "in exchange for",
+    "partOfSpeech": "介系詞片語",
+    "meaning": "交換、作為……的交換",
+    "usage": "other services in exchange for the time they serve 指用提供服務的時間換取其他服務。",
+    "forms": [
+      "in exchange for"
+    ]
+  },
+  {
+    "word": "founder",
+    "partOfSpeech": "名詞",
+    "meaning": "創辦人",
+    "usage": "founder 是創立組織的人；不要與網站的使用者或影片導演混淆。",
+    "forms": [
+      "founder"
+    ]
+  },
+  {
+    "word": "figure",
+    "partOfSpeech": "名詞",
+    "meaning": "數字；圖像",
+    "usage": "the figure “90,000” 中 figure 指數字，不是人物或身材。",
+    "forms": [
+      "figure"
+    ]
+  },
+  {
+    "word": "revenue",
+    "partOfSpeech": "名詞",
+    "meaning": "營收、收入",
+    "usage": "total revenue 是總營收，與使用者人數或服務項目數不同。",
+    "forms": [
+      "revenue"
+    ]
+  },
+  {
+    "word": "generate",
+    "partOfSpeech": "動詞",
+    "meaning": "產生、創造",
+    "usage": "revenue generated by Bliive 指 Bliive 所產生的營收；generated 是過去分詞。",
+    "forms": [
+      "generate",
+      "generated"
+    ]
+  },
+  {
+    "word": "available",
+    "partOfSpeech": "形容詞",
+    "meaning": "可取得的、可供使用的",
+    "usage": "services available 指可提供或可選擇的服務，不等同已完成的交易。",
+    "forms": [
+      "available"
+    ]
+  },
+  {
+    "word": "core value",
+    "partOfSpeech": "名詞片語",
+    "meaning": "核心價值",
+    "usage": "核心價值題問平台最重視的理念，不只是採用什麼工具。",
+    "forms": [
+      "core value",
+      "core values"
+    ]
+  },
+  {
+    "word": "conventional",
+    "partOfSpeech": "形容詞",
+    "meaning": "傳統的、慣常的",
+    "usage": "conventional cash transactions 指一般使用現金的交易。",
+    "forms": [
+      "conventional"
+    ]
+  },
+  {
+    "word": "be valued",
+    "partOfSpeech": "動詞片語",
+    "meaning": "受到重視、被看重",
+    "usage": "people are to be valued more than money 是強調人的價值應比金錢更受重視。",
+    "forms": [
+      "be valued"
+    ]
+  },
+  {
+    "word": "urgent",
+    "partOfSpeech": "形容詞",
+    "meaning": "緊急的、迫切的",
+    "usage": "urgent global issue 是迫切的全球議題；標題題要核對文章是否真的在談危機。",
+    "forms": [
+      "urgent"
+    ]
+  },
+  {
+    "word": "keep up with",
+    "partOfSpeech": "動詞片語",
+    "meaning": "跟上、不落後於",
+    "usage": "keep up with a new trend 指跟上新趨勢。",
+    "forms": [
+      "keep up with"
+    ]
+  },
+  {
+    "word": "preserve",
+    "partOfSpeech": "動詞",
+    "meaning": "保存、維護",
+    "usage": "culture to be preserved 指需要保存的文化；preserved 是過去分詞。",
+    "forms": [
+      "preserve",
+      "preserved"
+    ]
+  },
+  {
+    "word": "feature",
+    "partOfSpeech": "名詞",
+    "meaning": "特點、特色",
+    "usage": "features of clothing 是服飾的特性，例如價格、功能與外觀。",
+    "forms": [
+      "feature",
+      "features"
+    ]
+  },
+  {
+    "word": "fashionable",
+    "partOfSpeech": "形容詞",
+    "meaning": "流行的、時尚的",
+    "usage": "與 stylish 相近；不要與 expensive（昂貴的）視為同義。",
+    "forms": [
+      "fashionable"
+    ]
+  },
+  {
+    "word": "negative influence",
+    "partOfSpeech": "名詞片語",
+    "meaning": "負面影響",
+    "usage": "有影響不等於有負面影響；negative 是判斷選項方向的重要限定。",
+    "forms": [
+      "negative influence"
+    ]
+  },
+  {
+    "word": "be surrounded by",
+    "partOfSpeech": "動詞片語",
+    "meaning": "被……包圍",
+    "usage": "is surrounded by the sea 是被海包圍；比喻題通常不能只按字面解釋。",
+    "forms": [
+      "be surrounded by",
+      "is surrounded by"
+    ]
+  },
+  {
+    "word": "pursue",
+    "partOfSpeech": "動詞",
+    "meaning": "追求",
+    "usage": "pursue simplicity and quality 指追求簡單與品質。",
+    "forms": [
+      "pursue"
+    ]
+  },
+  {
+    "word": "simplicity",
+    "partOfSpeech": "名詞",
+    "meaning": "簡單、簡約",
+    "usage": "在生活哲學中指不過度複雜或奢華，不是品質差。",
+    "forms": [
+      "simplicity"
+    ]
+  },
+  {
+    "word": "concern",
+    "partOfSpeech": "名詞；動詞",
+    "meaning": "關心、顧慮",
+    "usage": "without concern for the future 指不顧未來；不能與適度生活直接畫等號。",
+    "forms": [
+      "concern"
+    ]
+  },
+  {
+    "word": "period",
+    "partOfSpeech": "名詞",
+    "meaning": "時期、一段時間",
+    "usage": "during which period 問的是時間區段，要分清復興開始、最高峰與衰退期。",
+    "forms": [
+      "period",
+      "periods"
+    ]
+  },
+  {
+    "word": "fail to",
+    "partOfSpeech": "動詞片語",
+    "meaning": "未能",
+    "usage": "failed to become fashionable 是未能流行起來，常用來改寫 never caught on。",
+    "forms": [
+      "fail to",
+      "failed to"
+    ]
+  },
+  {
+    "word": "seldom",
+    "partOfSpeech": "副詞",
+    "meaning": "很少、罕有",
+    "usage": "seldom 是否定頻率副詞；語意不是從來沒有。",
+    "forms": [
+      "seldom"
+    ]
+  },
+  {
+    "word": "glued together",
+    "partOfSpeech": "分詞片語",
+    "meaning": "黏合在一起",
+    "usage": "此選項按 catch 的字面製造干擾；caught on 在文章中指流行，而非黏住。",
+    "forms": [
+      "glued together"
+    ]
+  },
+  {
+    "word": "clay",
+    "partOfSpeech": "名詞",
+    "meaning": "黏土",
+    "usage": "代名詞指涉題中的選項；不能只挑看似與工藝有關的名詞。",
+    "forms": [
+      "clay"
+    ]
+  },
+  {
+    "word": "ethnic art",
+    "partOfSpeech": "名詞片語",
+    "meaning": "族群藝術",
+    "usage": "ethnic 指與特定族群文化相關；掃描詞形 Eth nic 也是同一個詞。",
+    "forms": [
+      "ethnic art",
+      "eth nic art"
+    ]
+  },
+  {
+    "word": "marketing strategy",
+    "partOfSpeech": "名詞片語",
+    "meaning": "行銷策略",
+    "usage": "marketing strategies 指推廣與銷售的方法；與描述藝術歷史演變不同。",
+    "forms": [
+      "marketing strategy",
+      "marketing strategies"
+    ]
+  },
+  {
+    "word": "frightening",
+    "partOfSpeech": "形容詞",
+    "meaning": "令人害怕的",
+    "usage": "frightening 形容引起恐懼的事物；frightened 才是人感到害怕。",
+    "forms": [
+      "frightening"
+    ]
+  },
+  {
+    "word": "argue for",
+    "partOfSpeech": "動詞片語",
+    "meaning": "主張、支持",
+    "usage": "argue for deflation 指提出理由支持通縮；與警告通縮風險的寫作目的相反。",
+    "forms": [
+      "argue for"
+    ]
+  },
+  {
+    "word": "exceed",
+    "partOfSpeech": "動詞",
+    "meaning": "超過",
+    "usage": "product availability exceeds demand 指可供應的產品多於需求。",
+    "forms": [
+      "exceed",
+      "exceeds"
+    ]
+  },
+  {
+    "word": "purchase",
+    "partOfSpeech": "動詞；名詞",
+    "meaning": "購買",
+    "usage": "purchase houses 是購買房屋；比 buy 語氣較正式。",
+    "forms": [
+      "purchase"
+    ]
+  },
+  {
+    "word": "swell",
+    "partOfSpeech": "動詞",
+    "meaning": "膨脹、增加",
+    "usage": "real debts swell 指債務的實質負擔增加，不一定是名目借款金額增加。",
+    "forms": [
+      "swell"
+    ]
+  },
+  {
+    "word": "surge",
+    "partOfSpeech": "名詞",
+    "meaning": "激增、急遽上升",
+    "usage": "the surge in borrowing 是借款急遽增加；不能因此自行倒轉文章的因果關係。",
+    "forms": [
+      "surge"
+    ]
+  },
+  {
+    "word": "household",
+    "partOfSpeech": "名詞",
+    "meaning": "家庭、家戶",
+    "usage": "firms and households 是企業與家庭兩類借款者。",
+    "forms": [
+      "household",
+      "households"
+    ]
+  },
+  {
+    "word": "courage",
+    "partOfSpeech": "名詞",
+    "meaning": "勇氣",
+    "usage": "和 fear（恐懼）方向相反；必須搭配句子中錯失機會的因果判斷。",
+    "forms": [
+      "courage"
+    ]
+  },
+  {
+    "word": "eagerly",
+    "partOfSpeech": "副詞",
+    "meaning": "熱切地、迫不及待地",
+    "usage": "修飾 jumped up and down，表示興奮地上下跳動。",
+    "forms": [
+      "eagerly"
+    ]
+  },
+  {
+    "word": "absent",
+    "partOfSpeech": "形容詞",
+    "meaning": "缺席的、不存在的",
+    "usage": "excitement was absent 會表示沒有興奮之情，須與後文動作核對。",
+    "forms": [
+      "absent"
+    ]
+  },
+  {
+    "word": "broadcast",
+    "partOfSpeech": "動詞",
+    "meaning": "廣播、播送",
+    "usage": "broadcast news 是播報新聞；與回收瓶罐的動作不同。",
+    "forms": [
+      "broadcast"
+    ]
+  },
+  {
+    "word": "fall in love with",
+    "partOfSpeech": "動詞片語",
+    "meaning": "愛上",
+    "usage": "fell in love with this city 是愛上這座城市，fell 是 fall 的過去式。",
+    "forms": [
+      "fall in love with",
+      "fell in love with"
+    ]
+  },
+  {
+    "word": "cure",
+    "partOfSpeech": "動詞",
+    "meaning": "治癒",
+    "usage": "cure a disease 是治療疾病；不能搭配 weight 表示增加體重。",
+    "forms": [
+      "cure"
+    ]
+  },
+  {
+    "word": "wipe",
+    "partOfSpeech": "動詞",
+    "meaning": "擦拭",
+    "usage": "wipe a table 是擦桌子；與 gain weight（增加體重）不同。",
+    "forms": [
+      "wipe"
+    ]
+  },
+  {
+    "word": "abstract",
+    "partOfSpeech": "形容詞",
+    "meaning": "抽象的",
+    "usage": "和 previous（先前的）不同；abstract job 不是表示上一份工作。",
+    "forms": [
+      "abstract"
+    ]
+  },
+  {
+    "word": "circular",
+    "partOfSpeech": "形容詞",
+    "meaning": "圓形的、循環的",
+    "usage": "可形容形狀或循環論證，不能用來表示之前的工作。",
+    "forms": [
+      "circular"
+    ]
+  },
+  {
+    "word": "scarf",
+    "partOfSpeech": "名詞",
+    "meaning": "圍巾",
+    "usage": "scarves 是 scarf 的複數；knit scarves 是編織圍巾。",
+    "forms": [
+      "scarf",
+      "scarves"
+    ]
+  },
+  {
+    "word": "ordinary",
+    "partOfSpeech": "形容詞",
+    "meaning": "普通的、平常的",
+    "usage": "與 unique（獨特的）相對；閱讀轉折時可用來辨認兩種人。",
+    "forms": [
+      "ordinary"
+    ]
+  },
+  {
+    "word": "think outside the box",
+    "partOfSpeech": "動詞片語",
+    "meaning": "跳脫框架思考",
+    "usage": "box 比喻慣常思考模式，並非真的站到箱子外面。",
+    "forms": [
+      "think outside the box",
+      "thinks outside the box"
+    ]
+  },
+  {
+    "word": "underpass",
+    "partOfSpeech": "名詞",
+    "meaning": "地下通道",
+    "usage": "under 是下方，overpass 是上方跨越的通道或天橋；位置是判斷關鍵。",
+    "forms": [
+      "underpass"
+    ]
+  },
+  {
+    "word": "lack of",
+    "partOfSpeech": "名詞片語",
+    "meaning": "缺乏",
+    "usage": "due to lack of funds 是因為缺少資金；lack 後的 of 連接不足的事物。",
+    "forms": [
+      "lack of"
+    ]
+  },
+  {
+    "word": "debt",
+    "partOfSpeech": "名詞",
+    "meaning": "債務",
+    "usage": "debts 是欠款；funds 是可用資金，兩者不能只因都與錢有關就混用。",
+    "forms": [
+      "debt",
+      "debts"
+    ]
+  },
+  {
+    "word": "diligent",
+    "partOfSpeech": "形容詞",
+    "meaning": "勤奮的、用功的",
+    "usage": "與 careless（粗心的）意思不同；要依重複犯錯的語境判斷。",
+    "forms": [
+      "diligent"
+    ]
+  },
+  {
+    "word": "competent",
+    "partOfSpeech": "形容詞",
+    "meaning": "有能力的、勝任的",
+    "usage": "指具備完成工作的能力，不是 careless 的同義詞。",
+    "forms": [
+      "competent"
+    ]
+  },
+  {
+    "word": "witness",
+    "partOfSpeech": "名詞",
+    "meaning": "目擊者、證人",
+    "usage": "witnesses 是複數；were questioned 指受到詢問，不必然表示他們犯罪。",
+    "forms": [
+      "witness",
+      "witnesses"
+    ]
+  },
+  {
+    "word": "desperate",
+    "partOfSpeech": "形容詞",
+    "meaning": "絕望的、急切的",
+    "usage": "不能把 desperate 和 separate（分開的）因拼字相似而混淆。",
+    "forms": [
+      "desperate"
+    ]
+  },
+  {
+    "word": "sincere",
+    "partOfSpeech": "形容詞",
+    "meaning": "真誠的",
+    "usage": "形容人的態度或心意，不適合表達分開詢問的房間。",
+    "forms": [
+      "sincere"
+    ]
+  },
+  {
+    "word": "graceful",
+    "partOfSpeech": "形容詞",
+    "meaning": "優雅的",
+    "usage": "與 frightening（嚇人的）不同，須配合 scared many children 的線索。",
+    "forms": [
+      "graceful"
+    ]
+  },
+  {
+    "word": "insightful",
+    "partOfSpeech": "形容詞",
+    "meaning": "有洞察力的",
+    "usage": "通常形容見解、評論或人物，重點是看得深刻。",
+    "forms": [
+      "insightful"
+    ]
+  },
+  {
+    "word": "violent crime",
+    "partOfSpeech": "名詞片語",
+    "meaning": "暴力犯罪",
+    "usage": "violent 是暴力的；occurs every three hours 表示每三小時發生一次。",
+    "forms": [
+      "violent crime"
+    ]
+  },
+  {
+    "word": "gunfire",
+    "partOfSpeech": "名詞",
+    "meaning": "槍火、槍擊",
+    "usage": "wounded by gunfire 指被槍火擊傷；gunfire 通常不可數。",
+    "forms": [
+      "gunfire"
+    ]
+  },
+  {
+    "word": "word processing",
+    "partOfSpeech": "名詞片語",
+    "meaning": "文書處理",
+    "usage": "word processing software 指可編輯文件的文書處理軟體。",
+    "forms": [
+      "word processing"
+    ]
+  },
+  {
+    "word": "in need",
+    "partOfSpeech": "介系詞片語",
+    "meaning": "有需要的、處境困難的",
+    "usage": "people in need 指需要幫助的人；give away 是免費送出。",
+    "forms": [
+      "in need"
+    ]
+  },
+  {
+    "word": "put out",
+    "partOfSpeech": "動詞片語",
+    "meaning": "熄滅；撲滅",
+    "usage": "常搭配 fire；與 put off（延後）是不同片語。",
+    "forms": [
+      "put out"
+    ]
+  },
+  {
+    "word": "put up",
+    "partOfSpeech": "動詞片語",
+    "meaning": "搭建、張貼",
+    "usage": "可說 put up a tent 或 put up a notice，不能直接表示延後看醫生。",
+    "forms": [
+      "put up"
+    ]
+  },
+  {
+    "word": "put on",
+    "partOfSpeech": "動詞片語",
+    "meaning": "穿上、戴上",
+    "usage": "put on a coat 是穿上外套；注意同一動詞搭配不同介系詞會變義。",
+    "forms": [
+      "put on"
+    ]
+  },
+  {
+    "word": "seemingly",
+    "partOfSpeech": "副詞",
+    "meaning": "看似、表面上",
+    "usage": "seemingly ancient 表示外觀看起來古老，不代表內容也古老。",
+    "forms": [
+      "seemingly"
+    ]
+  },
+  {
+    "word": "marvelous",
+    "partOfSpeech": "形容詞",
+    "meaning": "令人驚嘆的、極好的",
+    "usage": "marvelous modern technologies 是令人驚嘆的現代科技。",
+    "forms": [
+      "marvelous"
+    ]
+  },
+  {
+    "word": "antique",
+    "partOfSpeech": "名詞",
+    "meaning": "古董",
+    "usage": "antiques 指古物；與 modern technologies 的現代科技相對。",
+    "forms": [
+      "antique",
+      "antiques"
+    ]
+  },
+  {
+    "word": "boutique",
+    "partOfSpeech": "名詞",
+    "meaning": "精品店",
+    "usage": "boutiques 與 antiques 字尾相似，但前者是店家、後者是古董。",
+    "forms": [
+      "boutique",
+      "boutiques"
+    ]
+  },
+  {
+    "word": "explicit",
+    "partOfSpeech": "形容詞",
+    "meaning": "明確的、清楚表達的",
+    "usage": "形容內容或指示清楚，不表示水資源珍貴。",
+    "forms": [
+      "explicit"
+    ]
+  },
+  {
+    "word": "replete",
+    "partOfSpeech": "形容詞",
+    "meaning": "充滿的、充足的",
+    "usage": "常用 be replete with，表示充滿某物。",
+    "forms": [
+      "replete"
+    ]
+  },
+  {
+    "word": "sufficient",
+    "partOfSpeech": "形容詞",
+    "meaning": "足夠的",
+    "usage": "與 precious（珍貴的）不同；足夠是數量概念，珍貴是價值判斷。",
+    "forms": [
+      "sufficient"
+    ]
+  },
+  {
+    "word": "contributor",
+    "partOfSpeech": "名詞",
+    "meaning": "貢獻者、投稿者",
+    "usage": "contributors 是提供內容或協助的人；競爭同一職缺的人則是 competitors。",
+    "forms": [
+      "contributor",
+      "contributors"
+    ]
+  },
+  {
+    "word": "conductor",
+    "partOfSpeech": "名詞",
+    "meaning": "指揮；列車售票員",
+    "usage": "不能與 competitor（競爭者）只因同樣以 con- 開頭就混淆。",
+    "forms": [
+      "conductor",
+      "conductors"
+    ]
+  },
+  {
+    "word": "serial murderer",
+    "partOfSpeech": "名詞片語",
+    "meaning": "連續殺人犯",
+    "usage": "serial 表示一連串；題中提供危險情境，幫助判斷 lured（誘騙）。",
+    "forms": [
+      "serial murderer"
+    ]
+  },
+  {
+    "word": "deserted",
+    "partOfSpeech": "形容詞",
+    "meaning": "廢棄的、無人的",
+    "usage": "a deserted apartment 是無人居住的公寓，不是沙漠中的公寓。",
+    "forms": [
+      "deserted"
+    ]
+  },
+  {
+    "word": "device",
+    "partOfSpeech": "名詞",
+    "meaning": "裝置、設備",
+    "usage": "a device that can detect... 是能偵測某現象的裝置。",
+    "forms": [
+      "device"
+    ]
+  },
+  {
+    "word": "detect",
+    "partOfSpeech": "動詞",
+    "meaning": "偵測、察覺",
+    "usage": "detect the sudden change 指偵測突然的變化。",
+    "forms": [
+      "detect"
+    ]
+  },
+  {
+    "word": "patron",
+    "partOfSpeech": "名詞",
+    "meaning": "贊助者、顧客",
+    "usage": "patron 與 patent（專利）拼字近似，意思不同。",
+    "forms": [
+      "patron"
+    ]
+  },
+  {
+    "word": "sneaky",
+    "partOfSpeech": "形容詞",
+    "meaning": "偷偷摸摸的、鬼祟的",
+    "usage": "通常帶負面語氣，和 particular interest 的特別興趣不同。",
+    "forms": [
+      "sneaky"
+    ]
+  },
+  {
+    "word": "nutrition",
+    "partOfSpeech": "名詞",
+    "meaning": "營養",
+    "usage": "與 gasoline（汽油）同為名詞，但前者不能用來驅動機器與車輛。",
+    "forms": [
+      "nutrition"
+    ]
+  },
+  {
+    "word": "reside",
+    "partOfSpeech": "動詞",
+    "meaning": "居住",
+    "usage": "resided 是過去式；常用 reside in，不表示違抗命令。",
+    "forms": [
+      "reside",
+      "resided"
+    ]
+  },
+  {
+    "word": "murmur",
+    "partOfSpeech": "動詞",
+    "meaning": "低聲說、喃喃自語",
+    "usage": "和 review（評論）不同；題幹 summarize and evaluate 指向評論工作。",
+    "forms": [
+      "murmur"
+    ]
+  },
+  {
+    "word": "stimulate",
+    "partOfSpeech": "動詞",
+    "meaning": "刺激、促進",
+    "usage": "stimulate interest 是激發興趣；不表示整理並評論一篇文章。",
+    "forms": [
+      "stimulate"
+    ]
+  },
+  {
+    "word": "decent",
+    "partOfSpeech": "形容詞",
+    "meaning": "得體的、合宜的",
+    "usage": "decent etiquette 指合宜的禮儀，搭配眼神接觸的社交情境。",
+    "forms": [
+      "decent"
+    ]
+  },
+  {
+    "word": "promote",
+    "partOfSpeech": "動詞",
+    "meaning": "促進；推廣；升遷",
+    "usage": "不能把 promote eye contact 直接當成 maintain eye contact 的維持。",
+    "forms": [
+      "promote"
+    ]
+  },
+  {
+    "word": "academic performance",
+    "partOfSpeech": "名詞片語",
+    "meaning": "學業表現",
+    "usage": "outstanding academic performance 是優異的學業表現，常與獎學金相關。",
+    "forms": [
+      "academic performance"
+    ]
+  },
+  {
+    "word": "fatal",
+    "partOfSpeech": "形容詞",
+    "meaning": "致命的",
+    "usage": "fatal disease 是致命疾病；fatal 強調可能導致死亡。",
+    "forms": [
+      "fatal"
+    ]
+  },
+  {
+    "word": "decay",
+    "partOfSpeech": "名詞；動詞",
+    "meaning": "腐爛、衰敗",
+    "usage": "與 disease（疾病）不同；不能把任何負面健康詞都視為同義。",
+    "forms": [
+      "decay"
+    ]
+  },
+  {
+    "word": "despise",
+    "partOfSpeech": "動詞",
+    "meaning": "鄙視、看不起",
+    "usage": "despised 是過去式；與 inspire（激發靈感）意思不同。",
+    "forms": [
+      "despise",
+      "despised"
+    ]
+  },
+  {
+    "word": "inquire",
+    "partOfSpeech": "動詞",
+    "meaning": "詢問、查問",
+    "usage": "inquired 是過去式；通常搭配 about，不表示啟發詩人。",
+    "forms": [
+      "inquire",
+      "inquired"
+    ]
+  },
+  {
+    "word": "assume",
+    "partOfSpeech": "動詞",
+    "meaning": "假定、認為",
+    "usage": "assumed 是過去式；不表示以卡片感謝老師。",
+    "forms": [
+      "assume",
+      "assumed"
+    ]
+  },
+  {
+    "word": "approach",
+    "partOfSpeech": "動詞",
+    "meaning": "接近、著手處理",
+    "usage": "approached 是過去式；與 appreciated（感謝、欣賞）拼字相似但意思不同。",
+    "forms": [
+      "approach",
+      "approached"
+    ]
+  },
+  {
+    "word": "convey",
+    "partOfSpeech": "動詞",
+    "meaning": "傳達",
+    "usage": "convey a world of experience 指傳達一整個經驗世界。",
+    "forms": [
+      "convey"
+    ]
+  },
+  {
+    "word": "scent",
+    "partOfSpeech": "名詞",
+    "meaning": "氣味、香味",
+    "usage": "scents 與 senses（感官）音近，但不能混用。",
+    "forms": [
+      "scent",
+      "scents"
+    ]
+  },
+  {
+    "word": "ostrich",
+    "partOfSpeech": "名詞",
+    "meaning": "鴕鳥",
+    "usage": "ostriches 是複數；題中與 emus、penguins 並列為不能飛的鳥。",
+    "forms": [
+      "ostrich",
+      "ostriches"
+    ]
+  },
+  {
+    "word": "emu",
+    "partOfSpeech": "名詞",
+    "meaning": "鴯鶓",
+    "usage": "emus 是複數，是澳洲的大型不飛鳥。",
+    "forms": [
+      "emu",
+      "emus"
+    ]
+  },
+  {
+    "word": "properly",
+    "partOfSpeech": "副詞",
+    "meaning": "適當地、正確地",
+    "usage": "與 gradually（逐漸地）不同，不能表達經過數百萬年的漸變。",
+    "forms": [
+      "properly"
+    ]
+  },
+  {
+    "word": "deny",
+    "partOfSpeech": "動詞",
+    "meaning": "否認",
+    "usage": "deny a claim 是否認說法；與 involve（包含）不同。",
+    "forms": [
+      "deny"
+    ]
+  },
+  {
+    "word": "deprive",
+    "partOfSpeech": "動詞",
+    "meaning": "剝奪",
+    "usage": "常用 deprive someone of something，表示剝奪某人的某物。",
+    "forms": [
+      "deprive"
+    ]
+  },
+  {
+    "word": "humid",
+    "partOfSpeech": "形容詞",
+    "meaning": "潮濕的",
+    "usage": "用來形容空氣或天氣，與 eager（渴望的）不同。",
+    "forms": [
+      "humid"
+    ]
+  },
+  {
+    "word": "royal",
+    "partOfSpeech": "形容詞",
+    "meaning": "王室的、皇家的",
+    "usage": "如 royal family；不能與 eager for 的渴望混淆。",
+    "forms": [
+      "royal"
+    ]
+  },
+  {
+    "word": "admire",
+    "partOfSpeech": "動詞",
+    "meaning": "欣賞、欽佩",
+    "usage": "admire someone 是欣賞某人；提醒自己夢境不是真的則用 remind。",
+    "forms": [
+      "admire"
+    ]
+  },
+  {
+    "word": "debate",
+    "partOfSpeech": "動詞；名詞",
+    "meaning": "辯論、討論",
+    "usage": "著重不同意見的討論，不是提醒。",
+    "forms": [
+      "debate"
+    ]
+  },
+  {
+    "word": "permit",
+    "partOfSpeech": "動詞",
+    "meaning": "允許",
+    "usage": "permit someone to do something 表示允許某人做某事。",
+    "forms": [
+      "permit"
+    ]
+  },
+  {
+    "word": "caution",
+    "partOfSpeech": "名詞",
+    "meaning": "小心、謹慎；警告",
+    "usage": "cause 是原因，caution 是謹慎或警告；注意相近字形。",
+    "forms": [
+      "caution"
+    ]
+  },
+  {
+    "word": "stranger",
+    "partOfSpeech": "名詞",
+    "meaning": "陌生人",
+    "usage": "strangers 是複數；是否為文章的人群須依上下文判斷。",
+    "forms": [
+      "stranger",
+      "strangers"
+    ]
+  },
+  {
+    "word": "rely",
+    "partOfSpeech": "動詞",
+    "meaning": "依賴",
+    "usage": "relied 是過去式，常搭配 on；不是發布影片的 released。",
+    "forms": [
+      "rely",
+      "relied"
+    ]
+  },
+  {
+    "word": "replace",
+    "partOfSpeech": "動詞",
+    "meaning": "取代、替換",
+    "usage": "replaced 是過去分詞；與 released（發布）不同。",
+    "forms": [
+      "replace",
+      "replaced"
+    ]
+  },
+  {
+    "word": "fake",
+    "partOfSpeech": "形容詞",
+    "meaning": "假的、偽造的",
+    "usage": "fake paintings 是贗品，與 authentic（真實的、真跡的）相反。",
+    "forms": [
+      "fake"
+    ]
+  },
+  {
+    "word": "novel",
+    "partOfSpeech": "形容詞；名詞",
+    "meaning": "新穎的；小說",
+    "usage": "修飾作品時可指新穎的；不能用來表示原作是真跡。",
+    "forms": [
+      "novel"
+    ]
+  },
+  {
+    "word": "chase",
+    "partOfSpeech": "動詞",
+    "meaning": "追逐",
+    "usage": "chase someone 是追趕某人；charge someone for damage 則是索取賠償。",
+    "forms": [
+      "chase"
+    ]
+  },
+  {
+    "word": "remodel",
+    "partOfSpeech": "動詞",
+    "meaning": "改建、重新塑造",
+    "usage": "remodeled 是過去式；火災燒毀倉庫應與 destroyed 的語意比較。",
+    "forms": [
+      "remodel",
+      "remodeled"
+    ]
+  },
+  {
+    "word": "flattery",
+    "partOfSpeech": "名詞",
+    "meaning": "奉承、諂媚",
+    "usage": "與 violence（暴力）不同；列舉玩具避開的敏感議題時，要核對整組語境。",
+    "forms": [
+      "flattery"
+    ]
+  },
+  {
+    "word": "violence",
+    "partOfSpeech": "名詞",
+    "meaning": "暴力",
+    "usage": "不必含實際流血，也可指暴力內容；與 political viewpoints 等並列。",
+    "forms": [
+      "violence"
+    ]
+  },
+  {
+    "word": "run away",
+    "partOfSpeech": "動詞片語",
+    "meaning": "逃跑",
+    "usage": "後接活動時不能直接當成 engage in（參與）。",
+    "forms": [
+      "run away"
+    ]
+  },
+  {
+    "word": "get rid of",
+    "partOfSpeech": "動詞片語",
+    "meaning": "擺脫、去除",
+    "usage": "get rid of something 是除掉某事物，方向與參與不同。",
+    "forms": [
+      "get rid of"
+    ]
+  },
+  {
+    "word": "take advantage of",
+    "partOfSpeech": "動詞片語",
+    "meaning": "利用；占……便宜",
+    "usage": "可指善用機會，也可指占人便宜，須依語境判斷。",
+    "forms": [
+      "take advantage of"
+    ]
+  },
+  {
+    "word": "heroic",
+    "partOfSpeech": "形容詞",
+    "meaning": "英勇的、英雄般的",
+    "usage": "與 childish（幼稚的）不同，要注意題組對安全形象的負面評價。",
+    "forms": [
+      "heroic"
+    ]
+  },
+  {
+    "word": "progressive",
+    "partOfSpeech": "形容詞",
+    "meaning": "進步的、逐步發展的",
+    "usage": "可形容觀念開明，不等於兒童化或幼稚。",
+    "forms": [
+      "progressive"
+    ]
+  },
+  {
+    "word": "in the mood",
+    "partOfSpeech": "介系詞片語",
+    "meaning": "有心情、想要做某事",
+    "usage": "be in the mood for something 或 to do something；與擔心某人的 concerned about 不同。",
+    "forms": [
+      "in the mood"
+    ]
+  },
+  {
+    "word": "finite",
+    "partOfSpeech": "形容詞",
+    "meaning": "有限的",
+    "usage": "與 enduring（持久的）不同；finite 強調有界限。",
+    "forms": [
+      "finite"
+    ]
+  },
+  {
+    "word": "drift",
+    "partOfSpeech": "動詞",
+    "meaning": "漂流、飄移",
+    "usage": "drifting 是現在分詞，不能表達父母影響的持久性。",
+    "forms": [
+      "drift",
+      "drifting"
+    ]
+  },
+  {
+    "word": "vendor",
+    "partOfSpeech": "名詞",
+    "meaning": "攤販、販售者",
+    "usage": "市場中賣蔬果與糖果的人是 vendors；consumer 則是購買商品的消費者。",
+    "forms": [
+      "vendor",
+      "vendors"
+    ]
+  },
+  {
+    "word": "consumer",
+    "partOfSpeech": "名詞",
+    "meaning": "消費者",
+    "usage": "consumers 是購買或使用商品的人，與賣方 vendors 不同。",
+    "forms": [
+      "consumer",
+      "consumers"
+    ]
+  },
+  {
+    "word": "forward",
+    "partOfSpeech": "動詞",
+    "meaning": "轉寄、轉發",
+    "usage": "forwarded an email to coworkers 指把電子郵件轉寄給同事，不是向前走。",
+    "forms": [
+      "forward",
+      "forwarded"
+    ]
+  },
+  {
+    "word": "foster",
+    "partOfSpeech": "動詞",
+    "meaning": "培養、促進",
+    "usage": "fostered 是過去式；通常搭配合作、成長等概念，不表示轉寄郵件。",
+    "forms": [
+      "foster",
+      "fostered"
+    ]
+  },
+  {
+    "word": "freeze",
+    "partOfSpeech": "動詞",
+    "meaning": "僵住、愣住；結冰",
+    "usage": "freezes 在男孩損壞畫作的情境中，指驚嚇得愣在原地，不是真的結冰。",
+    "forms": [
+      "freeze",
+      "freezes"
+    ]
+  }
+]

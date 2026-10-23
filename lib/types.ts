@@ -11,4 +11,4 @@ export type Screen = 'overview'|'bank'|'wrong'|'favorites'|'history'|'settings'|
 export type CollectionTab = 'wrong'|'questions'|'explanations'|'words';
 export type Vocabulary = {word:string;partOfSpeech:string;meaning:string;usage:string};
 export type SavedVocabulary = Vocabulary & {questionId:string};
-export type QuestionExplanation = {summary:string;options:Record<string,string>;optionVerdicts?:Record<string,string>;vocabulary?:Vocabulary[];sources?:{title:string;url:string}[]};
+export type QuestionExplanation = {summary:string;options:Record<string,string>;optionVerdicts?:Record<string,string>;vocabulary?:Vocabulary[];questionVocabulary?:Vocabulary[];passageTranslation?:{paragraphs:string[];note:string};sources?:{title:string;url:string}[]};

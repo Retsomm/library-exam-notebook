@@ -223,3 +223,6 @@ button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,te
 .idiom-learning .idiom-reference{font-size:.85rem;opacity:.8}
 .option-explanations .idiom-learning{border-left:2px solid #b69b63;padding-left:1rem}
 @media(max-width:540px){.option-explanations .idiom-learning{padding-left:.65rem}}
+.passage-translation{margin:0 0 24px;padding:16px 18px;border:1px solid var(--line,#46516a);border-radius:12px;background:rgba(215,183,124,.06);min-width:0;overflow-wrap:anywhere}
+.passage-translation h3{margin:0 0 12px}.passage-translation p{margin:0 0 1em;line-height:1.95}.passage-translation p:last-child{margin-bottom:0}
+@media(max-width:540px){.passage-translation{padding:14px 12px}}
