@@ -226,3 +226,5 @@ button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,te
 .passage-translation{margin:0 0 24px;padding:16px 18px;border:1px solid var(--line,#46516a);border-radius:12px;background:rgba(215,183,124,.06);min-width:0;overflow-wrap:anywhere}
 .passage-translation h3{margin:0 0 12px}.passage-translation p{margin:0 0 1em;line-height:1.95}.passage-translation p:last-child{margin-bottom:0}
 @media(max-width:540px){.passage-translation{padding:14px 12px}}
+
+.attempt-filters{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0}.attempt-filters label{display:flex;align-items:center;gap:8px;flex-wrap:wrap;max-width:100%}.attempt-filters select{max-width:100%}.score-history td,.score-history th{white-space:nowrap}

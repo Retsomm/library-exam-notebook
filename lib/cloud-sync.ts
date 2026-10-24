@@ -1,5 +1,6 @@
 'use client';
 import { collection, doc, getFirestore, onSnapshot, runTransaction, serverTimestamp, type Firestore, type Unsubscribe } from 'firebase/firestore';
+import { mergeAttempts } from './attempts.mjs';
 import { firebaseAuth } from './firebase-client';
 import {applyStudyMutation,vocabularyMigration,applyQuestionMutation,cloudState,migrationChanges,mergeHistory,type Mutation,type CloudQuestion} from './sync-model.mjs';
 import type {Question,StudyState} from './types';
@@ -34,7 +35,7 @@ export class CloudSync {
   if(this.disposed)return;
   for(const change of changes){
    const previous=[...this.queue].reverse().find(m=>m.docId===change.docId&&m.mode===change.mode&&!this.inflight.has(m.id));
-   if(previous){previous.patch={...previous.patch,...change.patch,...(change.patch.history?{history:mergeHistory(previous.patch.history,change.patch.history)}:{}),...(change.patch.vocabularyBookmarks?{vocabularyBookmarks:{...previous.patch.vocabularyBookmarks,...change.patch.vocabularyBookmarks}}:{})};}
+   if(previous){previous.patch={...previous.patch,...change.patch,...(change.patch.attempts?{attempts:mergeAttempts(previous.patch.attempts,change.patch.attempts)}:{}),...(change.patch.history?{history:mergeHistory(previous.patch.history,change.patch.history)}:{}),...(change.patch.vocabularyBookmarks?{vocabularyBookmarks:{...previous.patch.vocabularyBookmarks,...change.patch.vocabularyBookmarks}}:{})};}
    else this.queue.push({...change,id:crypto.randomUUID()});
   }
   if(changes.length){this.persist();this.status(navigator.onLine?'saving':'offline');this.schedule();}
