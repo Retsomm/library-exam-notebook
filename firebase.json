@@ -64,7 +64,8 @@
           }
         ]
       }
-    ]
+    ],
+    "site": "statistics-exam-notebook"
   },
   "firestore": {
     "rules": "firestore.rules"
