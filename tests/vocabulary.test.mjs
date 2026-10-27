@@ -8,7 +8,7 @@ const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url))
 const explanations=Object.fromEntries(readdirSync(new URL('../data/explanations/',import.meta.url)).filter(name=>name.endsWith('.json')).map(name=>[name.slice(0,-5),JSON.parse(readFileSync(new URL('../data/explanations/'+name,import.meta.url)))]));
 const index=buildVocabularyIndex(bank.questions,explanations),words=Object.keys(index),known=new Set(bank.questions.map(q=>q.id));
 const [a,b,c]=words;
-const q=bank.questions.find(item=>item.examId==='115-2');
+const q=bank.questions.find(item=>item.examId==='115-2s');
 const session={ids:[q.id],index:0,title:'學習進度',choices:{[q.id]:q.accepted[0].split('')},checked:{[q.id]:true}};
 test('every English vocabulary entry has one stable card and an existing source question',()=>{
  assert.ok(words.length>100);

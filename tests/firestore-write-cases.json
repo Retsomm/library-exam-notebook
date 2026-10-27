@@ -13,7 +13,7 @@
           }
         },
         "method": "create",
-        "path": "/databases/(default)/documents/users/sync-test-a/questions/115-2-1",
+        "path": "/databases/(default)/documents/users/sync-test-a/questions/115-2s-1",
         "time": "2026-10-18T12:12:00Z",
         "resource": {
           "data": {
@@ -42,7 +42,7 @@
           }
         },
         "method": "create",
-        "path": "/databases/(default)/documents/users/sync-test-b/questions/115-2-1",
+        "path": "/databases/(default)/documents/users/sync-test-b/questions/115-2s-1",
         "time": "2026-10-18T12:12:00Z",
         "resource": {
           "data": {

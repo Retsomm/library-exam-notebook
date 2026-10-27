@@ -3,14 +3,14 @@ import sharp from 'sharp';
 import {brand} from '../lib/brand.mjs';
 import {readFile,writeFile} from 'node:fs/promises';
 const root=new URL('../public/brand/',import.meta.url);
-const mark=await readFile(new URL('library-mark.svg',root));
+const mark=await readFile(new URL('statistics-mark.svg',root));
 const sizes=[16,32,48,180,192,512];
 const pngs=new Map();
 for(const size of sizes){
  const inner=Math.round(size*.84),padding=Math.floor((size-inner)/2);
- const png=await sharp(mark).resize(inner,inner).extend({top:padding,left:padding,bottom:size-inner-padding,right:size-inner-padding,background:'#11182a'}).flatten({background:'#11182a'}).png().toBuffer();
+ const png=await sharp(mark).resize(inner,inner).extend({top:padding,left:padding,bottom:size-inner-padding,right:size-inner-padding,background:brand.themeColor}).flatten({background:brand.themeColor}).png().toBuffer();
  pngs.set(size,png);
- const name=size===180?'library-apple-touch-icon.png':size<64?`library-favicon-${size}.png`:`library-icon-${size}.png`;
+ const name=size===180?'statistics-apple-touch-icon.png':size<64?`statistics-favicon-${size}.png`:`statistics-icon-${size}.png`;
  await writeFile(new URL(name,root),png);
 }
 // ICO directory with embedded PNG frames for browser fallback.
@@ -25,6 +25,6 @@ frames.forEach((size,index)=>{
  offset+=png.length;
 });
 await writeFile(new URL('../favicon.ico',root),Buffer.concat([header,...frames.map(size=>pngs.get(size))]));
-console.log('Generated favicon and home-screen icons from library-mark.svg');
+console.log('Generated favicon and home-screen icons from statistics-mark.svg');
 
 await writeFile(new URL('../site.webmanifest',root),JSON.stringify({id:'/',name:brand.name+'｜初等統計練習',short_name:brand.name,lang:'zh-Hant',description:brand.description,start_url:'/practice/',scope:'/',display:'standalone',background_color:brand.themeColor,theme_color:brand.themeColor,icons:[192,512].map(size=>({src:brand.iconPrefix+'-icon-'+size+'.png',sizes:size+'x'+size,type:'image/png',purpose:'any'}))},null,2)+'\n');

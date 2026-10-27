@@ -1,3 +1,3 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {makeReport} from '../lib/question-reports.mjs';
-const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url)));const q=bank.questions.find(item=>item.examId==='115-2'),exam=bank.exams.find(item=>item.id===q.examId);
+const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url)));const q=bank.questions.find(item=>item.examId==='115-2s'),exam=bank.exams.find(item=>item.id===q.examId);
 test('reports retain a statistics question snapshot and official sources',()=>{const report=makeReport(q,exam,'answer','請核對答案。',['A'],'2026-10-27T00:00:00Z','test');const snapshot=JSON.parse(report.snapshotJSON);assert.equal(report.questionId,q.id);assert.equal(snapshot.options.length,4);assert.deepEqual(snapshot.accepted,q.accepted);assert.equal(snapshot.source,exam.source);});

@@ -12,7 +12,7 @@
             }
           }
         },
-        "path": "/databases/(default)/documents/users/sync-test-a/questions/115-2-1",
+        "path": "/databases/(default)/documents/users/sync-test-a/questions/115-2s-1",
         "method": "get"
       }
     },
@@ -28,14 +28,14 @@
             }
           }
         },
-        "path": "/databases/(default)/documents/users/sync-test-b/questions/115-2-1",
+        "path": "/databases/(default)/documents/users/sync-test-b/questions/115-2s-1",
         "method": "get"
       }
     },
     {
       "expectation": "DENY",
       "request": {
-        "path": "/databases/(default)/documents/users/sync-test-a/questions/115-2-1",
+        "path": "/databases/(default)/documents/users/sync-test-a/questions/115-2s-1",
         "method": "get"
       }
     },
@@ -51,7 +51,7 @@
             }
           }
         },
-        "path": "/databases/(default)/documents/users/sync-test-b/questions/115-2-1",
+        "path": "/databases/(default)/documents/users/sync-test-b/questions/115-2s-1",
         "method": "create",
         "resource": {
           "data": {}

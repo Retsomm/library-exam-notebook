@@ -29,8 +29,8 @@ for paper in manifest['papers']:
   stem=clean(parts[0]);opts=[dict(letter=chr(65+i),text=clean(t)) for i,t in enumerate(parts[1:])]
   if y==110 and n==33:opts=[dict(letter=chr(65+i),text=t) for i,t in enumerate(['0.01','0.05','0.95','0.99'])]
   if not stem or any(not o['text'] for o in opts):raise ValueError((y,n,'empty'))
-  qid=f'{y}-2-{n+50}'
-  result.append(dict(id=qid,examId=f'{y}-2',year=y,subject='統計學大意',subjectIndex=2,number=n,points=paper['points'],multi=False,images=[],text=stem+'\n'+'\n'.join('('+o['letter']+')'+o['text'] for o in opts),page=page,accepted=[paper['originalAnswers'][n-1]],correction=None,stem=stem,options=opts,textFallback=False,passage='',hasVisual=bool(re.search('下表|下圖|附表|表格|圖形|如圖|圖中',segment))))
- exams.append(dict(id=f'{y}-2',year=y,subject='統計學大意',subjectIndex=2,count=40,pages=[],source=paper['source'],answerSource=paper['answerSource'],listing=paper['listing'],correctionPdf=None))
+  qid=f'{y}-2s-{n}'
+  result.append(dict(id=qid,examId=f'{y}-2s',year=y,subject='統計學大意',subjectIndex=2,number=n,points=paper['points'],multi=False,images=[],text=stem+'\n'+'\n'.join('('+o['letter']+')'+o['text'] for o in opts),page=page,accepted=[paper['originalAnswers'][n-1]],correction=None,stem=stem,options=opts,textFallback=False,passage='',hasVisual=bool(re.search('下表|下圖|附表|表格|圖形|如圖|圖中',segment))))
+ exams.append(dict(id=f'{y}-2s',year=y,subject='統計學大意',subjectIndex=2,count=40,pages=[],source=paper['source'],answerSource=paper['answerSource'],listing=paper['listing'],correctionPdf=None))
 Path('/tmp/statistics-bank.json').write_text(json.dumps(dict(exams=exams,questions=result),ensure_ascii=False,indent=2))
 print('Imported',len(result),'questions')

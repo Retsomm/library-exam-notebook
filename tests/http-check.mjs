@@ -9,17 +9,17 @@ try{
  const {buildVersion}=await import('../scripts/build-version.mjs');assert.equal(version.version,buildVersion(),'manifest matches current source');
  for(const [path,expected]of [['/',200],['/demo/',200],['/sign-in/',200],['/practice/',200],['/api/bank',404],['/api/auth/session',404]]){const r=await fetch(base+path,{redirect:'manual'});assert.equal(r.status,expected,path);if(expected===200){const html=await r.text();assert.ok(html.includes('data-app-version="'+version.version+'"'),path+' app release');}if(expected===200){
   const html=await(await fetch(base+path)).text();
-  assert.match(html,/<link[^>]*rel="apple-touch-icon"[^>]*href="\/brand\/library-apple-touch-icon.png"/);
-  assert.match(html,/<meta[^>]*name="apple-mobile-web-app-title"[^>]*content="書庫研習所"/);
-  assert.ok(html.includes('/site.webmanifest'));assert.ok(html.includes('/brand/library-favicon-32.png'));
+  assert.match(html,/<link[^>]*rel="apple-touch-icon"[^>]*href="\/brand\/statistics-apple-touch-icon.png"/);
+  assert.match(html,/<meta[^>]*name="apple-mobile-web-app-title"[^>]*content="統計研習所"/);
+  assert.ok(html.includes('/site.webmanifest'));assert.ok(html.includes('/brand/statistics-favicon-32.png'));
  }results.push({path,status:r.status});}
  const manifestResponse=await fetch(base+'/site.webmanifest');assert.equal(manifestResponse.status,200);assert.match(manifestResponse.headers.get('content-type'),/manifest/);
- const manifest=await manifestResponse.json();assert.equal(manifest.short_name,'書庫研習所');assert.equal(manifest.display,'standalone');assert.equal(manifest.start_url,'/practice/');
- for(const [file,size] of [['library-apple-touch-icon.png',180],['library-favicon-16.png',16],['library-favicon-32.png',32],['library-icon-192.png',192],['library-icon-512.png',512]]){
+ const manifest=await manifestResponse.json();assert.equal(manifest.short_name,'統計研習所');assert.equal(manifest.display,'standalone');assert.equal(manifest.start_url,'/practice/');
+ for(const [file,size] of [['statistics-apple-touch-icon.png',180],['statistics-favicon-16.png',16],['statistics-favicon-32.png',32],['statistics-icon-192.png',192],['statistics-icon-512.png',512]]){
   const response=await fetch(base+'/brand/'+file);assert.equal(response.status,200);assert.match(response.headers.get('content-type'),/image\/png/);
   const png=Buffer.from(await response.arrayBuffer());assert.equal(png.subarray(1,4).toString(),'PNG');assert.equal(png.readUInt32BE(16),size);assert.equal(png.readUInt32BE(20),size);
  }
- const svg=await fetch(base+'/brand/library-mark.svg');assert.equal(svg.status,200);assert.match(svg.headers.get('content-type'),/image\/svg\+xml/);
+ const svg=await fetch(base+'/brand/statistics-mark.svg');assert.equal(svg.status,200);assert.match(svg.headers.get('content-type'),/image\/svg\+xml/);
  const ico=Buffer.from(await(await fetch(base+'/favicon.ico')).arrayBuffer());assert.equal(ico.readUInt16LE(2),1);assert.equal(ico.readUInt16LE(4),3);
 
  const r=await fetch(base+'/bank.json'),bank=await r.json();assert.equal(bank.questions.length,1665);assert.equal(bank.exams.length,36);assert.ok(bank.questions.find(q=>q.id==='115-1-46').passage.includes('Elon Musk'));
