@@ -50,10 +50,15 @@ jobs:
           credential_file="$RUNNER_TEMP/firebase-service-account.json"
           printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$credential_file"
           export GOOGLE_APPLICATION_CREDENTIALS="$credential_file"
-          if npx --yes firebase-tools@15.34.0 hosting:sites:list --project library-exam-notebook | grep -Eq '^statistics-exam-notebook([[:space:]]|$)'; then
-            echo 'Statistics hosting site already exists.'
+          set +e
+          output="$(npx --yes firebase-tools@15.34.0 hosting:sites:create statistics-exam-notebook --project library-exam-notebook 2>&1)"
+          status=$?
+          set -e
+          printf '%s\n' "$output"
+          if [ "$status" -eq 0 ] || printf '%s' "$output" | grep -Fq 'already exists'; then
+            echo 'Statistics hosting site is ready.'
           else
-            npx --yes firebase-tools@15.34.0 hosting:sites:create statistics-exam-notebook --project library-exam-notebook
+            exit "$status"
           fi
       - name: Deploy to the live website
         uses: FirebaseExtended/action-hosting-deploy@500ac625ca2dd40cbd15f7659af953801858032a # v0
