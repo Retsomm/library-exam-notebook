@@ -5,8 +5,8 @@ const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url))
 test('statistics and data-processing questions have hidden-dialog explanation payloads',()=>{for(const exam of bank.exams.filter(exam=>exam.subjectIndex>1)){const entries=JSON.parse(readFileSync(new URL(`../data/explanations/${exam.id}.json`,import.meta.url)));const questions=bank.questions.filter(q=>q.examId===exam.id);assert.equal(Object.keys(entries).length,questions.length);for(const q of questions){const e=entries[q.id];assert.ok(e.summary.includes('\n\n'));assert.deepEqual(Object.keys(e.options).sort(),['A','B','C','D']);assert.deepEqual(Object.keys(e.optionVerdicts).sort(),['A','B','C','D']);assert.ok(e.sources.length);}}});
 
 
-test('every data-processing explanation is written for its own question and answer',()=>{
- for(const exam of bank.exams.filter(exam=>exam.subjectIndex===3)){
+test('every professional-subject explanation is written for its own question and answer',()=>{
+ for(const exam of bank.exams.filter(exam=>exam.subjectIndex>1)){
   const entries=JSON.parse(readFileSync(new URL(`../data/explanations/${exam.id}.json`,import.meta.url)));
   const questions=bank.questions.filter(question=>question.examId===exam.id);
   assert.equal(new Set(questions.map(question=>entries[question.id].summary)).size,questions.length,`${exam.id} summaries must not reuse a template`);
