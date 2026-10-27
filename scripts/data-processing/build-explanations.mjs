@@ -19,7 +19,44 @@ const topics=[
 ];
 
 const fallback={label:'資料處理基本概念',rule:'先圈出題幹的關鍵名詞與限制條件，逐一比對各選項是否符合定義、流程或計算結果。'};
-const topicFor=question=>{const text=normalise([question.stem,...question.options.map(option=>option.text)].join(' '));return topics.find(topic=>topic.match.test(text))||fallback;};
+const topicFor=question=>{
+ const text=normalise([question.stem,...question.options.map(option=>option.text)].join(' '));
+ const priority=['資料結構與演算法','程式設計','電腦網路與資訊安全','資料庫','作業系統','人工智慧','多媒體資料','網頁技術','辦公軟體與資料處理','資訊倫理與資安治理','電子商務與資訊應用','電腦組織與資料表示'];
+ return priority.map(label=>topics.find(topic=>topic.label===label)).find(topic=>topic?.match.test(text))||fallback;
+};
+
+function plainGuide(topic){
+ const guides={
+  '描述統計':'先看題目是在問資料的中心、分散程度，還是整體形狀；不要把平均數、標準差和相關係數當成同一件事。',
+  '機率':'把每一個事件拆開看：哪些情況可以相加、哪些情況要相乘。題目有寫「至少」或「沒有」時，常常從反面去算會更快。',
+  '機率分配':'先認出這是哪一種分配，再把題目給的平均數、機率或標準差放到對應的規則裡。',
+  '抽樣與區間估計':'先分清楚題目在談母體還是樣本；樣本只是拿來估計母體，不是母體本身。',
+  '假設檢定':'把它當成判斷證據夠不夠強：先訂出原本的假設，再看資料有沒有強到足以推翻它。',
+  '變異數分析':'它是在比較好幾組平均數。重點不是哪組數字最大，而是組與組之間的差異有沒有大到不像隨機波動。',
+  '相關與迴歸':'相關是在看兩件事有沒有一起變動；迴歸則是在用一個變數去預測另一個變數，兩者不要混在一起。',
+  '卡方檢定':'先用列總和和欄總和算出「如果沒有關係，理論上應有多少人」，再和實際數字比較。',
+  '統計推論概念':'先把名詞換成日常語言：這個方法需要什麼假設、能回答什麼問題，再回頭看選項。',
+  '電腦組織與資料表示':'先把題目中的單位、位元或記憶體位置拆開算；不要一次把十進位、二進位和位址混在一起。',
+  '作業系統':'把作業系統想成資源管家：誰先用 CPU、資料放在哪裡、程式目前在等什麼，都要分開看。',
+  '資料庫':'先看題目在談資料怎麼存、怎麼查，還是資料之間怎麼連結；主鍵、外鍵和 SQL 子句各有不同工作。',
+  '電腦網路與資訊安全':'先分清楚資料是在同一個網路內傳，還是要跨網路；再判斷題目問的是設備、協定還是安全目的。',
+  '資料結構與演算法':'先把資料怎麼進、怎麼出、怎麼走的順序畫清楚；只要順序抓對，選項通常就能排除。',
+  '程式設計':'把程式當成逐行執行的指令：先追變數怎麼改，再判斷迴圈、函式或物件導向概念。',
+  '網頁技術':'先記住分工：HTML 放內容結構、CSS 管外觀、JavaScript 做互動；題目問哪一件事，就回到對應工具。',
+  '辦公軟體與資料處理':'先想清楚你真正要完成的工作，再找對應的軟體功能或函數，不要只憑名稱猜答案。',
+  '資訊倫理與資安治理':'先看題目要保護的是誰的資料、權益或系統安全，再判斷行為有沒有踩到界線。',
+  '電子商務與資訊應用':'先分清楚交易雙方和系統在流程中的角色，再看哪個選項真的能完成題目要的服務或流程。',
+  '人工智慧':'先分清楚模型是在學習資料，還是在使用已學到的結果回答問題，兩個階段的工作不同。',
+  '多媒體資料':'先看題目重視的是音質、檔案大小或能不能還原原始資料；這三件事常常需要取捨。',
+  '統計基本概念':'先把題目給的數字和限制條件圈出來，再用最基本的定義逐一排除不符合的選項。',
+  '資料處理基本概念':'先把題目真正要問的關鍵字抓出來，再把每個選項放回定義裡比對。',
+ };
+ return guides[topic.label]||'先把題目的關鍵條件抓出來，換成自己的話理解後，再回頭比對選項。';
+}
+function questionInPlainWords(question){
+ const stem=normalise(question.stem);
+ return stem.length>170?`${stem.slice(0,167)}……`:stem;
+}
 
 function calculationNote(question,correct){
  const stem=question.stem;
@@ -53,20 +90,16 @@ function explanationFor(question,exam){
  if(!correct)throw Error(`Missing answer for ${question.id}`);
  const visualNote=question.hasVisual?'本題涉及圖表、公式或版面時，請同時開啟官方原卷核對原始呈現。':'';
  const calculation=calculationNote(question,correct);
- const summary=`本題考的是「${topic.label}」。題幹要判斷「${normalise(question.stem)}」。\n\n${topic.rule}${calculation}因此應選（${correct.letter}）${normalise(correct.text)}。${visualNote}`;
- const options=Object.fromEntries(question.options.map(option=>[
-  option.letter,
-  question.accepted.includes(option.letter)
-   ? `（${option.letter}）正確選項。${calculation}`
-   : `（${option.letter}）${wrongReason(option,correct,topic)}`,
+ const shownAnswer=normalise(correct.text),shownQuestion=questionInPlainWords(question);
+ const summary=`這題其實在問：${shownQuestion}\n\n先抓住一個重點：${plainGuide(topic)}\n\n${calculation}換句話說，題目要的不是只要「看起來相關」的選項，而是能完整接住題幹條件的答案。所以選（${correct.letter}）${shownAnswer}。${visualNote}`;
+ const options=Object.fromEntries(question.options.map(option=>[option.letter,question.accepted.includes(option.letter)
+  ? `（${option.letter}）可以選。它直接對上題幹的關鍵條件。${calculation}`
+  : `（${option.letter}）「${normalise(option.text)}」看起來可能有關，但沒有完整符合題目設定；本題要找的是（${correct.letter}）${shownAnswer}。`,
  ]));
- const optionVerdicts=Object.fromEntries(question.options.map(option=>[
-  option.letter,
-  question.accepted.includes(option.letter)
-   ? `正確。（${option.letter}）${normalise(option.text)}符合題目的「${topic.label}」判準。`
-   : `不正確。（${option.letter}）${normalise(option.text)}不是本題所問的結果；正確答案是（${correct.letter}）。`,
- ]));
- return {summary,options,optionVerdicts,sources:[sourceFor(exam)]};
+ const optionVerdicts=Object.fromEntries(question.options.map(option=>[option.letter,question.accepted.includes(option.letter)
+  ? `可以選。（${option.letter}）${normalise(option.text)}剛好回答題目要問的事。`
+  : `先不要選。（${option.letter}）${normalise(option.text)}少了題幹的關鍵條件，答案應是（${correct.letter}）。`,
+ ])); return {summary,options,optionVerdicts,sources:[sourceFor(exam)]};
 }
 
 export function buildDataProcessingExplanations(bank){

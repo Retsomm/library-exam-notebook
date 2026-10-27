@@ -6,6 +6,7 @@ import {idiomsInText} from '@/lib/idioms.mjs';
 import IdiomLearning from './idiom-learning';
 import VocabularyCard from './vocabulary-card';
 import {vocabularyId} from '@/lib/vocabulary.mjs';
+import QuestionText from './question-text';
 const AnswerExplanation=({question:q,onAvailabilityChange,savedWords=[],onToggleWord}:{question:Question;onAvailabilityChange?:(ready:boolean)=>void;savedWords?:string[];onToggleWord?:(item:Vocabulary)=>void})=>{
  const [entry,setEntry]=useState<QuestionExplanation|null>(null),[status,setStatus]=useState<'loading'|'ready'|'missing'|'error'>('loading'),[retry,setRetry]=useState(0);
  const optionIdioms=q.options.map(option=>q.subjectIndex===0?idiomsInText(idiomData.entries,option.text):[]);
@@ -27,7 +28,7 @@ const AnswerExplanation=({question:q,onAvailabilityChange,savedWords=[],onToggle
    {entry.passageTranslation&&<section className="passage-translation" aria-label="題組全文翻譯"><h3>題組全文翻譯</h3>{entry.passageTranslation.paragraphs.map((paragraph,index)=><p key={index}>{paragraph}</p>)}<p className="explanation-note">{entry.passageTranslation.note}</p></section>}
    <p className="explanation-summary">{entry.summary}</p>
    {!!contextIdioms.length&&<section aria-label="題幹與文章成語"><h3>題幹與文章成語</h3>{contextIdioms.map(item=><IdiomLearning key={item.term} entry={item} showTerm/>)}</section>}
-   <h3>逐選項詳解</h3><dl className="option-explanations">{q.options.map((option,index)=><div key={option.letter}><dt>（{option.letter}）{option.text}</dt><dd>{entry.optionVerdicts?.[option.letter]&&<p className="explanation-verdict">{entry.optionVerdicts[option.letter]}</p>}{optionIdioms[index].map(item=><IdiomLearning key={item.term} entry={item} showTerm/>)}{!!optionIdioms[index].length&&<h4>本選項的用法判斷</h4>}<p>{entry.options[option.letter]}</p></dd></div>)}</dl>
+   <h3>逐選項詳解</h3><dl className="option-explanations">{q.options.map((option,index)=><div key={option.letter}><dt>（{option.letter}）<QuestionText text={option.text}/></dt><dd>{entry.optionVerdicts?.[option.letter]&&<p className="explanation-verdict">{entry.optionVerdicts[option.letter]}</p>}{optionIdioms[index].map(item=><IdiomLearning key={item.term} entry={item} showTerm/>)}{!!optionIdioms[index].length&&<h4>本選項的用法判斷</h4>}<p>{entry.options[option.letter]}</p></dd></div>)}</dl>
    {[{title:"題幹與選項單字／片語",items:entry.questionVocabulary},{title:q.passage?"文章重點單字／片語":"延伸單字／片語",items:entry.vocabulary}].map(({title,items})=>!!items?.length&&<section key={title} aria-label={title}><h3>{title}</h3><dl className="vocabulary-explanations">{items.map(item=><VocabularyCard key={vocabularyId(q.examId,item)} item={item} saved={savedWords.includes(vocabularyId(q.examId,item))} onToggle={()=>onToggleWord?.(item)}/>)}</dl></section>)}
    {!!entry.sources?.length&&<div className="explanation-sources"><h3>延伸查證</h3>{entry.sources.map(source=><a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a>)}</div>}
    <p className="explanation-note">解析為本站編寫的學習說明，標準答案以考選部公告為準。</p>

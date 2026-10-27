@@ -1,3 +1,4 @@
-import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
+import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {reflowQuestionText} from '../lib/question-text.mjs';
 const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url)));
 test('new professional question text remains available on small screens',()=>{for(const q of bank.questions.filter(q=>q.subjectIndex>1)){assert.ok(q.stem.trim(),q.id);for(const option of q.options)assert.ok(option.text.trim(),q.id+option.letter);}});
+test('code in a question keeps its lines and indentation',()=>{const source='下列程式輸出為何？\nfor (int i = 0; i < 3; i++) {\n  printf("%d", i);\n}';const output=reflowQuestionText(source);assert.match(output,/for \(int i = 0; i < 3; i\+\+\) \{\n  printf/);assert.match(output,/printf\("%d", i\);\n\}/);});

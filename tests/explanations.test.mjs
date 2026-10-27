@@ -14,6 +14,10 @@ test('every professional-subject explanation is written for its own question and
    const entry=entries[question.id],correct=question.options.find(option=>question.accepted.includes(option.letter));
    assert.ok(entry.summary.includes(correct.text.normalize('NFKC').replace(/\s+/g,' ').trim()),`${question.id} must explain its announced answer`);
    assert.doesNotMatch(entry.summary,/先辨認題目問的是定義、計算或推論/);
+   assert.match(entry.summary,/這題其實在問：/);
+   assert.match(entry.summary,/先抓住一個重點：/);
+   assert.match(entry.summary,/換句話說，題目要的不是只要「看起來相關」的選項/);
+   assert.doesNotMatch(entry.summary,/本題考的是/);
    assert.equal(new Set(Object.values(entry.options)).size,4,`${question.id} option explanations must be distinct`);
   }
  }

@@ -236,3 +236,4 @@ body{background:radial-gradient(circle at 85% 4%,#1d60724a,transparent 34%),line
 @media(max-width:620px){.sidebar nav{background:#082033;border-color:#315368}.data-art{right:18px;bottom:24px;width:128px;height:84px}.data-art:after{font-size:12px;letter-spacing:5px}.hero p{max-width:62%}}
 
 .idiom-card-title{display:flex;align-items:center;justify-content:space-between;gap:12px}.idiom-card-title h3{margin:0}.idiom-card-title .word-save{flex-shrink:0}
+.question-stem>p,.answer-text>p{margin:0}.question-code{margin:12px 0;padding:14px 16px;overflow:auto;border:1px solid #284c61;border-radius:8px;background:#102a3b;color:#e5f4f4;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.86em;line-height:1.65;text-align:left;white-space:pre}.answer-text .question-code{margin:0;width:100%;font-size:.82em}.option-explanations dt .question-code{margin:8px 0 0}.passage .question-code{font-size:.9em}
