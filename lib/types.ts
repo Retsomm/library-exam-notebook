@@ -1,4 +1,4 @@
-export type Question = {id:string;examId:string;year:number;subject:string;subjectIndex:number;number:number;multi:boolean;images:string[];text:string;page:number;accepted:string[];correction:string|null;allCredit?:boolean;stem:string;options:{letter:string;text:string}[];passage:string;hasVisual:boolean;textFallback:boolean};
+export type Question = {id:string;examId:string;year:number;subject:string;subjectIndex:number;number:number;points?:number;multi:boolean;images:string[];text:string;page:number;accepted:string[];correction:string|null;allCredit?:boolean;stem:string;options:{letter:string;text:string}[];passage:string;hasVisual:boolean;textFallback:boolean};
 export type Exam = {id:string;year:number;subject:string;subjectIndex:number;count:number;explanationCount?:number;pages:string[];source:string;answerSource:string;listing:string;correctionPdf:string|null};
 export type Bank = {exams:Exam[];questions:Question[];subjects:string[];updatedAt:string};
 export type StudyRecord = {answer:string;correct:boolean;attempts:number;time:string};
