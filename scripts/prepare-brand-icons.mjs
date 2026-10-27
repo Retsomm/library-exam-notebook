@@ -27,4 +27,4 @@ frames.forEach((size,index)=>{
 await writeFile(new URL('../favicon.ico',root),Buffer.concat([header,...frames.map(size=>pngs.get(size))]));
 console.log('Generated favicon and home-screen icons from library-mark.svg');
 
-await writeFile(new URL('../site.webmanifest',root),JSON.stringify({id:'/',name:brand.name+'｜初等圖書資訊管理練習',short_name:brand.name,lang:'zh-Hant',description:brand.description,start_url:'/practice/',scope:'/',display:'standalone',background_color:brand.themeColor,theme_color:brand.themeColor,icons:[192,512].map(size=>({src:brand.iconPrefix+'-icon-'+size+'.png',sizes:size+'x'+size,type:'image/png',purpose:'any'}))},null,2)+'\n');
+await writeFile(new URL('../site.webmanifest',root),JSON.stringify({id:'/',name:brand.name+'｜初等統計練習',short_name:brand.name,lang:'zh-Hant',description:brand.description,start_url:'/practice/',scope:'/',display:'standalone',background_color:brand.themeColor,theme_color:brand.themeColor,icons:[192,512].map(size=>({src:brand.iconPrefix+'-icon-'+size+'.png',sizes:size+'x'+size,type:'image/png',purpose:'any'}))},null,2)+'\n');

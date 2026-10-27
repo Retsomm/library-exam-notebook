@@ -2,12 +2,15 @@ import {enrichEnglishExplanation} from '../lib/english-learning.mjs';
 import {buildVocabularyIndex} from '../lib/vocabulary.mjs';
 import {buildVersion} from './build-version.mjs';
 import { readFileSync,writeFileSync } from 'node:fs';
-const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url),'utf8'));
+const legacyBank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url),'utf8'));
+const metadata=JSON.parse(readFileSync(new URL('../data/statistics-bank-meta.json',import.meta.url),'utf8'));
+const bank={...legacyBank,subjects:metadata.subjects,updatedAt:metadata.updatedAt,exams:[...legacyBank.exams.filter(exam=>exam.subjectIndex<2),...metadata.exams],questions:[...legacyBank.questions.filter(question=>question.subjectIndex<2),...metadata.exams.flatMap(exam=>JSON.parse(readFileSync(new URL(`../data/papers/${exam.id}.json`,import.meta.url),'utf8')))]};
+writeFileSync(new URL('../data/bank.json',import.meta.url),JSON.stringify(bank));
 
-import {mkdirSync,readdirSync} from 'node:fs';
+import {mkdirSync,readdirSync,rmSync} from 'node:fs';
 const source=new URL('../data/explanations/',import.meta.url);
 mkdirSync(source,{recursive:true});
-const target=new URL('../public/explanations/',import.meta.url);mkdirSync(target,{recursive:true});
+const target=new URL('../public/explanations/',import.meta.url);rmSync(target,{recursive:true,force:true});mkdirSync(target,{recursive:true});
 const passages=JSON.parse(readFileSync(new URL('../data/english-passages.json',import.meta.url),'utf8'));
 const questionLexicon=JSON.parse(readFileSync(new URL('../data/english-question-vocabulary.json',import.meta.url),'utf8'));
 const explanations={};

@@ -4,7 +4,7 @@ import {readFileSync} from 'node:fs';
 import {emptyState,recordAnswer,validateBackup,mergeStates} from '../lib/study.mjs';
 import {stateChanges,applyQuestionMutation,migrationChanges,cloudState} from '../lib/sync-model.mjs';
 const questions=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url))).questions;
-const q=questions.find(q=>q.id==='115-2-1');
+const q=questions.find(q=>q.id===q.id);
 const mutation=(patch,id='m1',mode='update')=>({id,docId:q.id,patch,mode});
 test('two devices merge different fields; removing bookmark and clearing note remain removed',()=>{
  let remote=applyQuestionMutation({},mutation({bookmark:true,note:'舊筆記'}));
@@ -16,12 +16,12 @@ test('two devices merge different fields; removing bookmark and clearing note re
  assert.equal(migrationChanges(old,new Map([[q.id,remote]]),true).length,0);
 });
 test('simultaneous answers are counted once per event and retried mutation is idempotent',()=>{
- const a=emptyState(),b=emptyState();recordAnswer(a,q,['A'],'2026-10-18T10:00:00Z');recordAnswer(b,q,['B'],'2026-10-18T10:00:01Z');
+ const a=emptyState(),b=emptyState();recordAnswer(a,q,q.accepted[0]==='A'?['B']:['A'],'2026-10-18T10:00:00Z');recordAnswer(b,q,q.accepted[0].split(''),'2026-10-18T10:00:01Z');
  const ma={...stateChanges(emptyState(),a)[0],id:'device-a'},mb={...stateChanges(emptyState(),b)[0],id:'device-b'};
  let remote=applyQuestionMutation({},ma);remote=applyQuestionMutation(remote,mb);remote=applyQuestionMutation(remote,ma);
  assert.equal(remote.record.attempts,2);assert.equal(remote.history.length,2);assert.equal(remote.wrong.active,true);
  // A correct retry after receiving the shared wrong answer marks it mastered.
- const state=cloudState(new Map([[q.id,remote]]),null,questions),next=structuredClone(state);recordAnswer(next,q,['B'],'2026-10-18T10:00:02Z');
+ const state=cloudState(new Map([[q.id,remote]]),null,questions),next=structuredClone(state);recordAnswer(next,q,q.accepted[0].split(''),'2026-10-18T10:00:02Z');
  remote=applyQuestionMutation(remote,{...stateChanges(state,next)[0],id:'retry'});assert.equal(remote.record.attempts,3);assert.equal(remote.wrong.active,false);
 });
 test('pending offline edits overlay incoming cloud state until acknowledged',()=>{
@@ -30,14 +30,14 @@ test('pending offline edits overlay incoming cloud state until acknowledged',()=
  const s=cloudState(remote,null,questions,pending);assert.deepEqual(s.bookmarks,[]);assert.equal(s.notes[q.id],'離線修改');
 });
 test('first-device migration preserves historical attempts without doubling them',()=>{
- const s=emptyState();recordAnswer(s,q,['A'],'2026-10-18T10:00:00Z');s.records[q.id].attempts=9;s.bookmarks=[q.id];
+ const s=emptyState();recordAnswer(s,q,q.accepted[0]==='A'?['B']:['A'],'2026-10-18T10:00:00Z');s.records[q.id].attempts=9;s.bookmarks=[q.id];
  const migrations=migrationChanges(s,new Map(),false).map((m,i)=>({...m,id:`migration-${i}`}));
  let remote={};for(const m of migrations)if(m.docId===q.id)remote=applyQuestionMutation(remote,m);
  assert.equal(remote.record.attempts,9);assert.equal(remote.bookmark,true);
  assert.equal(applyQuestionMutation(remote,migrations[0]).record.attempts,9);
 });
 test('session choices and graded progress can resume on another device',()=>{
- const s=emptyState();s.session={ids:[q.id],index:0,title:'接續練習',choices:{[q.id]:['A']},checked:{[q.id]:false}};
+ const s=emptyState();s.session={ids:[q.id],index:0,title:'接續練習',choices:{[q.id]:q.accepted[0]==='A'?['B']:['A']},checked:{[q.id]:false}};
  const m=stateChanges(emptyState(),s).find(m=>m.docId==='_session');
  const restored=cloudState(new Map(),m.patch.sessionJSON,questions);
  assert.deepEqual(restored.session,s.session);

@@ -15,3 +15,11 @@ firebase-debug*.log
 public/pdf/
 public/assets/
 public/official-papers.zip
+
+# Generated static question bank and payloads
+data/bank.json
+data/raw-bank.json
+public/bank.json
+public/explanations/
+public/vocabulary.json
+public/version.json

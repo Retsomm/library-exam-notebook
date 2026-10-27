@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import {brand} from '@/lib/brand.mjs';
 export const metadata: Metadata = {
-  title: `${brand.name}｜初等圖書資訊管理練習`,
+  title: `${brand.name}｜初等統計練習`,
   description: brand.description,
   applicationName: brand.name,
   manifest: '/site.webmanifest',
