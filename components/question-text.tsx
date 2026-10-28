@@ -1,22 +1,16 @@
 import {Fragment} from 'react';
+import {questionLayout} from '@/lib/question-layout.mjs';
 
-const codeLine=/^\s*(?:#include\b|(?:public|private|protected|static|final|class|interface|void|int|float|double|char|boolean|String|return|if|else|for|while|switch|case|break|continue|try|catch|throw|def|function|const|let|var|print|printf|scanf|cout|cin|SELECT|INSERT|UPDATE|DELETE|CREATE|FROM|WHERE|JOIN|GROUP BY|ORDER BY)\b|[{}]|.*(?:[{};]|=>|\+\+|--|:=).*)/i;
+type Props={text:string;className?:string;style?:React.CSSProperties};
+type QuestionBlock={type:'text'|'code';lines:string[]}|{type:'table';rows:string[][]};
 
-function blocks(text:string){
- const lines=text.replace(/\r\n?/g,'\n').split('\n');
- const result:{code:boolean;lines:string[]}[]=[];
- for(const line of lines){
-  const code=codeLine.test(line);
-  const previous=result.at(-1);
-  if(previous&&previous.code===code)previous.lines.push(line);
-  else result.push({code,lines:[line]});
- }
- return result.filter(block=>block.lines.some(line=>line.trim()));
-}
+const TextBlock=({lines}:{lines:string[]})=><>{lines.join('\n').split(/\n{2,}/).filter(Boolean).map((paragraph,index)=><p key={index}>{paragraph}</p>)}</>;
 
-export default function QuestionText({text,className}:{text:string;className?:string}){
- return <div className={className}>{blocks(text).map((block,index)=>block.code
-  ? <pre className="question-code" key={index}><code>{block.lines.join('\n')}</code></pre>
-  : <Fragment key={index}>{block.lines.join('\n').split(/\n{2,}/).filter(Boolean).map((paragraph,i)=><p key={i}>{paragraph}</p>)}</Fragment>
- )}</div>;
+export default function QuestionText({text,className,style}:Props){
+ const blocks=questionLayout(text) as QuestionBlock[];
+ return <div className={className} style={style}>{blocks.map((block,index)=>{
+  if(block.type==='code')return <pre className="question-code" key={index}><code>{block.lines.join('\n')}</code></pre>;
+  if(block.type==='table')return <div className="question-table-wrap" key={index}><table className="question-table"><caption>題目資料表</caption><tbody>{block.rows.map((row,rowIndex)=><tr key={rowIndex}>{row.map((cell,cellIndex)=>rowIndex===0?<th scope="col" key={cellIndex}>{cell}</th>:<td key={cellIndex}>{cell}</td>)}</tr>)}</tbody></table></div>;
+  return <Fragment key={index}><TextBlock lines={block.lines}/></Fragment>;
+ })}</div>;
 }
