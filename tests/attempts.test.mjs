@@ -43,3 +43,10 @@ test('comparison uses latest completed score for each same-year subject only',()
  assert.equal(attemptYearScores(bank,attempts,114).average,null);
  const repeat={...states[0].attempts[0],id:randomUUID(),score:100,completedAt:'2026-10-25T02:00:00.000Z'};attempts=mergeAttempts(attempts,[repeat]);assert.equal(attemptYearScores(bank,attempts,115).papers[0].score,100);
 });
+test('data-processing completed attempts retain their snapshot and are discoverable by year',()=>{
+ const finished=finish(start('109-3d'));
+ const saved=finished.attempts[0];
+ assert.equal(saved.examId,'109-3d');
+ assert.equal(saved.max,100);
+ assert.equal(attemptYearScores(bank,finished.attempts,109).papers.find(item=>item.exam.id==='109-3d').score,saved.score);
+});
