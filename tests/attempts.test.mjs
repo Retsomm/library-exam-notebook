@@ -50,3 +50,10 @@ test('data-processing completed attempts retain their snapshot and are discovera
  assert.equal(saved.max,100);
  assert.equal(attemptYearScores(bank,finished.attempts,109).papers.find(item=>item.exam.id==='109-3d').score,saved.score);
 });
+test('a completed data-processing session can be recovered after an interrupted score write',()=>{
+ const interrupted=finish(start('115-3d'));
+ const expected=interrupted.attempts[0];
+ interrupted.attempts=[];
+ completeAttempt(interrupted,map,bank.exams,'2026-10-24T02:00:00.000Z');
+ assert.deepEqual(interrupted.attempts,[expected]);
+});
