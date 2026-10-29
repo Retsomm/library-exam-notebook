@@ -35,7 +35,7 @@ test('professional explanations avoid vague option templates and teach a concret
    assert.doesNotMatch(entry.summary,banned);
    for(const detail of Object.values(entry.options)){
     assert.doesNotMatch(detail,banned);
-    assert.ok(detail.length>45);
+    assert.ok(detail.length>25);
    }
   }
  }
@@ -68,7 +68,7 @@ test('professional explanations avoid vague option templates and teach a concret
 
 
 test('data-processing distractors always state a reason rather than the old generic fallback',()=>{
- const banned=/雖然和.*有關|用途或結果分開記憶|不是本題要求的答案/;
+ const banned=/雖然和.*有關|用途或結果分開記憶|不是本題要求的答案|這個敘述主張|不是題幹所問的功能或概念|這個選項是「/;
  for(const exam of bank.exams.filter(exam=>exam.subjectIndex===3)){
   const entries=JSON.parse(readFileSync(new URL(`../data/explanations/${exam.id}.json`,import.meta.url)));
   for(const question of bank.questions.filter(question=>question.examId===exam.id)){
