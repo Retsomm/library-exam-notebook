@@ -50,4 +50,11 @@ test('professional explanations avoid vague option templates and teach a concret
  assert.match(wireless.options.B,/幾公分|感應支付/);
  assert.match(wireless.options.C,/遠距離|傳輸速率很低/);
  assert.match(wireless.options.D,/個人區域網路|鍵盤、滑鼠/);
+ const unix=JSON.parse(readFileSync(new URL('../data/explanations/115-3d.json',import.meta.url)))['115-3d-4'];
+ assert.match(unix.summary,/建立目錄，ls 只列出目錄項目/);
+ assert.match(unix.options.A,/Windows|建立目錄/);
+ assert.match(unix.options.B,/輸出到終端機/);
+ assert.match(unix.options.C,/列出目錄/);
+ assert.match(unix.options.D,/內建命令|別名|外部程式/);
+
 });

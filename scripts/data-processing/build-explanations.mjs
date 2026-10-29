@@ -86,6 +86,13 @@ const conceptNotes=[
  [/\bNFC\b|Near-Field Communication/i,'NFC 的距離通常只有幾公分，常用於感應支付、門禁卡或靠近後快速配對；它不適合持續取代電腦的有線周邊連線。'],
  [/\bLoRa\b/i,'LoRa 強調低耗電與遠距離，但傳輸速率很低，常用於遠端感測器回傳少量資料；它不適合電腦和滑鼠、耳機等裝置的即時連線。'],
  [/Bluetooth|藍芽/i,'Bluetooth 是個人區域網路技術，適合短距離連接鍵盤、滑鼠、耳機、手機等周邊，因此個人電腦常用它取代這些周邊的有線連接。'],
+ [/^md$/i,'md 是 Windows 命令提示字元常用的建立目錄命令；在 UNIX 中相對應的是 mkdir。它不會讀出文字檔內容。'],
+ [/^mkdir$/i,'mkdir 用來建立新目錄；要檢視文字檔內容應使用 cat、less 或 more，而不是 mkdir。'],
+ [/^cat$/i,'cat 會把指定文字檔的內容輸出到終端機，是 UNIX 檢視短文字檔最常見的基本命令。'],
+ [/^ls$/i,'ls 用來列出目錄中的檔案與資料夾名稱；它只告訴你有哪些檔案，不會顯示檔案內的文字。'],
+ [/^type$/i,'type 在 UNIX shell 中用來查詢一個名稱是內建命令、別名還是外部程式；它不會讀取檔案內容。'],
+ [/^more$/i,'more 可分頁閱讀文字檔，但這題問的是最常見的基本輸出命令，答案是 cat。'],
+ [/^less$/i,'less 也可分頁閱讀文字檔，並支援向前、向後捲動；它不是本題的指定基本命令。'],
 
 ];
 const noteFor=value=>conceptNotes.find(([pattern])=>pattern.test(normalise(value)))?.[1];
@@ -94,6 +101,7 @@ function calculationNote(question,correct){
  const stem=question.stem;
  if(/讀取速度最快/.test(stem)&&/SSD/.test(correct.text))return '比較重點是存取資料時有沒有機械動作：SSD 直接用快閃記憶體讀取；HDD 要等碟片與磁頭，DVD 要由雷射讀取，USB Stick 通常受介面與控制器限制。因此 SSD 的一般讀取速度最快。';
  if(/一般個人電腦常常使用那一種無線通訊模組/.test(stem)&&/Bluetooth/.test(correct.text))return '要找的是能讓電腦在近距離、穩定連接一般周邊的無線技術。Bluetooth 正是個人電腦常用來連接滑鼠、鍵盤、耳機與手機的個人區域網路技術；Zigbee、NFC、LoRa 分別偏向物聯網、極近距離感應與遠距低速感測。';
+ if(/UNIX 作業系統中常常用什麼命令指令來檢視文字檔案內容/.test(stem)&&/^cat$/i.test(normalise(correct.text)))return 'cat 會將指定檔案的文字直接輸出到終端機，所以用 cat filename 就能檢視內容。md 用來建立目錄，ls 只列出目錄項目，type 用來辨識命令的種類；三者都不會印出文字檔內容。';
  if(/二進位數字「11010\.011」/.test(stem))return '整數部分 11010₂ = 16+8+2 = 26；小數部分 .011₂ = 1/4+1/8 = 0.375，因此結果為 26.375。';
  if(/0xd6fd.*0x3412.*AND/.test(stem))return '逐個十六進位位元做 AND：D∧3=1、6∧4=4、F∧1=1、D∧2=0，所以得到 0x1410。';
  if(/-38/.test(stem)&&/二補數/.test(stem))return '38 的 8 位元二進位是 00100110；逐位反相得到 11011001，再加 1，得到 11011010。';
@@ -115,7 +123,7 @@ function optionExplanation(question,option,correct,topic){
  const note=noteFor(option.text);
  const isCorrect=question.accepted.includes(option.letter);
  if(isCorrect)return `（${option.letter}）可以選。${note||`${normalise(option.text)}符合本題的${topic.label}判斷。`} ${calculationNote(question,correct)}`;
- return `（${option.letter}）不選。${note||`「${normalise(option.text)}」雖然和${topic.label}有關，但它不符合題幹要求的條件或結果。`} 請把它和（${correct.letter}）${normalise(correct.text)}的用途或結果分開記憶。`;
+ return `（${option.letter}）不選。${note||`依題幹的判準，這個選項不能得到正確結論；${calculationNote(question,correct)}`} 本題應選（${correct.letter}）${normalise(correct.text)}。`;
 }
 
 function explanationFor(question,exam){
