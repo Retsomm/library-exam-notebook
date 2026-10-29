@@ -10,7 +10,7 @@ const topics=[
  {match:/TCP|UDP|IP 位址|IPv6|OSI|網路層|路由|Router|交換器|Switch|Wi-Fi|無線|NFC|Bluetooth|Zigbee|LTE|ARP|DNS|DHCP|網路協定|封包|jitter|Gateway|Netmask|頻寬|TLS|雜湊|Wi-Fi|蜂巢/,label:'電腦網路與資訊安全',rule:'先辨識通訊層級與設備職責，再依協定的傳輸範圍、位址類型、可靠性或安全目標判斷。不要把區域網路交換、跨網段路由與應用服務混在一起。'},
  {match:/排序|搜尋|二元樹|Binary Search Tree|AVL|雜湊|Hash|佇列|Queue|Stack|DFS|BFS|遞迴|演算法|Huffman|霍夫曼|時間複雜度|迷宮|圖形（Graph）|Graph/,label:'資料結構與演算法',rule:'先確認資料結構的存取順序或演算法的核心策略，再依題目給的節點、頻率、輸入順序或複雜度逐步推導。'},
  {match:/C 語言|C\+\+|Python|JavaScript|程式語言|函數|函式|迴圈|while|for \(|printf|編譯|直譯|物件導向|多型|繼承|封裝|類別|Operator Overloading|程式碼|processArray|遞迴函數/,label:'程式設計',rule:'先依程式執行順序追蹤變數、迴圈或遞迴，再判斷語言特性。物件導向題要區分類別、物件、繼承、封裝與多型的責任。'},
- {match:/HTML|CSS|網頁|RWD|前端|<img>|瀏覽器/,label:'網頁技術',rule:'HTML 負責文件語意與內容結構，CSS 負責外觀與版面，JavaScript 負責互動邏輯；響應式設計則讓版面適應不同螢幕。'},
+ {match:/HTML|CSS|網頁|RWD|前端|<img>|瀏覽器|JavaScript/,label:'網頁技術',rule:'HTML 負責文件語意與內容結構，CSS 負責外觀與版面，JavaScript 負責互動邏輯；響應式設計則讓版面適應不同螢幕。'},
  {match:/Excel|Word|試算表|合併列印|ROUND|電子試算表|函數/,label:'辦公軟體與資料處理',rule:'先辨識軟體功能與題目要完成的工作，例如函數計算、表格資料整理或將資料來源批次帶入文件。'},
  {match:/資訊倫理|個人資料|個資|PAPA|隱私|著作|商業秘密|社交工程|安全維護|區塊鏈/,label:'資訊倫理與資安治理',rule:'先找出題目要保護的權益或安全性目標，再分辨隱私、正確性、財產、存取權與資料安全維護義務。'},
  {match:/電子商務|B2B|B2C|供應鏈|SCM|消費者|推薦|行銷/,label:'電子商務與資訊應用',rule:'先確認交易雙方與資訊系統在流程中的角色。企業系統的重點通常是資訊共享、流程協調、服務提供或依資料改善決策。'},
@@ -21,7 +21,7 @@ const topics=[
 const fallback={label:'資料處理基本概念',rule:'先圈出題幹的關鍵名詞與限制條件，逐一比對各選項是否符合定義、流程或計算結果。'};
 const topicFor=question=>{
  const text=normalise([question.stem,...question.options.map(option=>option.text)].join(' '));
- const priority=['資料結構與演算法','程式設計','電腦網路與資訊安全','資料庫','作業系統','人工智慧','多媒體資料','網頁技術','辦公軟體與資料處理','資訊倫理與資安治理','電子商務與資訊應用','電腦組織與資料表示'];
+ const priority=['資料結構與演算法','網頁技術','程式設計','電腦網路與資訊安全','資料庫','作業系統','人工智慧','多媒體資料','辦公軟體與資料處理','資訊倫理與資安治理','電子商務與資訊應用','電腦組織與資料表示'];
  return priority.map(label=>topics.find(topic=>topic.label===label)).find(topic=>topic?.match.test(text))||fallback;
 };
 
@@ -82,6 +82,9 @@ const conceptNotes=[
  [/\bHTML\b/i,'HTML 定義網頁內容與語意結構，例如標題、段落、連結和表格。'],
  [/\bCSS\b/i,'CSS 負責顏色、字型、間距與版面等呈現效果，不負責網頁資料處理邏輯。'],
  [/JavaScript/i,'JavaScript 常在瀏覽器中處理互動、事件與動態更新內容。'],
+ [/^Python$/i,'Python 是通用程式語言，常用於資料分析、人工智慧、自動化與後端服務；它可以用在網頁後端，但不是瀏覽器原生執行的前端語言。'],
+ [/^PHP$/i,'PHP 主要在伺服器端執行，用來產生網頁內容、處理表單與連接資料庫；使用者瀏覽器不會直接執行 PHP 原始碼。'],
+ [/^Perl$/i,'Perl 常用於文字處理、系統管理腳本與舊有網站後端；它不是現代瀏覽器用來處理網頁互動的主要語言。'],
  [/Zigbee/i,'Zigbee 是低功耗、低傳輸量的無線技術，常讓感測器、智慧燈泡等物聯網裝置組成網狀網路；它不是個人電腦常用來連鍵盤、耳機或手機的通用模組。'],
  [/\bNFC\b|Near-Field Communication/i,'NFC 的距離通常只有幾公分，常用於感應支付、門禁卡或靠近後快速配對；它不適合持續取代電腦的有線周邊連線。'],
  [/\bLoRa\b/i,'LoRa 強調低耗電與遠距離，但傳輸速率很低，常用於遠端感測器回傳少量資料；它不適合電腦和滑鼠、耳機等裝置的即時連線。'],
@@ -102,6 +105,7 @@ function calculationNote(question,correct){
  if(/讀取速度最快/.test(stem)&&/SSD/.test(correct.text))return '比較重點是存取資料時有沒有機械動作：SSD 直接用快閃記憶體讀取；HDD 要等碟片與磁頭，DVD 要由雷射讀取，USB Stick 通常受介面與控制器限制。因此 SSD 的一般讀取速度最快。';
  if(/一般個人電腦常常使用那一種無線通訊模組/.test(stem)&&/Bluetooth/.test(correct.text))return '要找的是能讓電腦在近距離、穩定連接一般周邊的無線技術。Bluetooth 正是個人電腦常用來連接滑鼠、鍵盤、耳機與手機的個人區域網路技術；Zigbee、NFC、LoRa 分別偏向物聯網、極近距離感應與遠距低速感測。';
  if(/UNIX 作業系統中常常用什麼命令指令來檢視文字檔案內容/.test(stem)&&/^cat$/i.test(normalise(correct.text)))return 'cat 會將指定檔案的文字直接輸出到終端機，所以用 cat filename 就能檢視內容。md 用來建立目錄，ls 只列出目錄項目，type 用來辨識命令的種類；三者都不會印出文字檔內容。';
+ if(/那一種程式語言常用於網頁前端開發/.test(stem)&&/^JavaScript$/i.test(normalise(correct.text)))return '前端程式碼要在使用者的瀏覽器中執行。JavaScript 是瀏覽器原生支援的程式語言，可處理按鈕事件、表單檢查與動態更新畫面；Python、PHP、Perl 多半用於伺服器端、資料處理或腳本工作。';
  if(/二進位數字「11010\.011」/.test(stem))return '整數部分 11010₂ = 16+8+2 = 26；小數部分 .011₂ = 1/4+1/8 = 0.375，因此結果為 26.375。';
  if(/0xd6fd.*0x3412.*AND/.test(stem))return '逐個十六進位位元做 AND：D∧3=1、6∧4=4、F∧1=1、D∧2=0，所以得到 0x1410。';
  if(/-38/.test(stem)&&/二補數/.test(stem))return '38 的 8 位元二進位是 00100110；逐位反相得到 11011001，再加 1，得到 11011010。';

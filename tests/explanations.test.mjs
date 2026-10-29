@@ -56,6 +56,13 @@ test('professional explanations avoid vague option templates and teach a concret
  assert.match(unix.options.B,/輸出到終端機/);
  assert.match(unix.options.C,/列出目錄/);
  assert.match(unix.options.D,/內建命令|別名|外部程式/);
+ const frontend=JSON.parse(readFileSync(new URL('../data/explanations/115-3d.json',import.meta.url)))['115-3d-11'];
+ assert.match(frontend.summary,/瀏覽器原生支援|使用者的瀏覽器/);
+ assert.match(frontend.options.A,/資料分析|人工智慧|自動化/);
+ assert.match(frontend.options.B,/伺服器端|資料庫/);
+ assert.match(frontend.options.C,/文字處理|系統管理/);
+ assert.match(frontend.options.D,/瀏覽器.*互動|事件/);
+
 
 });
 
