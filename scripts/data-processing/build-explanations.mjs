@@ -119,11 +119,21 @@ function calculationNote(question,correct){
  return `${topicFor(question).rule}本題的答案是「${normalise(correct.text)}」，因為它符合題幹指定的概念或操作。`;
 }
 
+function fallbackOptionReason(question,option,correct,topic){
+ const choice=normalise(option.text),answer=normalise(correct.text),stem=normalise(question.stem);
+ const calculation=calculationNote(question,correct);
+ if(/^[0-9a-fx. ()+\-*/=;,]+$/i.test(choice)||/^[01 ]+$/.test(choice))return `這是計算結果的候選值。依題目的運算步驟，正確結果是「${answer}」，不是「${choice}」。請重新核對位元、單位、索引或運算順序。`;
+ if(/printf|for\s*\(|while\s*\(|int |return |程式語言片段|輸出結果/.test(stem))return `這個輸出或數值不符合程式逐行執行的結果。先追蹤變數與迴圈每一次變化，最後會得到「${answer}」，而不是「${choice}」。`;
+ if(/下列何者正確|何者為正確|何者錯誤|何者不正確/.test(stem))return `這個敘述主張「${choice}」。把它和題幹的定義或規則核對後不成立；符合題意的是「${answer}」。閱讀敘述題時，要檢查主詞、條件與結論是否都正確。`;
+ if(/何者為|那一種|那一項|那個|主要用途|作用為何|用於/.test(stem))return `「${choice}」不是題幹所問的功能或概念。題目要求的是「${answer}」；請以它實際能完成的工作為準，不要只因同屬${topic.label}就混在一起。`;
+ return `這個選項是「${choice}」，但題幹條件推得的結論是「${answer}」。${calculation}因此不能選「${choice}」。`;
+}
 function optionExplanation(question,option,correct,topic){
  const note=noteFor(option.text);
  const isCorrect=question.accepted.includes(option.letter);
- if(isCorrect)return `（${option.letter}）可以選。${note||`${normalise(option.text)}符合本題的${topic.label}判斷。`} ${calculationNote(question,correct)}`;
- return `（${option.letter}）不選。${note||`依題幹的判準，這個選項不能得到正確結論；${calculationNote(question,correct)}`} 本題應選（${correct.letter}）${normalise(correct.text)}。`;
+ if(isCorrect)return `（${option.letter}）可以選。${note||`${normalise(option.text)}符合題幹要求。`} ${calculationNote(question,correct)}`;
+ const choice=normalise(option.text),answer=normalise(correct.text);
+ return `（${option.letter}）不選。${note||fallbackOptionReason(question,option,correct,topic)} 選項「${choice}」不符合本題條件；正確答案是（${correct.letter}）${answer}。`;
 }
 
 function explanationFor(question,exam){

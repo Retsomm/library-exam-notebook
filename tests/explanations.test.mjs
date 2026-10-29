@@ -58,3 +58,20 @@ test('professional explanations avoid vague option templates and teach a concret
  assert.match(unix.options.D,/內建命令|別名|外部程式/);
 
 });
+
+
+test('data-processing distractors always state a reason rather than the old generic fallback',()=>{
+ const banned=/雖然和.*有關|用途或結果分開記憶|不是本題要求的答案/;
+ for(const exam of bank.exams.filter(exam=>exam.subjectIndex===3)){
+  const entries=JSON.parse(readFileSync(new URL(`../data/explanations/${exam.id}.json`,import.meta.url)));
+  for(const question of bank.questions.filter(question=>question.examId===exam.id)){
+   const correct=question.options.find(option=>question.accepted.includes(option.letter));
+   for(const option of question.options.filter(option=>!question.accepted.includes(option.letter))){
+    const detail=entries[question.id].options[option.letter];
+    assert.doesNotMatch(detail,banned,`${question.id} ${option.letter}`);
+    assert.ok(detail.includes(option.text.normalize('NFKC').replace(/\s+/g,' ').trim()),`${question.id} ${option.letter} must name the option it explains`);
+    assert.match(detail,/不選。/);
+   }
+  }
+ }
+});
