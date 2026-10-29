@@ -52,33 +52,64 @@ function questionInPlainWords(question){
  return stem.length>170?`${stem.slice(0,167)}……`:stem;
 }
 
-function calculationNote(question,correct){
- const stem=normalise(question.stem);
- if(/P\(A∪B\)/.test(stem))return '獨立事件的聯集機率為 P(A)+P(B)-P(A)P(B)=0.4+0.5-0.2=0.7。';
- if(/Chebyshev/.test(stem)&&/4.5 與 9.3/.test(stem))return '區間距平均數 2.4 小時，等於 2 個標準差；柴比雪夫定理給出至少 1-1/2²=75%。';
- if(/4 個燈泡中至少 1 個/.test(stem))return '先算沒有瑕疵的補事件，再以 1 減去該機率，可避免直接逐項列舉。';
- if(/平均長度為 4 分鐘/.test(stem)&&/2 分鐘內沒有/.test(stem))return '指數分配的速率 λ=1/4；沒有顧客到達的機率為 e^{-λt}=e^{-0.5}，約為 0.607。';
- if(/P\(X=x\)=ax/.test(stem))return '先由 ΣP(X=x)=a(1+2+3)=1 求出 a=1/6，再代入 E(X)=ΣxP(X=x)。';
- if(/P1：到達 0/.test(stem))return '依可搶占式最短剩餘時間優先排程，需在每個新行程到達時重新比較剩餘執行時間。';
- if(/SSE = 200/.test(stem))return 'R²=SSR/(SSR+SSE)=600/(600+200)=0.75，表示模型可解釋 75% 的 Y 變異。';
- if(/中位數/.test(stem)&&/65, 90, 85/.test(stem))return '先由小到大排序 65、68、77、79、81、85、90、100；偶數筆資料的中位數是第 4 與第 5 筆的平均。';
- if(/期望的 新生人數/.test(stem))return '在結構不變的虛無假設下，期望次數為樣本總數乘以上學年的比例，即 300×0.30=90。';
- return `把題目給的條件逐一對回定義，只有「${normalise(correct.text)}」同時符合；其他選項至少漏掉了一個條件。`;
+const conceptNotes={
+ '平均數':'平均數把全部數值加總後除以筆數，容易受到少數極端值拉動。',
+ '中位數':'中位數先排序再取中間位置；資料筆數為偶數時，取中間兩筆的平均。',
+ '眾數':'眾數是出現次數最多的值，資料可以有一個、多個或沒有明顯眾數。',
+ '標準差':'標準差衡量資料離平均數有多分散；數值越大，資料的波動越大。',
+ '變異數':'變異數是離均差平方的平均；標準差是變異數開根號後的單位化結果。',
+ '變異係數':'變異係數是標準差除以平均數，適合比較不同單位或不同平均水準資料的相對分散程度。',
+ '常態分配':'常態分配以平均數為中心且左右對稱；不同位置的機率常先換算成 Z 值。',
+ '二項分配':'二項分配描述固定次數、每次只有成功或失敗且成功機率相同的重複試驗。',
+ '卜瓦松分配':'卜瓦松分配常用於固定時間或空間內的事件發生次數，參數 λ 同時是平均數與變異數。',
+ '指數分配':'指數分配常描述等待下一次事件的時間；它具有無記憶性，速率 λ 的平均等待時間是 1/λ。',
+ '條件機率':'條件機率是在已知事件 B 已發生時，重新計算事件 A 的機率，公式為 P(A∩B)/P(B)。',
+ '獨立':'若兩事件獨立，知道其中一件發生不會改變另一件的機率，且 P(A∩B)=P(A)P(B)。',
+ '信賴區間':'信賴區間由估計值加減誤差範圍構成；樣本數增加通常使標準誤和區間寬度降低。',
+ '虛無假設':'虛無假設 H₀ 是檢定起點，通常表示沒有差異或沒有關係；證據不足時只能說未拒絕它。',
+ 'p 值':'p 值是在 H₀ 為真時，得到目前或更極端資料的機率；p 值小於顯著水準時拒絕 H₀。',
+ '相關係數':'相關係數介於 -1 與 1，表示線性關係的方向與強度，不能單憑它推論因果。',
+ '迴歸':'迴歸式用自變數預測依變數；斜率描述 X 增加一單位時，Y 的預期改變量。',
+ 'R²':'R² 是模型解釋的變異比例，等於 SSR/(SSR+SSE)，不是相關係數本身。',
+ '卡方':'卡方檢定比較觀察次數與獨立假設下的期望次數；每格期望次數為列總和乘欄總和再除以總數。',
+ 'ANOVA':'變異數分析以處理間均方除以誤差均方得到 F 值，用來檢驗多組母體平均數是否相同。',
+};
+function noteFor(text){
+ const compact=normalise(text);
+ const key=Object.keys(conceptNotes).find(key=>compact.includes(key));
+ return key?conceptNotes[key]:null;
 }
-
+function calculationNote(question,correct,topic){
+ const stem=normalise(question.stem);
+ if(/P\(A∪B\)/.test(stem))return '因為 A、B 獨立，聯集機率是 P(A)+P(B)-P(A)P(B)=0.4+0.5-0.2=0.7。這裡要扣掉同時發生的部分，避免重複計算。';
+ if(/Chebyshev/.test(stem)&&/4.5 與 9.3/.test(stem))return '區間離平均數 2.4 小時，剛好是 2 個標準差。柴比雪夫定理指出，落在平均數正負 2 個標準差內的比例至少為 1-1/2²=75%。';
+ if(/4 個燈泡中至少 1 個/.test(stem))return '「至少 1 個」可改算補事件：先求 4 個都沒有瑕疵的機率，再用 1 減掉它。這比逐一列出 1、2、3、4 個瑕疵更不容易漏算。';
+ if(/平均長度為 4 分鐘/.test(stem)&&/2 分鐘內沒有/.test(stem))return '平均等待時間為 4 分鐘，所以指數分配速率 λ=1/4。2 分鐘內沒有人到達的機率是 e^{-λt}=e^{-0.5}，約 0.607。';
+ if(/P\(X=x\)=ax/.test(stem))return '先讓所有機率加總為 1：a(1+2+3)=1，所以 a=1/6；再依 E(X)=ΣxP(X=x) 把每個可能值乘上它的機率後加總。';
+ if(/P1：到達 0/.test(stem))return '這題使用可搶占式最短剩餘時間優先排程。每有新行程到達，就重新比較目前行程的剩餘時間與新行程所需時間，選較短者執行。';
+ if(/SSE = 200/.test(stem))return '決定係數 R²=SSR/(SSR+SSE)=600/(600+200)=0.75。也就是模型解釋了 Y 總變異的 75%，剩下 25% 是殘差。';
+ if(/中位數/.test(stem)&&/65, 90, 85/.test(stem))return '先排序為 65、68、77、79、81、85、90、100。共有 8 筆資料，因此中位數是第 4 與第 5 筆的平均，即 (79+81)/2=80。';
+ if(/期望的 新生人數/.test(stem))return '在「新生組成未改變」的虛無假設下，期望次數等於總人數乘以前一年度比例：300×0.30=90。期望次數不是直接把兩年度人數相減。';
+ return `${topic.rule}本題答案是「${normalise(correct.text)}」，因為它符合題幹指定的統計概念或計算結果。`;
+}
+function optionExplanation(question,option,correct,topic){
+ const optionText=normalise(option.text),correctText=normalise(correct.text);
+ const concept=noteFor(optionText)||noteFor(question.stem);
+ if(option.letter===correct.letter){
+  return `（${option.letter}）可以選。${concept||`它符合題目給定的條件，結論為「${correctText}」。`}請把它和題幹的數值、定義或推論方向一起核對。`;
+ }
+ return `（${option.letter}）不選。${concept||`「${optionText}」沒有得到題幹條件支持；依題意應選「${correctText}」。`}本題問的結論是「${correctText}」，不能只看名詞相近就選它。`;
+}
 function explanationFor(question,exam){
  const topic=topicFor(question),correct=question.options.find(option=>question.accepted.includes(option.letter));
  if(!correct)throw Error(`Missing answer for ${question.id}`);
- const calculation=calculationNote(question,correct),visualNote=question.hasVisual?'題目含有表格、圖形或公式時，請同時開啟官方原卷核對原始版面與數值。':'';
+ const calculation=calculationNote(question,correct,topic),visualNote=question.hasVisual?'\n\n題目含表格、圖形或公式時，請同時開啟官方原卷核對原始版面與數值。':'';
  const shownAnswer=normalise(correct.text),shownQuestion=questionInPlainWords(question);
- const summary=`這題其實在問：${shownQuestion}\n\n先抓住一個重點：${plainGuide(topic)}\n\n${calculation}換句話說，題目要的不是只要「看起來相關」的選項，而是能完整接住題幹條件的答案。所以選（${correct.letter}）${shownAnswer}。${visualNote}`;
- const options=Object.fromEntries(question.options.map(option=>[option.letter,question.accepted.includes(option.letter)
-  ? `（${option.letter}）可以選。它直接對上題幹的關鍵條件。${calculation}`
-  : `（${option.letter}）「${normalise(option.text)}」看起來可能有關，但沒有完整符合題目設定；本題要找的是（${correct.letter}）${shownAnswer}。`,
- ]));
- const optionVerdicts=Object.fromEntries(question.options.map(option=>[option.letter,question.accepted.includes(option.letter)
-  ? `可以選。（${option.letter}）${normalise(option.text)}剛好回答題目要問的事。`
-  : `先不要選。（${option.letter}）${normalise(option.text)}少了題幹的關鍵條件，答案應是（${correct.letter}）。`,
+ const summary=`這題其實在問：${shownQuestion}\n\n學習重點：${plainGuide(topic)}\n\n判斷方式：${calculation}\n\n因此應選（${correct.letter}）${shownAnswer}。${visualNote}`;
+ const options=Object.fromEntries(question.options.map(option=>[option.letter,optionExplanation(question,option,correct,topic)]));
+ const optionVerdicts=Object.fromEntries(question.options.map(option=>[option.letter,option.letter===correct.letter
+  ? `可以選。（${option.letter}）${normalise(option.text)}符合題幹要求。`
+  : `不選。（${option.letter}）${normalise(option.text)}不是本題要求的結論。`,
  ]));
  return {summary,options,optionVerdicts,sources:[{title:`${exam.year} 年初等考試統計學大意官方試題與答案`,url:exam.source}]};
 }

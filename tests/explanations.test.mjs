@@ -15,10 +15,33 @@ test('every professional-subject explanation is written for its own question and
    assert.ok(entry.summary.includes(correct.text.normalize('NFKC').replace(/\s+/g,' ').trim()),`${question.id} must explain its announced answer`);
    assert.doesNotMatch(entry.summary,/先辨認題目問的是定義、計算或推論/);
    assert.match(entry.summary,/這題其實在問：/);
-   assert.match(entry.summary,/先抓住一個重點：/);
-   assert.match(entry.summary,/換句話說，題目要的不是只要「看起來相關」的選項/);
+   assert.match(entry.summary,/學習重點：/);
+   assert.match(entry.summary,/判斷方式：/);
+   assert.doesNotMatch(entry.summary,/把題目給的條件逐一對回定義|看起來可能有關|少了題幹的關鍵條件|只要「看起來相關」/);
    assert.doesNotMatch(entry.summary,/本題考的是/);
    assert.equal(new Set(Object.values(entry.options)).size,4,`${question.id} option explanations must be distinct`);
   }
  }
+});
+
+
+test('professional explanations avoid vague option templates and teach a concrete distinction',()=>{
+ const banned=/把題目給的條件逐一對回定義|看起來可能有關|少了題幹的關鍵條件|只要「看起來相關」/;
+ for(const exam of bank.exams.filter(exam=>exam.subjectIndex>1)){
+  const entries=JSON.parse(readFileSync(new URL(`../data/explanations/${exam.id}.json`,import.meta.url)));
+  for(const entry of Object.values(entries)){
+   assert.match(entry.summary,/學習重點：/);
+   assert.match(entry.summary,/判斷方式：/);
+   assert.doesNotMatch(entry.summary,banned);
+   for(const detail of Object.values(entry.options)){
+    assert.doesNotMatch(detail,banned);
+    assert.ok(detail.length>45);
+   }
+  }
+ }
+ const storage=JSON.parse(readFileSync(new URL('../data/explanations/115-3d.json',import.meta.url)))['115-3d-2'];
+ assert.match(storage.summary,/機械動作/);
+ assert.match(storage.options.A,/光學儲存媒介/);
+ assert.match(storage.options.B,/碟片.*磁頭/);
+ assert.match(storage.options.D,/控制器|介面/);
 });

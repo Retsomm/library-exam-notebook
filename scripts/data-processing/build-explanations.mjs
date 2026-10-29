@@ -58,8 +58,36 @@ function questionInPlainWords(question){
  return stem.length>170?`${stem.slice(0,167)}……`:stem;
 }
 
+const conceptNotes=[
+ [/\bSSD\b/i,'SSD 使用快閃記憶體儲存資料，沒有碟片旋轉或讀寫磁頭移動的等待時間，因此一般讀取速度快於傳統 HDD 與光碟。'],
+ [/\bHDD\b/i,'HDD 是傳統硬碟，必須等待碟片旋轉並讓讀寫磁頭移到正確位置；機械動作會增加存取延遲。'],
+ [/\bDVD\b/i,'DVD 是光學儲存媒介，靠雷射讀取光碟上的資料，讀取速度與隨機存取能力都不如硬碟或 SSD。'],
+ [/USB Stick|隨身碟/i,'USB Stick 多使用快閃記憶體，但產品的控制器與 USB 介面通常以攜帶便利為主，讀取效能通常不如 SSD。'],
+ [/\bRouter\b|路由器/i,'路由器負責在不同網路之間依 IP 位址轉送封包，因此能處理跨網段的資料傳遞。'],
+ [/\bSwitch\b|交換器/i,'交換器主要在同一個區域網路內，依 MAC 位址把資料框轉送到正確埠；它不負責跨網路路由。'],
+ [/\bSELECT\b/i,'SELECT 用來讀取資料；若題目要新增、修改或刪除資料，應分別使用 INSERT、UPDATE 或 DELETE。'],
+ [/\bJOIN\b/i,'JOIN 是依欄位關係把多個資料表的資料組合起來查詢，不是用來新增或刪除資料。'],
+ [/\bPRIMARY KEY\b|主鍵/i,'主鍵用來唯一識別資料表中的每一筆資料，不能重複；它是資料表內部識別資料的核心。'],
+ [/外部鍵|FOREIGN KEY/i,'外部鍵用來指向另一張表的主鍵或唯一鍵，目的是維持資料表之間的參考完整性。'],
+ [/\bTCP\b/i,'TCP 會建立連線、確認資料是否到達並處理重傳，適合需要可靠傳輸的情境。'],
+ [/\bUDP\b/i,'UDP 不建立連線也不保證送達，額外負擔較小，常用於可容忍少量遺失的即時服務。'],
+ [/\bDFS\b|深度優先/i,'DFS 會沿著一條路徑盡量往深處走，通常以堆疊或遞迴實作。'],
+ [/\bBFS\b|廣度優先/i,'BFS 會先走完同一層的節點，再往下一層，通常以佇列實作。'],
+ [/\bStack\b|堆疊/i,'Stack 採後進先出，最後放入的資料最先取出。'],
+ [/\bQueue\b|佇列/i,'Queue 採先進先出，最早進入的資料最先離開。'],
+ [/快取|Cache/i,'Cache 是速度很快、容量較小的記憶體，用來暫存常用資料，降低 CPU 等待主記憶體的時間。'],
+ [/RAM|主記憶體/i,'RAM 是程式執行時暫存資料的工作區，斷電後內容會消失。'],
+ [/ROM/i,'ROM 的內容通常供開機或韌體使用，重點是可保留固定程式，不是一般程式執行時的工作記憶體。'],
+ [/虛擬化/i,'虛擬化把實體硬體資源切分、隔離並彈性配置給多個系統，是雲端提升硬體使用效率的重要技術。'],
+ [/\bHTML\b/i,'HTML 定義網頁內容與語意結構，例如標題、段落、連結和表格。'],
+ [/\bCSS\b/i,'CSS 負責顏色、字型、間距與版面等呈現效果，不負責網頁資料處理邏輯。'],
+ [/JavaScript/i,'JavaScript 常在瀏覽器中處理互動、事件與動態更新內容。'],
+];
+const noteFor=value=>conceptNotes.find(([pattern])=>pattern.test(normalise(value)))?.[1];
+
 function calculationNote(question,correct){
  const stem=question.stem;
+ if(/讀取速度最快/.test(stem)&&/SSD/.test(correct.text))return '比較重點是存取資料時有沒有機械動作：SSD 直接用快閃記憶體讀取；HDD 要等碟片與磁頭，DVD 要由雷射讀取，USB Stick 通常受介面與控制器限制。因此 SSD 的一般讀取速度最快。';
  if(/二進位數字「11010\.011」/.test(stem))return '整數部分 11010₂ = 16+8+2 = 26；小數部分 .011₂ = 1/4+1/8 = 0.375，因此結果為 26.375。';
  if(/0xd6fd.*0x3412.*AND/.test(stem))return '逐個十六進位位元做 AND：D∧3=1、6∧4=4、F∧1=1、D∧2=0，所以得到 0x1410。';
  if(/-38/.test(stem)&&/二補數/.test(stem))return '38 的 8 位元二進位是 00100110；逐位反相得到 11011001，再加 1，得到 11011010。';
@@ -74,14 +102,14 @@ function calculationNote(question,correct){
  if(/f\(int x\)/.test(stem)&&/x=5/.test(stem))return 'f(5)=f(4)+f(6)=f(2)+f(3)=f(1)+f(2)=1+1=2。';
  if(/printf\( “\\n” \)/.test(stem))return '外層迴圈 i 從 1 執行到 4，共執行 4 次；每次外層迴圈結束才印一次換行，因此共印 4 次。';
  if(/最短工作優先法/.test(stem))return '最短工作優先先執行 D(3)、B(5)、C(7)、A(9)。完成時間依序為 D=3、B=8、C=15、A=24。';
- return `題幹的正確判準可由「${normalise(correct.text)}」對照關鍵定義或條件得出。`;
+ return `${topicFor(question).rule}本題的答案是「${normalise(correct.text)}」，因為它符合題幹指定的概念或操作。`;
 }
 
-function wrongReason(option,correct,topic){
- const text=normalise(option.text);
- if(/以上皆|皆是|皆非/.test(text))return '這類選項必須在所有敘述都符合時才成立；本題已有更精確且符合條件的選項。';
- if(/不正確|錯誤|不屬於|不包括|最不符合|不是/.test(topic.label))return '題目要找的是例外或不符合的敘述，不能只因名詞相關就選擇。';
- return `「${text}」沒有符合本題的關鍵判準；應以（${correct.letter}）${normalise(correct.text)}為準。`;
+function optionExplanation(question,option,correct,topic){
+ const note=noteFor(option.text);
+ const isCorrect=question.accepted.includes(option.letter);
+ if(isCorrect)return `（${option.letter}）可以選。${note||`${normalise(option.text)}符合本題的${topic.label}判斷。`} ${calculationNote(question,correct)}`;
+ return `（${option.letter}）不選。${note||`「${normalise(option.text)}」雖然和${topic.label}有關，但它不符合題幹要求的條件或結果。`} 請把它和（${correct.letter}）${normalise(correct.text)}的用途或結果分開記憶。`;
 }
 
 function explanationFor(question,exam){
@@ -91,14 +119,11 @@ function explanationFor(question,exam){
  const visualNote=question.hasVisual?'本題涉及圖表、公式或版面時，請同時開啟官方原卷核對原始呈現。':'';
  const calculation=calculationNote(question,correct);
  const shownAnswer=normalise(correct.text),shownQuestion=questionInPlainWords(question);
- const summary=`這題其實在問：${shownQuestion}\n\n先抓住一個重點：${plainGuide(topic)}\n\n${calculation}換句話說，題目要的不是只要「看起來相關」的選項，而是能完整接住題幹條件的答案。所以選（${correct.letter}）${shownAnswer}。${visualNote}`;
- const options=Object.fromEntries(question.options.map(option=>[option.letter,question.accepted.includes(option.letter)
-  ? `（${option.letter}）可以選。它直接對上題幹的關鍵條件。${calculation}`
-  : `（${option.letter}）「${normalise(option.text)}」看起來可能有關，但沒有完整符合題目設定；本題要找的是（${correct.letter}）${shownAnswer}。`,
- ]));
+ const summary=`這題其實在問：${shownQuestion}\n\n學習重點：${plainGuide(topic)}\n\n判斷方式：${calculation}因此應選（${correct.letter}）${shownAnswer}。${visualNote}`;
+ const options=Object.fromEntries(question.options.map(option=>[option.letter,optionExplanation(question,option,correct,topic)]));
  const optionVerdicts=Object.fromEntries(question.options.map(option=>[option.letter,question.accepted.includes(option.letter)
-  ? `可以選。（${option.letter}）${normalise(option.text)}剛好回答題目要問的事。`
-  : `先不要選。（${option.letter}）${normalise(option.text)}少了題幹的關鍵條件，答案應是（${correct.letter}）。`,
+  ? `可以選。（${option.letter}）${normalise(option.text)}符合題幹要求。`
+  : `不選。（${option.letter}）${normalise(option.text)}不是本題要求的答案。`,
  ])); return {summary,options,optionVerdicts,sources:[sourceFor(exam)]};
 }
 
