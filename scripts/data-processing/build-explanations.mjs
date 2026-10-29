@@ -82,12 +82,18 @@ const conceptNotes=[
  [/\bHTML\b/i,'HTML 定義網頁內容與語意結構，例如標題、段落、連結和表格。'],
  [/\bCSS\b/i,'CSS 負責顏色、字型、間距與版面等呈現效果，不負責網頁資料處理邏輯。'],
  [/JavaScript/i,'JavaScript 常在瀏覽器中處理互動、事件與動態更新內容。'],
+ [/Zigbee/i,'Zigbee 是低功耗、低傳輸量的無線技術，常讓感測器、智慧燈泡等物聯網裝置組成網狀網路；它不是個人電腦常用來連鍵盤、耳機或手機的通用模組。'],
+ [/\bNFC\b|Near-Field Communication/i,'NFC 的距離通常只有幾公分，常用於感應支付、門禁卡或靠近後快速配對；它不適合持續取代電腦的有線周邊連線。'],
+ [/\bLoRa\b/i,'LoRa 強調低耗電與遠距離，但傳輸速率很低，常用於遠端感測器回傳少量資料；它不適合電腦和滑鼠、耳機等裝置的即時連線。'],
+ [/Bluetooth|藍芽/i,'Bluetooth 是個人區域網路技術，適合短距離連接鍵盤、滑鼠、耳機、手機等周邊，因此個人電腦常用它取代這些周邊的有線連接。'],
+
 ];
 const noteFor=value=>conceptNotes.find(([pattern])=>pattern.test(normalise(value)))?.[1];
 
 function calculationNote(question,correct){
  const stem=question.stem;
  if(/讀取速度最快/.test(stem)&&/SSD/.test(correct.text))return '比較重點是存取資料時有沒有機械動作：SSD 直接用快閃記憶體讀取；HDD 要等碟片與磁頭，DVD 要由雷射讀取，USB Stick 通常受介面與控制器限制。因此 SSD 的一般讀取速度最快。';
+ if(/一般個人電腦常常使用那一種無線通訊模組/.test(stem)&&/Bluetooth/.test(correct.text))return '要找的是能讓電腦在近距離、穩定連接一般周邊的無線技術。Bluetooth 正是個人電腦常用來連接滑鼠、鍵盤、耳機與手機的個人區域網路技術；Zigbee、NFC、LoRa 分別偏向物聯網、極近距離感應與遠距低速感測。';
  if(/二進位數字「11010\.011」/.test(stem))return '整數部分 11010₂ = 16+8+2 = 26；小數部分 .011₂ = 1/4+1/8 = 0.375，因此結果為 26.375。';
  if(/0xd6fd.*0x3412.*AND/.test(stem))return '逐個十六進位位元做 AND：D∧3=1、6∧4=4、F∧1=1、D∧2=0，所以得到 0x1410。';
  if(/-38/.test(stem)&&/二補數/.test(stem))return '38 的 8 位元二進位是 00100110；逐位反相得到 11011001，再加 1，得到 11011010。';

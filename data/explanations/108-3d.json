@@ -801,7 +801,7 @@
     "summary": "這題其實在問：下列何者通訊技術是經由讀取器(Reader)接收標籤(Tag)經由天線(Antenna)所發出之無線訊號,以 建立資料傳輸?\n\n學習重點：先分清楚資料是在同一個網路內傳，還是要跨網路；再判斷題目問的是設備、協定還是安全目的。\n\n判斷方式：先辨識通訊層級與設備職責，再依協定的傳輸範圍、位址類型、可靠性或安全目標判斷。不要把區域網路交換、跨網段路由與應用服務混在一起。本題的答案是「無線射頻識別 (Radio Frequency Identification, RFID)」，因為它符合題幹指定的概念或操作。因此應選（C）無線射頻識別 (Radio Frequency Identification, RFID)。",
     "options": {
       "A": "（A）不選。「快速響應矩陣碼 (Quick Response Code, QR Code)」雖然和電腦網路與資訊安全有關，但它不符合題幹要求的條件或結果。 請把它和（C）無線射頻識別 (Radio Frequency Identification, RFID)的用途或結果分開記憶。",
-      "B": "（B）不選。「低功耗藍牙 (Bluetooth Low Energy, BLE)」雖然和電腦網路與資訊安全有關，但它不符合題幹要求的條件或結果。 請把它和（C）無線射頻識別 (Radio Frequency Identification, RFID)的用途或結果分開記憶。",
+      "B": "（B）不選。Bluetooth 是個人區域網路技術，適合短距離連接鍵盤、滑鼠、耳機、手機等周邊，因此個人電腦常用它取代這些周邊的有線連接。 請把它和（C）無線射頻識別 (Radio Frequency Identification, RFID)的用途或結果分開記憶。",
       "C": "（C）可以選。無線射頻識別 (Radio Frequency Identification, RFID)符合本題的電腦網路與資訊安全判斷。 先辨識通訊層級與設備職責，再依協定的傳輸範圍、位址類型、可靠性或安全目標判斷。不要把區域網路交換、跨網段路由與應用服務混在一起。本題的答案是「無線射頻識別 (Radio Frequency Identification, RFID)」，因為它符合題幹指定的概念或操作。",
       "D": "（D）不選。「全球定位系統 (Global Positioning System, GPS)」雖然和電腦網路與資訊安全有關，但它不符合題幹要求的條件或結果。 請把它和（C）無線射頻識別 (Radio Frequency Identification, RFID)的用途或結果分開記憶。"
     },
