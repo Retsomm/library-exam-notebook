@@ -140,3 +140,14 @@ test('binary-tree traversal includes an exact visual model and distinct traversa
  assert.match(entry.options.C,/根、左、右.*15.*10、8、12.*20、17、25/s);
  assert.match(entry.options.D,/後序走訪.*左、右、根/);
 });
+
+test('gateway explanation derives both slash-24 networks before choosing the answer',()=>{
+ const entry=JSON.parse(readFileSync(new URL('../data/explanations/115-3d.json',import.meta.url)))['115-3d-44'];
+ assert.match(entry.summary,/255\.255\.255\.0.*24 位.*\/24/s);
+ assert.match(entry.summary,/190\.114\.1\.50.*190\.114\.1\.0\/24/s);
+ assert.match(entry.summary,/190\.114\.2\.254.*190\.114\.2\.0\/24/s);
+ assert.match(entry.options.A,/主機號碼 50.*網路位址 0.*廣播位址 255/s);
+ assert.match(entry.options.B,/190\.114\.1\.0\/24.*190\.114\.2\.0\/24/s);
+ assert.match(entry.options.C,/沒有提供.*MAC/);
+ assert.match(entry.options.D,/DNS.*使用 IP 位址.*仍可連線/s);
+});

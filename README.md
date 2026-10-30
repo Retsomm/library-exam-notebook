@@ -1,6 +1,6 @@
 # 統計研習所：初等考試統計類科題庫
 
-這是一個使用 Next.js、Firebase Authentication 與 Firestore 建置的初等考試練習網站，正式網址為 https://library-exam-notebook.web.app/ 。
+這是一個使用 Next.js、Firebase Authentication 與 Firestore 建置的初等考試練習網站，正式網址為 https://statistics-exam-notebook.web.app/ 。
 
 ## 收錄內容
 
