@@ -17,3 +17,9 @@ test('explanation prose uses natural Chinese wrapping',()=>{
  assert.doesNotMatch(styles,/\.answer-explanation\{[^}]*overflow-wrap:anywhere/);
  assert.match(styles,/\.answer-explanation p\{text-wrap:pretty\}/);
 });
+
+test('inline code in explanations receives code styling instead of visible backticks',()=>{
+ assert.match(component,/const ExplanationText=/);
+ assert.match(component,/className="explanation-inline-code"/);
+ assert.match(styles,/\.explanation-inline-code\{/);
+});

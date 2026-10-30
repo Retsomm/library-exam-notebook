@@ -25,39 +25,6 @@ const topicFor=question=>{
  return priority.map(label=>topics.find(topic=>topic.label===label)).find(topic=>topic?.match.test(text))||fallback;
 };
 
-function plainGuide(topic){
- const guides={
-  '描述統計':'先看題目是在問資料的中心、分散程度，還是整體形狀；不要把平均數、標準差和相關係數當成同一件事。',
-  '機率':'把每一個事件拆開看：哪些情況可以相加、哪些情況要相乘。題目有寫「至少」或「沒有」時，常常從反面去算會更快。',
-  '機率分配':'先認出這是哪一種分配，再把題目給的平均數、機率或標準差放到對應的規則裡。',
-  '抽樣與區間估計':'先分清楚題目在談母體還是樣本；樣本只是拿來估計母體，不是母體本身。',
-  '假設檢定':'把它當成判斷證據夠不夠強：先訂出原本的假設，再看資料有沒有強到足以推翻它。',
-  '變異數分析':'它是在比較好幾組平均數。重點不是哪組數字最大，而是組與組之間的差異有沒有大到不像隨機波動。',
-  '相關與迴歸':'相關是在看兩件事有沒有一起變動；迴歸則是在用一個變數去預測另一個變數，兩者不要混在一起。',
-  '卡方檢定':'先用列總和和欄總和算出「如果沒有關係，理論上應有多少人」，再和實際數字比較。',
-  '統計推論概念':'先把名詞換成日常語言：這個方法需要什麼假設、能回答什麼問題，再回頭看選項。',
-  '電腦組織與資料表示':'先把題目中的單位、位元或記憶體位置拆開算；不要一次把十進位、二進位和位址混在一起。',
-  '作業系統':'把作業系統想成資源管家：誰先用 CPU、資料放在哪裡、程式目前在等什麼，都要分開看。',
-  '資料庫':'先看題目在談資料怎麼存、怎麼查，還是資料之間怎麼連結；主鍵、外鍵和 SQL 子句各有不同工作。',
-  '電腦網路與資訊安全':'先分清楚資料是在同一個網路內傳，還是要跨網路；再判斷題目問的是設備、協定還是安全目的。',
-  '資料結構與演算法':'先把資料怎麼進、怎麼出、怎麼走的順序畫清楚；只要順序抓對，選項通常就能排除。',
-  '程式設計':'把程式當成逐行執行的指令：先追變數怎麼改，再判斷迴圈、函式或物件導向概念。',
-  '網頁技術':'先記住分工：HTML 放內容結構、CSS 管外觀、JavaScript 做互動；題目問哪一件事，就回到對應工具。',
-  '辦公軟體與資料處理':'先想清楚你真正要完成的工作，再找對應的軟體功能或函數，不要只憑名稱猜答案。',
-  '資訊倫理與資安治理':'先看題目要保護的是誰的資料、權益或系統安全，再判斷行為有沒有踩到界線。',
-  '電子商務與資訊應用':'先分清楚交易雙方和系統在流程中的角色，再看哪個選項真的能完成題目要的服務或流程。',
-  '人工智慧':'先分清楚模型是在學習資料，還是在使用已學到的結果回答問題，兩個階段的工作不同。',
-  '多媒體資料':'先看題目重視的是音質、檔案大小或能不能還原原始資料；這三件事常常需要取捨。',
-  '統計基本概念':'先把題目給的數字和限制條件圈出來，再用最基本的定義逐一排除不符合的選項。',
-  '資料處理基本概念':'先把題目真正要問的關鍵字抓出來，再把每個選項放回定義裡比對。',
- };
- return guides[topic.label]||'先把題目的關鍵條件抓出來，換成自己的話理解後，再回頭比對選項。';
-}
-function questionInPlainWords(question){
- const stem=normalise(question.stem);
- return stem.length>170?`${stem.slice(0,167)}……`:stem;
-}
-
 const conceptNotes=[
  [/^CPU$/i,'CPU 是通用處理器，擅長依序執行作業系統、應用程式與各種邏輯控制，是一般電腦負責通用運算的主要元件。'],
  [/^GPU$/i,'GPU 有大量較簡單的運算核心，適合圖形、矩陣與大量資料的平行運算；它通常是加速器，不是一般電腦的主要通用處理器。'],
@@ -887,10 +854,88 @@ const conceptNotes=[
  [/^虛擬/,'虛擬函數支援執行期多型；相同函數名稱搭配不同參數列稱為多載。'],
  [/^小數/,'尾數或有效數字是浮點數的三個主要欄位之一，保存數值精度。'],
 ];
-const noteFor=value=>conceptNotes.find(([pattern])=>pattern.test(normalise(value)))?.[1];
+const noteFor=value=>{
+ const raw=String(value||'').replace(/\s+/g,' ').trim();
+ return conceptNotes.filter(([pattern])=>pattern.test(raw)||pattern.test(normalise(raw))).sort(([a],[b])=>b.source.length-a.source.length)[0]?.[1];
+};
+const answerTokens=value=>{
+ const text=normalise(value),tokens=new Set(text.match(/[A-Za-z]+\d*|\d+(?:\.\d+)?/g)||[]);
+ for(const run of text.match(/[\p{Script=Han}]{2,}/gu)||[])for(let i=0;i<run.length-1;i++)tokens.add(run.slice(i,i+2));
+ return [...tokens].filter(token=>token.length>1||/\d/.test(token));
+};
+function reasonFromDistractors(question,correct){
+ const tokens=answerTokens(correct.text);
+ const candidates=question.options.filter(option=>!question.accepted.includes(option.letter)).flatMap(option=>(noteFor(option.text)||'').split('。').map(sentence=>sentence.trim()).filter(sentence=>sentence.length>15));
+ const ranked=candidates.map(sentence=>({sentence,score:tokens.reduce((score,token)=>score+(sentence.toLowerCase().includes(token.toLowerCase())?1:0),0)})).filter(item=>item.score>0).sort((a,b)=>b.score-a.score||b.sentence.length-a.sentence.length);
+ return ranked[0]?.sentence?`${ranked[0].sentence}。`:'';
+}
+const questionNotes={
+ '115-3d-34':'`arr + 2` 讓函式的指標從原陣列 `arr[2]` 開始。迴圈把原陣列的 `arr[2]`、`arr[3]`、`arr[4]` 乘以 2，陣列變成 `{1, 2, 6, 8, 10}`；`arr[1]` 仍是 2，`arr[3]` 變成 8，所以輸出 `2 8`。',
+ '115-3d-38':'穩定排序會保留相同鍵值資料原本的先後順序。泡沫排序與插入排序是穩定排序；一般的選擇排序與快速排序不保證穩定，因此正確組合是①③。',
+ '115-3d-50':'IPv6 位址固定由 128 個位元組成；IPv4 才是 32 位元，因此答案是 128。',
+ '114-3d-13':'直譯器通常逐段翻譯並立即執行原始碼，不必先產生完整目的碼。因此「需產生目的碼」不是直譯程式的必要特性。',
+ '114-3d-16':'迷宮需要嘗試路徑，走不通就退回上一個分岔點，適合回溯法；合併排序則把資料拆小、分別排序後再合併，屬於分治法。',
+ '114-3d-41':'`touch problem{1..3}.txt` 會建立 problem1.txt、problem2.txt、problem3.txt 三個檔案；`ls | wc -l` 計算列出的項目數，因此輸出 3。',
+ '113-3d-5':'83 = 64+16+2+1，所以整數部分是 `1010011`；0.8125 = 1/2+1/4+1/16，所以小數部分是 `.1101`，合起來為 `(1010011.1101)₂`。',
+ '113-3d-9':'q=30 時，`q>30 && q<40` 為 0，`q>=30 || q<80` 為 1，`q>90 || q<=20` 為 0，`!q` 也為 0，因此依序輸出 `0100`。',
+ '113-3d-10':'交換條件是前項小於後項時交換，所以較大的數會一路往前移。完成所有回合後，陣列按遞減順序排列為 `{8,6,5,4,3,1}`。',
+ '113-3d-11':'p1 指向 a，所以 `*p1` 是 1；p2 指向 b，而 `*p2=2` 同時把 b 設為 2。因此 a、b、*p1、*p2 依序是 `1,2,1,2`。',
+ '113-3d-13':'`COUNT(*)` 計算全部 500 筆資料；`COUNT(Performance_Bonus)` 會略過 NULL，所以只計算 400 筆非空值，結果為 500 與 400。',
+ '113-3d-31':'CPU 執行程式前，必須先把指令與所需資料載入主記憶體，CPU 才能依位址取出並執行，因此答案是記憶體。',
+ '113-3d-33':'ASCII 數字字元連續編碼；字元 9 是 0x39，所以字元 3 是 0x33。0x33 換成十進位為 3×16+3=51。',
+ '113-3d-37':'河內塔移動 n 個圓盤的最少次數是 `2ⁿ-1`。代入 n=8，得到 `2⁸-1=256-1=255` 次。',
+ '113-3d-38':'固定 i 時，j 會執行 i 次，而最內層 k 每次執行 20 次。總次數為 `20×(1+2+…+n)=20×n(n+1)/2=10n(n+1)`。',
+ '111-3d-8':'全彩影像通常每像素使用 24 位元，也就是 3 bytes。`1024×768×3=2,359,296 bytes`，約為 2.3 MB。',
+ '111-3d-10':'十進位容量單位中，1 PB = 10¹⁵ bytes；若採二進位前綴則應寫 PiB。題目答案為 10¹⁵。',
+ '111-3d-11':'整數除法依序得到 `FR(51)=51×FR(17)=51×17×FR(5)=51×17×5×FR(1)`，而 `FR(1)=1`，所以結果是 4335。',
+ '111-3d-13':'i 每次除以 2，執行序列約為 n、n/2、n/4，直到 0；能除以 2 的次數與 `log₂n` 成正比，所以時間複雜度是 O(logN)。',
+ '111-3d-26':'計時器會定期產生中斷，把 CPU 控制權交回作業系統。即使某程序陷入無窮迴圈，排程器仍能切換去執行其他程序。',
+ '111-3d-29':'1020 的 16 位元表示為 `03FC`；逐位反相得到 `FC03`，再加 1 得 `FC04`，所以 -1020 的二補數是 FC04₁₆。',
+ '111-3d-30':'66.375 可寫成二進位 `1000010.011`、四進位 `1002.12`、八進位 `102.3`、十六進位 `42.6`。因此寫成 `112.3₈` 的選項錯誤。',
+ '111-3d-34':'列優先索引為 `(i×4×5)+(j×5)+k`。兩個已知位址相差 36，而索引相差 18，可知每元素占 2；A[2][1][2] 與 A[0][2][4] 的索引差 33，因此位址為 `2048+33×2=2114`。',
+ '111-3d-35':'從 3 開始依規則得到 `10→5→16→8→4→2→1`。輸出包含 5、16、8，但不包含 9，所以「有整數 9」是錯誤敘述。',
+ '111-3d-36':'i、j 為 0 與 2 時會因 continue 跳過第二次 k++；到 i=j=3 時，k 先後加到 6，接著 break。跳出後輸出 `i=3, j=3, k=6`。',
+ '110-3d-10':'乘法與取餘數同一優先層級並由左至右計算：`3×4=12`、`12%6=0`、`4×5=20`，最後 `0+20=20`。',
+ '110-3d-12':'while 結束時 a 已不小於 10；若 a<12，下一行還會再加 2，使 a 至少為 12。因此後面的 `a<=11` 不成立，`a=5` 永遠不會執行。',
+ '110-3d-13':'列優先且每列有 4 個元素，A[1][2] 前面共有 `1×4+2=6` 個元素。每元素占 2，所以位址為 `108+6×2=120`。',
+ '110-3d-14':'遞迴式每次把 x 減 1 並乘上一個 a，因此 `R(3,7)=3⁷×R(3,0)=3⁷=2187`。',
+ '110-3d-27':'main 先印全域 s=1；add 內的區域 s 從 6 開始，a=1 與 a=0 兩回合印出 6,7,7,8；離開函式後全域 s 仍是 1，最後改成 9，所以輸出 `1,6,7,7,8,1,9`。',
+ '110-3d-30':'當 N 很大時，對數成長比線性、平方與指數都慢；`(logN)⁴` 雖是對數的四次方，仍比其他選項成長慢，因此執行速度最快。',
+ '110-3d-33':'輸入 i 會存到索引 `(i+2)%10`，因此 0 到 7 放入 x[2] 到 x[9]，8 與 9 繞回 x[0]、x[1]，最後陣列是 `8,9,0,1,2,3,4,5,6,7`。',
+ '110-3d-35':'先算 `ds(0)=ds(1)=ds(2)=1`，再得 `ds(3)=5`、`ds(4)=9`，所以 `ds(5)=ds(2)+ds(3)+ds(4)+2=1+5+9+2=17`。',
+ '109-3d-12':'CREATE 用來建立資料庫物件，屬於資料定義語言 DDL；INSERT、UPDATE、DELETE 等才是資料操縱語言 DML。',
+ '109-3d-17':'SQL 可以用 `AS` 為資料表或欄位指定別名，例如 `SELECT name AS employee_name`，因此更名是透過 AS 子句完成。',
+ '109-3d-19':'呼叫次數符合 `C(n)=1+C(n-1)+C(n-2)`，且 C(0)=C(1)=1；依序得到 C(2)=3、C(3)=5、C(4)=9、C(5)=15。',
+ '109-3d-37':'goto 會任意跳到標籤位置，容易破壞循序、選擇、重複三種結構化控制流程，因此結構化程式設計通常避免使用。',
+ '109-3d-38':'函數在執行過程中直接或間接呼叫自己，並以較小問題逼近終止條件，這種技巧就是遞迴。',
+ '108-3d-1':'函式逐位累加後取個位數：`func(13)=4`、`func(135)=9`、`func(1357)=(9+7)%10=6`，所以輸出 6。',
+ '108-3d-2':'依遞迴式計算：F(2)=5、F(3)=11、F(4)=25，最後 `F(5)=25+2×11+4=51`。',
+ '108-3d-4':'布林代數中任何值與 1 做 OR 都得到 1。式子最後含有 `+1`，所以不論 A、B 為何，F(A,B) 都等於 1。',
+ '108-3d-9':'SQL Server 字串前的 N 表示後面的常值採 Unicode，可正確保存中文等多語系字元。',
+ '108-3d-10':'四筆薪資中，46000 與 42000 大於 40000；`COUNT(*)` 因此回傳 2。',
+ '108-3d-13':'依題目採列優先計算，每列有 7 個元素。A(1,1) 相對 A(-1,-4) 的偏移是 `(1-(-1))×7+(1-(-4))=19`，所以位址為 1119。',
+ '108-3d-15':'先算 `x=13-(1<<3)=5`，所以 `17%x=2`。遞迴可得 trib(1)=9、trib(2)=8、trib(3)=9、trib(4)=20，最後輸出 `2+20=22`。',
+ '108-3d-16':'代入可得 T(3)=8、T(9)=17、T(27)=44；展開後是 `n+n/3+n/9+…` 的等比級數，總量為 O(n)，所以 O(n log n) 的敘述錯誤。',
+ '108-3d-23':'Python 一般由直譯器讀取並執行程式碼；組譯器處理組合語言，連結器則負責組合目的檔與函式庫。',
+ '107-3d-8':'封裝、繼承與多型是物件導向的核心特性；流程控制是各類程式語言都有的一般控制結構，不是物件導向專屬特點。',
+ '107-3d-40':'直譯器可把高階語言逐段轉成可執行的機器指令；組譯器處理組合語言，連結器與載入器不負責翻譯高階語言。',
+ '106-3d-20':'列優先且每列有 8 個元素。A[1][5] 與 A[2][6] 的索引差 9，位址差 36，可知每元素占 4；A[4][3] 比 A[1][5] 後移 22 個元素，所以位址為 `1000+22×4=1088`。',
+ '106-3d-31':'函數用較小的參數再次呼叫自己，直到終止條件後逐層回傳，這種解題方法就是遞迴 Recursion。',
+ '106-3d-32':'模組內部各功能彼此相關的程度稱為內聚力 Cohesion；設計時應提高內聚力，並降低模組間的耦合度。',
+ '106-3d-49':'32 位元架構的位址寬度是 32 bits，也就是 4 bytes。指標大小取決於架構位元數，不取決於它指向 char 或其他型別。',
+};
+const questionOptionNotes={
+ '115-3d-34':{
+  A:'`arr[1]` 確實保持 2，但 `arr[3]` 位於函式處理範圍內，會從 4 變成 8，所以不會輸出 `2 4`。',
+  B:'函式只把原陣列索引 2 到 4 的值加倍，最後 `arr[1]=2`、`arr[3]=8`，所以輸出 `2 8`。',
+  C:'`arr[3]` 會變成 8，但 `arr[1]` 不在 `arr+2` 起算的三個元素內，仍是 2，不會變成 4。',
+  D:'`arr[1]` 不會被修改，`arr[3]` 則會加倍；兩個數值都與 `4 4` 不符。',
+ },
+};
 
 function calculationNote(question,correct){
  const stem=question.stem;
+ if(questionNotes[question.id])return questionNotes[question.id];
  if(/讀取速度最快/.test(stem)&&/SSD/.test(correct.text))return '比較重點是存取資料時有沒有機械動作：SSD 直接用快閃記憶體讀取；HDD 要等碟片與磁頭，DVD 要由雷射讀取，USB Stick 通常受介面與控制器限制。因此 SSD 的一般讀取速度最快。';
  if(/一般個人電腦常常使用那一種無線通訊模組/.test(stem)&&/Bluetooth/.test(correct.text))return '要找的是能讓電腦在近距離、穩定連接一般周邊的無線技術。Bluetooth 正是個人電腦常用來連接滑鼠、鍵盤、耳機與手機的個人區域網路技術；Zigbee、NFC、LoRa 分別偏向物聯網、極近距離感應與遠距低速感測。';
  if(/UNIX 作業系統中常常用什麼命令指令來檢視文字檔案內容/.test(stem)&&/^cat$/i.test(normalise(correct.text)))return 'cat 會將指定檔案的文字直接輸出到終端機，所以用 cat filename 就能檢視內容。md 用來建立目錄，ls 只列出目錄項目，type 用來辨識命令的種類；三者都不會印出文字檔內容。';
@@ -909,7 +954,13 @@ function calculationNote(question,correct){
  if(/f\(int x\)/.test(stem)&&/x=5/.test(stem))return 'f(5)=f(4)+f(6)=f(2)+f(3)=f(1)+f(2)=1+1=2。';
  if(/printf\( “\\n” \)/.test(stem))return '外層迴圈 i 從 1 執行到 4，共執行 4 次；每次外層迴圈結束才印一次換行，因此共印 4 次。';
  if(/最短工作優先法/.test(stem))return '最短工作優先先執行 D(3)、B(5)、C(7)、A(9)。完成時間依序為 D=3、B=8、C=15、A=24。';
- return `${topicFor(question).rule}本題的答案是「${normalise(correct.text)}」，因為它符合題幹指定的概念或操作。`;
+ const answer=normalise(correct.text),note=noteFor(correct.text);
+ if(note)return note;
+ const relatedReason=reasonFromDistractors(question,correct);
+ if(relatedReason)return relatedReason;
+ if(/^[-+]?\d|^[01 .]+$|^0x[\da-f]+$/i.test(answer))return `依題目給定的數值與運算規則逐步計算，結果是「${answer}」。`;
+ if(/不正確|錯誤|不包含|不包括|不是|不屬於|最不適合|最不符合/.test(stem))return `題目要找出不符合條件的選項；「${answer}」不屬於題幹所描述的正確範圍。`;
+ return `題目所問的正確項目是「${answer}」。`;
 }
 
 function fallbackOptionReason(question,option,correct,topic){
@@ -922,11 +973,12 @@ function fallbackOptionReason(question,option,correct,topic){
  return `這個選項是「${choice}」，但題幹條件推得的結論是「${answer}」。${calculation}因此不能選「${choice}」。`;
 }
 function optionExplanation(question,option,correct,topic){
+ const exact=questionOptionNotes[question.id]?.[option.letter];
+ if(exact)return `${normalise(option.text)}：${exact}`;
  const note=noteFor(option.text);
  const isCorrect=question.accepted.includes(option.letter);
- if(isCorrect)return `（${option.letter}）可以選。${note||`${normalise(option.text)}符合題幹要求。`} ${calculationNote(question,correct)}`;
- const choice=normalise(option.text);
- return `（${option.letter}）不選。關於「${choice}」：${note||fallbackOptionReason(question,option,correct,topic)}`;
+ const reason=isCorrect?(note||calculationNote(question,correct)):(note||fallbackOptionReason(question,option,correct,topic));
+ return `${normalise(option.text)}：${reason}`;
 }
 
 function explanationFor(question,exam){
@@ -935,12 +987,12 @@ function explanationFor(question,exam){
  if(!correct)throw Error(`Missing answer for ${question.id}`);
  const visualNote=question.hasVisual?'本題涉及圖表、公式或版面時，請同時開啟官方原卷核對原始呈現。':'';
  const calculation=calculationNote(question,correct);
- const shownAnswer=normalise(correct.text),shownQuestion=questionInPlainWords(question);
- const summary=`這題其實在問：${shownQuestion}\n\n學習重點：${plainGuide(topic)}\n\n判斷方式：${calculation}因此應選（${correct.letter}）${shownAnswer}。${visualNote}`;
+ const shownAnswer=normalise(correct.text);
+ const summary=`${calculation}\n\n因此應選（${correct.letter}）${shownAnswer}。${visualNote}`;
  const options=Object.fromEntries(question.options.map(option=>[option.letter,optionExplanation(question,option,correct,topic)]));
  const optionVerdicts=Object.fromEntries(question.options.map(option=>[option.letter,question.accepted.includes(option.letter)
-  ? `可以選。（${option.letter}）${normalise(option.text)}符合題幹要求。`
-  : `不選。（${option.letter}）${(noteFor(option.text)||fallbackOptionReason(question,option,correct,topic)).split('。')[0]}。`,
+  ? '可以選。'
+  : '不選。',
  ])); return {summary,options,optionVerdicts,sources:[sourceFor(exam)]};
 }
 
