@@ -1,6 +1,7 @@
 import {mkdirSync,writeFileSync} from 'node:fs';
 
 const normalise=value=>String(value||'').normalize('NFKC').replace(/\s+/g,' ').trim();
+const displayText=value=>String(value||'').replace(/\s+/g,' ').trim();
 const sourceFor=exam=>({title:`${exam.year} 年初等考試資料處理大意官方試題與答案`,url:exam.source});
 
 const topics=[
@@ -871,7 +872,7 @@ function reasonFromDistractors(question,correct){
 }
 const questionNotes={
  '115-3d-34':'`arr + 2` 讓函式的指標從原陣列 `arr[2]` 開始。迴圈把原陣列的 `arr[2]`、`arr[3]`、`arr[4]` 乘以 2，陣列變成 `{1, 2, 6, 8, 10}`；`arr[1]` 仍是 2，`arr[3]` 變成 8，所以輸出 `2 8`。',
- '115-3d-38':'穩定排序會保留相同鍵值資料原本的先後順序。泡沫排序與插入排序是穩定排序；一般的選擇排序與快速排序不保證穩定，因此正確組合是①③。',
+ '115-3d-38':'穩定排序會保留相同鍵值資料原本的先後順序。泡沫排序只交換相鄰且順序錯誤的資料，插入排序也只把較大的資料向後移，因此相同值不會互換先後。選擇排序可能以遠距離交換跨過相同值；快速排序的分割交換也可能改變相同值的順序，所以兩者通常不穩定。正確組合是①③。',
  '115-3d-50':'IPv6 位址固定由 128 個位元組成；IPv4 才是 32 位元，因此答案是 128。',
  '114-3d-13':'直譯器通常逐段翻譯並立即執行原始碼，不必先產生完整目的碼。因此「需產生目的碼」不是直譯程式的必要特性。',
  '114-3d-16':'迷宮需要嘗試路徑，走不通就退回上一個分岔點，適合回溯法；合併排序則把資料拆小、分別排序後再合併，屬於分治法。',
@@ -895,6 +896,8 @@ const questionNotes={
  '111-3d-34':'列優先索引為 `(i×4×5)+(j×5)+k`。兩個已知位址相差 36，而索引相差 18，可知每元素占 2；A[2][1][2] 與 A[0][2][4] 的索引差 33，因此位址為 `2048+33×2=2114`。',
  '111-3d-35':'從 3 開始依規則得到 `10→5→16→8→4→2→1`。輸出包含 5、16、8，但不包含 9，所以「有整數 9」是錯誤敘述。',
  '111-3d-36':'i、j 為 0 與 2 時會因 continue 跳過第二次 k++；到 i=j=3 時，k 先後加到 6，接著 break。跳出後輸出 `i=3, j=3, k=6`。',
+ '111-3d-38':'C 主要是程序式語言，適合系統程式；Java 以物件導向為主，常用於網路程式；PHP 是伺服器端腳本語言，主要用於網頁程式。因此配對是 C：①⑥、Java：②④、PHP：③⑤。',
+ '111-3d-40':'需求分析完成後，資料庫設計依序包含概念設計、邏輯設計與實體設計，也就是①③④。「表格設計」不是這套流程中與三者並列的獨立階段。',
  '110-3d-10':'乘法與取餘數同一優先層級並由左至右計算：`3×4=12`、`12%6=0`、`4×5=20`，最後 `0+20=20`。',
  '110-3d-12':'while 結束時 a 已不小於 10；若 a<12，下一行還會再加 2，使 a 至少為 12。因此後面的 `a<=11` 不成立，`a=5` 永遠不會執行。',
  '110-3d-13':'列優先且每列有 4 個元素，A[1][2] 前面共有 `1×4+2=6` 個元素。每元素占 2，所以位址為 `108+6×2=120`。',
@@ -919,6 +922,8 @@ const questionNotes={
  '108-3d-23':'Python 一般由直譯器讀取並執行程式碼；組譯器處理組合語言，連結器則負責組合目的檔與函式庫。',
  '107-3d-8':'封裝、繼承與多型是物件導向的核心特性；流程控制是各類程式語言都有的一般控制結構，不是物件導向專屬特點。',
  '107-3d-40':'直譯器可把高階語言逐段轉成可執行的機器指令；組譯器處理組合語言，連結器與載入器不負責翻譯高階語言。',
+ '107-3d-29':'6000 rpm 等於每秒 100 轉，每轉 10 ms，所以平均旋轉延遲是半圈的 5 ms，①正確。每軌 128 KB、每秒 100 轉，突發傳輸率約 12.8 MB/s，②正確；每軌容量只有 128 KB，沒有超過 1 MB，③錯誤。因此只有①②正確。',
+ '107-3d-45':'依序插入後，根節點是 4；左子樹為 2→3，右子樹為 6，且 6 的子節點是 5、8。搜尋根節點 4 只需檢查 1 個節點，所以①錯；內部節點 4、2、6 與葉節點 3、5、8 都是 3 個，所以②正確；插入 7 會成為 8 的左子節點並增加一層，所以③錯。只有②正確。',
  '106-3d-20':'列優先且每列有 8 個元素。A[1][5] 與 A[2][6] 的索引差 9，位址差 36，可知每元素占 4；A[4][3] 比 A[1][5] 後移 22 個元素，所以位址為 `1000+22×4=1088`。',
  '106-3d-31':'函數用較小的參數再次呼叫自己，直到終止條件後逐層回傳，這種解題方法就是遞迴 Recursion。',
  '106-3d-32':'模組內部各功能彼此相關的程度稱為內聚力 Cohesion；設計時應提高內聚力，並降低模組間的耦合度。',
@@ -930,6 +935,61 @@ const questionOptionNotes={
   B:'函式只把原陣列索引 2 到 4 的值加倍，最後 `arr[1]=2`、`arr[3]=8`，所以輸出 `2 8`。',
   C:'`arr[3]` 會變成 8，但 `arr[1]` 不在 `arr+2` 起算的三個元素內，仍是 2，不會變成 4。',
   D:'`arr[1]` 不會被修改，`arr[3]` 則會加倍；兩個數值都與 `4 4` 不符。',
+ },
+ '115-3d-38':{
+  A:'①泡沫排序穩定，但②選擇排序可能用遠距離交換改變相同值的先後順序，因此①②不能同時選。',
+  B:'①泡沫排序只交換相鄰的逆序資料，③插入排序只移動較大的資料；兩者都能保留相同值的原始順序，所以①③正確。',
+  C:'②選擇排序與④快速排序都可能在交換或分割時改變相同值的先後順序，兩者通常都不穩定。',
+  D:'③插入排序是穩定排序，但④快速排序的分割交換可能打亂相同值的先後順序，因此③④不是正確組合。',
+ },
+ '115-3d-39':{
+  A:'這是中序走訪「左、根、右」的結果，會由最小節點 8 依序走到 25，不是題目要求的前序走訪。',
+  B:'雖然先從根節點 15 開始，但走完 10 後就跳到右子樹 20，尚未走訪 10 的子節點 8、12，不符合前序規則。',
+  C:'依「根、左、右」先走 15，再走完整左子樹 10、8、12，最後走右子樹 20、17、25，順序正確。',
+  D:'這是後序走訪「左、右、根」的結果，根節點 15 最後才出現，不是前序走訪。',
+ },
+ '111-3d-38':{
+  A:'C 的①程序式與⑥系統程式配對正確，但 Java 應是②物件導向，不是③腳本式；PHP 才是③腳本式，因此此組錯誤。',
+  B:'C：①程序式、⑥系統程式；Java：②物件導向、④網路程式；PHP：③腳本式、⑤網頁程式，三組都正確。',
+  C:'C 主要用於⑥系統程式，不是⑤網頁程式；Java 也不是③腳本式，PHP 的典型用途則是⑤網頁程式。',
+  D:'C 並非最適合④網路程式，Java 的典型配對是④網路程式而非⑤網頁程式，PHP 也不是⑥系統程式。',
+ },
+ '111-3d-40':{
+  A:'①概念設計與③邏輯設計正確，但②表格設計不是並列的正式階段，而且此組漏掉④實體設計。',
+  B:'①概念設計與④實體設計正確，但此組把②表格設計列為獨立階段，並漏掉③邏輯設計。',
+  C:'需求分析後依序進行①概念設計、③邏輯設計與④實體設計，所以①③④完整正確。',
+  D:'此組漏掉最先進行的①概念設計，並把②表格設計誤列為獨立階段。',
+ },
+ '107-3d-29':{
+  A:'①平均延遲 5 ms、②突發傳輸率約 12.8 MB/s 都正確，但③錯在每軌只有 128 KB，未超過 1 MB。',
+  B:'②正確，但①也正確；6000 rpm 等於每轉 10 ms，平均等待半圈就是 5 ms，因此不能只選②。',
+  C:'①平均旋轉延遲為 5 ms，②突發傳輸率約 12.8 MB/s，兩者正確；③的每軌容量實際只有 128 KB。',
+  D:'②正確，但③錯誤；128 個磁區乘以每區 1 KB，每軌容量是 128 KB，沒有超過 1 MB。',
+ },
+ '107-3d-45':{
+  A:'①錯在搜尋根節點 4 只需檢查 1 個節點；③也錯，插入 7 會放在 8 下方並增加一層。',
+  B:'②的內部節點與葉節點各 3 個是正確的，但①忽略搜尋根節點只需檢查 1 次。',
+  C:'②正確；③錯在插入 7 時路徑為 4→6→8→7，會新增一個更深的層次。',
+  D:'內部節點是 4、2、6，葉節點是 3、5、8，數量同為 3；①與③都錯，所以只有②正確。',
+ },
+};
+
+const questionDiagrams={
+ '115-3d-39':{
+  kind:'binary-tree',
+  title:'依插入順序建立的二元搜尋樹',
+  description:'根節點 15，左子樹為 10、8、12，右子樹為 20、17、25；節點旁數字標示前序走訪次序。',
+  nodes:[
+   {id:'15',label:'15',x:300,y:55,step:1},
+   {id:'10',label:'10',x:170,y:145,step:2},
+   {id:'20',label:'20',x:430,y:145,step:5},
+   {id:'8',label:'8',x:90,y:250,step:3},
+   {id:'12',label:'12',x:250,y:250,step:4},
+   {id:'17',label:'17',x:350,y:250,step:6},
+   {id:'25',label:'25',x:510,y:250,step:7},
+  ],
+  edges:[['15','10'],['15','20'],['10','8'],['10','12'],['20','17'],['20','25']],
+  sequence:['15','10','8','12','20','17','25'],
  },
 };
 
@@ -948,13 +1008,13 @@ function calculationNote(question,correct){
  if(/SRTF/.test(stem)&&/P2/.test(stem))return 'SRTF 每次選剩餘時間最短的行程。P2 在時間 1 到達、時間 2 被 P3 搶占，P3 完成後 P2 先執行完，因此等待時間為 2。';
  if(/Huffman|霍夫曼/.test(stem))return '霍夫曼編碼先合併頻率最低的 C 與 D，再和 B 合併；B 位在根節點右側的下一層，因此編碼為 10。';
  if(/fun\(1337, 2483\)/.test(stem))return '這是歐幾里得演算法：2483 mod 1337=1146，1337 mod 1146=191，1146 mod 191=0，所以最大公因數是 191。';
- if(/前序（Preorder）/.test(stem))return '前序走訪規則是「根、左、右」。由根 15 開始，再走左子樹 10、8、12，最後走右子樹 20、17、25。';
+ if(/前序（Preorder）/.test(stem))return '依序插入後，15 是根節點；10、20 分別在左、右側；8、12 位於 10 下方，17、25 位於 20 下方。如圖依「根、左、右」走訪：先走 15，再完成左子樹 10、8、12，最後完成右子樹 20、17、25。';
  if(/while \(i<50\)/.test(stem))return '每次迴圈先把目前 i 加到 x，再以 ++i+2 更新 i。依序 i 為 1、4、7…49，最後更新到 52；累加結果為 425。';
  if(/2’s 補數表示法為 10100000/.test(stem))return '最高位為 1，表示負數。反相加一：10100000 → 01100000，數值為 96，所以原數為 -96。';
  if(/f\(int x\)/.test(stem)&&/x=5/.test(stem))return 'f(5)=f(4)+f(6)=f(2)+f(3)=f(1)+f(2)=1+1=2。';
  if(/printf\( “\\n” \)/.test(stem))return '外層迴圈 i 從 1 執行到 4，共執行 4 次；每次外層迴圈結束才印一次換行，因此共印 4 次。';
  if(/最短工作優先法/.test(stem))return '最短工作優先先執行 D(3)、B(5)、C(7)、A(9)。完成時間依序為 D=3、B=8、C=15、A=24。';
- const answer=normalise(correct.text),note=noteFor(correct.text);
+ const answer=displayText(correct.text),note=noteFor(correct.text);
  if(note)return note;
  const relatedReason=reasonFromDistractors(question,correct);
  if(relatedReason)return relatedReason;
@@ -964,9 +1024,9 @@ function calculationNote(question,correct){
 }
 
 function fallbackOptionReason(question,option,correct,topic){
- const choice=normalise(option.text),answer=normalise(correct.text),stem=normalise(question.stem);
+ const choice=displayText(option.text),answer=displayText(correct.text),stem=normalise(question.stem);
  const calculation=calculationNote(question,correct);
- if(/^\d/.test(choice)||/^[0-9a-fx. ()+\-*/=;,]+$/i.test(choice)||/^[01 ]+$/.test(choice))return `${calculation}把推導結果和選項比對後應為「${answer}」，所以「${choice}」是由位元、單位、索引或運算順序算錯才會得到的值。`;
+ if(/^\d/.test(choice)||/^[0-9a-fx. ()+＋\-－*/×÷=;,]+$/i.test(choice)||/^[01 ]+$/.test(choice))return `依照上方的計算或判斷，正確結果是「${answer}」；「${choice}」與實際結果不符。`;
  if(/printf|for\s*\(|while\s*\(|int |return |程式語言片段|輸出結果/.test(stem))return `${calculation}依程式逐行追蹤變數與迴圈後，輸出是「${answer}」，不是「${choice}」。`;
  if(/下列何者正確|何者為正確|何者錯誤|何者不正確/.test(stem))return `這個敘述主張「${choice}」。把它和題幹的定義或規則核對後不成立；符合題意的是「${answer}」。閱讀敘述題時，要檢查主詞、條件與結論是否都正確。`;
  if(/何者為|那一種|那一項|那個|主要用途|作用為何|用於/.test(stem))return `「${choice}」不是題幹所問的功能或概念。題目要求的是「${answer}」；請以它實際能完成的工作為準，不要只因同屬${topic.label}就混在一起。`;
@@ -974,11 +1034,11 @@ function fallbackOptionReason(question,option,correct,topic){
 }
 function optionExplanation(question,option,correct,topic){
  const exact=questionOptionNotes[question.id]?.[option.letter];
- if(exact)return `${normalise(option.text)}：${exact}`;
+ if(exact)return `${displayText(option.text)}：${exact}`;
  const note=noteFor(option.text);
  const isCorrect=question.accepted.includes(option.letter);
  const reason=isCorrect?(note||calculationNote(question,correct)):(note||fallbackOptionReason(question,option,correct,topic));
- return `${normalise(option.text)}：${reason}`;
+ return `${displayText(option.text)}：${reason}`;
 }
 
 function explanationFor(question,exam){
@@ -987,13 +1047,13 @@ function explanationFor(question,exam){
  if(!correct)throw Error(`Missing answer for ${question.id}`);
  const visualNote=question.hasVisual?'本題涉及圖表、公式或版面時，請同時開啟官方原卷核對原始呈現。':'';
  const calculation=calculationNote(question,correct);
- const shownAnswer=normalise(correct.text);
+ const shownAnswer=displayText(correct.text);
  const summary=`${calculation}\n\n因此應選（${correct.letter}）${shownAnswer}。${visualNote}`;
  const options=Object.fromEntries(question.options.map(option=>[option.letter,optionExplanation(question,option,correct,topic)]));
  const optionVerdicts=Object.fromEntries(question.options.map(option=>[option.letter,question.accepted.includes(option.letter)
   ? '可以選。'
   : '不選。',
- ])); return {summary,options,optionVerdicts,sources:[sourceFor(exam)]};
+ ])); return {summary,options,optionVerdicts,...(questionDiagrams[question.id]?{diagram:questionDiagrams[question.id]}:{}),sources:[sourceFor(exam)]};
 }
 
 export function buildDataProcessingExplanations(bank){

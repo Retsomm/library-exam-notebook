@@ -23,3 +23,11 @@ test('inline code in explanations receives code styling instead of visible backt
  assert.match(component,/className="explanation-inline-code"/);
  assert.match(styles,/\.explanation-inline-code\{/);
 });
+
+test('structured explanation diagrams are responsive and accessible',()=>{
+ const diagram=readFileSync(new URL('../components/explanation-diagram.tsx',import.meta.url),'utf8');
+ assert.match(diagram,/<svg[^>]*role="img"[^>]*aria-label=/);
+ assert.match(diagram,/<title>/);
+ assert.match(diagram,/diagram\.sequence\.join\('，'\)/);
+ assert.match(styles,/\.explanation-diagram svg\{[^}]*width:100%;height:auto/);
+});

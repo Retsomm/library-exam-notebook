@@ -12,7 +12,8 @@ test('every professional-subject explanation is written for its own question and
   assert.equal(new Set(questions.map(question=>entries[question.id].summary)).size,questions.length,`${exam.id} summaries must not reuse a template`);
   for(const question of questions){
    const entry=entries[question.id],correct=question.options.find(option=>question.accepted.includes(option.letter));
-   assert.ok(entry.summary.includes(correct.text.normalize('NFKC').replace(/\s+/g,' ').trim()),`${question.id} must explain its announced answer`);
+   const announcedAnswer=exam.subjectIndex===3?correct.text.replace(/\s+/g,' ').trim():correct.text.normalize('NFKC').replace(/\s+/g,' ').trim();
+   assert.ok(entry.summary.includes(announcedAnswer),`${question.id} must explain its announced answer`);
    assert.doesNotMatch(entry.summary,/先辨認題目問的是定義、計算或推論/);
    if(exam.subjectIndex===3)assert.doesNotMatch(entry.summary,/這題其實在問：|學習重點：|判斷方式：/);
    else{assert.match(entry.summary,/這題其實在問：/);assert.match(entry.summary,/學習重點：/);assert.match(entry.summary,/判斷方式：/);}
@@ -68,7 +69,7 @@ test('professional explanations avoid vague option templates and teach a concret
 
 
 test('data-processing explanations stay on the exact question and avoid generic topic filler',()=>{
- const banned=/雖然和.*有關|用途或結果分開記憶|不是本題要求的答案|這個敘述主張|不是題幹所問的功能或概念|這個選項是「|先確認硬體元件的角色|作業系統負責管理 CPU|先判讀資料模型或 SQL 子句的職責|先辨識通訊層級與設備職責|先確認資料結構的存取順序|先依程式執行順序追蹤變數|HTML 負責文件語意與內容結構|先辨識軟體功能與題目要完成的工作|先找出題目要保護的權益|先確認交易雙方與資訊系統|先區分模型訓練與推理的工作|先區分格式的用途與壓縮方式|先圈出題幹的關鍵名詞與限制條件|把程式當成逐行執行的指令|物件導向題要區分類別/;
+ const banned=/雖然和.*有關|用途或結果分開記憶|不是本題要求的答案|這個敘述主張|不是題幹所問的功能或概念|這個選項是「|先確認硬體元件的角色|作業系統負責管理 CPU|先判讀資料模型或 SQL 子句的職責|先辨識通訊層級與設備職責|先確認資料結構的存取順序|先依程式執行順序追蹤變數|HTML 負責文件語意與內容結構|先辨識軟體功能與題目要完成的工作|先找出題目要保護的權益|先確認交易雙方與資訊系統|先區分模型訓練與推理的工作|先區分格式的用途與壓縮方式|先圈出題幹的關鍵名詞與限制條件|把程式當成逐行執行的指令|物件導向題要區分類別|由位元、單位、索引或運算順序算錯/;
  for(const exam of bank.exams.filter(exam=>exam.subjectIndex===3)){
   const entries=JSON.parse(readFileSync(new URL(`../data/explanations/${exam.id}.json`,import.meta.url)));
   for(const question of bank.questions.filter(question=>question.examId===exam.id)){
@@ -83,6 +84,23 @@ test('data-processing explanations stay on the exact question and avoid generic 
    }
   }
  }
+});
+
+test('numbered combination choices keep their circled numerals and explain each combination',()=>{
+ const ids=['115-3d-38','111-3d-38','111-3d-40','107-3d-29','107-3d-45'];
+ for(const id of ids){
+  const examId=id.slice(0,id.lastIndexOf('-')),entry=JSON.parse(readFileSync(new URL(`../data/explanations/${examId}.json`,import.meta.url)))[id];
+  assert.match(entry.summary,/[①②③]/,`${id} must preserve circled numerals`);
+  assert.equal(new Set(Object.values(entry.options)).size,4,`${id} must explain each combination separately`);
+  assert.doesNotMatch(JSON.stringify(entry),/由位元、單位、索引或運算順序算錯|組合題必須逐項核對|此組包含錯誤敘述或漏掉正確敘述/);
+ }
+ const sorting=JSON.parse(readFileSync(new URL('../data/explanations/115-3d.json',import.meta.url)))['115-3d-38'];
+ assert.match(sorting.summary,/遠距離交換.*快速排序.*分割交換/s);
+ assert.match(sorting.options.A,/選擇排序.*相同值.*先後順序/);
+ assert.match(sorting.options.C,/選擇排序.*快速排序.*不穩定/);
+ assert.match(sorting.options.D,/插入排序.*穩定.*快速排序.*打亂/s);
+ assert.match(sorting.summary,/應選（B）①③/);
+ assert.doesNotMatch(sorting.summary,/應選（B）13/);
 });
 
 test('the system-software question explains only the software-to-hardware relationship',()=>{
@@ -109,4 +127,16 @@ test('code and calculation questions show their actual execution steps',()=>{
  assert.match(entry.summary,/\{1, 2, 6, 8, 10\}/);
  assert.match(entry.options.A,/arr\[3\].*4.*8/);
  assert.match(entry.options.C,/arr\[1\].*仍是 2/);
+});
+
+test('binary-tree traversal includes an exact visual model and distinct traversal reasons',()=>{
+ const entry=JSON.parse(readFileSync(new URL('../data/explanations/115-3d.json',import.meta.url)))['115-3d-39'];
+ assert.equal(entry.diagram.kind,'binary-tree');
+ assert.deepEqual(entry.diagram.sequence,['15','10','8','12','20','17','25']);
+ assert.deepEqual(entry.diagram.edges,[['15','10'],['15','20'],['10','8'],['10','12'],['20','17'],['20','25']]);
+ assert.deepEqual(entry.diagram.nodes.map(node=>[node.label,node.step]),[['15',1],['10',2],['20',5],['8',3],['12',4],['17',6],['25',7]]);
+ assert.match(entry.options.A,/中序走訪.*左、根、右/);
+ assert.match(entry.options.B,/尚未走訪.*8、12/);
+ assert.match(entry.options.C,/根、左、右.*15.*10、8、12.*20、17、25/s);
+ assert.match(entry.options.D,/後序走訪.*左、右、根/);
 });
