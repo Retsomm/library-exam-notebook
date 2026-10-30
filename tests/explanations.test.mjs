@@ -151,3 +151,26 @@ test('gateway explanation derives both slash-24 networks before choosing the ans
  assert.match(entry.options.C,/沒有提供.*MAC/);
  assert.match(entry.options.D,/DNS.*使用 IP 位址.*仍可連線/s);
 });
+
+test('negative-stem answers are never described as correct statements',()=>{
+ const negativeStem=/不正確|錯誤|不包含|不包括|不是|不屬於|最不適合|最不符合|何者非|何者不/;
+ const contradiction=/這項描述正確|此敘述正確|這項比較正確|這項大小關係正確/;
+ for(const question of bank.questions.filter(question=>question.subjectIndex===3&&negativeStem.test(question.stem))){
+  const entries=JSON.parse(readFileSync(new URL(`../data/explanations/${question.examId}.json`,import.meta.url)));
+  const entry=entries[question.id];
+  assert.doesNotMatch(entry.summary,contradiction,`${question.id} summary contradicts its negative stem`);
+  for(const letter of question.accepted)assert.doesNotMatch(entry.options[letter],contradiction,`${question.id} accepted option contradicts its negative stem`);
+ }
+});
+
+test('5 GHz negative question explains why option D reverses the band characteristics',()=>{
+ const entry=JSON.parse(readFileSync(new URL('../data/explanations/115-3d.json',import.meta.url)))['115-3d-46'];
+ assert.match(entry.summary,/最不符合.*5 GHz/s);
+ assert.match(entry.summary,/牆壁.*衰減.*2\.4 GHz/s);
+ assert.match(entry.summary,/特性說反/);
+ assert.match(entry.options.A,/短距離.*較高傳輸速率.*不選/s);
+ assert.match(entry.options.B,/2\.4 GHz.*擁擠.*5 GHz.*干擾較少/s);
+ assert.match(entry.options.C,/穿過牆壁.*衰減.*短於 2\.4 GHz/s);
+ assert.match(entry.options.D,/把特性說反.*穿牆能力.*較弱.*2\.4 GHz/s);
+ assert.doesNotMatch(entry.options.D,/描述正確|敘述正確/);
+});
