@@ -12,3 +12,14 @@ test('shell and SQL snippets stay in one code block',()=>{
  const layout=questionLayout('執行下列指令：\n$ mkdir exam\n$ cd exam\n$ ls | wc -l');
  assert.deepEqual(layout.filter(block=>block.type==='code').map(block=>block.lines.join('\n')),['$ mkdir exam\n$ cd exam\n$ ls | wc -l']);
 });
+test('classical Chinese punctuation is rendered as reading text instead of code',()=>{
+ const source='有亡國，有亡天下。亡國與亡天下奚辨？曰：易姓改號，謂之亡國;仁義充塞，謂之亡天下。\n根據上文，下列敘述何者錯誤？';
+ const reflowed=reflowQuestionText(source);
+ const layout=questionLayout(reflowed);
+ assert.equal(layout.some(block=>block.type==='code'),false);
+ assert.equal(layout.map(block=>block.lines?.join('\n')).join('\n'),source);
+});
+test('non-keyword C statements ending in semicolons remain code',()=>{
+ const layout=questionLayout('下列程式輸出為何？\nprocessArray(arr + 2, 3);\nfoo();');
+ assert.deepEqual(layout.filter(block=>block.type==='code').map(block=>block.lines.join('\n')),['processArray(arr + 2, 3);\nfoo();']);
+});
