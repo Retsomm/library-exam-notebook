@@ -72,11 +72,11 @@ const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:stri
   // the final answer was saved but before its score snapshot was persisted.
   useEffect(()=>{
     const session=study.session;
-    if(!bank||!loaded||!session?.attemptId||!session.examId||!session.startedAt)return;
+    if(!bank||!loaded||!cloud.ready||!session?.attemptId||!session.examId||!session.startedAt)return;
     if(!session.ids.length||!session.ids.every(id=>Object.hasOwn(session.checked,id)))return;
     if(study.attempts.some(attempt=>attempt.id===session.attemptId))return;
     update(state=>{completeAttempt(state,qmap,bank.exams);});
-  },[bank,loaded,qmap,study.attempts,study.session,update]);
+  },[bank,loaded,qmap,study.attempts,study.session,cloud.ready,update]);
   const go=(next:Screen)=>{if(next==='wrong'){next='favorites';setCollectionTab('wrong');}setReportQuestionId(null);setScreen(next);setExplanation(null);setResult(false);setSearch('');setYear('all');setSubject('all');setListPage(0);window.scrollTo({top:0});};
   const start=(qs:Question[],title:string,examId?:string)=>{setExplanation(null);if(!qs.length){setMessage('沒有符合條件的題目。');return;}update(s=>{s.session={...(examId?{examId,attemptId:crypto.randomUUID(),startedAt:new Date().toISOString()}:{}),ids:qs.map(q=>q.id),index:0,title,choices:{},checked:{}};});setScreen('practice');setResult(false);window.scrollTo({top:0});};
   const resumeIndex=sessionResumeIndex(study.session);
@@ -104,6 +104,7 @@ const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:stri
   const importBackup=async(file:File)=>{try{if(file.size>10*1024*1024)throw Error('請選擇 10 MB 以下的統計研習所 JSON 備份。');const incoming=validateBackup(JSON.parse(await file.text()),new Set(qmap.keys()));cloud.replace(s=>mergeStates(s,incoming));setMessage('已合併備份、題目收藏、解析收藏、成語收藏、單字收藏、錯題與筆記。');}catch(e){setMessage(e instanceof Error?e.message:'備份匯入失敗。');}};
   if(error)return <main className="loading"><h1>{error}</h1><Link className="btn" href="/sign-in">回到登入頁</Link><button className="btn" onClick={()=>location.reload()}>重新載入</button></main>;
   if(!bank||!loaded)return <LoadingState message="正在載入統計練習資料…"/>;
+  if(uid&&!cloud.ready)return <main className="loading" aria-live="polite"><h1>{cloud.status==='error'?'無法讀取雲端進度':cloud.status==='offline'?'目前離線，尚未取得最新進度':'正在讀取雲端最新進度…'}</h1><p>讀取完成後才會顯示練習紀錄，避免接續此裝置的舊回合。本機未同步的作答仍會保留。</p>{(cloud.status==='error'||cloud.status==='offline')&&<button className="btn" onClick={cloud.retry}>重新讀取雲端進度</button>}</main>;
   const explanationProgress=bank.subjects.map((name,index)=>{const papers=bank.exams.filter(e=>e.subjectIndex===index);return `${name} ${papers.reduce((n,e)=>n+(e.explanationCount||0),0)}/${papers.reduce((n,e)=>n+e.count,0)} 題解析`;}).join('；');
   const stats=<div className="stats">{[
     ['累積練習',Object.keys(study.records).length,'題','共 1,665 題'],

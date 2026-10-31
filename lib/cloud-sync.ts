@@ -19,10 +19,10 @@ export class CloudSync {
   try{const auth=await firebaseAuth();if(this.disposed)return;if(auth.currentUser?.uid!==this.uid)throw Error('Account changed');this.db=getFirestore(auth.app);
    const fail=()=>{if(!this.disposed)this.status('error');};
    this.stops.push(onSnapshot(collection(this.db,'users',this.uid,'questions'),{includeMetadataChanges:true},snap=>{
-    if(this.disposed)return;this.remote=new Map(snap.docs.map(d=>[d.id,d.data() as CloudQuestion]));if(!snap.metadata.fromCache)this.qReady=true;this.refresh();
+    if(this.disposed||snap.metadata.fromCache)return;this.remote=new Map(snap.docs.map(d=>[d.id,d.data() as CloudQuestion]));if(!snap.metadata.fromCache)this.qReady=true;this.refresh();
    },fail));
    this.stops.push(onSnapshot(doc(this.db,'users',this.uid,'study','session'),{includeMetadataChanges:true},snap=>{
-    if(this.disposed)return;this.sessionExists=snap.exists();this.sessionJSON=snap.data()?.sessionJSON;this.sessionRevision=snap.data()?.revision||0;if(!snap.metadata.fromCache)this.sReady=true;this.refresh();
+    if(this.disposed||snap.metadata.fromCache)return;if((snap.data()?.revision||0)<this.sessionRevision)return;this.sessionExists=snap.exists();this.sessionJSON=snap.data()?.sessionJSON;this.sessionRevision=snap.data()?.revision||0;if(!snap.metadata.fromCache)this.sReady=true;this.refresh();
    },fail));
    window.addEventListener('online',this.online);window.addEventListener('offline',this.offline);
    if(!navigator.onLine)this.status('offline');
