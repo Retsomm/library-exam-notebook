@@ -16,7 +16,7 @@ test('explanation option labels and their text share one responsive row',()=>{
 test('explanation prose uses natural Chinese wrapping',()=>{
  assert.match(styles,/\.answer-explanation\{[^}]*overflow-wrap:break-word;word-break:normal;line-break:auto/);
  assert.doesNotMatch(styles,/\.answer-explanation\{[^}]*overflow-wrap:anywhere/);
- assert.match(styles,/\.answer-explanation p\{text-wrap:pretty\}/);
+ assert.match(styles,/\.answer-explanation p\{text-wrap:wrap\}/);
 });
 
 test('inline code in explanations receives code styling instead of visible backticks',()=>{
@@ -38,4 +38,12 @@ test('reading passages use the selected reading size without a framed small-text
  assert.match(practice,/className="question-stem" style=\{\{fontSize\}\}/);
  assert.doesNotMatch(practice,/q\.passage && <section className="passage"/);
  assert.match(styles,/\.question-passage\{[^}]*padding:0;[^}]*border:0;[^}]*background:transparent;[^}]*line-height:1\.95/);
+});
+
+test('dialog prose stretches in a flex column and uses paragraphs instead of preserved PDF line breaks',()=>{
+ assert.match(styles,/\.explanation-dialog-content\{display:flex;flex-direction:column;align-items:stretch;min-width:0;padding:20px 24px/);
+ assert.match(styles,/\.explanation-dialog-content>\*\{flex-shrink:0;min-width:0;max-width:100%/);
+ assert.match(styles,/\.explanation-dialog \.explanation-summary\{white-space:normal;text-wrap:wrap/);
+ assert.match(component,/<div className="explanation-summary">/);
+ assert.doesNotMatch(styles,/text-wrap:pretty/);
 });
