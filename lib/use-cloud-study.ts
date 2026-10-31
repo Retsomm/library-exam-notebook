@@ -4,6 +4,7 @@ import type {Bank,StudyState} from './types';
 import {stateChanges,type Mutation} from './sync-model.mjs';
 import type {CloudSync,SyncStatus} from './cloud-sync';
 export const useCloudStudy=(uid:string|undefined,bank:Bank|null,loaded:boolean,study:StudyState,setStudy:Dispatch<SetStateAction<StudyState>>,storageKey?:string,onSaveError?:(failed:boolean)=>void)=>{
+ const [syncError,setSyncError]=useState('');
  const [ready,setReady]=useState(false);
  const readyRef=useRef(false);
  const [status,setStatus]=useState<SyncStatus>('connecting');
@@ -13,7 +14,7 @@ export const useCloudStudy=(uid:string|undefined,bank:Bank|null,loaded:boolean,s
   let active=true;readyRef.current=false;setReady(false);setStatus('connecting');
   void import('./cloud-sync').then(({CloudSync})=>{
    if(!active)return;
-   const sync=new CloudSync(uid,bank.questions,latest.current,s=>{if(!active)return;latest.current=s;setStudy(s);readyRef.current=true;setReady(true);},s=>{if(active)setStatus(s);});
+   const sync=new CloudSync(uid,bank.questions,latest.current,s=>{if(!active)return;latest.current=s;setStudy(s);readyRef.current=true;setReady(true);},(s,detail)=>{if(active){setStatus(s);if(detail)setSyncError(detail);else if(s==='synced')setSyncError('');}});
    controller.current=sync;if(pending.current.length)sync.enqueue(pending.current.splice(0));void sync.start();
   });
   return()=>{active=false;controller.current?.stop();controller.current=null;};
@@ -28,5 +29,5 @@ export const useCloudStudy=(uid:string|undefined,bank:Bank|null,loaded:boolean,s
   setStudy(next);
  };
  const mutate=(fn:(s:StudyState)=>void)=>replace(previous=>{const next=structuredClone(previous);fn(next);return next;});
- return {status,ready:!uid||ready,mutate,replace,retry:()=>{readyRef.current=false;setReady(false);controller.current?.retry();}};
+ return {status,syncError,ready:!uid||ready,mutate,replace,retry:()=>{readyRef.current=false;setReady(false);controller.current?.retry();}};
 };
