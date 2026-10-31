@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {emptyState,recordAnswer,validateBackup,mergeStates} from '../lib/study.mjs';
-import {stateChanges,applyQuestionMutation,migrationChanges,cloudState} from '../lib/sync-model.mjs';
+import {stateChanges,applyQuestionMutation,migrationChanges,cloudState,applyStudyMutation,readStudyMetadata} from '../lib/sync-model.mjs';
 const questions=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url))).questions;
 const q=questions.find(q=>q.id===q.id);
 const mutation=(patch,id='m1',mode='update')=>({id,docId:q.id,patch,mode});
@@ -65,4 +65,34 @@ test('old backups still load and new backups merge explanation collections witho
  const safe=validateBackup(newer,known);assert.deepEqual(safe.explanationBookmarks,[q.id]);
  assert.deepEqual(mergeStates(safe,safe).explanationBookmarks,[q.id]);
  assert.equal(safe.history.length,0);
+});
+
+const round=(subject,id)=>({attemptId:id,ids:[subject+'-1',subject+'-2'],index:0,title:subject,choices:{},checked:{}});
+const sessionPatch=(before,after)=>stateChanges({...emptyState(),session:before},{...emptyState(),session:after}).find(change=>change.docId==='_session').patch;
+test('a delayed tablet session cannot replace the computer Chinese round',()=>{
+ const old=round('資料處理','old'),chinese=round('國文','new');
+ let cloud=applyStudyMutation(undefined,sessionPatch(null,old),'update',false);
+ cloud=applyStudyMutation(cloud,sessionPatch(old,chinese));
+ const stale={...old,index:1};
+ cloud=applyStudyMutation(cloud,sessionPatch(old,stale));
+ assert.deepEqual(readStudyMetadata(cloud).session,chinese);
+ // Legacy offline queues also cannot replace a different active subject.
+ cloud=applyStudyMutation(cloud,{sessionJSON:JSON.stringify(old)});
+ assert.deepEqual(readStudyMetadata(cloud).session,chinese);
+});
+test('two devices keep submitted answers from the same round without reopening them',()=>{
+ const base=round('國文','same');
+ const computer={...base,index:1,choices:{'國文-1':['A']},checked:{'國文-1':true}};
+ const tablet={...base,index:0,choices:{'國文-2':['B']},checked:{'國文-2':false}};
+ let cloud=applyStudyMutation(undefined,sessionPatch(null,base),'update',false);
+ cloud=applyStudyMutation(cloud,sessionPatch(base,computer));
+ cloud=applyStudyMutation(cloud,sessionPatch(base,tablet));
+ const merged=readStudyMetadata(cloud).session;
+ assert.deepEqual(merged.checked,{'國文-1':true,'國文-2':false});
+ assert.deepEqual(merged.choices,{'國文-1':['A'],'國文-2':['B']});
+});
+test('starting a different subject is allowed after receiving the active cloud round',()=>{
+ const chinese=round('國文','first'),data=round('資料處理','second');
+ const cloud=applyStudyMutation(JSON.stringify(chinese),sessionPatch(chinese,data));
+ assert.deepEqual(readStudyMetadata(cloud).session,data);
 });

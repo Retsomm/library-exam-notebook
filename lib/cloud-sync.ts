@@ -35,7 +35,7 @@ export class CloudSync {
   if(this.disposed)return;
   for(const change of changes){
    const previous=[...this.queue].reverse().find(m=>m.docId===change.docId&&m.mode===change.mode&&!this.inflight.has(m.id));
-   if(previous){previous.patch={...previous.patch,...change.patch,...(change.patch.attempts?{attempts:mergeAttempts(previous.patch.attempts,change.patch.attempts)}:{}),...(change.patch.history?{history:mergeHistory(previous.patch.history,change.patch.history)}:{}),...(change.patch.vocabularyBookmarks?{vocabularyBookmarks:{...previous.patch.vocabularyBookmarks,...change.patch.vocabularyBookmarks}}:{}),...(change.patch.idiomBookmarks?{idiomBookmarks:{...previous.patch.idiomBookmarks,...change.patch.idiomBookmarks}}:{})};}
+   if(previous){previous.patch={...previous.patch,...change.patch,...(Object.hasOwn(previous.patch,'baseSessionJSON')?{baseSessionJSON:previous.patch.baseSessionJSON}:{}),...(change.patch.attempts?{attempts:mergeAttempts(previous.patch.attempts,change.patch.attempts)}:{}),...(change.patch.history?{history:mergeHistory(previous.patch.history,change.patch.history)}:{}),...(change.patch.vocabularyBookmarks?{vocabularyBookmarks:{...previous.patch.vocabularyBookmarks,...change.patch.vocabularyBookmarks}}:{}),...(change.patch.idiomBookmarks?{idiomBookmarks:{...previous.patch.idiomBookmarks,...change.patch.idiomBookmarks}}:{})};}
    else this.queue.push({...change,id:crypto.randomUUID()});
   }
   if(changes.length){this.persist();this.status(navigator.onLine?'saving':'offline');this.schedule();}

@@ -83,11 +83,12 @@ const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:stri
   const canResume=resumeIndex!==null;
   const sessionComplete=!!study.session?.ids.length&&!canResume;
   const resumePractice=()=>{
+    if(uid&&cloud.status==='connecting'){setMessage('正在讀取雲端練習進度，請稍候再繼續作答。');return;}
     if(study.session){
       if(resumeIndex===null){go('bank');return;}
       update(s=>{if(s.session)s.session.index=resumeIndex;});
       go('practice');
-    }else startExam(emap.get('115-2s')!);
+    }else go('bank');
   };
   const startExam=(e:Exam)=>start(bank!.questions.filter(q=>q.examId===e.id),`${e.year} 年 · ${e.subject}`,e.id);
   const star=(id:string)=>update(s=>{s.bookmarks=s.bookmarks.includes(id)?s.bookmarks.filter(x=>x!==id):[...s.bookmarks,id];});
