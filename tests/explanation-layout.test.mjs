@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 
 const component=readFileSync(new URL('../components/answer-explanation.tsx',import.meta.url),'utf8');
+const practice=readFileSync(new URL('../components/question-practice.tsx',import.meta.url),'utf8');
 const styles=readFileSync(new URL('../app/globals.css',import.meta.url),'utf8');
 
 test('explanation option labels and their text share one responsive row',()=>{
@@ -30,4 +31,11 @@ test('structured explanation diagrams are responsive and accessible',()=>{
  assert.match(diagram,/<title>/);
  assert.match(diagram,/diagram\.sequence\.join\('，'\)/);
  assert.match(styles,/\.explanation-diagram svg\{[^}]*width:100%;height:auto/);
+});
+
+test('reading passages use the selected reading size without a framed small-text box',()=>{
+ assert.match(practice,/className="question-passage" style=\{\{fontSize\}\}/);
+ assert.match(practice,/className="question-stem" style=\{\{fontSize\}\}/);
+ assert.doesNotMatch(practice,/q\.passage && <section className="passage"/);
+ assert.match(styles,/\.question-passage\{[^}]*padding:0;[^}]*border:0;[^}]*background:transparent;[^}]*line-height:1\.95/);
 });

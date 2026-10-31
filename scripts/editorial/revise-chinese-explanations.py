@@ -5,6 +5,8 @@ ROOT=Path(__file__).resolve().parents[2]
 bank=json.loads((ROOT/'data/bank.json').read_text());questions={q['id']:q for q in bank['questions']}
 notes=json.loads((ROOT/'scripts/editorial/chinese-teaching-notes.json').read_text())
 examples=json.loads((ROOT/'scripts/editorial/chinese-term-examples.json').read_text())
+classical_translations=json.loads((ROOT/'scripts/editorial/chinese-classical-translations.json').read_text())
+classical_vocabulary=json.loads((ROOT/'scripts/editorial/chinese-classical-vocabulary.json').read_text())
 plain={
  '最切合':'最能對應','切合':'符合','不符':'不符合','並非':'並不是','而非':'而不是','非此':'不是這裡的','未提':'沒有提到','未說':'沒有說','未寫':'沒有寫出','未討論':'沒有討論','未交代':'沒有交代','未以':'不是以','未如':'不如','文中未':'文中沒有','原文明說':'原文已經明白說出','原文明確':'原文很清楚地','原文未':'原文沒有','原文無':'原文沒有','宜用':'較適合用','宜稱':'較適合稱','屬貶義':'帶有批評的意思','屬褒義':'帶有稱讚的意思','語境':'句子的情境','指向':'讓我們想到','對應':'對得上','重點非':'重點不是','偏重':'較著重','非本題':'不是本題','非指':'不是指','非單':'不只是','非全':'並非全','不等於':'不表示就等於','須':'需要','皆':'都','均':'都','惟':'只有'}
 usage=set()
@@ -21,7 +23,12 @@ for year,teaching in notes.items():
   q=questions[id];item=dict(entry);summary=entry['summary'];number=q['number']
   if id=='110-0-8':summary='題幹寫的是粽子，對應端午；C通常列為夏至節令聯，與端午不同。日影的文學描寫不可直接當成正午竿影長度的天文結論。'
   if id=='113-0-39':summary='這題要分辨單純的景物描寫與含有期待、失落、未能如願等心理活動的語句。依官方答案，B、C、E同時帶有內在感受。'
-  item['summary']=teaching[number-1]+'\n\n答案依據：'+summary
+  lesson=teaching[number-1]
+  if id in classical_translations:
+   lesson=classical_translations[id]+'\n\n常見字詞與語助詞：'+classical_vocabulary[id]+'\n\n'+lesson
+  elif id in classical_vocabulary:
+   lesson=lesson+'\n\n常見字詞與語助詞：'+classical_vocabulary[id]
+  item['summary']=lesson+'\n\n答案依據：'+summary
   item['revision']=2
   item['options']={};item['optionVerdicts']={}
   for option in q['options']:
