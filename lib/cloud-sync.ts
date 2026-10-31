@@ -2,7 +2,7 @@
 import { collection, doc, getFirestore, getDocsFromServer, getDocFromServer, onSnapshot, runTransaction, serverTimestamp, type Firestore, type Unsubscribe } from 'firebase/firestore';
 import { mergeAttempts } from './attempts.mjs';
 import { firebaseAuth } from './firebase-client';
-import {applyStudyMutation,vocabularyMigration,applyQuestionMutation,cloudState,migrationChanges,mergeHistory,type Mutation,type CloudQuestion} from './sync-model.mjs';
+import {applyStudyMutation,vocabularyMigration,bookmarkMigration,applyQuestionMutation,cloudState,migrationChanges,mergeHistory,type Mutation,type CloudQuestion} from './sync-model.mjs';
 import {syncErrorMessage} from './sync-errors.mjs';
 import type {Question,StudyState} from './types';
 export type SyncStatus='connecting'|'synced'|'saving'|'offline'|'error';
@@ -69,6 +69,7 @@ export class CloudSync {
     this.enqueue(migrationChanges(this.initial,this.remote,this.sessionExists));
     if(this.persist()){try{localStorage.setItem(this.markerKey,'1');this.migrated=true;}catch{this.status('error');}}
    }
+   this.enqueue(bookmarkMigration(this.initial,this.remote));
    this.enqueue(vocabularyMigration(this.initial,this.sessionJSON));
    this.initialized=true;
   }

@@ -10,3 +10,5 @@ export function cloudState(remote:Map<string,CloudQuestion>,sessionJSON:string|u
 export function readStudyMetadata(json:string|undefined):{attempts:StudyState['attempts'];session:StudyState['session'];vocabularyBookmarks:Record<string,boolean>;idiomBookmarks:Record<string,boolean>};
 export function applyStudyMutation(json:string|undefined,patch:Mutation['patch'],mode?:Mutation['mode'],exists?:boolean):string;
 export function vocabularyMigration(local:StudyState,json:string|undefined):Omit<Mutation,'id'>[];
+
+export function bookmarkMigration(local:StudyState,remote:Map<string,CloudQuestion>):Omit<Mutation,'id'>[];
